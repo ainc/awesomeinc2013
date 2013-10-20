@@ -368,17 +368,17 @@ input[type="submit"] {
 /* Footer Wrap */
 
 #f {
-	background: #2c3e50;
+	background:url("../img/map.png") no-repeat;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
 #f h3 {
-	color: white;
+	color: black;
 }
 
 #f p {
-	color: white;
+	color: black;
 }
 
 
