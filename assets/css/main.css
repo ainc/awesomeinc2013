@@ -186,10 +186,10 @@ input[type="submit"] {
     -o-background-size: cover;
     background-size: cover;
 }
-
+/* David changed from White to Ainc Gray */
 #headerwrap h1 {
 	margin-top: 70px;
-	color: white;
+	color: 333333;
 	font-size: 55px;
 	font-weight: 100;
 	letter-spacing: 2px;
@@ -276,9 +276,9 @@ input[type="submit"] {
 
 
 
-/* Yellow Wrap */
+/* Yellow Wrap changed to Ainc Red */
 #y {
-	background: #f1c40f;
+	background: #EE2524;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -296,9 +296,9 @@ input[type="submit"] {
 	font-weight: 500;
 }
 
-/* Dark Blue Wrap */
+/* Dark Blue Wrap change by David to Ainc Gray */
 #db {
-	background: #2c3e50;
+	background: #333333;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
