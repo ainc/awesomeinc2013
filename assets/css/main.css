@@ -276,9 +276,9 @@ input[type="submit"] {
 
 
 
-/* Yellow Wrap changed to Ainc Red */
+/* Yellow Wrap changed to Ainc Gray*/
 #y {
-	background: #EE2524;
+	background: #333333;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -294,11 +294,12 @@ input[type="submit"] {
 
 #y p {
 	font-weight: 500;
+	color: white;
 }
 
-/* Dark Blue Wrap change by David to Ainc Gray */
+/* Dark Blue Wrap change by David to Ainc Red */
 #db {
-	background: #333333;
+	background: #EE2524;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
