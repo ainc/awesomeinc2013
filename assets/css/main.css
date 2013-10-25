@@ -840,12 +840,14 @@ div.shadow {
 	background: #777777;
 	}
 
-div#top-div-mid{
-	left: 7%;
-}
+@media (min-width: 1200px) {
+	div #top-div-mid{
+		left: 7%;
+	}
 
-div#top-div-right{
-	float: right;
+	div #top-div-right{
+		float: right;
+	}
 }
 
 div.shadow:hover {

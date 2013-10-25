@@ -1397,12 +1397,14 @@ pre code {
 }
 
 /*Middle Culture Divs*/
-#div-mid-3 {
-  float: right;
-}
+@media (min-width: 1200px) {
+  #div-mid-3 {
+    float: right;
+  }
 
-#div-mid-2 {
-  margin-left: 12.5%;
+  #div-mid-2 {
+    margin-left: 12.5%;
+  }
 }
 /*end*/
 
