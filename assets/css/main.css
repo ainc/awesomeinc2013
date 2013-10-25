@@ -276,11 +276,12 @@ input[type="submit"] {
 
 
 
-/* Yellow Wrap changed to Ainc Gray*/
+/* Changed to Ainc Gray*/
 #y {
-	background: #333333;
+	background: #ACACAC;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	
 }
 
 #y .glyphicon {
@@ -297,9 +298,28 @@ input[type="submit"] {
 	color: white;
 }
 
+#cv {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#cv .glyphicon {
+	font-size: 60px;
+	color: white;
+}
+
+#cv h3 {
+	color: white;
+}
+
+#cv p {
+	font-weight: 500;
+	color: white;
+}
+
 /* Dark Blue Wrap change by David to Ainc Red */
 #db {
-	background: #EE2524;
+	background: #333333;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -376,10 +396,12 @@ input[type="submit"] {
 
 #f h3 {
 	color: black;
+	font-weight: bold;
 }
 
 #f p {
 	color: black;
+	font-weight: bold;
 }
 
 
@@ -784,3 +806,58 @@ p > tag {
 }
 
 }
+
+
+/*  --- new ---- */
+
+div.shadow {
+	float:left;
+	width: 300px;
+	margin: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	}
+
+div.shadow:hover {
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	background-color: #EE2524;
+	}
+	
+	
+div.feature {
+	    position: relative;
+		
+	}
+ 
+div.feature a {
+	    position: relative;
+	    width: 100%;
+	    height: 100%;
+	    top: 0;
+	    left: 0;
+	    text-decoration: none; /* No underlines on the link */
+	    z-index: 10; /* Places the link above everything else in the div */
+	    background-color: #FFF; /* Fix to make div clickable in IE */
+	    opacity: 0; /* Fix to make div clickable in IE */
+	    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+	}
+	
+div.footerbox {
+		float:left;
+		width: 300px;
+		margin: 20px;
+		border: 1px solid #ccc;
+		padding: 10px;
+		background-color: #ACACAC;
+		/* For Opacity 
+	    opacity: .50; 
+	    filter: alpha(opacity=50); 
+	    -ms-filter: "alpha(opacity=50)"; 
+	    -khtml-opacity: .50; 
+	    -moz-opacity: .50; 
+		*/
+	  
+		}	
+		
