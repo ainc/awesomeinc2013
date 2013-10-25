@@ -401,7 +401,7 @@ input[type="submit"] {
 
 #f p {
 	color: black;
-	font-weight: bold;
+	
 }
 
 
@@ -859,5 +859,60 @@ div.footerbox {
 	    -moz-opacity: .50; 
 		*/
 	  
+	 
 		}	
+		
+/* Sub Page Gray Ribbons */
+		#s1 {
+			background: #333333;
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+
+		#s1 h2 {
+			color: white;
+		}
+
+		#s1 h3 {
+			color: white;
+		}
+
+
+		#s1 p {
+			color: white;
+		}
+
+		#s1 .col-lg-2 {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		
+/* Sub Page White Ribbons */
+
+		#s2 {
+			background: #ffffff;
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+
+		#s2 i {
+			font-size: 70px;
+			color: #2f2f2f;
+			padding-bottom: 30px;
+		}
+
+		#s2 i:hover {
+			color: #f1c40f
+		}
+		
+		#s2 h2 {
+			color: black;
+		}
+		
+		#s2 p {
+			font-weight: 200;
+			color: black;		
+}		
+		
+		
 		
