@@ -404,6 +404,26 @@ input[type="submit"] {
 	
 }
 
+#foot-btn {
+	margin-bottom: 17px;
+}
+
+#footer-links p a {
+	color: black;
+	word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+#footer-links a:hover {
+	color: #D80000;
+	text-decoration: none;
+	outline: 0;
+}
 
 /* Map Wrap */
 
@@ -812,11 +832,21 @@ p > tag {
 
 div.shadow {
 	float:left;
+	position: relative;
 	width: 300px;
 	margin: 20px;
 	border: 1px solid #ccc;
 	padding: 10px;
+	background: #777777;
 	}
+
+div#top-div-mid{
+	left: 7%;
+}
+
+div#top-div-right{
+	float: right;
+}
 
 div.shadow:hover {
 	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
@@ -871,6 +901,10 @@ div.footerbox {
 
 		#s1 h2 {
 			color: white;
+		}
+
+		#social-footer h2 {
+			color: black;
 		}
 
 		#s1 h3 {
