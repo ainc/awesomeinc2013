@@ -162,6 +162,7 @@ label {
 
 input[type="submit"] {
 	border: 0px;
+	margin-top: 1em;
 }
 /* ==========================================================================
    Wrap Sections
@@ -388,10 +389,12 @@ input[type="submit"] {
 
 /* Footer Wrap */
 
-#f {
-	background:url("../img/map.png") no-repeat;
-	padding-top: 50px;
-	padding-bottom: 50px;
+@media(min-width: 700px) {
+	#f {
+		background:url("../img/map.png") no-repeat;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 }
 
 #f h3 {
@@ -830,9 +833,16 @@ p > tag {
 
 /*  --- new ---- */
 
+@media (max-width: 700px) {
+	#mobile-portfolio {
+		display: none;
+	}
+}
+
 div.shadow {
 	float:left;
 	position: relative;
+	height: 245px;
 	width: 300px;
 	margin: 20px;
 	border: 1px solid #ccc;
@@ -890,9 +900,22 @@ div.footerbox {
 	    -khtml-opacity: .50; 
 	    -moz-opacity: .50; 
 		*/
-	  
-	 
-		}	
+		}
+
+#pop-up {
+	background: #333333;
+	color: white;
+	overflow: hidden;
+}
+
+#pop-up h1, h2, h3 {
+	color: white;
+}
+
+#pop-up h1 {
+	text-align: center;
+	font-weight: bold;
+}
 		
 /* Sub Page Gray Ribbons 1 */
 		#s1 {
