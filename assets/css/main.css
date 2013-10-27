@@ -894,7 +894,7 @@ div.footerbox {
 	 
 		}	
 		
-/* Sub Page Gray Ribbons */
+/* Sub Page Gray Ribbons 1 */
 		#s1 {
 			background: #333333;
 			padding-top: 50px;
@@ -923,7 +923,7 @@ div.footerbox {
 			padding-right: 0px;
 		}
 		
-/* Sub Page White Ribbons */
+/* Sub Page White Ribbons 1 */
 
 		#s2 {
 			background: #ffffff;
@@ -949,6 +949,117 @@ div.footerbox {
 			font-weight: 200;
 			color: black;		
 }		
+
+/* Sub Page Gray Ribbons 2 */
+		#s3 {
+			background: #333333;
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+
+		#s3 h2 {
+			color: white;
+		}
+
+		#social-footer h2 {
+			color: black;
+		}
+
+		#s3 h3 {
+			color: white;
+		}
+
+
+		#s3 p {
+			color: white;
+		}
+
+		#s3 .col-lg-2 {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+/* Sub Page White Ribbons 2 */
+
+		#s4 {
+			background: #ffffff;
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+
+		#s4 i {
+			font-size: 70px;
+			color: #2f2f2f;
+			padding-bottom: 30px;
+		}
+
+		#s4 i:hover {
+			color: #f1c40f
+		}
 		
+		#s4 h2 {
+			color: black;
+		}
 		
+		#s4 p {
+			font-weight: 200;
+			color: black;		
+}				
+
+/* Sub Page Gray Ribbons 3 */
+		#s5 {
+			background: #333333;
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+
+		#s5 h2 {
+			color: white;
+		}
+
+		#social-footer h2 {
+			color: black;
+		}
+
+		#s5 h3 {
+			color: white;
+		}
+
+
+		#s5 p {
+			color: white;
+		}
+
+		#s5 .col-lg-2 {
+			padding-left: 0px;
+			padding-right: 0px;
+			}
+
+
+/* Sub Page White Ribbons 3 */
+
+		#s6 {
+			background: #ffffff;
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+
+		#s6 i {
+			font-size: 70px;
+			color: #2f2f2f;
+			padding-bottom: 30px;
+		}
+
+		#s6 i:hover {
+			color: #f1c40f
+		}
 		
+		#s6 h2 {
+			color: black;
+		}
+		
+		#s6 p {
+			font-weight: 200;
+			color: black;		
+}	
+
