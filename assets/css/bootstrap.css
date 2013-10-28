@@ -1259,6 +1259,7 @@ pre code {
   }
   .col-lg-4 {
     width: 32.1%;
+    height: 215px;
     background: rgba(184, 184, 184, 0.4);
     margin: 0.6%;
   }
