@@ -924,11 +924,12 @@ div#mc_embed_signup {
 	margin: auto;
 }
 
-#mc_embed_signup input.email {
+#newsletter input.email {
 	margin: auto;
 }
 
-#mc_embed_signup div input.button {
+#newsletter input.button {
+	margin: auto;
 	margin-top: 1em;
 }
 
