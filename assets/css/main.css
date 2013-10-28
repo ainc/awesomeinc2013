@@ -818,6 +818,12 @@ p > tag {
 /*  --- new ---- */
 
 @media (max-width: 700px) {
+	iframe#calendar {
+		width: 50%;
+	}	
+}
+
+@media (max-width: 700px) {
 	#mobile-portfolio {
 		display: none;
 	}
