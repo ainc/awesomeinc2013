@@ -371,6 +371,10 @@ input[type="submit"] {
 	font-size: 90px;
 }
 
+#w1 h2 {
+	color: #2f2f2f;
+}
+
 /* White Wrap - Version 2 */
 
 #w2 {
@@ -388,6 +392,11 @@ input[type="submit"] {
 #w2 i:hover {
 	color: #f1c40f
 }
+
+#w2 h2 {
+	color: #2f2f2f;
+}
+
 
 /* Footer Wrap */
 
