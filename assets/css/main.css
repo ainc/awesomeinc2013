@@ -21,6 +21,7 @@ body {
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
+    font-size: 35px;
     font-weight: 300;
     color: #333;
 }
@@ -28,7 +29,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Paragraph & Typographic */
 p {
-    line-height: 28px;
+	font-size: 20px;
+    line-height: 33px;
     margin-bottom: 25px;
 }
 
@@ -916,6 +918,38 @@ div.footerbox {
 	text-align: center;
 	font-weight: bold;
 }
+
+div#mc_embed_signup {
+	width: 50%;
+	margin: auto;
+}
+
+#mc_embed_signup input {
+	margin: auto;
+}
+
+#mc_embed_signup div input {
+	margin-top: 1em;
+}
+
+#team-alpha p {
+	font-size: 17px;
+	line-height: 27px;
+}
+
+#team-alpha b {
+	line-height: 35px;
+	font-size: 20px;
+}
+
+.div-home-page p {
+	font-size: 17px;
+	line-height: 28px;
+}
+
+#social-phrase h2 {
+	color: black;
+}
 		
 /* Sub Page Gray Ribbons 1 */
 		#s1 {
@@ -926,10 +960,6 @@ div.footerbox {
 
 		#s1 h2 {
 			color: white;
-		}
-
-		#social-footer h2 {
-			color: black;
 		}
 
 		#s1 h3 {
@@ -1045,11 +1075,13 @@ div.footerbox {
 		}
 
 		#s5 h3 {
+			font-size: 30px;
 			color: white;
 		}
 
 
 		#s5 p {
+			font-size: ;
 			color: white;
 		}
 
