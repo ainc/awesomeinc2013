@@ -460,6 +460,10 @@ input[type="submit"] {
 	width: 35em;
 }
 
+#fellowship-list ul {
+	margin-left: 1em;
+}
+
 #fellowship-list li {
 	float: left;
 }
