@@ -978,6 +978,20 @@ div#mc_embed_signup {
 #social-phrase h2 {
 	color: black;
 }
+
+#retreat {
+	margin-top: 1em;
+}
+
+.team_alpha_img {
+	margin-top: 3em;
+	background-color: transparent;
+}
+
+.team_alpha_apply {
+	margin-top: 2.5em;
+}
+
 		
 /* Sub Page Gray Ribbons 1 */
 		#s1 {
@@ -1094,7 +1108,7 @@ div#mc_embed_signup {
 			padding-bottom: 50px;
 		}
 
-		#s5 h2 {
+		#s5 div h2 {
 			color: white;
 		}
 
@@ -1102,13 +1116,13 @@ div#mc_embed_signup {
 			color: black;
 		}
 
-		#s5 h3 {
+		#s5 div h3 {
 			font-size: 30px;
 			color: white;
 		}
 
 
-		#s5 p {
+		#s5 div p {
 			color: white;
 		}
 
