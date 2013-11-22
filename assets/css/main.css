@@ -7,6 +7,10 @@
  * URL: http://alvarez.is
  */
 
+/* Custom Font-Styles */
+@font-face { font-family: Exo-Bold; src: url('font/Exo-Bold.ttf'); }
+
+
 body {
   background-color: #f2f2f2;
     font-family: "Lato";
@@ -1000,12 +1004,17 @@ div#mc_embed_signup {
 	margin-top: 4em;
 }
 
+#team-landing {
+	font-family: Exo-Bold;
+}
+
 #team-landing h1 {
 	color: #EE2524;
+	font-family: Exo-Bold;
 }
 
 #team-landing p {
-	font-size: 1.4em;
+	font-size: 1.3em;
 	margin: 12px;
 }
 
@@ -1024,6 +1033,15 @@ div#mc_embed_signup {
 	height: 3px;
 	width: 100%;
 	background: black;
+}
+
+#fellowship .modal-dialog {
+	width: 800px !important;
+	padding-top: 5px;
+}
+
+#fellowship .modal-content {
+	height: 650px !important;
 }
 
 		
