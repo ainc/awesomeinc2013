@@ -453,7 +453,7 @@ input[type="submit"] {
 	font-weight: 200;
 	font-size: 20px;
 	line-height: 33px;
-	color: black;
+	color: white;
 	margin: 15px;
 	text-decoration: underline;
 }
@@ -972,6 +972,10 @@ div#mc_embed_signup {
 #team-alpha b {
 	line-height: 35px;
 	font-size: 20px;
+}
+
+#team-alpha img {
+	height: 200px;
 }
 
 .div-home-page p {
