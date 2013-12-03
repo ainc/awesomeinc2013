@@ -985,6 +985,9 @@ div#mc_embed_signup {
 .div-home-page p {
 	font-size: 17px;
 	line-height: 28px;
+}
+
+.feature p {
 	background: rgba(0, 0, 0, 0.4);
 	padding: 5px;
 	margin-top: 1.5em;
