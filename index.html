@@ -84,28 +84,27 @@
 			<div class="row centered">
 			
 				<div class="feature">
-					<div class="shadow">
+					<div class="shadow" id="top-div-left">
 				
-						<a href="grow-your-idea.html">
+					<a href="grow-your-idea.html">
 					
 					<!-- Added button -->
-					 	<h3>Grow Your Idea</h3> 
-						
-					<p>Start something brand new or take your current company to the next level with resources like workspace, experienced mentors, competitions, and funding opportunities.</p>
+					<h3>Grow Your Idea</h3> 
+					<img class="home-icon" id="idea-img" src="assets/img/Homepage_Icons/growyouridea.gif" alt="Grow Your Idea" />
+					<p id="left-content">Start something brand new or take your current company to the next level with resources like workspace, experienced mentors, competitions, and funding opportunities.</p>
 				
-						</a>
+					</a>
 					</div> <!-- shadow -->
 				</div> <!-- feature -->
-			
-				
 
 				<div class="feature">
 					<div class="shadow" id="top-div-mid">
 						<a href="get-involved.html">
 					
-								<!-- Added button -->
-							<h3>Get Involved</h3>				
-					<p>Check out upcoming events, the Awesome Inc internship program, our newsletter, and our blog.</p>
+					<!-- Added button -->
+					<h3>Get Involved</h3>
+					<img class="home-icon" id="involved-img" src="assets/img/Homepage_Icons/getinvolved.gif" alt="Grow Your Idea" />				
+					<p id="mid-content">Check out upcoming events, the Awesome Inc internship program, our newsletter, and our blog.</p>
 						</a>
 					
 					</div><!-- shadow -->
@@ -116,8 +115,8 @@
 						<a href="http://www.awesomeincu.com/" target="_blank">
 					
 					<h3>Learn to Code</h3>
-
-					<p>Awesome Inc U teaches people of all ages how to code in iOS, Android, PHP, Unity, Python and much more.</p>
+					<img class="home-icon" id="code-img" src="assets/img/Homepage_Icons/learntocode.gif" alt="Grow Your Idea" />
+					<p id="right-content">Awesome Inc U teaches people of all ages how to code in iOS, Android, PHP, Unity, Python and much more.</p>
 						</a>
 					</div><!-- shadow -->
 				</div><!-- feature -->
@@ -129,12 +128,7 @@
 	
 	
 	<!-- Core Values -->
-	
-		
-			
-				<img class="img-responsive" src="assets/img/cv.png">
-			
-			 
+			<img class="img-responsive" src="assets/img/cv.png">
 			<!-- Getting rid of the show more button 
 			<button type="button" class="btn btn-theme">SHOW MORE</button>
 			-->
@@ -564,13 +558,14 @@
     <script src="assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
     <script>
-    $(function () { $("[data-toggle='tooltip']").tooltip(); });
+    	$(function () { $("[data-toggle='tooltip']").tooltip(); });
     </script>
 	<script>
-	$('.carousel').carousel({
-	  interval: 3500
-	})
+		$('.carousel').carousel({
+		  interval: 3500
+		});
 	</script>    
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/smoothscroll.js"></script>
@@ -590,6 +585,5 @@
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
 	</script>
-
   </body>
 </html>

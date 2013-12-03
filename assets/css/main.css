@@ -890,6 +890,10 @@ div.shadow {
 		margin: 0;
 		margin-bottom: 10px;
 	}
+
+	div #left-content {
+		margin-top: 1.5em;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -981,6 +985,13 @@ div#mc_embed_signup {
 .div-home-page p {
 	font-size: 17px;
 	line-height: 28px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 5px;
+	margin-top: 1.5em;
+}
+
+#left-content {
+	margin-top: 0;
 }
 
 #social-phrase h2 {
@@ -1046,6 +1057,13 @@ div#mc_embed_signup {
 
 #fellowship .modal-content {
 	height: 650px !important;
+}
+
+.home-icon {
+	display: block;
+	margin: auto;
+	height: 180px;
+	margin-top: -1em;
 }
 
 		
