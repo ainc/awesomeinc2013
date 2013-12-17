@@ -10,7 +10,6 @@
 /* Custom Font-Styles */
 @font-face { font-family: Exo-Bold; src: url('font/Exo-Bold.ttf'); }
 
-
 body {
   background-color: #f2f2f2;
     font-family: "Lato";
@@ -1069,7 +1068,16 @@ div#mc_embed_signup {
 	margin-top: -1em;
 }
 
-		
+.top_content_link {
+	color: white;
+}
+
+.top_content_link:hover {
+	color: #d2322d;
+	text-decoration: none;
+}
+
+
 /* Sub Page Gray Ribbons 1 */
 		#s1 {
 			background: #333333;
