@@ -26,7 +26,7 @@
         system "git add ."
         system "git commit -am #{message.shellescape}"
         system "git push origin gh-pages --force"
-        system "git checkout master"
+        system "git checkout huu_branch"
         system "echo yolo"
       end
     end
