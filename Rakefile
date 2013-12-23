@@ -25,7 +25,7 @@
         message = "Site updated at #{Time.now.utc}"
         system "git add -A"
         system "git commit -m #{message.shellescape}"
-        system "git push origin gh-pages"
+        system "git push origin gh-pages --force"
         system "git checkout master"
         system "echo gh-pages updated!"
       end
