@@ -19,15 +19,15 @@
     task :publish => [:generate] do
       Dir.mktmpdir do |tmp|
         system "mv _site/* #{tmp}"
-        system "git checkout -b gh-pages"
+        system "git checkout gh-pages"
         system "rm -rf *"
         system "mv #{tmp}/* ."
         message = "Site updated at #{Time.now.utc}"
-        system "git add ."
-        system "git commit -am #{message.shellescape}"
-        system "git push origin gh-pages --force"
+        system "git add -A"
+        system "git commit -m #{message.shellescape}"
+        system "git push origin gh-pages"
         system "git checkout master"
-        system "echo yolo"
+        system "echo gh-pages updated!"
       end
     end
 
