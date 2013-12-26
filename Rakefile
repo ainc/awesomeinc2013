@@ -30,11 +30,8 @@ end
 
 desc "Deploy _site/ to #{production_branch} branch"
 task :deploy do
-  puts "\n## Deleting #{production_branch} branch"
-  status = system("git branch -D #{production_branch}")
-  puts status ? "Success" : "Failed"
   puts "\n## Creating new #{production_branch} branch and switching to it"
-  status = system("git checkout -b #{production_branch}")
+  status = system("git checkout #{production_branch}")
   puts status ? "Success" : "Failed"
   puts "\n## Forcing the _site subdirectory to be project root"
   status = system("git filter-branch --subdirectory-filter _site/ -f")
