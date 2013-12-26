@@ -1,4 +1,4 @@
-require "reduce"
+require "tmpdir"
 
 source_branch = "master"
 production_branch = "huu_branch"
