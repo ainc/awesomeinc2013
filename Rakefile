@@ -10,65 +10,12 @@ task :delete do
   puts status ? "Success" : "Failed"
 end
 
-desc "Preview _site/"
-task :preview do
-  puts "\n## Opening _site/ in browser"
-  status = system("open http://0.0.0.0:4000/")
-  puts status ? "Success" : "Failed"
-end
-
-# Courtesy of https://github.com/pacbard/blog/blob/master/_rake/minify.rake
-desc "Minify _site/"
-task :minify do
-  puts "\n## Compressing static assets"
-  original = 0.0
-  compressed = 0
-  Dir.glob("_site/**/*.*") do |file|
-    case File.extname(file)
-      when ".css", ".gif", ".html", ".jpg", ".jpeg", ".js", ".png", ".xml"
-        puts "Processing: #{file}"
-        original += File.size(file).to_f
-        min = Reduce.reduce(file)
-        File.open(file, "w") do |f|
-          f.write(min)
-        end
-        compressed += File.size(file)
-      else
-        puts "Skipping: #{file}"
-      end
-  end
-  puts "Total compression %0.2f\%" % (((original-compressed)/original)*100)
-end
-
-namespace :build do
-  desc "Build _site/ for development"
-  task :dev do
-    puts "\n##  Starting Jekyll"
-    pids = [
-      spawn("jekyll serve -w")
-    ]
-
-    trap "INT" do
-      Process.kill "INT", *pids
-      exit 1
-    end
-
-    loop do
-      sleep 1
-    end
-  end
-
-  desc "Build _site/ for production"
-  task :pro do
-    puts "\n## Building Jekyll to _site/"
-    status = system("jekyll build")
-    puts status ? "Success" : "Failed"
-    Rake::Task["minify"].invoke
-  end
-end
-
 desc "Commit _site/"
 task :commit do
+  puts "\n## Building _site files"
+  status = system("jekyll build")
+  puts status ? "Success" : "Failed"
+
   puts "\n## Staging modified files"
   status = system("git add -A")
   puts status ? "Success" : "Failed"
