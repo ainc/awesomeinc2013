@@ -1,7 +1,7 @@
 require "tmpdir"
 
 source_branch = "master"
-production_branch = "huu_branch"
+production_branch = "gh-pages"
 
 desc "Delete _site/"
 task :delete do
