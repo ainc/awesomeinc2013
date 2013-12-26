@@ -30,19 +30,22 @@ end
 
 desc "Deploy _site/ to #{production_branch} branch"
 task :deploy do
-  puts "\n## Deleting local #{production_branch} branch"
-  status = system("git branch -D #{production_branch}")
-  puts status ? "Success" : "Failed"
-  puts "\n## Deleting remote #{production_branch} branch"
-  status = system("git push origin --delete #{production_branch}")
-  puts status ? "Success" : "Failed"
+  Dir.mktmpdir do |tmp|
+    puts "\n## Moving #{source_branch} branch _site contents to tmp folder"
+    status = system("mv _site/* #{tmp}")
+    puts status ? "Success" : "Failed"
+    puts "\n## Switching to #{production_branch} branch"
+    status = system("git checkout #{production_branch}")
+    puts status ? "Success" : "Failed"
 
-  puts "\n## Creating new #{production_branch} branch and switching to it"
-  status = system("git checkout -b #{production_branch}")
-  puts status ? "Success" : "Failed"
-  puts "\n## Forcing the _site subdirectory to be project root"
-  status = system("git filter-branch --subdirectory-filter _site/ -f")
-  puts status ? "Success" : "Failed"
+    puts "\n## Removing #{production_branch} branch contents"
+    status = system("rm -rf *")
+    puts status ? "Success" : "Failed"
+
+    puts "\n## Moving contents in tmp folder to #{production_branch} branch"
+    status = system("mv #{tmp}/* .")
+    puts status ? "Success" : "Failed"
+  end
   puts "\n## Adding #{production_branch} branch changes"
   status = system("git add -A")
   puts status ? "Success" : "Failed"
