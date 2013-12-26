@@ -1,7 +1,7 @@
 require "reduce"
 
 source_branch = "master"
-production_branch = "test_branch"
+production_branch = "huu_branch"
 
 desc "Delete _site/"
 task :delete do
@@ -30,9 +30,13 @@ end
 
 desc "Deploy _site/ to #{production_branch} branch"
 task :deploy do
-  puts "\n## Deleting #{production_branch} branch"
+  puts "\n## Deleting local #{production_branch} branch"
   status = system("git branch -D #{production_branch}")
   puts status ? "Success" : "Failed"
+  puts "\n## Deleting remote #{production_branch} branch"
+  status = system("git push origin --delete #{production_branch}")
+  puts status ? "Success" : "Failed"
+
   puts "\n## Creating new #{production_branch} branch and switching to it"
   status = system("git checkout -b #{production_branch}")
   puts status ? "Success" : "Failed"
