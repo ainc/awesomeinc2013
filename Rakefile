@@ -1,7 +1,7 @@
 require "reduce"
 
 source_branch = "master"
-production_branch = "huu_branch"
+production_branch = "test_branch"
 
 desc "Delete _site/"
 task :delete do
