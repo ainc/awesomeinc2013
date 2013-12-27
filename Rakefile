@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
->>>>>>> f06e9359e657ff949df11cf5524d8423e069c6cc
 require "tmpdir"
 
 source_branch = "master"
@@ -42,12 +38,9 @@ task :deploy do
     status = system("git checkout #{production_branch}")
     puts status ? "Success" : "Failed"
 
-<<<<<<< HEAD
-=======
     puts "\n## Pulling most recent #{production_branch} branch from remote"
     status = system("git pull")
     puts status ? "Success" : "Failed"
->>>>>>> f06e9359e657ff949df11cf5524d8423e069c6cc
     puts "\n## Removing #{production_branch} branch contents"
     status = system("rm -rf *")
     puts status ? "Success" : "Failed"
@@ -75,42 +68,3 @@ end
 desc "Commit and deploy _site/"
 task :default => [:commit, :deploy] do
 end
-<<<<<<< HEAD
-=======
-    require 'rubygems'
-    require 'rake'
-    require 'rdoc'
-    require 'date'
-    require 'yaml'
-    require 'tmpdir'
-    require 'jekyll'
-
-    desc "Generate page files"
-    task :generate do
-      Jekyll::Site.new(Jekyll.configuration({
-        "source"      => ".",
-        "destination" => "_site"
-      })).process
-    end
-
-
-    desc "Generate and publish pages to gh-pages"
-    task :publish => [:generate] do
-      Dir.mktmpdir do |tmp|
-        system "mv _site/* #{tmp}"
-        system "git checkout gh-pages"
-        system "rm -rf *"
-        system "mv #{tmp}/* ."
-        message = "Site updated at #{Time.now.utc}"
-        system "git add -A"
-        system "git commit -am #{message.shellescape}"
-        system "git push origin gh-pages --force"
-        system "git checkout master"
-        system "echo gh-pages updated!"
-      end
-    end
-
-task :default => :publish
->>>>>>> Stashed changes
-=======
->>>>>>> f06e9359e657ff949df11cf5524d8423e069c6cc
