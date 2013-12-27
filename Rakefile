@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> f06e9359e657ff949df11cf5524d8423e069c6cc
 require "tmpdir"
 
 source_branch = "master"
@@ -39,6 +42,12 @@ task :deploy do
     status = system("git checkout #{production_branch}")
     puts status ? "Success" : "Failed"
 
+<<<<<<< HEAD
+=======
+    puts "\n## Pulling most recent #{production_branch} branch from remote"
+    status = system("git pull")
+    puts status ? "Success" : "Failed"
+>>>>>>> f06e9359e657ff949df11cf5524d8423e069c6cc
     puts "\n## Removing #{production_branch} branch contents"
     status = system("rm -rf *")
     puts status ? "Success" : "Failed"
@@ -66,6 +75,7 @@ end
 desc "Commit and deploy _site/"
 task :default => [:commit, :deploy] do
 end
+<<<<<<< HEAD
 =======
     require 'rubygems'
     require 'rake'
@@ -102,3 +112,5 @@ end
 
 task :default => :publish
 >>>>>>> Stashed changes
+=======
+>>>>>>> f06e9359e657ff949df11cf5524d8423e069c6cc
