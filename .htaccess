@@ -10,4 +10,3 @@ ExpiresByType text/html "access 1 month"
 ExpiresByType application/pdf "access 2 month"
 ExpiresDefault "access 1 month"
 </IfModule>
-
