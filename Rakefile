@@ -11,7 +11,7 @@ task :delete do
 end
 
 desc "Commit _site/"
-task :commit do
+task :commit, :message do |t, arg|
   puts "\n## Building _site files"
   status = system("jekyll build")
   puts status ? "Success" : "Failed"
@@ -21,7 +21,7 @@ task :commit do
   puts status ? "Success" : "Failed"
   puts "\n## Committing site build at #{Time.now.utc}"
   message = "Build site at #{Time.now.utc}"
-  status = system("git commit -m \"#{message}\"")
+  status = system("git commit -m \"#{arg[:message]||"Update"}. #{message}\"")
   puts status ? "Success" : "Failed"
   puts "\n## Pushing commits to remote #{source_branch}"
   status = system("git push origin #{source_branch}")
