@@ -82,7 +82,7 @@ $(document).ready(function() {
 	                bio.hide('slide', { direction: 'down' }, time);
 	                break;
 		    }
-		});*/
+		});
 
 	function closestEdge(x,y,l,t,w,h) {
 			var r = l + w;
@@ -113,5 +113,5 @@ $(document).ready(function() {
 	function distMetric(a, b) {
 	    var diff = a - b;
 	    return (diff * diff);
-	}
+	}*/
 });
