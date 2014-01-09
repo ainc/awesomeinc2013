@@ -31,7 +31,7 @@ $(document).ready(function() {
 	});
 
 	//Hover over company portfolios
-		/*$(".company-port").hover(function(e) {
+		$(".company-port").hover(function(e) {
 			var time = 300;
 			console.log(e.pageX);
 			console.log(e.pageY);
@@ -82,7 +82,7 @@ $(document).ready(function() {
 	                bio.hide('slide', { direction: 'down' }, time);
 	                break;
 		    }
-		});*/
+		});
 
 	function closestEdge(x,y,l,t,w,h) {
 			var r = l + w;
