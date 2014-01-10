@@ -23,12 +23,13 @@ mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
 
 <IfModule mod_expires.c>
 ExpiresActive On
-ExpiresByType image/jpg "access 1 month"
-ExpiresByType image/jpeg "access 1 month"
-ExpiresByType image/gif "access 1 month"
-ExpiresByType image/png "access 1 month"
-ExpiresByType text/css "access 1 month"
-ExpiresByType text/html "access 1 month"
-ExpiresByType application/pdf "access 1 month"
-ExpiresDefault "access 5 days"
+ExpiresByType image/jpg "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType text/js "access plus 1 month"
+ExpiresByType text/html "access plus 1 month"
+ExpiresByType application/pdf "access plus 1 month"
+ExpiresDefault "access plus 5 days"
 </IfModule>

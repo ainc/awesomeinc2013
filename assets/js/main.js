@@ -33,13 +33,8 @@ $(document).ready(function() {
 	//Hover over company portfolios
 		$(".company-port").hover(function(e) {
 			var time = 300;
-			console.log(e.pageX);
-			console.log(e.pageY);
 			var pos = $(this).offset();
-			console.log("img left: " + pos.left);
-			console.log("img top: " + pos.top);
 		    var edge = closestEdge(e.pageX, e.pageY, pos.left, pos.top, $(this).width(), $(this).height());
-		    console.log(edge);
 
 		    var bio = $(this).closest('div').find('.company-bio');
 		    switch (edge) {
@@ -59,13 +54,8 @@ $(document).ready(function() {
 		},
 		function(e) {
 			var time = 150;
-			console.log(e.pageX);
-			console.log(e.pageY);
 			var pos = $(this).offset();
-			console.log("img left: " + pos.left);
-			console.log("img top: " + pos.top);
 		    var edge = closestEdge(e.pageX, e.pageY, pos.left, pos.top, $(this).width(), $(this).height());
-		    console.log(edge);
 
 		    var bio = $(this).closest('div').find('.company-bio');
 		    switch (edge) {
