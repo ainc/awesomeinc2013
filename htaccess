@@ -1,3 +1,7 @@
+---
+layout: none
+permalink: .htaccess
+---
 RewriteEngine On
 RewriteCond %{http_host} ^www.awesomeinc.org [nc]
 RewriteRule ^(.*)$ http://awesomeinc.org/$1 [r=301,nc]

@@ -851,6 +851,15 @@ p > tag {
 }
 
 /*  --- new ---- */
+::-webkit-scrollbar {
+  background-color: rgba(255,255,255,0.1);
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 5px;
+}
 
 .company-port {
 	width: 195px;

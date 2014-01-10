@@ -1,2 +1,2 @@
 permalink: pretty
-include: ['.htaccess']
+include: '.htaccess'
