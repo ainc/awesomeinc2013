@@ -82,12 +82,7 @@ $(document).ready(function() {
 	        var bottomEdgeDist = distMetric(y, b);
 	        var leftEdgeDist = distMetric(x, l);
 	        var rightEdgeDist = distMetric(x, r);
-	        console.log("top: " + topEdgeDist);
-	        console.log("bot: " + bottomEdgeDist);
-	        console.log("left: " + leftEdgeDist);
-	        console.log("right: " + rightEdgeDist);
 	        var min = Math.min(topEdgeDist,bottomEdgeDist,leftEdgeDist,rightEdgeDist);
-	        console.log("min: " + min);
 	        switch (min) {
 	            case leftEdgeDist:
 	                return "left";
