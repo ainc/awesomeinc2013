@@ -1286,3 +1286,22 @@ div#mc_embed_signup {
 			color: black;		
 }	
 
+/* Mentors Page*/
+
+		#mentors li {
+			height: 300px;
+			float: left;
+			margin-bottom: 18px;
+			margin-left: 20px;
+			width: 170px;
+		}	
+
+		#mentors p {
+			line-height:20px;
+			font-size: 18px;
+			margin-bottom:5px;
+		}
+
+		#mentors a {
+			color:#0088cc;
+		}	
