@@ -287,7 +287,7 @@ input[type="submit"] {
 	background: #ACACAC;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	height: 295px;
+	height: 330px;
 }
 
 #y .glyphicon {
@@ -935,6 +935,9 @@ div.shadow {
 
 	div #left-content {
 		margin-top: 1.5em;
+	}
+	#y {
+		height: 850px;
 	}
 }
 
