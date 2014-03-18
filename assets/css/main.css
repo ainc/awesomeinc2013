@@ -851,11 +851,20 @@ p > tag {
 }
 
 /*  --- new ---- */
+#sponsor_text {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+.sponsor_img {
+	opacity: 0.7;
+	height: 50px;
+	margin: 0 10px;
+}
+
 ::-webkit-scrollbar {
   background-color: rgba(120,120,120,0.2);
   width: 8px;
 }
-
 ::-webkit-scrollbar-thumb {
   background-color: rgba(0,0,0,0.6);
   border-radius: 5px;
