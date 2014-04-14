@@ -1,2 +1,1 @@
-permalink: pretty
-relative_permalinks: false
+include: ['.htaccess', '.nojekyll']
