@@ -259,6 +259,12 @@ input[type="submit"] {
 	letter-spacing: 2px;
 }
 
+/* What's awesome this week videos */
+
+.video {
+	padding-top: 75px;
+}
+
 /* Services Wrap */
 
 #services {
