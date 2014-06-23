@@ -99,4 +99,24 @@ $(document).ready(function() {
 	    var diff = a - b;
 	    return (diff * diff);
 	}
+
+	//make bg image full size
+
+	$("#headerwrap").css("height", getWindowHeight()) - 50; //for navbar
+	$("#headerwrap").css("width", getWindowWidth());
+	$(window).resize(function() {
+		$("#headerwrap").css("height", getWindowHeight())- 50; 
+		$("#headerwrap").css("width", getWindowWidth());
+	})
 });
+
+var getWindowHeight = function() {
+	var winHeight = $(window).height();
+	return winHeight;
+}
+
+var getWindowWidth = function() {
+	var winWidth = $(window).width();
+	return winWidth;
+}
+

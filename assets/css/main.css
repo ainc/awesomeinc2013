@@ -12,7 +12,7 @@
 
 body {
   	background-color: #f2f2f2;
-    font-family: "Lato";
+    font-family: "open sans";
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -131,6 +131,10 @@ color: #ffffff;
 background-color: #2c3e50;
 }
 
+.right-nav {
+	float: right;
+}
+
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   color: #ffffff;
@@ -192,6 +196,8 @@ input[type="submit"] {
     -o-background-size: cover;
     background-size: cover;
 }
+
+
 /* David changed from White to Ainc Gray */
 #headerwrap h1 {
 	margin-top: 70px;
@@ -261,6 +267,39 @@ input[type="submit"] {
 
 /* What's awesome this week videos */
 
+    <style type="text/css">
+#player {
+    width: 435px;
+    height: 300px;
+    overflow: hidden;
+    background: gray;
+    position: absolute;
+    border: solid 2px gray;
+}
+
+.youtube .carousel {
+    width: 20%;
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    right: 0px;
+    z-index: 3;
+}
+
+.youtube .thumbnail {
+    margin: 2px;
+    width: 80%;
+    border: 1px solid black;  
+}
+
+.youtube iframe.player {
+    width: 80%;
+    height: 300px;  
+    overflow: auto;
+    border: 0;
+}
+        </style>
+
 .video {
 	padding-top: 75px;
 }
@@ -290,10 +329,9 @@ input[type="submit"] {
 
 /* Changed to Ainc Gray*/
 #y {
-	background: #ACACAC;
 	padding-top: 50px;
-	padding-bottom: 50px;
-	height: 330px;
+	padding-bottom: 20px;
+	background-color: white;
 }
 
 #y .glyphicon {
@@ -302,12 +340,14 @@ input[type="submit"] {
 }
 
 #y h3 {
-	color: white;
+	color: #2e2e2e;
+	font-family: "open sans";
+	font-weight: bold;
 }
 
 #y p {
 	font-weight: 500;
-	color: white;
+	color: #2e2e2e;
 }
 
 #cv {
@@ -388,7 +428,6 @@ input[type="submit"] {
 
 #w2 {
 	background: #ffffff;
-	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
@@ -973,11 +1012,60 @@ div.shadow:hover {
 	background-color: #EE2524;
 	}
 	
+/*div.feature-offset {
+	margin-left:14%;
+}*/
+
+div.feature-col {
+	float:left;
+	position: relative;
+	min-height: 1px;
+}
 	
 div.feature {
-	    position: relative;
-		
-	}
+    position: relative;	
+	width:33.3%;
+}
+
+p.feature {
+	background-color: white;
+	font-size: 15px;
+	line-height: 19px;
+	font-family: "open sans";
+	max-width: 220px;
+	margin:auto;
+
+}
+
+h3.feature {
+	font-size: 25px;
+	line-height: 22px;
+	font-family: "Open Sans";
+	margin-bottom: 0px;
+}
+
+.feature-img{/*
+	width: 180px;
+	height: 180px;*/
+ 	display: block;
+ 	margin-top: 20px;
+}
+/*
+.feature-img-center {
+	width: 200px;
+	margin: auto;
+}*/
+
+.feature-span{
+	width: 185px;
+	height: 185px;
+ 	display: block;
+ 	margin: auto;
+}
+
+.long-feature {
+	font-size: 25px;
+}
  
 div.feature a {
 	    position: relative;
@@ -1047,9 +1135,9 @@ div#mc_embed_signup {
 }
 
 .feature p {
-	background: rgba(0, 0, 0, 0.4);
+	background: white;
 	padding: 5px;
-	margin-top: 1.5em;
+	margin-top: 0.1em;
 }
 
 #left-content {
@@ -1123,6 +1211,9 @@ div#mc_embed_signup {
 
 .home-icon {
 	display: block;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
 	margin: auto;
 	height: 180px;
 	margin-top: -1em;
