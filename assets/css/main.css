@@ -23,7 +23,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
+    font-family: "open sans";
     font-size: 35px;
     font-weight: 300;
     color: #333;
@@ -1005,6 +1005,14 @@ div.shadow {
 	}
 }
 
+.subtitle {
+	font-family: "open sans";
+	font-size: 45px;
+	color: #333;
+	margin-top: 0px;
+	font-weight: 400;
+}
+
 div.shadow:hover {
 	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
@@ -1012,9 +1020,85 @@ div.shadow:hover {
 	background-color: #EE2524;
 	}
 	
-/*div.feature-offset {
-	margin-left:14%;
-}*/
+/*for the subpage layout*/
+.subheader {
+	width: 100%;
+	height: 500px;
+	border-bottom: 25px rgb(207, 53, 59);
+}
+
+
+
+.temp-div {
+	height:35px; 
+	width:100%; 
+	background-color:rgb(207, 53, 59);
+}
+
+/*for the about page */
+div.about-page {
+	background-image: url("/assets/img/aboutpage-small.jpg");
+}
+
+.img-overlay {
+	color: white;
+	padding-left: 100px;
+	padding-top: 350px;
+	font-family: 'open sans';
+	font-weight: 800;
+	font-size: 80px;
+	font-style: shadow;
+	text-shadow: 1px 3px rgba(0,0,0, 0.5);
+}
+
+#a2 {
+	width:100%;
+	height: 200px;
+	background-color: #bfbfbf;
+}
+
+h2.mission {
+	padding-top: 25px;
+	margin-top: 0px;
+	font-style: italic;
+	font-weight: bold;
+	color: rgb(207, 53, 59);
+	font-family: 'open sans';
+	text-align: center;
+}
+
+p.mission {
+	font-family: 'open sans';
+	font-size: 23px;
+	line-height: 26px;
+	font-style: normal;
+	font-weight: 600;
+	color: black;
+	margin: 40px 100px 0 100px;
+}
+
+#cv {
+	margin-top: 0px;
+	background-color: white;
+	width: 100%;
+	height: 600px;
+}
+
+h2.core-value {
+	font-family: 'open sans';
+	font-size:45px;
+	color: #2e2e2e;
+	font-weight: 700;
+	margin-top: 0px;
+	padding-left: 30px;
+}
+
+.cv-img {
+	margin-right: 100px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+/*end about page */
 
 div.feature-col {
 	float:left;
@@ -1044,17 +1128,10 @@ h3.feature {
 	margin-bottom: 0px;
 }
 
-.feature-img{/*
-	width: 180px;
-	height: 180px;*/
+.feature-img{
  	display: block;
  	margin-top: 20px;
 }
-/*
-.feature-img-center {
-	width: 200px;
-	margin: auto;
-}*/
 
 .feature-span{
 	width: 185px;
