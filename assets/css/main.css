@@ -1036,6 +1036,7 @@ div.shadow:hover {
 }
 
 /*for the about page */
+
 div.about-page {
 	background-image: url("/assets/img/aboutpage-small.jpg");
 }
@@ -1093,12 +1094,148 @@ h2.core-value {
 	padding-left: 30px;
 }
 
+.cv-img-offset {
+	margin-left: 5%;
+}
+
 .cv-img {
-	margin-right: 100px;
-	box-shadow: 10px 10px 5px #888888;
+	width: 15%;
+	margin-right: 9%;
+	box-shadow: 10px 10px 5px 2px #888888;
+}
+
+.cv-img-offset2 {
+	margin-right:0px;
 }
 
 /*end about page */
+
+/*Begin Interships page */
+
+.i2 {
+	width: 100%;
+	height: 400px;
+	background-color: white;
+}
+
+h1.internship {
+	font-family: 'open sans';
+	font-size: 45px;
+	color: #2e2e2e;
+	font-weight: 700;
+	margin-top: 0px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+p.internship {
+	font-family: 'open sans';
+	font-size: 38px;
+	line-height: 43px;
+	text-align: center;
+	color: #2e2e2e;
+	font-weight: 400;
+	margin: 30px 50px 0 50px;
+}
+
+.apply-container {
+	margin-top: 40px;
+	width: 300px;
+	height:100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-ta-apply {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+	font-size: 42px;
+	font-family: 'open sans';
+	padding-right: 100px;
+	padding-left: 100px;
+	font-weight: 600;
+	border-radius: 4px;
+	background-color: rgb(207, 53, 59);
+}
+
+.btn-ta-apply:hover {
+	background-color: #d9534f;
+}
+
+div.teams-container {
+	width: 100%;
+	height: 420px;
+	background-color: rgb(227, 227, 227);
+	
+}
+
+div.teams {
+	padding-top: 50px;
+	padding-left: 35px;
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+
+p.teams, ul.teams {
+	font-weight: 400;
+	font-size: 32px;
+	color: rgb(38, 38, 38);
+	font-family: 'open sans';
+}
+
+ul.teams {
+	padding-left: 55px;
+}
+
+.teams-img {
+	width: 55%;
+	height: 320px;
+	float: right;
+	border: 2px black solid;
+	margin: 50px 35px 40px 0;
+}
+
+.culture {
+	width: 100%;
+	height: 1000px;
+	background-color: white;
+}
+
+div.story {
+	height: 15%;
+	width: 45%;
+	padding: 45px 0 0 45px;
+}
+
+h1.story {
+	font-family: 'open sans';
+	font-size: 50px;
+	color: #2e2e2e;
+	font-weight: 600;
+	margin-top: 0px;
+}
+
+p.story {
+	font-family: 'open sans';
+	font-size: 30px;
+	color: #2e2e2e;
+	line-height: 35px;
+	font-weight: 400;
+	margin-top: 20px;
+	word-spacing: .1em;
+}
+
+.story-img {
+	width: 50%;
+	height: 320px;
+	float: right;
+	border: 2px black solid;
+	margin: 50px 35px 40px 0;
+}
+
+/*end internships page */
 
 div.feature-col {
 	float:left;
