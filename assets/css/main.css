@@ -459,11 +459,13 @@ input[type="submit"] {
 #f h3 {
 	color: black;
 	font-weight: bold;
+	font-size: 30px;
 }
 
 #f p {
 	color: black;
-	
+	font-size: 17px;
+	line-height: 20px;
 }
 
 #foot-btn {
@@ -1245,7 +1247,7 @@ p.story {
 
 .c2 {
 	width: 100%;
-	height: 900px;
+	height: 600px;
 	background-color: white;
 
 }
@@ -1256,43 +1258,70 @@ h2.tenant {
 	color: #2e2e2e;
 	font-weight: 700;
 	margin-top: 0px;
+	margin-bottom: 0px;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 30px;
 	padding-bottom: 0px;
 }
 
 img.tenant {
 	width: 75%;
-	height: 60%;
+	height: 80%;
 	margin-left: 12.5%;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
-ul.tenant {
-	
-    color: #2e2e2e;
-    font-size: 24px;
-    font-weight: 400;
-}
-div.bullet-container {
-	width: 80%;
-	margin-left: 10%;
-	height: 25%;
+#b2 {
+	background-color: white;
+	height: 400px;
+	width: 100%;
 }
 
-div.bullet-left {
+div.bullet {
+	width: 72px;
+	height: 72px;
 	float: left;
-	width: 20%;
 }
 
-div.bullet-middle {
-	
-	width: 20%;
+img.bullet {
+	float: left;
 }
 
-div.bullet-right {
-	float: right;
-	width: 20%;
+
+.sub-row p {
+	margin: 4% 0 0 28%;
+	font-family: "open sans";
+	font-size: 1.75em;
+	font-weight: 500;
+
+}
+
+div.sub-row {
+	margin-bottom: 15%;
+	height: 32.1%;
+	width: 100%;
+	float: left;
+}
+
+#p2 {
+	height: 175px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+#r2 {
+	height: 1000px;
+	width: 100%;
+	background-color: white;
+}
+
+#r2 h2 {
+	font-family: "open sans";
+	color: #2e2e2e;
+	text-align: center;
+	margin-top: 4%;
+	font-weight: bold;
+	font-size: 3em;
 }
 
 /*end coworking page */
