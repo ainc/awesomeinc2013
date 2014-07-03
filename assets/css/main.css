@@ -1324,6 +1324,11 @@ div.sub-row {
 	font-size: 3em;
 }
 
+p#too-much-text {
+	font-size: 1.4em;
+	margin-top: 0;
+}
+
 /*end coworking page */
 
 div.feature-col {
