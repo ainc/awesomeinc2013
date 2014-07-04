@@ -40,7 +40,7 @@
 
   <body>
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar navbar-default navbar-fixed-top navbar-static">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -53,20 +53,41 @@
       		 -->
       		 <!-- Added to make the logo move down a little.
       		 -->
-          <div style="margin: 0px; padding:0px; clear: both; height: 6px">
-	&nbsp;
+         	<div style="margin: 0px; padding:0px; clear: both; height: 6px">
+				&nbsp;
 
-</div>
+			</div>
 
-<a href="/"><img src="/assets/img/logo.png" alt="Awesome Inc Logo"> </a>
+			<a href="/"><img src="/assets/img/logo.png" alt="Awesome Inc Logo"> </a>
         </div>
 
-        <div class="navbar-collapse collapse">
+        <div class="navbar-collapse collapse navbar-inner">
           
-          <ul class="nav navbar-nav right-nav">
-            <li><a href="/about/">About</a></li>
-            <li><a href="/for-entrepreneurs/">For Entrepreneurs</a></li>
-            <li><a href="http://www.awesomeincu.com" targer="_blank">Learn to Code</a></li>  
+          <ul class="nav nav-pills navbar-nav right-nav">
+            <li class="dropdown">
+            	<a class="dropdown-toggle" data-toggle="dropdown" href="/about/">About</a>
+	            	<ul class="dropdown-menu">
+	            		<li>
+	            			<a href="/about/">subAbout</a>
+	            		</li>
+	            		<li>
+	            			<a href="/about/">subAbout2</a>
+	            		</li>
+	            		<li>
+	            			<a href="/about/">subAbout3</a>
+	            		</li>
+	            	</ul>
+	            <!-- </a> -->
+            </li>
+            	
+            <li><a href="/for-entrepreneurs/">For Entrepreneurs</a>
+            	<ul class="menu dropdown-menu">
+            		<li><a href="/about/">sub entrep</a></li>
+            		<li><a href="/about/">sub entrep 2</a></li>
+            		<li><a href="/about/">sub entrep 3</a></li>
+            	</ul>
+            </li>
+            <li><a href="http://www.awesomeincu.com" target="_blank">Learn to Code</a></li>  
             <li><a href="/coworking/">Coworking</a></li>
             <li><a href="/internships/">Internships</a></li>
           </ul>
@@ -205,12 +226,13 @@
 	<script type="text/javascript" src="/assets/js/smoothscroll.js"></script>
 	<script type="text/javascript" src="/assets/js/modernizr.custom.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.js"></script>
     <script type="text/javascript" src="/assets/js/main.js"></script>
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-    <script>
-    	$(function () { $("[data-toggle='tooltip']").tooltip(); });
-    </script>
+     <!-- <script>
+    // 	$(function () { $("[data-toggle='tooltip']").tooltip(); });
+    </script> -->
 	 <!-- <script>
 	// 	$('.carousel').carousel({
 	// 	  interval: 3500

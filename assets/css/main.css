@@ -1362,6 +1362,41 @@ h3.feature {
 .feature-img{
  	display: block;
  	margin-top: 20px;
+ 	width: 98%;
+ 	height: 99%;
+}
+
+/*li > ul.menu {
+	display: none;
+}
+
+li.menu:hover > ul {
+	display: block;
+}
+
+li ul.menu:after {
+	content: ""; 
+	clear: both; 
+	display: block;
+}*/
+
+.feature-img-left {
+	background-image: url("/assets/img/Homepage_Icons/Icon_For-Entrepreneurs.png")
+}
+.feature-img-left:hover {
+	background-image: url("/assets/img/Homepage_Icons/Icon_For-Entrepreneurs_Red.png")
+}
+.feature-img-center {
+	background-image: url("/assets/img/Homepage_Icons/Icon_Coworking.png")
+}
+.feature-img-center:hover {
+	background-image: url("/assets/img/Homepage_Icons/Icon_Coworking_Red.png")
+}
+.feature-img-right {
+	background-image: url("/assets/img/Homepage_Icons/Icon_LTC.png")
+}	
+.feature-img-right:hover {
+	background-image: url("/assets/img/Homepage_Icons/Icon_LTC_Red.png")
 }
 
 .feature-span{
