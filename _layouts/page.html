@@ -24,6 +24,9 @@
 
 	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
 
+	<!-- dropdown menu javascript -->
+	<script type="text/javascript" src="/assets/js/dropdown.js"></script>
+
 	<!-- Google Fonts -->
 	
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -63,34 +66,75 @@
 
         <div class="navbar-collapse collapse navbar-inner">
           
-          <ul class="nav nav-pills navbar-nav right-nav">
-            <li class="dropdown">
-            	<a class="dropdown-toggle" data-toggle="dropdown" href="/about/">About</a>
-	            	<ul class="dropdown-menu">
-	            		<li>
-	            			<a href="/about/">subAbout</a>
-	            		</li>
-	            		<li>
-	            			<a href="/about/">subAbout2</a>
-	            		</li>
-	            		<li>
-	            			<a href="/about/">subAbout3</a>
-	            		</li>
-	            	</ul>
-	            <!-- </a> -->
+        <ul id="sddm" class="nav navbar-nav right-nav"> <!-- RIGHT ALIGNED NAVBAR -->
+        	<li class="dropdown"> 	<!-- ABOUT -->
+            	<a href="/about/" 
+            	onmouseover="mopen('m1')" 
+        		onmouseout="mclosetime()">About
+        		</a>
+            	<div id="m1" onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+            			<a href="/about/">Core Values</a>
+            			<a href="/about/">Our Blog</a>
+            	</div>
+            </li> 
+        	<li class="dropdown">  <!-- FOR ENTREPRENEURS -->
+            	<a href="/for-entrepreneurs/" 
+            	onmouseover="mopen('m2')" 
+        		onmouseout="mclosetime()">For Entrepreneurs
+        		</a>
+            	<div id="m2" onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+            			<a href="/for-entrepreneurs/">Fellowship Program</a>
+            			<a href="/for-entrepreneurs/">5 Across</a>
+            			<a href="/for-entrepreneurs/">Cherub Fund</a>
+            			<a href="/for-entrepreneurs/">Startup Weekend</a>
+            			<a href="/for-entrepreneurs/">Entrepreneur Hall of Fame</a>
+            	</div>
             </li>
-            	
-            <li><a href="/for-entrepreneurs/">For Entrepreneurs</a>
-            	<ul class="menu dropdown-menu">
-            		<li><a href="/about/">sub entrep</a></li>
-            		<li><a href="/about/">sub entrep 2</a></li>
-            		<li><a href="/about/">sub entrep 3</a></li>
-            	</ul>
+        	<li class="dropdown">    <!-- LEARN TO CODE -->
+            	<a href="http://www.awesomeincu.com" 
+            	target="_blank"
+            	onmouseover="mopen('m3')" 
+        		onmouseout="mclosetime()"
+        		>Learn to Code
+        		</a>
+            	<div id="m3" onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+            			<a href="http://www.awesomeincu.com/#courses" target="_blank">Upcoming Classes</a>
+            			<a href="http://www.blog.awesomeincu.com" target="_blank">The Blog</a>
+            			<a href="http://www.awesomeincu.com/register/" target="_blank">Register</a>
+            	</div>
             </li>
-            <li><a href="http://www.awesomeincu.com" target="_blank">Learn to Code</a></li>  
-            <li><a href="/coworking/">Coworking</a></li>
-            <li><a href="/internships/">Internships</a></li>
+        	<li class="dropdown">   <!-- COWORKING -->
+            	<a href="/coworking/" 
+            	onmouseover="mopen('m4')" 
+        		onmouseout="mclosetime()">Coworking
+        		</a>
+            	<div id="m4" onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+            			<a href="/coworking/">Features</a>
+            			<a href="/coworking/">Rent Space</a>
+            			<a href="/coworking/">Events</a>
+            	</div>
+            </li>
+        	<li class="dropdown">	<!-- INTERNSHIPS -->
+            	<a href="/internships/" 
+            	onmouseover="mopen('m5')" 
+        		onmouseout="mclosetime()">Internships
+        		</a>
+            	<div id="m5" onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+            			<a href="/internships/">Apply Now</a>
+            			<a href="/internships/">Who We Are</a>
+            			<a href="/internships/">Members</a>
+            	</div>
+            </li>
+
+
+
           </ul>
+          <div style="clear:both"></div>
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -226,7 +270,7 @@
 	<script type="text/javascript" src="/assets/js/smoothscroll.js"></script>
 	<script type="text/javascript" src="/assets/js/modernizr.custom.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/bootstrap.js"></script>
+   <!-- <script src="/assets/js/bootstrap.js"></script> -->
     <script type="text/javascript" src="/assets/js/main.js"></script>
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
