@@ -1218,7 +1218,7 @@ div.teams-container {
 
 div.teams {
 	padding-top: 50px;
-	margin-left: 15%;
+	margin-left: 100px;
 	height: 100%;
 	float: left;
 }
@@ -1241,7 +1241,7 @@ ul.teams {
 .teams-img {
 	height: 320px;
 	float: right;
-	margin: 50px 14% 40px 0;
+	margin: 5px 0 0 100px;
 }
 
 .culture {
@@ -1281,6 +1281,17 @@ p.story {
 	border: 2px black solid;
 	margin: 50px 35px 40px 0;
 }
+
+div.why{
+	padding: 45px 0 0 45px;
+}
+
+div.what{
+	width: 55%;
+	float: right;
+	text-align: right;
+}
+
 
 /*end internships page */
 
