@@ -1056,6 +1056,51 @@ div.about-page {
 	text-shadow: 1px 3px rgba(0,0,0, 0.5);
 }
 
+
+@media screen and (max-width: 1800px) {
+	#a2 p 
+	{ 
+		font-size: 23px;
+		line-height: 26px;
+		margin: 25px 100px 25px 100px;
+	}
+	#a2 h2 {
+		font-size: 23px;
+	}
+	#a2 img {
+		width: 225px;
+		height: 275px;
+	}
+	#cv h2 {
+		padding-bottom: 15px;
+	}
+}
+
+
+@media screen and (max-width: 550px) {
+	#a2 p 
+	{ 
+		font-size: 15px;
+		line-height: 16px;
+		margin: 10px 10px 10px 10px;
+		width: 225px;
+	}
+	#a2 h2 {
+		font-size: 23px;
+	}
+
+	#cv img {
+		width: 144px;
+		height: 198px;
+		margin-bottom: 10px;
+	}
+
+	#cv h2 {
+		font-size: 23px;
+		padding-left: 10px;
+	}
+}
+
 #a2 {
 	
 	background-color: #bfbfbf;
@@ -1073,12 +1118,10 @@ div.about-page {
 
 #a2 p {
 	font-family: 'open sans';
-	font-size: 23px;
-	line-height: 26px;
+	
 	font-style: normal;
 	font-weight: 600;
 	color: black;
-	margin: 25px 100px 25px 100px;
 }
 
 #cv {
@@ -1094,7 +1137,7 @@ h2.core-value {
 	margin-top: 0px;
 	padding-left: 30px;
 }
-
+/*
 .cv-img-offset {
 	margin-left: 5%;
 }
@@ -1103,7 +1146,9 @@ h2.core-value {
 	width: 15%;
 	margin-right: 9%;
 	box-shadow: 10px 10px 5px 2px #888888;
-}
+}*/
+
+
 
 .cv-img-offset2 {
 	margin-right:0px;
@@ -1286,9 +1331,8 @@ p.story {
 
 /* begin coworking page */
 
-.c2 {
+#c2 {
 	width: 100%;
-	height: 600px;
 	background-color: white;
 
 }
@@ -1316,24 +1360,60 @@ img.tenant {
 	background-color: white;
 }
 
-div.bullet {
-	width: 72px;
-	height: 72px;
-	float: left;
+
+@media screen and (max-width: 1800px) {
+	#b2 p 
+	{ 
+		font-size: 22px;
+		float: right;
+		width: 240px;
+		padding-left: 10px;
+		margin-top: 10px;
+	}
+	#r2 h2 {
+		font-size: 3em;
+	}
 }
 
-/*img.bullet {
-	float: left;
-}*/
+@media screen and (max-width: 1200px) {
+	#b2 p 
+	{ 
+		font-size: 18px;
+		float: right;
+		width: 180px;
 
-#b2 p {
-	margin-top: 10px;
-	float:right;
+	}
+	#b2 img {
+		height: 60px;
+		width: 60px;
+	}	
 }
 
-#b2 img {
-	height: 60px;
-	width: 60px;
+@media screen and (max-width: 600px) {
+	#b2 p 
+	{ 
+		font-size: 14px;
+		float: right;
+	}
+	#c2 h2, #r2 h2 {
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 330px) {
+	#b2 p 
+	{ 
+		font-size: 12px;
+		float: right;
+		width: 100px;
+		margin-top: 0;
+		line-height: 12px;
+	}
+
+	#b2 img {
+		width:25px;
+		height: 25px;
+	}
 }
 
 #b2 div.well {
@@ -1374,8 +1454,6 @@ div.sub-row {
 }
 
 #r2 {
-	height: 1000px;
-	width: 100%;
 	background-color: white;
 }
 
@@ -1385,7 +1463,6 @@ div.sub-row {
 	text-align: center;
 	margin-top: 4%;
 	font-weight: bold;
-	font-size: 3em;
 }
 
 
