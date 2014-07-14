@@ -1202,7 +1202,9 @@ h2.core-value {
 /*Begin Interships page */
 
 div.internship-page {
-	background-image: url("/assets/img/internships.png");
+	background-image: url("/assets/img/TAGroupPic.jpg");
+	width: 100%;
+	height: 300px;
 }
 
 .i2 {
@@ -1286,7 +1288,7 @@ ul.teams {
 .teams-img {
 	height: 320px;
 	float: right;
-	margin: 5px 0 0 100px;
+	margin: 5px 0 50px 125px;
 }
 
 .culture {
@@ -1298,6 +1300,7 @@ ul.teams {
 div.story {
 	height: 15%;
 	width: 45%;
+	float: left;
 	padding: 45px 0 0 45px;
 }
 
@@ -1319,22 +1322,40 @@ p.story {
 	word-spacing: .1em;
 }
 
-.story-img {
-	width: 50%;
+div.story-img{
+	width: 427px;
 	height: 320px;
 	float: right;
-	border: 2px black solid;
-	margin: 50px 35px 40px 0;
+	margin: 75px 100px 0px 0px;
+}
+
+.story-img {
+	height: 320px;
+	width: 427px;
+	float: right;
+	border: 1px black solid;
 }
 
 div.why{
 	padding: 45px 0 0 45px;
+	float: left;
 }
 
 div.what{
 	width: 55%;
 	float: right;
 	text-align: right;
+}
+
+div.what-img{
+	width: 45%;
+	float: left;
+	margin: 20px 0 50px 0;
+}
+
+.what-img{
+	width: 480px;
+	height: 320px;
 }
 
 /*end internships page */
