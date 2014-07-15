@@ -1038,6 +1038,75 @@ div.shadow:hover {
 	background-color:rgb(207, 53, 59);
 }
 
+/*for the entrep page*/
+
+div.entrep-page {
+	background-image: url("/assets/img/entrep-head.jpg");
+	background-size: 100%;
+}
+
+#f2 {
+	background-color: #e2e2e2;
+}
+
+
+@media (max-width: 1800px) {
+	#f2 h2 {
+		color: #2e2e2e;
+		font-weight: 700;
+		font-size: 40px;
+	}
+
+	#f2 p {
+		font-weight: 500;
+		word-spacing: 8px;
+	}
+
+	#f2 a {
+		font-size: 32px;
+		font-weight: 400;
+		font-family: "open sans";
+		word-spacing: 8px;
+		border-radius: 4px;
+		margin-bottom: 20px;
+	}
+
+	#f2 h3 {
+		text-align: center;
+	}
+
+	#f2 img {
+		width: 100%;
+		height: 100%;
+	}
+}
+@media (max-width: 700px) {
+	#f2 h2 {
+		color: #2e2e2e;
+		font-weight: 700;
+		font-size: 25px;
+	}
+
+	#f2 p {
+		font-weight: 500;
+		word-spacing: 4px;
+	}
+
+	#f2 a {
+		font-size: 16px;
+		font-weight: 400;
+		font-family: "open sans";
+		word-spacing: 8px;
+		border-radius: 4px;
+		margin-bottom: 20px;
+	}
+
+	#f2 h3 {text-align: center}
+}
+
+/*end of entrep page */
+
+
 /*for the about page */
 
 div.about-page {
@@ -1357,15 +1426,6 @@ div.what-img{
 
 /*end internships page */
 
-/*begin entrep page*/
-
-div.entrep-page {
-	background-image: url("/assets/img/entrep-head.jpg");
-	background-size: 100%;
-}
-
-/*end entrep page*/
-
 /* begin coworking page */
 
 #c2 {
@@ -1599,20 +1659,6 @@ h3.feature {
 	}
 
 		/* end dropdown */
-
-/*li > ul.menu {
-	display: none;
-}
-
-li.menu:hover > ul {
-	display: block;
-}
-
-li ul.menu:after {
-	content: ""; 
-	clear: both; 
-	display: block;
-}*/
 
 .feature-img-left {
 	background-image: url("/assets/img/Homepage_Icons/Icon_For-Entrepreneurs.png")
