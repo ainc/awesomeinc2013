@@ -1194,9 +1194,6 @@ h2.core-value {
 	margin-bottom: 55px;
 }
 
-
-
-
 /*end about page */
 
 /*Begin Interships page */
@@ -1359,6 +1356,15 @@ div.what-img{
 }
 
 /*end internships page */
+
+/*begin entrep page*/
+
+div.entrep-page {
+	background-image: url("/assets/img/entrep-head.jpg");
+	background-size: 100%;
+}
+
+/*end entrep page*/
 
 /* begin coworking page */
 
