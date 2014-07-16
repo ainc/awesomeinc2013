@@ -1045,21 +1045,33 @@ div.entrep-page {
 	background-size: 100%;
 }
 
+#f2 h2, #across h2, #cherub h2, #startup h2, #hof h2 {
+	color: #2e2e2e;
+	font-weight: 700;
+}
+
+#f2 p, #across p, #cherub p, #startup p, #hof p {
+	font-weight: 500;
+
+}
+
 #f2 {
 	background-color: #e2e2e2;
 }
 
-
 @media (max-width: 1800px) {
 	#f2 h2 {
-		color: #2e2e2e;
-		font-weight: 700;
-		font-size: 40px;
+		
+		font-size: 35px;
 	}
 
 	#f2 p {
 		font-weight: 500;
-		word-spacing: 8px;
+		word-spacing: 4px;
+	}
+
+	.fell-img {
+		padding-top: 25px;
 	}
 
 	#f2 a {
@@ -1087,6 +1099,10 @@ div.entrep-page {
 		font-size: 25px;
 	}
 
+	/*.fell-img {
+		padding-top: 
+	}*/
+
 	#f2 p {
 		font-weight: 500;
 		word-spacing: 4px;
@@ -1104,6 +1120,252 @@ div.entrep-page {
 	#f2 h3 {text-align: center}
 }
 
+#across h2 {
+	color: #2e2e2e;
+	font-weight: 700;
+	text-align: center;
+}
+
+#across p {
+	font-weight: 500;
+	color: #2e2e2e;
+}
+
+#across img {
+	margin: 35px 0 15px 0;
+	width: 100%;
+	height: 100%;
+}
+
+#across a {
+	border-radius: 4px;
+	font-weight: 400;
+	border-color: inherit;
+	font-size: 26px;
+}
+
+@media (max-width: 1800px) {
+	#across h2 {
+		font-size: 40px;
+	}
+
+	#across p {
+		font-size: 27px;
+		line-height: 40px;
+	}
+
+	#across img {
+		margin: 35px 0 15px 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	#across a {
+		font-size: 26px;
+	}
+}
+
+@media (max-width: 1000px) {
+	#across h2 {
+		font-size: 30px;
+	}
+
+	#across p {
+		font-size: 22px;
+		line-height: 25px;
+	}
+
+	#across img {
+		margin: 35px 0 15px 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	#across a {
+		font-size: 16px;
+	}
+}
+
+
+@media (max-width: 700px) {
+	#across h2 {
+		font-size: 25px;
+	}
+
+	#across p {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	#across img {
+		margin: 35px 0 15px 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	#across a {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 400px) {
+	#across h2 {
+		font-size: 25px;
+	}
+
+	#across p {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	#across img {
+		margin: 35px 0 15px 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	#across a {
+		font-size: 10px;
+	}
+}
+
+.across-pitch {
+	background-color: green;
+}
+
+.across-register {
+	background-color: blue;
+}
+
+#cherub {
+	background-color: rgb(255, 222, 223);
+}
+
+#cherub img {
+	width: 95%;
+}
+
+#cherub a {
+	padding: 6px 30%;
+	border-radius: 4px;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+
+#cherub h3 {
+	text-align: center;
+}
+
+@media (max-width: 1800px) {
+	#cherub p {
+		font-size: 25px;
+		line-height: 36px;
+		word-spacing: 7px;
+	}
+	#cherub a {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 1000px) {
+	#cherub p {
+		font-size: 25px;
+		line-height: 29px;
+		word-spacing: 3px;
+	}
+	#cherub a {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 700px) {
+	#cherub p {
+		font-size: 15px;
+		line-height: 17px;
+		word-spacing: 3px;
+	}
+	#cherub h2 {
+		font-size: 20px;
+	}
+	#cherub a {
+		font-size: 16px;
+		padding: 6px 10%;
+	}
+}
+
+@media (max-width: 400px) {
+	#cherub p {
+		font-size: 9px;
+		line-height: 10px;
+	}
+	#cherub h2 {
+		font-size: 12px;
+	}
+	#cherub a {
+		font-size: 9px;
+	}
+}
+
+#startup img {
+	margin: 5%;
+	width: 100%;
+	height: 100%;
+}
+
+#startup h3 {
+	text-align: center;
+}
+
+@media (max-width: 1800px) {
+	#startup p {
+		font-size: 25px;
+		line-height: 36px;
+		word-spacing: 7px;
+	}
+	#startup a {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 1000px) {
+	#startup p {
+		font-size: 25px;
+		line-height: 29px;
+		word-spacing: 3px;
+	}
+	#startup a {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 700px) {
+	#startup p {
+		font-size: 15px;
+		line-height: 17px;
+		word-spacing: 3px;
+	}
+	#startup h2 {
+		font-size: 20px;
+	}
+	#startup a {
+		font-size: 16px;
+		padding: 6px 10%;
+	}
+}
+
+@media (max-width: 400px) {
+	#startup p {
+		font-size: 9px;
+		line-height: 10px;
+	}
+	#startup h2 {
+		font-size: 12px;
+	}
+	#startup a {
+		font-size: 9px;
+	}
+}
+
 /*end of entrep page */
 
 
@@ -1116,8 +1378,7 @@ div.about-page {
 
 .img-overlay {
 	color: white;
-	padding-left: 100px;
-	padding-top: 200px;
+	padding: 200px 0 20px 0;
 	font-family: 'open sans';
 	font-weight: 800;
 	font-size: 80px;
