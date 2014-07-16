@@ -1040,10 +1040,7 @@ div.shadow:hover {
 
 /*for the entrep page*/
 
-div.entrep-page {
-	background-image: url("/assets/img/entrep-head.jpg");
-	background-size: 100%;
-}
+
 
 #fellowship h2, #across h2, #cherub h2, #startup h2, #hof h2 {
 	color: #2e2e2e;
@@ -1075,11 +1072,11 @@ div.entrep-page {
 	#fellowship p, #across p, #cherub p, #startup p, #hof p {
 		font-weight: 500;
 		word-spacing: 4px;
-		font-size: 22px;
+		font-size: 16px;
 	}
 
 	#across p {
-		font-size: 27px;
+		font-size: 22px;
 		line-height: 40px;
 	}
 
@@ -1270,7 +1267,9 @@ div.entrep-page {
 }
 
 #cherub img, #hof img {
-	width: 95%;
+	width: 80%;
+	height: 175px;
+	padding-left: 10%;
 }
 
 #cherub a,  {
@@ -1284,7 +1283,7 @@ div.entrep-page {
 
 @media (max-width: 1800px) {
 	#cherub p {
-		font-size: 25px;
+		font-size: 20px;
 		line-height: 36px;
 		word-spacing: 7px;
 	}
@@ -1295,12 +1294,14 @@ div.entrep-page {
 
 @media (max-width: 1000px) {
 	#cherub p {
-		font-size: 25px;
-		line-height: 29px;
+		line-height: 22px;
 		word-spacing: 3px;
 	}
 	#cherub a {
 		font-size: 22px;
+	}
+	#cherub img {
+		height: 125px;
 	}
 }
 
@@ -1316,6 +1317,9 @@ div.entrep-page {
 	#cherub a {
 		font-size: 16px;
 		padding: 6px 10%;
+	}
+	#cherub img {
+		height: 80px;
 	}
 }
 
@@ -1348,7 +1352,7 @@ div.entrep-page {
 
 @media (max-width: 1800px) {
 	#startup p {
-		font-size: 25px;
+		font-size: 16px;
 		line-height: 36px;
 		word-spacing: 7px;
 	}
@@ -1359,7 +1363,7 @@ div.entrep-page {
 
 @media (max-width: 1000px) {
 	#startup p {
-		font-size: 25px;
+		font-size: 16px;
 		line-height: 29px;
 		word-spacing: 3px;
 	}
@@ -1410,21 +1414,48 @@ div.entrep-page {
 /*end of entrep page */
 
 
-/*for the about page */
+/*for the coworking page */
 
-div.about-page {
-	background-image: url("/assets/img/aboutpage-small.jpg");
-	background-size: 100%;
+div.coworking-page, div.entrep-page, div.internship-page, div.about-page  {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
+
+div.coworking-page { background-image: url("/assets/img/coworking-head.jpg") }
+
+div.entrep-page { background-image: url("/assets/img/entrep-head.jpg") }
+
+div.internship-page { background-image: url("/assets/img/internships-head.jpg") }
+
+div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 
 .img-overlay {
 	color: white;
-	padding: 200px 0 20px 0;
+	padding: 170px 0 40px 0;
 	font-family: 'open sans';
 	font-weight: 800;
 	font-size: 80px;
 	font-style: shadow;
 	text-shadow: 1px 3px rgba(0,0,0, 0.5);
+}
+
+@media screen and (max-width: 1000px) {
+	.img-overlay {
+		font-size: 60px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.img-overlay {
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.img-overlay {
+		font-size: 20px;
+	}
 }
 
 
@@ -1508,18 +1539,6 @@ h2.core-value {
 	margin-top: 0px;
 	padding-left: 30px;
 }
-/*
-.cv-img-offset {
-	margin-left: 5%;
-}
-
-.cv-img {
-	width: 15%;
-	margin-right: 9%;
-	box-shadow: 10px 10px 5px 2px #888888;
-}*/
-
-
 
 .cv-img-offset2 {
 	margin-right:0px;
@@ -1569,162 +1588,225 @@ h2.core-value {
 
 /*Begin Interships page */
 
-div.internship-page {
-	background-image: url("/assets/img/TAGroupPic.jpg");
-	width: 100%;
-	height: 300px;
-}
 
-.i2 {
-	width: 100%;
-	height: 400px;
-}
+#i2 { background-color: #E3E3E3 }
 
-h1.internship {
-	font-family: 'open sans';
-	font-size: 45px;
-	color: #2e2e2e;
-	font-weight: 700;
-	margin-top: 0px;
-	padding-top: 30px;
+#i2 h3 {
 	text-align: center;
 }
 
-p.internship {
-	font-family: 'open sans';
-	font-size: 38px;
-	line-height: 43px;
-	text-align: center;
-	color: #2e2e2e;
-	font-weight: 400;
-	margin: 30px 50px 0 50px;
+@media (max-width: 1800px) {
+
+	h1.internship {
+		font-family: 'open sans';
+		font-size: 35px;
+		color: #2e2e2e;
+		font-weight: 700;
+		margin-top: 0px;
+		padding-top: 30px;
+		text-align: center;
+	}
+	p.internship {
+		font-family: 'open sans';
+		font-size: 28px;
+		line-height: 35px;
+		text-align: center;
+		color: #2e2e2e;
+		font-weight: 400;
+	}
+	#i2 a {
+		font-size: 32px;
+		text-align: center;
+		font-family: "open sans";
+		font-weight: 700;
+		padding: 0 10%;
+		border-radius: 4px;
+	}
+	#i2 h3 {
+		margin-bottom: 30px;
+	}
 }
 
-.apply-container {
-	margin-top: 40px;
-	width: 300px;
-	height:100px;
-	margin-left: auto;
-	margin-right: auto;
+@media (max-width: 1000px) {
+
+	h1.internship {
+		font-size: 30px;
+	}
+	p.internship {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	#i2 a {
+		font-size: 28px;
+	}
+}
+@media (max-width: 700px) {
+
+	h1.internship {
+		font-size: 25px;
+	}
+	p.internship {
+		font-size: 16px;
+		line-height: 17px;
+	}
+	#i2 a {
+		font-size: 23px;
+	}
 }
 
-.btn-ta-apply {
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 40px;
-	font-size: 42px;
-	font-family: 'open sans';
-	padding-right: 100px;
-	padding-left: 100px;
-	font-weight: 600;
-	border-radius: 4px;
-	background-color: rgb(207, 53, 59);
+@media (max-width: 400px) {
+
+	h1.internship {
+		font-size: 20px;
+	}
+	p.internship {
+		font-size: 14px;
+		line-height: 15px;
+	}
+	#i2 a {
+		font-size: 18px;
+	}
 }
 
-.btn-ta-apply:hover {
-	background-color: #d9534f;
-}
-
-div.teams-container {
-	width: 100%;
-	height: 420px;
-	background-color: white;
-}
-
-div.teams {
-	padding-top: 50px;
-	margin-left: 100px;
-	height: 100%;
-	float: left;
-}
-p.teams {
-	font-weight: 600;
-}
-
-p.teams, ul.teams {
-	
-	font-size: 32px;
-	color: rgb(38, 38, 38);
-	font-family: 'open sans';
-}
-
-ul.teams {
+#teams ul {
 	padding-left: 55px;
 	font-weight: 400;
 }
 
-.teams-img {
-	height: 320px;
-	float: right;
-	margin: 5px 0 50px 125px;
+#join {
+	padding-bottom: 25px;
 }
 
-.culture {
-	width: 100%;
-	height: 1000px;
-	background-color: white;
+@media (max-width: 1800px) {
+	#teams h2, #who h2, #why h2, #what h2, #join h2 {
+		font-size: 33px;
+		color: rgb(38, 38, 38);
+		font-family: 'open sans';
+		font-weight: 600;
+	}
+
+	#teams li {
+		font-weight: 400;
+		font-size: 22px;
+		color: rgb(38, 38, 38);	
+	}
+
+	#who p, #why p, #what p, #join p {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 33px;
+		color: rgb(38, 38, 38);
+	}
+
+	#what p, #join p {
+		text-align: justify;
+	}
+
+	#teams img, #who img, #what img, #join img {
+		width: 100%;
+		height: 270px;
+		margin-top: 20px;
+	}
+
+	#who img, #join img {
+		width: 80%;
+		margin-left: 10%;
+		border: solid black 1px;
+	}
+
+	#members h3 {
+		color: rgb(26, 26, 26);
+		font-family: "open sans";
+	}
+
 }
 
-div.story {
-	height: 15%;
-	width: 45%;
-	float: left;
-	padding: 45px 0 0 45px;
+@media (max-width: 700px) {
+	#teams h2, #who h2, #why h2, #what h2, #join h2 {
+		font-size: 25px;
+	}
+
+	#teams li {
+		font-size: 22px;
+	}
+	#teams ul {
+		padding-left: 5px;
+	}
+
+	#who p, #why p, #what p, #join p {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	#teams img, #who img, #what img, #join img {
+		height: 150px;
+	}
+
+	#who img, #join img {
+		width: 80%;
+		margin-left: 10%;
+		border: solid black 1px;
+	}
+	#members h3 {
+		font-size: 20px;
+	}
+}
+@media (max-width: 400px) {
+	#teams h2, #who h2, #why h2, #what h2, #join h2 {
+		font-size: 15px;
+	}
+
+	#teams li {
+		font-size: 10px;
+	}
+
+	#teams img, #who img, #what img, #join img {
+		height: 100px;
+	}
+
+	#who img, #join img {
+		width: 80%;
+		margin-left: 10%;
+		border: solid black 1px;
+	}
+	#who p, #why p, #what p, #join p {
+		font-size: 10px;
+		line-height: 12px;
+	}
+
+	#members h3 {
+		font-size: 15px;
+	}
 }
 
-h1.story {
-	font-family: 'open sans';
-	font-size: 50px;
-	color: #2e2e2e;
+#members { 
+	background-color: #e2e2e2;
+	padding-bottom: 25px;
+}
+
+#members h2 {
+	color: rgb(26, 26, 26);
+	text-align: center;
 	font-weight: 600;
-	margin-top: 0px;
 }
 
-p.story {
-	font-family: 'open sans';
-	font-size: 30px;
-	color: #2e2e2e;
-	line-height: 35px;
-	font-weight: 400;
-	margin-top: 20px;
-	word-spacing: .1em;
+#members img {
+	width: 151px;
+	height: 200px;
 }
 
-div.story-img{
-	width: 427px;
-	height: 320px;
-	float: right;
-	margin: 75px 100px 0px 0px;
+#members div.company-bio p {
+	line-height: 18px;
 }
 
-.story-img {
-	height: 320px;
-	width: 427px;
-	float: right;
-	border: 1px black solid;
+#members div.company-bio br {
+	line-height: 20px;
 }
 
-div.why{
-	padding: 45px 0 0 45px;
-	float: left;
+#members div.company-bio strong {
+	font-weight: 500;
 }
 
-div.what{
-	width: 55%;
-	float: right;
-	text-align: right;
-}
-
-div.what-img{
-	width: 45%;
-	float: left;
-	margin: 20px 0 50px 0;
-}
-
-.what-img{
-	width: 480px;
-	height: 320px;
-}
 
 /*end internships page */
 
@@ -1733,7 +1815,6 @@ div.what-img{
 #c2 {
 	width: 100%;
 	background-color: white;
-
 }
 
 h2.tenant {
@@ -1963,21 +2044,33 @@ h3.feature {
 		/* end dropdown */
 
 .feature-img-left {
+	width: 180px;
+	height: 180px;
 	background-image: url("/assets/img/Homepage_Icons/Icon_For-Entrepreneurs.png")
 }
 .feature-img-left:hover {
+	width: 180px;
+	height: 180px;
 	background-image: url("/assets/img/Homepage_Icons/Icon_For-Entrepreneurs_Red.png")
 }
 .feature-img-center {
+	width: 180px;
+	height: 180px;
 	background-image: url("/assets/img/Homepage_Icons/Icon_Coworking.png")
 }
 .feature-img-center:hover {
+	width: 180px;
+	height: 180px;
 	background-image: url("/assets/img/Homepage_Icons/Icon_Coworking_Red.png")
 }
 .feature-img-right {
+	width: 180px;
+	height: 180px;
 	background-image: url("/assets/img/Homepage_Icons/Icon_LTC.png")
 }	
 .feature-img-right:hover {
+	width: 180px;
+	height: 180px;
 	background-image: url("/assets/img/Homepage_Icons/Icon_LTC_Red.png")
 }
 
