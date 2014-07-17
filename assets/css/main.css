@@ -1949,40 +1949,7 @@ div.sub-row {
 
 /*end coworking page */
 
-div.feature-col {
-	float:left;
-	position: relative;
-	min-height: 1px;
-}
-	
-div.feature {
-    position: relative;	
-	width:33.3%;
-}
 
-p.feature {
-	background-color: white;
-	font-size: 15px;
-	line-height: 19px;
-	font-family: "open sans";
-	max-width: 220px;
-	margin:auto;
-
-}
-
-h3.feature {
-	font-size: 25px;
-	line-height: 22px;
-	font-family: "Open Sans";
-	margin-bottom: 0px;
-}
-
-.feature-img{
- 	display: block;
- 	margin-top: 20px;
- 	width: 98%;
- 	height: 99%;
-}
 
 /* dropdown */
 
@@ -2043,47 +2010,95 @@ h3.feature {
 
 		/* end dropdown */
 
-.feature-img-left {
-	width: 180px;
+
+
+
+.feature-img {
+ 	margin-top: 20px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	width: 180px;
 	height: 180px;
-	background-image: url("/assets/img/Homepage_Icons/Icon_For-Entrepreneurs.png")
+}
+@media (max-width: 1800px) {
+	#features h2 {
+		color: #313131;
+		text-align: center;
+		font-size: 25px;
+		font-weight: 700;
+		line-height: 22px;
+		font-family: "Open Sans";
+		margin-bottom: 15px;
+	}
+
+	#features p {
+		font-size: 18px;
+		text-align: center;
+		font-family: "open sans";
+		font-weight: 400;
+	}
+}
+
+@media (max-width: 1000px) {
+	#features h2 {
+		font-size: 20px;
+		line-height: 22px;
+	}
+
+	#features p {
+		font-size: 13px;
+	}
+	.feature-img {
+		width: 100px;
+		height: 100px;
+	}
+
+
+}
+@media (max-width: 400px) {
+	#features h2 {
+		font-size: 15px;
+		line-height: 16px;
+	}
+
+	#features p {
+		font-size: 10px;
+		line-height: 12px;
+	}
+	.feature-img {
+		width: 80px;
+		height: 80px;
+	}
+}
+
+
+
+
+.feature-img-left {
+	background-image: url("/assets/img/Homepage_Icons/Icon_For-Entrepreneurs.png");
+	background-size:cover;
 }
 .feature-img-left:hover {
-	width: 180px;
-	height: 180px;
-	background-image: url("/assets/img/Homepage_Icons/Icon_For-Entrepreneurs_Red.png")
+	background-image: url("/assets/img/Homepage_Icons/Icon_For-Entrepreneurs_Red.png");
+	background-size:cover;
 }
 .feature-img-center {
-	width: 180px;
-	height: 180px;
-	background-image: url("/assets/img/Homepage_Icons/Icon_Coworking.png")
+	background-image: url("/assets/img/Homepage_Icons/Icon_Coworking.png");
+	background-size:cover;
 }
 .feature-img-center:hover {
-	width: 180px;
-	height: 180px;
-	background-image: url("/assets/img/Homepage_Icons/Icon_Coworking_Red.png")
+	background-image: url("/assets/img/Homepage_Icons/Icon_Coworking_Red.png");
+	background-size:cover;
 }
 .feature-img-right {
-	width: 180px;
-	height: 180px;
-	background-image: url("/assets/img/Homepage_Icons/Icon_LTC.png")
+	background-image: url("/assets/img/Homepage_Icons/Icon_LTC.png");
+	background-size:cover;
 }	
 .feature-img-right:hover {
-	width: 180px;
-	height: 180px;
-	background-image: url("/assets/img/Homepage_Icons/Icon_LTC_Red.png")
+	background-image: url("/assets/img/Homepage_Icons/Icon_LTC_Red.png");
+	background-size:cover;
 }
 
-.feature-span{
-	width: 185px;
-	height: 185px;
- 	display: block;
- 	margin: auto;
-}
-
-.long-feature {
-	font-size: 25px;
-}
  
 div.feature a {
 	    position: relative;
