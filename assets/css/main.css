@@ -2063,7 +2063,8 @@ div.sub-row {
 		margin: 0;
 		padding: 5px 10px;
 		width: auto;
-		color: rgb(207, 53, 59);
+		
+		color: #313131;
 		white-space: nowrap;
 		text-align: center;
 	}
@@ -2072,7 +2073,7 @@ div.sub-row {
 	{	
 		/*background: #49A3FF;
 		color: #FFF*/
-		color: #313131;
+		color: rgb(207, 53, 59);
 	}
 
 @media (max-width: 768px) {
@@ -2083,9 +2084,6 @@ div.sub-row {
 }
 
 		/* end dropdown */
-
-
-
 
 .feature-img {
  	margin-top: 20px;
