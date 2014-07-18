@@ -4,6 +4,7 @@ $(document).ready(function() {
 	$("#mid-content").hide();
 	$("#right-content").hide();
 	$(".company-bio").hide();
+	$(".ta-bio").hide();
 
 	$("#top-div-left").hover(function() {
 		$("#idea-img").hide();
@@ -73,6 +74,49 @@ $(document).ready(function() {
 	                break;
 		    }
 		});
+// hover over team alpha img
+		$(".ta-port").hover(function(e) {
+					var time = 300;
+					var pos = $(this).offset();
+				    var edge = closestEdge(e.pageX, e.pageY, pos.left, pos.top, $(this).width(), $(this).height());
+
+				    var bio = $(this).closest('div').find('.ta-bio');
+				    switch (edge) {
+			            case "left":
+			            	bio.show('slide', { direction: 'left' }, time);
+			                break;
+			            case "right":
+			                bio.show('slide', { direction: 'right' }, time);
+			                break;
+			            case "top":
+			                bio.show('slide', { direction: 'up' }, time);
+			                break;
+			            case "bottom":
+			                bio.show('slide', { direction: 'down' }, time);
+			                break;
+				    }
+				},
+				function(e) {
+					var time = 150;
+					var pos = $(this).offset();
+				    var edge = closestEdge(e.pageX, e.pageY, pos.left, pos.top, $(this).width(), $(this).height());
+
+				    var bio = $(this).closest('div').find('.ta-bio');
+				    switch (edge) {
+			            case "left":
+			            	bio.hide('slide', { direction: 'left' }, time);
+			                break;
+			            case "right":
+			                bio.hide('slide', { direction: 'right' }, time);
+			                break;
+			            case "top":
+			                bio.hide('slide', { direction: 'up' }, time);
+			                break;
+			            case "bottom":
+			                bio.hide('slide', { direction: 'down' }, time);
+			                break;
+				    }
+				});
 
 	function closestEdge(x,y,l,t,w,h) {
 			var r = l + w;

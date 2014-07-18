@@ -918,6 +918,35 @@ p > tag {
   border-radius: 5px;
 }
 
+.ta-port {
+	width: 151px;
+	height: 195px;
+	margin: 7px;
+}
+.ta-port img {
+	position: absolute;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.ta-port:hover {
+	border: 1px solid #d9534f;
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.05),0 0 10px #d9534f;
+}
+.ta-bio {
+	background-color: rgba(210,50,45,0.8);
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	overflow: auto;
+}
+.ta-bio p {
+	margin: 0;
+	font-size: 1.1em;
+}
+
+
 .company-port {
 	width: 195px;
 	height: 195px;
@@ -1442,6 +1471,8 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 	text-shadow: 1px 3px rgba(0,0,0, 0.5);
 }
 
+
+
 @media screen and (max-width: 1000px) {
 	.img-overlay {
 		font-size: 60px;
@@ -1458,6 +1489,13 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 	}
 }
 
+#r2 p {
+	text-align: center;
+	font-family: "open sans";
+	font-weight: 500;
+	color:#2e2e2e;
+	font-size: 20px;
+}
 
 @media screen and (max-width: 1800px) {
 	#a2 p 
@@ -1476,11 +1514,19 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 	#cv h2 {
 		padding-bottom: 15px;
 	}
+	#r2 h3 {
+		text-align: center;
+	}
+	#r2 a {
+		font-size: 20px;
+		border-radius: 4px;
+		font-weight: 500;
+	}
 }
 
 
 @media screen and (max-width: 550px) {
-	#a2 p 
+	#a2 p  
 	{ 
 		font-size: 15px;
 		line-height: 16px;
@@ -1501,6 +1547,12 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 		font-size: 23px;
 		padding-left: 10px;
 	}
+	#r2 p {
+		font-size: 15px;
+	}
+	#r2 a {
+		font-size: 10px;
+	}
 }
 
 #a2 {
@@ -1517,6 +1569,9 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 	font-family: 'open sans';
 	text-align: center;
 }
+
+
+
 
 #a2 p {
 	font-family: 'open sans';
@@ -1795,15 +1850,15 @@ h2.core-value {
 	height: 200px;
 }
 
-#members div.company-bio p {
+#members div.ta-bio p {
 	line-height: 18px;
 }
 
-#members div.company-bio br {
+#members div.ta-bio br {
 	line-height: 20px;
 }
 
-#members div.company-bio strong {
+#members div.ta-bio strong {
 	font-weight: 500;
 }
 
@@ -1878,6 +1933,10 @@ img.tenant {
 	#c2 h2, #r2 h2 {
 		font-size: 22px;
 	}
+
+	#r2 p {
+		font-size: 
+	}
 }
 
 @media screen and (max-width: 330px) {
@@ -1944,8 +2003,6 @@ div.sub-row {
 	margin-top: 4%;
 	font-weight: bold;
 }
-
-
 
 /*end coworking page */
 
