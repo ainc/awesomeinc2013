@@ -467,6 +467,7 @@ input[type="submit"] {
 	color: black;
 	font-size: 17px;
 	line-height: 20px;
+	margin-bottom: 0;
 }
 
 #foot-btn {
@@ -2006,7 +2007,15 @@ div.sub-row {
 
 /*end coworking page */
 
+/*footer signup*/
 
+.footer-signup input {
+	background-color: #d9534f
+}
+
+.footer-signup input:hover {
+	background-color: #d43f3a
+}
 
 /* dropdown */
 
