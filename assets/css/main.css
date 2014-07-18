@@ -1284,11 +1284,11 @@ div.shadow:hover {
 }
 
 .across-pitch {
-	background-color: green;
+	background-color: rgb(135, 170, 59);
 }
 
 .across-register {
-	background-color: blue;
+	background-color: rgb(28, 115, 186);
 }
 
 #cherub {
