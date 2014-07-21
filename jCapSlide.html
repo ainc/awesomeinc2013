@@ -1,0 +1,172 @@
+---
+layout: page
+permalink: capslide/
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>jQuery Image Caption Slide - jCapSlide</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="jQuery Image Caption Slide - jCapSlide" />
+        <meta name="keywords" content="jquery, plugin, image, caption, fancy, sliding" />
+        <style>
+            body{
+                background: #F5FAFB url(bg.png) repeat-x top left;
+                font-family: arial;
+                margin:0px;
+            }
+            .header{
+                position:absolute;
+                top:0px;
+                left:0px;
+                width:100%;
+                height:77px;
+            }
+            .header h1{
+                color:#777;
+                font-size: 38px;
+                margin:0px 0px 0px 30px;
+                font-weight:100;
+                line-height:80px;
+                padding:0px;
+            }
+            .footer{
+                width:100%;
+                margin:10px 0px 5px 0px;
+            }
+            a img{
+                border:none;
+                outline:none;
+            }
+            .ad{
+                position:absolute;
+                right:10px;
+                top:5px;
+                width:470px;
+                height:70px;
+            }
+            .content{
+                margin-top:80px;
+                padding:0px;
+                bottom:0px;
+            }
+            .about{
+                width:100%;
+                height:200px;
+                background-color:#AFD9E4;
+                border-top:2px solid #fff;
+                border-bottom:2px solid #fff;
+                clear:both;
+            }
+            .about .text{
+                width:45%;
+                margin:5px 2% 10px 2%;
+                height:180px;
+                float:left;
+                color:#444;
+                font-size: 12px;
+                text-align:justify;
+                letter-spacing:0px;
+            }
+            .about .text h1{
+                border-bottom: 1px dashed #fff;
+                color:#fff;
+            }
+            .demo{
+                float:left;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>jCapSlide</h1>
+        </div>
+        <div class="content">
+           
+            <div class="demo">
+                <div id="capslide_img_cont" class="ic_container">
+                    <img src="/assets/img/teamalpha/benchildress.jpg" width="180" height="240" alt=""/>
+                    <div class="overlay" style="display:none;"></div>
+                    <div class="ic_caption">
+                        
+                        <h3>Ben Childress</h3>
+                        <p class="ic_text">
+                        <b>Favorite Rule</b><br>
+                        Rule #21: The universal principle and indeed the purpose of life, business, sports, and all competition: Dominate
+                        <br><b>Favorite Song</b><br>
+                        Hollywood Cemetery Forever by Father John Misty 
+                        <br><b>Favorite Awesome Person</b><br>
+                        Mark Cuban
+                        <br><b>Random Fact</b><br>
+                        I'm an identical triplet and I have been to a ghost-hunting seminar. 
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="demo">
+                <div id="capslide_img_cont2" class="ic_container">
+                    <img src="/assets/img/teamalpha/petraronald.jpg" width="180" height="240" alt=""/>
+                    <div class="overlay" style="display:none;"></div>
+                    <div class="ic_caption">
+                        <h3>Petra Arnold</h3>
+                        <p class="ic_text">
+                           <b>Favorite Rule</b><br>
+                            Rule #21: The universal principle and indeed the purpose of life, business, sports, and all competition: Dominate.
+                            <br><b>Favorite Song</b><br>
+                            Dear Professor by the Dean's List
+                            <br><b>Favorite Awesome Person</b><br>
+                            Stephen Colbert
+                            <br><b>Random Fact</b><br>
+                            I grew up wanting to be Elle Woods from Legally Blonde. (I don't know what happened either.) 
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="demo">
+                <div id="capslide_img_cont3" class="ic_container">
+                    <img src="/assets/img/teamalpha/sarahhoffmann.jpg" width="180" height="240" alt=""/>
+                    <div class="overlay" style="display:none;"></div>
+                    <div class="ic_caption">
+                        <h3>Sarah Hoffman</h3>
+                        <p class="ic_text">
+                            <b>Favorite Rule</b><br>
+                            Rule #22: Go big or don't be my friend.
+                            <br><b>Favorite Song</b><br>
+                            New Perspective by Panic! at the Disco 
+                            <br><b>Favorite Awesome Person</b><br>
+                            John and Hank Green
+                            <br><b>Random Fact</b><br>
+                            I'm a lefty!
+                    </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="demo">
+                <div id="capslide_img_cont4" class="ic_container">
+                    <img src="/assets/img/teamalpha/maggiebellhorn.jpg" width="180" height="240" alt=""/>
+                    <div class="overlay" style="display:none;"></div>
+                    <div class="ic_caption">
+                        <h3>Maggie Bellhorn</h3>
+                        <p class="ic_text">
+                            <b>Favorite Rule</b><br>
+                            Rule #4: Always do something awesome over something not awesome
+                            <br><b>Favorite Song</b><br>
+                            I and Love and You by The Avett Brothers
+                            <br><b>Favorite Awesome Person</b><br>
+                            C.S. Lewis
+                            <br><b>Random Fact</b><br>
+                            I have two fake teeth and cow bone in my jaw.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <script type="text/javascript" src="/assets/js/jquery-1.3.2.js"></script>
+        <script src="/assets/js/jquery.capSlide.js" type="text/javascript"></script>
+        
+    </body>
+</html>

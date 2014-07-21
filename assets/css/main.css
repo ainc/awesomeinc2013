@@ -1149,8 +1149,8 @@ div.shadow:hover {
 	}
 
 	#fellowship img {
-		width: 100%;
-		height: 100%;
+		width: 125%;
+		height: 125%;
 	}
 }
 
@@ -1666,6 +1666,8 @@ h2.core-value {
 /*end about page */
 
 /*Begin Interships page */
+
+
 
 
 #i2 { background-color: #E3E3E3 }
