@@ -51,7 +51,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #d9534f;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -1670,7 +1670,7 @@ h2.core-value {
 
 #i2 { background-color: #E3E3E3 }
 
-#i2 h3 {
+#i2 h3, .ta-apply {
 	text-align: center;
 }
 
@@ -1693,7 +1693,7 @@ h2.core-value {
 		color: #2e2e2e;
 		font-weight: 400;
 	}
-	#i2 a {
+	#i2 a, .ta-apply a {
 		font-size: 26px;
 		text-align: center;
 		font-family: "open sans";
@@ -1701,7 +1701,7 @@ h2.core-value {
 		padding: 0 10%;
 		border-radius: 4px;
 	}
-	#i2 h3 {
+	#i2 h3, .ta-apply {
 		margin-bottom: 30px;
 	}
 }
@@ -1715,7 +1715,7 @@ h2.core-value {
 		font-size: 20px;
 		line-height: 24px;
 	}
-	#i2 a {
+	#i2 a, .ta-apply a {
 		font-size: 28px;
 	}
 }
@@ -1728,7 +1728,7 @@ h2.core-value {
 		font-size: 16px;
 		line-height: 17px;
 	}
-	#i2 a {
+	#i2 a, .ta-apply a {
 		font-size: 23px;
 	}
 }
@@ -1742,7 +1742,7 @@ h2.core-value {
 		font-size: 14px;
 		line-height: 15px;
 	}
-	#i2 a {
+	#i2 a, .ta-apply a {
 		font-size: 18px;
 	}
 }
