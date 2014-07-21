@@ -1671,6 +1671,7 @@ h2.core-value {
 #i2 { background-color: #E3E3E3 }
 
 #i2 h3, .ta-apply {
+	margin-top: 0;
 	text-align: center;
 }
 
