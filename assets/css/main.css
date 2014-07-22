@@ -1535,6 +1535,11 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 	text-transform: uppercase;
 }
 
+#cv img {
+	width: 95%;
+	box-shadow: 5px 5px 5px #2e2e2e;
+}
+
 @media screen and (max-width: 1800px) {
 	#a2 p 
 	{ 
@@ -1577,8 +1582,8 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 	}
 
 	#cv img {
-		width: 144px;
-		height: 198px;
+		padding-right: 0;
+		box-shadow: 10px 10px 5px #2f2f2f;
 		margin-bottom: 10px;
 	}
 
@@ -1599,7 +1604,6 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 }
 
 #a2 {
-	
 	background-color: #bfbfbf;
 }
 
@@ -1612,9 +1616,6 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 	font-family: 'open sans';
 	text-align: center;
 }
-
-
-
 
 #a2 p {
 	font-family: 'open sans';
@@ -1637,6 +1638,8 @@ h2.core-value {
 	margin-top: 0px;
 	padding-left: 30px;
 }
+
+
 
 .cv-img-offset2 {
 	margin-right:0px;
