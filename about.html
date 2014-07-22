@@ -41,10 +41,65 @@ permalink: about/
 
 <span class="anchor" id="our-blog"></span>
 <div class="tumblr-container" id="our-blog">
-	<h2 > <a href="http://www.blog.awesomeinc.org" targer="blank">Our Blog</a> </h2>
+	<h1> <a href="http://www.blog.awesomeinc.org" targer="blank">Our Blog</a> </h1>
 	<div  class="container">
-    	<div style="overflow:scroll; height:800px;" class="row tumblr-blog">
-        	<script type='text/javascript' src='http://awesomeinclex.tumblr.com/js'></script> <!--  THE BLOG -->
+    	<!-- <div style="overflow:scroll; height:800px;" class="row tumblr-blog"> -->
+    	
+    		<script type="text/javascript" src="http://blog.awesomeinc.org/api/read/json/"></script>
+		<div class="col-xs-6">
+			<div id="blog-post">
+				<script type="text/javascript">
+					var blogLength = 500;
+					document.write(
+					    '<h2><a href="' + tumblr_api_read['posts'][0]['url'] + 
+				        '">' + tumblr_api_read['posts'][0]['regular-title'] + '</a></h2>'	        
+			    	);
+			    	document.write(
+					    '<a href="' + tumblr_api_read['posts'][0]['url'] + 
+				        '">' + tumblr_api_read['posts'][0]['regular-body'].substring(0, blogLength) + '</a>'	        
+			    	);
+			    	document.write(
+					    '<a href="' + tumblr_api_read['posts'][0]['url'] + 
+				        '">' + "...Read More" + '</a>'	        
+			    	);
+				</script> 
+   			</div>
+   		</div>
+   		<div class="col-xs-6">
+   			<div id="blog-post">
+	   			<script type="text/javascript">
+					var blogLength = 250;
+					document.write(
+					    '<h2><a href="' + tumblr_api_read['posts'][1]['url'] + 
+				        '">' + tumblr_api_read['posts'][1]['regular-title'] + '</a></h2>'	        
+			    	);
+			    	document.write(
+					    '<a href="' + tumblr_api_read['posts'][1]['url'] + 
+				        '">' + tumblr_api_read['posts'][1]['regular-body'].substring(0, blogLength) + '</a>'	        
+			    	);
+			    	document.write(
+					    '<a href="' + tumblr_api_read['posts'][1]['url'] + 
+				        '">' + "...Read More" + '</a>'	        
+			    	);
+				</script> 
+			</div>
+				<div id="blog-post">
+	   			<script type="text/javascript">
+					var blogLength = 250;
+					document.write(
+					    '<h2><a href="' + tumblr_api_read['posts'][2]['url'] + 
+				        '">' + tumblr_api_read['posts'][2]['regular-title'] + '</a></h2>'	        
+			    	);
+			    	document.write(
+					    '<a href="' + tumblr_api_read['posts'][2]['url'] + 
+				        '">' + tumblr_api_read['posts'][2]['regular-body'].substring(0, blogLength) + '</a>'	        
+			    	);
+			    	document.write(
+					    '<a href="' + tumblr_api_read['posts'][2]['url'] + 
+				        '">' + "...Read More" + '</a>'	        
+			    	);
+				</script> 
+			</div>
    		</div>
 	</div>
 </div>
