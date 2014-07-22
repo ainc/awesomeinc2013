@@ -1514,8 +1514,8 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 #r2 img {
 	margin-left: 10%;
 	border-radius: 4px;
-	width: 80%;
-	height: 80%;
+	width: 280px;
+	height: 187px;
 }
 
 #r2 p {
@@ -1523,16 +1523,16 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 	font-family: "open sans";
 	font-weight: 500;
 	color:#2e2e2e;
-	font-size: 20px;
+	font-size: 15px;
+	margin-top: 10px;
 }
 
 #c2 a {
 	font-family: "open sans";
-	background-color: rgb(52, 52, 52);
-	border-color: rgb(52, 52, 52);
+	background-color: rgb(207, 53, 59);
 	border-radius: 2px;
-	font-weight: 500;
-
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 @media screen and (max-width: 1800px) {
