@@ -1592,6 +1592,10 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 	#r2 a, #c2 a {
 		font-size: 10px;
 	}
+	#r2 img {
+		width: 80%;
+		height: 80%;
+	}
 }
 
 #a2 {
