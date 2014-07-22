@@ -50,20 +50,26 @@ permalink: about/
 			<div id="blog-post">
 				<script type="text/javascript">
 					var blogLength = 500;
+					// blog title
 					document.write(
 					    '<h2><a href="' + tumblr_api_read['posts'][0]['url'] + 
 				        '">' + tumblr_api_read['posts'][0]['regular-title'] + '</a></h2>'	        
 			    	);
+			    	//blog body
 			    	document.write(
 					    '<a href="' + tumblr_api_read['posts'][0]['url'] + 
-				        '">' + tumblr_api_read['posts'][0]['regular-body'].substring(0, blogLength) + '</a>'	        
+				        '">' + tumblr_api_read['posts'][0]['regular-body'].substring(0, blogLength) + '</a>'       
 			    	);
+			    	// read more link
 			    	document.write(
 					    '<a href="' + tumblr_api_read['posts'][0]['url'] + 
-				        '">' + "...Read More" + '</a>'	        
+				        '">' + " ... Read More" + '</a>'	        
 			    	);
 				</script> 
    			</div>
+   			<h3>
+   				<a type="button" class="smoothScroll btn btn-danger btn-large view-blog" href="http://blog.awesomeinc.org" target="_blank">View blog</a>	
+   			</h3>
    		</div>
    		<div class="col-xs-6">
    			<div id="blog-post">
@@ -79,7 +85,7 @@ permalink: about/
 			    	);
 			    	document.write(
 					    '<a href="' + tumblr_api_read['posts'][1]['url'] + 
-				        '">' + "...Read More" + '</a>'	        
+				        '">' + " ... Read More" + '</a>'	        
 			    	);
 				</script> 
 			</div>
@@ -96,7 +102,7 @@ permalink: about/
 			    	);
 			    	document.write(
 					    '<a href="' + tumblr_api_read['posts'][2]['url'] + 
-				        '">' + "...Read More" + '</a>'	        
+				        '">' + " ... Read More" + '</a>'	        
 			    	);
 				</script> 
 			</div>

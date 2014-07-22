@@ -1476,7 +1476,7 @@ div.coworking-page { background-image: url("/assets/img/coworking-head.jpg") }
 
 div.entrep-page { background-image: url("/assets/img/entrep-head.jpg"); margin-top:20px; }
 
-div.internship-page { background-image: url("/assets/img/internships-head.jpg") }
+div.internship-page { background-image: url("/assets/img/internships-tree.jpg") }
 
 div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 
@@ -1511,7 +1511,12 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 
 /*for the coworking page */
 
-
+#r2 img {
+	margin-left: 10%;
+	border-radius: 4px;
+	width: 80%;
+	height: 80%;
+}
 
 #r2 p {
 	text-align: center;
@@ -1519,6 +1524,15 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 	font-weight: 500;
 	color:#2e2e2e;
 	font-size: 20px;
+}
+
+#c2 a {
+	font-family: "open sans";
+	background-color: rgb(52, 52, 52);
+	border-color: rgb(52, 52, 52);
+	border-radius: 2px;
+	font-weight: 500;
+
 }
 
 @media screen and (max-width: 1800px) {
@@ -1538,10 +1552,11 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 	#cv h2 {
 		padding-bottom: 15px;
 	}
-	#r2 h3 {
+	#r2 h3, #c2 h3 {
 		text-align: center;
+		margin-bottom: 20px;
 	}
-	#r2 a {
+	#r2 a, #c2 a {
 		font-size: 20px;
 		border-radius: 4px;
 		font-weight: 500;
@@ -1557,7 +1572,7 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 		margin: 10px 10px 10px 10px;
 		width: 225px;
 	}
-	#a2 h2 {
+	#a2 h2, #c2 h3 {
 		font-size: 23px;
 	}
 
@@ -1574,7 +1589,7 @@ div.about-page { background-image: url("/assets/img/aboutpage-small.jpg") }
 	#r2 p {
 		font-size: 15px;
 	}
-	#r2 a {
+	#r2 a, #c2 a {
 		font-size: 10px;
 	}
 }
@@ -1627,8 +1642,18 @@ h2.core-value {
 	font-family: "open sans";
 }
 
+.tumblr-container h3 {
+	text-align: center;
+}
+
+.view-blog {
+	font-weight: 500;
+	font-size: 30px;
+	border-radius: 2px;
+}
+
 .tumblr-container div#blog-post {
-	border: black solid 2px;
+	background-color: #e2e2e2;
 	border-radius: 4px;
 	padding: 5%;
 	margin: 1%;
@@ -1636,11 +1661,13 @@ h2.core-value {
 }
 .tumblr-container h1 {
 	font-size: 35px;
+	font-weight: bold;
 	text-align: center;
 }
 
 .tumblr-container h2 {
 	font-size: 25px;
+	font-weight: bold;
 	text-align: center;
 }
 
@@ -1944,7 +1971,6 @@ img.tenant {
 	width: 75%;
 	height: 80%;
 	margin-left: 12.5%;
-	padding-top: 30px;
 }
 
 #b2 {
