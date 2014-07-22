@@ -1632,8 +1632,8 @@ h2.core-value {
 	border-radius: 4px;
 	padding: 5%;
 	margin: 1%;
+	line-height: 28px;
 }
-
 .tumblr-container h1 {
 	font-size: 35px;
 	text-align: center;
@@ -1647,6 +1647,48 @@ h2.core-value {
 .tumblr-container p {
 	font-size: 15px;
 }
+
+@media (max-width: 1000px) {
+	.tumblr-container h1 {
+		font-size: 30px;
+	}
+
+	.tumblr-container h2 {
+		font-size: 20px;
+	}
+
+	.tumblr-container p {
+		font-size: 12px;
+	}
+}
+@media (max-width: 700px) {
+	.tumblr-container h1 {
+		font-size: 22px;
+	}
+
+	.tumblr-container h2 {
+		font-size: 18px;
+	}
+
+	.tumblr-container p {
+		font-size: 12px;
+		line-height: 14px;
+	}
+}
+@media (max-width: 300px) {
+	.tumblr-container h1 {
+		font-size: 18px;
+	}
+
+	.tumblr-container h2 {
+		font-size: 15px;
+	}
+
+	.tumblr-container p {
+		font-size: 10px;
+	}
+}
+
 
 
 /*end about page */
