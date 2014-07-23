@@ -65,14 +65,13 @@ permalink: about/
 			    	);
 			    	//blog body
 			    	document.write(
-					    '<a href="' + tumblr_api_read['posts'][0]['url'] + 
-				        '">' + tumblr_api_read['posts'][0]['regular-body'].substring(0, blogLength) + '</a>'       
+					    '<p>' + tumblr_api_read['posts'][0]['regular-body'].substring(0, blogLength) + '<a href="' + tumblr_api_read['posts'][0]['url'] + '">' + " ... Read More" + '</a></p>'      
 			    	);
 			    	// read more link
-			    	document.write(
-					    '<a href="' + tumblr_api_read['posts'][0]['url'] + 
-				        '">' + " ... Read More" + '</a>'	        
-			    	);
+			    	//document.write(
+					//    '<a href="' + tumblr_api_read['posts'][0]['url'] + 
+				    //    '">' + " ... Read More" + '</a>'	        
+			    	//);
 				</script> 
    			</div>
    			<h3>
