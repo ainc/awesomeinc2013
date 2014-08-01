@@ -6,145 +6,77 @@ layout: page
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
 
   <div class="video" id="player">
-
+<iframe width="100%" height="100%" src="//www.youtube.com/embed/KwCReTRSfV8?list=PL_YvoQ-KM3YEGsbq_L-2AShgBIEuqRfQz" frameborder="0" allowfullscreen></iframe>
 </div>
-<script language="JavaScript"  type="text/javascript">
-(function() {
-    function createPlayer(jqe, video, options) {
-        var ifr = $('iframe', jqe);
-        if (ifr.length === 0) {
-            ifr = $('<iframe scrolling="no">');
-            ifr.addClass('player');
-        }
-        var src = 'http://www.youtube.com/embed/' + video.id;
-        if (options.playopts) {
-            src += '?';
-            for (var k in options.playopts) {
-                src+= k + '=' + options.playopts[k] + '&';
-            }  
-            src += '_a=b';
-        }
-        ifr.attr('src', src);
-        jqe.append(ifr);  
-    }
-    
-    function createCarousel(jqe, videos, options) {
-        var car = $('div.carousel', jqe);
-        if (car.length === 0) {
-            car = $('<div>');
-            car.addClass('carousel');
-            jqe.append(car);
-            
-        }
-        $.each(videos, function(i,video) {
-            options.thumbnail(car, video, options); 
-        });
-    }
-    
-    function createThumbnail(jqe, video, options) {
-        var imgurl = video.thumbnails[0].url;
-        var img = $('img[src="' + imgurl + '"]');
-        if (img.length !== 0) return;
-        img = $('<img>');    
-        img.addClass('thumbnail');
-        jqe.append(img);
-        img.attr('src', imgurl);
-        img.attr('title', video.title);
-        img.click(function() {
-            options.player(options.maindiv, video, $.extend(true,{},options,{playopts:{autoplay:1}}));
-        });
-    }
-    
-    var defoptions = {
-        autoplay: false,
-        user: null,
-        carousel: createCarousel,
-        player: createPlayer,
-        thumbnail: createThumbnail,
-        loaded: function() {},
-        playopts: {
-            autoplay: 0,
-            egm: 1,
-            autohide: 1,
-            fs: 1,
-            showinfo: 0
-        }
-    };
-    
-    
-    $.fn.extend({
-        youTubeChannel: function(options) {
-            var md = $(this);
-            md.addClass('youtube');
-            md.addClass('youtube-channel');
-            var allopts = $.extend(true, {}, defoptions, options);
-            allopts.maindiv = md;
-            $.getJSON('http://gdata.youtube.com/feeds/users/' + allopts.user + '/uploads?alt=json-in-script&format=5&callback=?', null, function(data) {
-                var feed = data.feed;
-                var videos = [];
-                $.each(feed.entry, function(i, entry) {
-                    var video = {
-                        title: entry.title.$t,
-                        id: entry.id.$t.match('[^/]*$'),
-                        thumbnails: entry.media$group.media$thumbnail
-                    };
-                    videos.push(video);
-                });
-                allopts.allvideos = videos;
-                allopts.carousel(md, videos, allopts);
-                allopts.player(md, videos[0], allopts);
-                allopts.loaded(videos, allopts);
-            });
-        } 
-    });
-    
-})();
-        
-$(function channel() {
-    $('#player').youTubeChannel({user:'AincTelevision'});
-}); </script> 
+
 
  <style type="text/css">
-#player {
-    width: 435px;
-    height: 300px;
-    overflow: hidden;
-    background: gray;
-    border: solid 2px gray;
-    margin: 100px 0 0 468px;
-}
+@media (max-width: 1800px) {
 
-.youtube .carousel {
-    width: 20%;
-    height: 100%;
-    overflow: auto;
-    position: absolute;
-    right: 0px;
-    z-index: 3;
-}
+    #player {
+        width: 700px;
+        height: 500px;
+        overflow: hidden;
+        background: gray;
+        border: solid 2px gray;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+    }
 
-.youtube .thumbnail {
-    margin: 2px;
-    width: 80%;
-    border: 1px solid black;  
-}
+    .youtube .carousel {
+        width: 20%;
+        height: 100%;
+        overflow: auto;
+        position: absolute;
+        right: 0px;
+        z-index: 3;
+    }
 
-.youtube iframe.player {
-    width: 80%;
-    height: 300px;  
-    overflow: auto;
-    border: 0;
+    .youtube .thumbnail {
+        margin: 2px;
+        width: 80%;
+        border: 1px solid black;  
+    }
+
+    .youtube iframe.player {
+        width: 80%;
+        height: 300px;  
+        overflow: auto;
+        border: 0;
+    }
+}
+@media (max-width: 1000px) {
+    #player {
+        width: 650px;
+        height: 450px;
+        margin-top: 100px;
+    }
+}
+@media (max-width: 700px) {
+    #player {
+        width: 400px;
+        height: 325px;
+        margin-top: 100px;
+    }
+}
+@media (max-width: 400px) {
+    #player {
+        width: 200px;
+        height: 175px;
+        margin-top: 100px;
+    }
 }
         </style>
 
 
-
+<!-- 
 
 
 <br><br><br>
 <p>
-<a href="/whats-awesome-this-week/#apr042014">April 4, 2013- 5 Year Anniversary</a><br>
-<a href="/whats-awesome-this-week/#mar092014">March 9, 2013- 5 Across</a><br>
+<a href="/whats-awesome-this-week/#apr042014">April 4, 2014- 5 Year Anniversary</a><br>
+<a href="/whats-awesome-this-week/#mar092014">March 9, 2014- 5 Across</a><br>
 <a href="/whats-awesome-this-week/#nov292013">Nov 29, 2013- Startup Weekend</a><br>
 <a href="/whats-awesome-this-week/#nov222013">Nov 22, 2013- Entrepreneur Hall of Fame</a><br>
 <a href="/whats-awesome-this-week/#oct222013">Oct 22, 2013- Casino Night</a></p>
@@ -177,4 +109,4 @@ $(function channel() {
 <div align="center" id="oct222013" class="video">				
 <p>Oct 22, 2013- Casino Night</p>
 <iframe width="420" height="315" src="//www.youtube.com/embed/MDRJRo8-HmY" frameborder="0" allowfullscreen></iframe>
-</div>
+</div> -->
