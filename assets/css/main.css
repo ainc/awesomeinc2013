@@ -1689,7 +1689,7 @@ h2.core-value {
 .tumblr-container img {
 	max-width: 70%;
 	max-height: 70%;
-	margin-right: 15%; 
+	margin-left: 15%; 
 }
 
 @media (max-width: 1000px) {
