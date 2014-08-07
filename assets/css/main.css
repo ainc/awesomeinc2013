@@ -643,6 +643,10 @@ b.fellowship-content {
 	font-weight: 700;
 }
 
+#calendar h1 {
+	text-align: center;
+}
+
 /* ========== SIDEBAR CONF ========== */
 
 .sidebar-zone {
@@ -1680,6 +1684,12 @@ h2.core-value {
 
 .tumblr-container p {
 	font-size: 15px;
+}
+
+.tumblr-container img {
+	max-width: 70%;
+	max-height: 70%;
+	margin-right: 15%; 
 }
 
 @media (max-width: 1000px) {
