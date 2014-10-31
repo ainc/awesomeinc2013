@@ -2302,13 +2302,13 @@ div.footerbox {
 		}
 
 #pop-up {
-	background: #333333;
-	color: white;
+	background: white;
+	color: #2e2e2e;
 	overflow: hidden;
 }
 
 #pop-up h1, h2, h3 {
-	color: white;
+	color: #2e2e2e;
 }
 
 #pop-up h1 {
@@ -2322,6 +2322,7 @@ div#mc_embed_signup {
 }
 
 #team-alpha p {
+	background-color: #e2e2e2;
 	font-size: 17px;
 	line-height: 22px;
 }
