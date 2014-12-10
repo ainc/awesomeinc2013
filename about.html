@@ -56,27 +56,27 @@ permalink: about/
     		<!-- FUNCTION FOR BLOG POSTS -->
 				<script type="text/javascript">
 				function compressBlog(post, length) {
-						var count = length-100;
-						var blogContent = tumblr_api_read["posts"][post]["regular-body"].substring(0, length);
-						for (var i = length - 100; i <= length; i++) {
-							if (blogContent[i] == "<") {
-								break;
-							}
-							count++;
-						};
-						var blogPreview = tumblr_api_read["posts"][post]["regular-body"].substring(0, count);
-						return blogPreview;
-					}
+					var count = length-100;
+					var blogContent = tumblr_api_read["posts"][post]["regular-body"].substring(0, length);
+					for (var i = length - 100; i <= length; i++) {
+						if (blogContent[i] == "<") {
+							break;
+						}
+						count++;
+					};
+					var blogPreview = tumblr_api_read["posts"][post]["regular-body"].substring(0, count);
+					return blogPreview;
+				}	
 
-					function blogTitle(post) {
-						var title = tumblr_api_read["posts"][post]["regular-title"];
-						return title;
-					}
+				function blogTitle(post) {
+					var title = tumblr_api_read["posts"][post]["regular-title"];
+					return title;
+				}
 
-					function blogLink(post) {
-						var link = 'http://blog.awesomeinc.org/post/' + tumblr_api_read["posts"][post]["id"]+ "'";
-						return link;
-					}
+				function blogLink(post) {
+					var link = 'http://blog.awesomeinc.org/post/' + tumblr_api_read["posts"][post]["id"]+ "'";
+					return link;
+				}
 					
 				</script> 
 		<div class="col-xs-6">
@@ -97,19 +97,12 @@ permalink: about/
 			    	document.getElementById("blogLink").href = blogLink(postIndex);
 				</script>
 			</div>
-				
-   			<h3> <!-- SIGN UP BUTTON -->
-   				<a type="button" class="smoothScroll btn btn-danger btn-large view-blog" href="http://blog.awesomeinc.org" target="_blank">View blog</a>	
-   			</h3>
-   		</div>
-
-   		<div class="col-xs-6">
-   			<div id="blog-post"> <!-- BLOG POST 2 -->
-				<h2 id="blogTitle2"><a href="#" target="_blank" id="blogLinkTitle2"></a> </h2>
+			<div id="blog-post"> <!-- BLOG POST 2 -->
+				<h2 id="blog-title2"><a href="#" target="_blank" id="blogLinkTitle2"></a> </h2>
 				<p id="blogContent2"></p> 
 				<a href="#" target="_blank" id="blogLink2">...Read More</a>
 				<script type="text/javascript">
-					var blogLength = 500;
+					var blogLength = 750;
 					var postIndex = 1;
 
 					// blog title
@@ -117,12 +110,19 @@ permalink: about/
 					document.getElementById("blogLinkTitle2").href = blogLink(postIndex);
 			    	// blog body
 			    	document.getElementById("blogContent2").innerHTML = compressBlog(postIndex, blogLength);
+			    	console.log(compressBlog(postIndex, blogLength));
 			    	// read more link
 			    	document.getElementById("blogLink2").href = blogLink(postIndex);
 				</script>
 			</div>
+			<!-- 	
+   			<h3> <!-- SIGN UP BUTTON 
+   				<a type="button" class="smoothScroll btn btn-danger btn-large view-blog" href="http://blog.awesomeinc.org" target="_blank">View blog</a>	
+   			</h3> -->
+   		</div>
 
-			<div id="blog-post"> <!-- BLOG POST 3 -->
+   		<div class="col-xs-6">
+   			<div id="blog-post"> <!-- BLOG POST 3 -->
 				<h2 id="blogTitle3"><a href="#" target="_blank" id="blogLinkTitle3"></a> </h2>
 				<p id="blogContent3"></p> 
 				<a href="#" target="_blank" id="blogLink3">...Read More</a>
@@ -137,6 +137,24 @@ permalink: about/
 			    	document.getElementById("blogContent3").innerHTML = compressBlog(postIndex, blogLength);
 			    	// read more link
 			    	document.getElementById("blogLink3").href = blogLink(postIndex);
+				</script>
+			</div>
+
+			<div id="blog-post"> <!-- BLOG POST 4 -->
+				<h2 id="blogTitle4"><a href="#" target="_blank" id="blogLinkTitle4"></a> </h2>
+				<p id="blogContent4"></p> 
+				<a href="#" target="_blank" id="blogLink4">...Read More</a>
+				<script type="text/javascript">
+					var blogLength = 500;
+					var postIndex = 3;
+
+					// blog title
+					document.getElementById("blogLinkTitle4").innerHTML = blogTitle(postIndex);
+					document.getElementById("blogLinkTitle4").href = blogLink(postIndex);
+			    	// blog body
+			    	document.getElementById("blogContent4").innerHTML = compressBlog(postIndex, blogLength);
+			    	// read more link
+			    	document.getElementById("blogLink4").href = blogLink(postIndex);
 				</script>
 
 			</div>
