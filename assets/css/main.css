@@ -1668,8 +1668,13 @@ h2.core-value {
 	border-radius: 4px;
 	padding: 5%;
 	margin: 1%;
-	line-height: 28px;
+	line-height: 18px;
 }
+
+.tumblr-container div#blog-post p {
+	line-height: 18px;
+}
+
 .tumblr-container h1 {
 	font-size: 35px;
 	font-weight: bold;
@@ -1684,11 +1689,12 @@ h2.core-value {
 
 .tumblr-container p {
 	font-size: 15px;
+	margin: 6px;
 }
 
 .tumblr-container img {
-	max-width: 70%;
-	max-height: 70%;
+	width:70%;
+	height:auto;
 	margin-left: 15%; 
 }
 
