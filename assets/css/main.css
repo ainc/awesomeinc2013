@@ -1095,7 +1095,7 @@ div.shadow:hover {
 
 
 
-#fellowship h2, #across h2, #cherub h2, #startup h2, #hof h2 {
+#fellowship h2, #across h2, #cherub h2, #startup h2, #hof h2, #idea h2 {
 	color: #2e2e2e;
 	font-weight: 700;
 }
@@ -1104,8 +1104,15 @@ div.shadow:hover {
 	font-weight: 500;
 	text-align: justify;
 }
+ #idea p, #idea h2, #idea h3 {
+ 	text-align: center;
+ }
+#idea div {
+	margin: auto;
+	float: none;
+}
 
-#fellowship a, #across a, #cherub a, #startup a, #hof a {
+#fellowship a, #across a, #cherub a, #startup a, #hof a, #idea a {
 	font-weight: 500;
 	font-family: "open sans";
 	border-radius: 4px;
