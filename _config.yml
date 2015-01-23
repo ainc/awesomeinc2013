@@ -1,2 +1,5 @@
+name: Awesome Inc
 permalink: pretty
 relative_permalinks: false
+gems:
+  - jekyll-sitemap
