@@ -1,0 +1,362 @@
+---
+layout: page
+---
+
+<br><br><br>
+						<div id="pop-up">
+						<div id="team-alpha">
+
+							<br><b><div class="row centered"><a data-toggle="modal" href="#teamalphaapp"> Apply </a> to be a part of Team Alpha today!</b></div><br>
+							<h1>Team Alpha</h1>
+							<div class="row centered">
+				  				<br>
+				  				<div class="col-lg-2 col-lg-offset-2">
+									<h2>Maggie<br> Bellhorn</h2>
+				 				   <img class="img-responsive" src="/assets/img/teamalpha/maggiebellhorn_circle.jpg" alt="Maggie Bellhorn">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #4: Always do something awesome over something not awesome
+									<br><b>Favorite Song</b><br>
+									I and Love and You by The Avett Brothers
+									<br><b>Favorite Awesome Person</b><br>
+									C.S. Lewis
+									<br><b>Random Fact</b><br>
+									I have two fake teeth and cow bone in my jaw.
+									</p>
+				  				</div><!-- /col -->
+								<div class="col-lg-2">
+									
+									<h2>Ben<br> Childress</h2>
+				 				   <img class="img-responsive" src="/assets/img/teamalpha/benchildress_circle.jpg" alt="Ben Childress">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #21: The universal principle and indeed the purpose of life, business, sports, and all competition: Dominate
+									<br><b>Favorite Song</b><br>
+									Hollywood Cemetery Forever by Father John Misty 
+									<br><b>Favorite Awesome Person</b><br>
+									Mark Cuban
+									<br><b>Random Fact</b><br>
+									I'm an identical triplet and I have been to a ghost-hunting seminar.
+									</p>
+				  				</div><!-- /col -->
+								<div class="col-lg-2">
+									<h2>Angel<br> Ho</h2>
+				 				   <img class="img-responsive" src="/assets/img/teamalpha/angelho_circle.jpg" alt="Angel Ho">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #26: Don't let stupid things keep you from doing awesome things.
+									<br><b>Favorite Song</b><br>
+									We Own the Night by The Wanted
+									<br><b>Favorite Awesome Person</b><br>
+									Karl Landsteiner
+									<br><b>Random Fact</b><br>
+									I'm deathly afraid of frogs.
+									</p>
+				  				</div><!-- /col -->
+								<div class="col-lg-2">
+									<h2>Carter<br> Fifield</h2>
+								   <img class="img-responsive" src="/assets/img/teamalpha/carterfifield_circle.jpg" alt="Carter Fifield">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #22: go big or don't be my friend
+									<br><b>Favorite Song</b><br>
+									Pursuit of Happiness by Kid Cudi
+									<br><b>Favorite Awesome Person</b><br>
+									Steve Jobs
+									<br><b>Random Fact</b><br>
+									I haven't been out of the United States
+									</p>
+								</div><!-- /col -->
+							</div><!-- row 1 -->
+							<div class="row centered">
+				  				<br>
+								<div class="col-lg-2 col-lg-offset-2">
+									<h2>Avis<br> Sampson</h2>
+				 				   <img class="img-responsive" src="/assets/img/teamalpha/avissampson_circle.jpg" alt="Avis Sampson">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #26: Don't let stupid things keep you from doing awesome things
+									<br><b>Favorite Song</b><br>
+									Street Lights by Kanye West
+									<br><b>Favorite Awesome Person</b><br>
+									Oprah
+									<br><b>Random Fact</b><br>
+									I've lived more than 2,000 miles away from the continental United States yet I still have never left the country!
+									</p>
+				  				</div><!-- /col -->
+								<div class="col-lg-2">
+									<h2>Jake<br> Tapia</h2>
+				 					<img class="img-responsive" src="/assets/img/teamalpha/jaketapia_circle.jpg" alt="Jake Tapia">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #22: Go big or don't be my friend.
+									<br><b>Favorite Song</b><br>
+									Across the Universe - The Beatles
+									<br><b>Favorite Awesome Person</b><br>
+									Kanye West
+									<br><b>Random Fact</b><br>
+									I play the guitar.
+									</p>
+				  				</div><!-- /col -->
+								<div class="col-lg-2">
+									<h2>Alek<br> Zieba</h2>
+								   <img class="img-responsive" src="/assets/img/teamalpha/alekzieba_circle.jpg" alt="Alek Zieba">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #1: all rules are meant to be bent or broken
+									<br><b>Favorite Song</b><br>
+									I'm Not The Only One by Sam Smith
+									<br><b>Favorite Awesome Person</b><br>
+									Elon Musk
+									<br><b>Random Fact</b><br>
+									My favorite fall vegetable is the spaghetti squash
+									</p>	
+								</div><!-- /col -->
+								<div class="col-lg-2">
+									<h2>Rusty<br> Leskiv</h2>
+								   <img class="img-responsive" src="/assets/img/teamalpha/rustyleskiv_circle.jpg" alt="Rusty Leskiv">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #22: Go big or don’t be my friend
+									<br><b>Favorite Song</b><br>
+									Life is Wonderful by Jason Mraz
+									<br><b>Favorite Awesome Person</b><br>
+									Mark Zuckerberg
+									<br><b>Random Fact</b><br>
+									I was born in Ukraine.
+									</p>	
+								</div><!-- /col -->
+							</div><!-- row 2 -->
+							<div class="row centered" id="team-alpha">
+				  				<div class="col-lg-2 col-lg-offset-2">
+									
+									<h2>Susannah<br> Sizemore</h2>
+									<img class="img-responsive" src="/assets/img/teamalpha/susannahsizemore_circle.jpg" alt="Susannah Sizemore">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #21: Dominate
+									<br><b>Favorite Song</b><br>
+									Billy Joel - We Didn't Start the Fire
+									<br><b>Favorite Awesome Person</b><br>
+									Elon Musk
+									<br><b>Random Fact</b><br>
+									I'm an international <a href="http://uksolarcar.com">race car</a> driver
+									</p>
+				  				</div><!-- /col -->
+				  				<div class="col-lg-2">
+									<h2>Theresa<br> Simcic</h2>
+				 				   <img class="img-responsive" src="/assets/img/teamalpha/theresasimcic_circle.jpg" alt="Theresa Simcic">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #38: whatever you're saying - stop...you're about to embarass yourself
+									<br><b>Favorite Song</b><br>
+									"Song for the Suburbs" -- Ben Rector
+									<br><b>Favorite Awesome Person</b><br>
+									Blake Mycoskie
+									<br><b>Random Fact</b><br>
+									I was cast to play a murder victim during a re-enactment in an episode of the show Forensic Files.
+									</p>			
+				  				</div><!-- /col -->
+				  				<div class="col-lg-2">
+									<h2>Kyle<br> Raney</h2>
+				 				   <img class="img-responsive" src="/assets/img/teamalpha/kyleraney_circle.jpg" alt="Kyle Raney">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #76: No excuses, play like a champion
+									<br><b>Favorite Song</b><br>
+									Safe and Sound - Capital Cities
+									<br><b>Favorite Awesome Person</b><br>
+									John Wall
+									<br><b>Random Fact</b><br>
+									I sell beef jerky and healthy snacks for a living.
+									</p>
+				  				</div><!-- /col -->	
+								<div class="col-lg-2">
+										<h2>Garrett<br> Ebel</h2>
+									   <img class="img-responsive" src="/assets/img/teamalpha/garrettebel_circle.jpg" alt="Garrett Ebel">					
+										<p>
+										<b>Favorite Rule</b><br>
+										Rule #1: All rules are made to be bent or broken
+										<br><b>Favorite Song</b><br>
+										The Thing
+										<br><b>Favorite Awesome Person</b><br>
+										Sam Walton
+										<br><b>Random Fact</b><br>
+										I once earned a set of golden balls (yes, testicles) for linking 8,000 rounds of .50 Caliber ammunition in less than 7 hours.
+										</p>
+								</div><!-- /col -->								
+				  			</div><!-- row 3 -->
+							<div class="row centered">
+				  				<br>
+				  				<div class="col-lg-2 col-lg-offset-2">
+									<h2>Ben<br> Jacoby</h2>
+				 				   <img class="img-responsive" src="/assets/img/teamalpha/benjacoby_circle.jpg" alt="Ben Jacoby">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #21: The universal principle and indeed the purpose of life, business, sports, and all competition: Dominate.
+									<br><b>Favorite Song</b><br>
+									My Way - Frank Sinatra
+									<br><b>Favorite Awesome Person</b><br>
+									Neil deGrasse Tyson
+									<br><b>Random Fact</b><br>
+									I have been to exactly half of the states in the USA. And to 11 foreign countries.
+									</p>
+				  				</div><!-- /col -->
+				  				<div class="col-lg-2">
+									<h2>Isaac<br> Rowe</h2>
+				 				   <img class="img-responsive" src="/assets/img/teamalpha/isaacrowe_circle.jpg" alt="Isaac Rowe">					
+									<p>
+									<b>Favorite Rule</b><br>
+									#26: Don't let stupid things keep you from doing awesome things.
+									<br><b>Favorite Song</b><br>
+									Kryptonite by Three Doors Down
+									<br><b>Favorite Awesome Person</b><br>
+									Adam Savage
+									<br><b>Random Fact</b><br>
+									I try to quote Douglas Adams' Hitchhikers Guide to the Galaxy as often as possible. 
+									</p>
+				  				</div><!-- /col -->
+								<div class="col-lg-2">
+									<h2>Danny<br> Thorne</h2>
+				 				   <img class="img-responsive" src="/assets/img/teamalpha/dannythorne_circle.jpg" alt="Danny Thorne">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #26: Don't let stupid things keep you from doing awesome things.
+									<br><b>Favorite Song</b><br>
+									Tom's Diner by Suzanne Vega (DNA Remix)
+									<br><b>Favorite Awesome Person</b><br>
+									Alan Turing
+									<br><b>Random Fact</b><br>
+									I like to sniff hard copy books on the shelf at B&N (although I read mostly electronic).
+									</p>
+								</div><!-- /col -->
+								<div class="col-lg-2">
+									<h2>Nate<br> Graff</h2>
+								   <img class="img-responsive" src="/assets/img/teamalpha/nategraff_circle.jpg" alt="Nate Graff">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #21: The universal principle and indeed the purpose of life, business, sports, and all competition: Dominate
+									<br><b>Favorite Song</b><br>
+									Diamond Eyes by Shinedown
+									<br><b>Favorite Awesome Person</b><br>
+									Bill Gates
+									<br><b>Random Fact</b><br>
+									I was born on Friday the 13th at UK hospital.
+									</p>			
+								</div><!-- /col -->
+				  			</div><!-- row 4 -->					
+							<div class="row centered">
+								<br>
+								<div class="col-lg-2 col-lg-offset-2">
+									<h2>Adam<br> Chaffins</h2>
+								   <img class="img-responsive" src="/assets/img/teamalpha/adamchaffins_circle.jpg" alt="Adam Chaffins">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #26: don't let stupid things keep you from doing awesome things
+									<br><b>Favorite Song</b><br>
+									Dreams - Van Halen
+									<br><b>Favorite Awesome Person</b><br>
+									Steven D. Levitt
+									<br><b>Random Fact</b><br>
+									I am a photographer and I shoot underwater portraits.
+									</p>
+								</div><!-- /col -->
+								<div class="col-lg-2">
+									<h2>Elizabeth<br> Cooper</h2>
+								   <img class="img-responsive" src="/assets/img/teamalpha/elizabethcooper_circle.jpg" alt="Elizabeth Cooper">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #21: The universal principle and indeed the purpose of life, business, sports, and all competition: Dominate.
+									<br><b>Favorite Song</b><br>
+									Remember the Name by Fort Minor
+									<br><b>Favorite Awesome Person</b><br>
+									Marissa Mayer
+									<br><b>Random Fact</b><br>
+									I do Irish dancing.
+									</p>	
+								</div><!-- /col -->
+								<div class="col-lg-2">
+									<h2>Mac<br> Glidewell</h2>
+								   <img class="img-responsive" src="/assets/img/teamalpha/macglidewell_circle.jpg" alt="Mac Glidewell">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #4: Always do something awesome over something not awesome.
+									<br><b>Favorite Song</b><br>
+									Tangled Up In Blue By: Bob Dylan
+									<br><b>Favorite Awesome Person</b><br>
+									Abraham Lincoln
+									<br><b>Random Fact</b><br>
+									Tiger Woods once told me to move.
+									</p>	
+								</div><!-- /col -->
+								<div class="col-lg-2">
+									<h2>Melanie<br> Stoeckle</h2>
+				 				   <img class="img-responsive" src="/assets/img/teamalpha/melaniestoeckle_circle.jpg" alt="Melanie Stoeckle">				
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #21: The universal principle and indeed the purpose of life, business, sports, and all competition: Dominate.
+									<br><b>Favorite Song</b><br>
+									The Ocean by Barefoot Truth
+									<br><b>Favorite Awesome Person</b><br>
+									Roberto Clemente
+									<br><b>Random Fact</b><br>
+									I'm really, super afraid of the dark.
+									</p>	
+				  				</div><!-- /col -->
+							</div><!-- /row 6 -->
+							
+							<div class="row centered">
+								<br>
+								<div class="col-lg-2 col-lg-offset-4">
+									<h2>Peter<br> Briggs</h2>
+								   <img class="img-responsive" src="/assets/img/teamalpha/peterbriggs_circle.jpg" alt="Peter Briggs">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #26: don't let stupid things keep you from doing awesome things
+									<br><b>Favorite Song</b><br>
+									Who We Are by Imagine Dragons
+									<br><b>Favorite Awesome Person</b><br>
+									Neil Armstrong
+									<br><b>Random Fact</b><br>
+									I own and regularly drive a purple moped
+									</p>	
+								</div><!-- /col -->
+								<div class="col-lg-2">
+									<h2>Michael<br> Lewis</h2>
+								   <img class="img-responsive" src="/assets/img/teamalpha/michaellewis_circle.jpg" alt="Michael Lewis">					
+									<p>
+									<b>Favorite Rule</b><br>
+									Rule #21: The universal principle and indeed the purpose of life, business, sports, and all competition: Dominate.
+									<br><b>Favorite Song</b><br>
+									Soldier by Gavin DeGraw
+									<br><b>Favorite Awesome Person</b><br>
+									Elon Musk
+									<br><b>Random Fact</b><br>
+									I can play 5.5 instruments: Guitar, Piano, Bass, Drums, Mandolin, and a little Harmonica
+									</p>
+								</div><!-- /col -->
+							</div><!-- /row 7 -->
+</div>
+</div>							
+
+
+
+
+<div class="modal fade" id="teamalphaapp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Team Alpha</h4>
+      </div>
+      <div class="modal-body">
+        <p><img class="img-responsive" src="/assets/img/teamalpha.png" alt="Team Alpha"><br></p>
+
+<iframe width="550" height="2860" frameborder="0" marginheight="0" marginwidth="0" src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDNLRTI0MmcyYWtDSDZNNGZOVERfNUE6MQ"></iframe>		
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->	

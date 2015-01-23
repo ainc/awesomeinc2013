@@ -2328,7 +2328,7 @@ div#mc_embed_signup {
 }
 
 #team-alpha p {
-	background-color: #e2e2e2;
+	background-color: #ffffff;
 	font-size: 17px;
 	line-height: 22px;
 }
@@ -2339,7 +2339,27 @@ div#mc_embed_signup {
 }
 
 #team-alpha img {
-	height: 200px;
+	height: 100px;
+}
+
+#team-alpha h2 {
+	font-size: 20px;
+}
+
+#team-alpha .col-lg-2 {
+	padding: 0px;
+	padding-bottom: 20px;
+	width: 11.666666666666664%;
+}
+
+#team-alpha .col-lg-offset-3 {
+	margin-left: 27.88888888888888%;
+}
+
+#team-alpha span.team {
+		font-family: Journal;
+		font-size: 20px;
+		color: #CF353B;
 }
 
 .div-home-page p {
@@ -2627,3 +2647,5 @@ div#mc_embed_signup {
 		#mentors a {
 			color:#0088cc;
 		}	
+
+		
