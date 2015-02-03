@@ -6,14 +6,14 @@ $('#youmax').youmax({
 			playList: [
 				'https://www.youtube.com/playlist?list=PL_YvoQ-KM3YH08eoB7aRjeWUyFR6yYMjC',
 				'https://www.youtube.com/playlist?list=PL_YvoQ-KM3YEGsbq_L-2AShgBIEuqRfQz',
-			],
+			// ],
 			
-			searchTab:[ 
-			{
-				name:'MySearch', //Name of the tab
-				searchQuery:'awesome academy', //Search query
-				searchOrder:'viewCount' //Order descending by date|rating|relevance|title|viewCount
-			}
+			// searchTab:[ 
+			// {
+			// 	name:'MySearch', //Name of the tab
+			// 	searchQuery:'awesome academy', //Search query
+			// 	searchOrder:'viewCount' //Order descending by date|rating|relevance|title|viewCount
+			// }
 			],
 
 			
