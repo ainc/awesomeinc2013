@@ -1,0 +1,41 @@
+---
+layout: page
+---	
+
+  
+<div id="youmax"></div>
+
+
+	<script>
+
+		$('#youmax').youmax({
+			
+			apiKey:'AIzaSyBSU5dYJrvNdaC5J9wo36c2xkXWP1kT_WA',
+
+			channel:'https://www.youtube.com/user/AincTelevision',
+			playList: [
+				'https://www.youtube.com/playlist?list=PL6295232EFE2E2D9A',
+				'https://www.youtube.com/playlist?list=PLxkyNsoBqOdAnM8mo8_rv0tul67ycfK-k',
+			],
+			
+			searchTab:[ 
+			{
+				name:'MySearch', //Name of the tab
+				restrictToChannels:'https://www.youtube.com/channel/UComP_epzeKzvBX156r6pm1Q', //Restrict search to these channels
+				searchQuery:'adele', //Search query
+				searchOrder:'viewCount' //Order descending by date|rating|relevance|title|viewCount
+			}
+			],
+
+			
+			selectedTab: 'u', //u - for uploads, p1 - for 1st playlist, p2 - for 2nd playlist .... s1 for 1st SearchTab, s2 for 2ns SearchTab .....
+			displayVideo: 'inline', //popup|inline
+			skin: 'white', //white|grey|none
+			
+		});
+	
+
+	</script>
+
+
+

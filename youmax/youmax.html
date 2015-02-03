@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width">
+    <title>Youmax 3.0 - Complete Youtube Channel on your Website - Jquery plugin</title>
+	
+	<!--jquery-->
+	<script src="./jquery/jquery-1.9.1.min.js"></script>
+
+	
+	
+	
+	<!--youmax-->
+	<script src="./js/jquery.youmax.min.js"></script>
+	
+
+
+	
+	<style>
+
+      body {
+        font-family: Calibri;
+        font-size: 14px;
+		text-align:center;
+      }
+	  
+
+	  
+		
+	</style>
+
+	</head>
+  <body>
+		<a href="http://www.codehandling.com/2015/01/youmax-30-complete-youtube-channel-on.html">
+		<h1>Youmax 3.0 - Complete Youtube Channel on your Website - Jquery plugin</h1>
+		</a>
+<br><br>		
+<div id="youmax"></div>
+
+<br/><br/>
+
+<a href="http://www.codehandling.com/2015/01/youmax-30-complete-youtube-channel-on.html">See how to use this plugin - at codehandling</a>
+
+<br/><br/><br/>
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+
+
+	<script>
+		
+
+	
+		$('#youmax').youmax({
+			
+			apiKey:'AIzaSyDEm5wGLsWi2G3WG40re-DAJcWioQSpJ6o',
+
+			channel:'https://www.youtube.com/user/dota2',
+			playList: [
+				'https://www.youtube.com/playlist?list=PL6295232EFE2E2D9A',
+				'https://www.youtube.com/playlist?list=PLxkyNsoBqOdAnM8mo8_rv0tul67ycfK-k',
+			],
+			
+			searchTab:[ 
+			{
+				name:'MySearch', //Name of the tab
+				restrictToChannels:'https://www.youtube.com/channel/UComP_epzeKzvBX156r6pm1Q', //Restrict search to these channels
+				searchQuery:'adele', //Search query
+				searchOrder:'viewCount' //Order descending by date|rating|relevance|title|viewCount
+			}
+			],
+
+			
+			selectedTab: 'u', //u - for uploads, p1 - for 1st playlist, p2 - for 2nd playlist .... s1 for 1st SearchTab, s2 for 2ns SearchTab .....
+			displayVideo: 'inline', //popup|inline
+			skin: 'white', //white|grey|none
+			
+		});
+		
+		
+		//For more options refer the documentation-
+		//http://www.codehandling.com/2015/01/youmax-40-bring-youtube-to-your-users.html
+		
+
+	
+
+
+	</script>
+
+  </body>
+</html>
+
+
+

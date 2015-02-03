@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <meta name="viewport" content="width=device-width">
+    <title>Youmax 3.0 - Complete Youtube Channel on your Website - Jquery plugin</title>
+	
+	<!--jquery-->
+	<script src="./jquery/jquery-1.9.1.min.js"></script>
+	
+	<!--youmax-->
+	
+	<script src="./js/source_unpacked/jquery.imagesloaded.js"></script>
+	<script src="./js/source_unpacked/jquery.wookmark.js"></script>
+	<script src="./js/source_unpacked/magnific_popup_iframe.js"></script>
+	<script src="./js/source_unpacked/jquery.youmax.js"></script>
+	
+	<!--<script src="./js/jquery.youmax.min.js"></script>-->
+	
+	<!--<link rel="stylesheet" href="./css/youmax.min.css"/>-->
+	<!--<link rel="stylesheet" href="./css/src/youmax.css"/>
+	<link rel="stylesheet" href="./css/src/youmax_white.css"/>-->
+	
+
+
+	
+	<style>
+
+      body {
+        font-family: Calibri;
+        font-size: 14px;
+		text-align:center;
+      }
+	  
+
+	  /*.youmax-load-more-div-click {background-color: #F95A5A !important;} */
+		
+	</style>
+
+	</head>
+  <body>
+		<a href="http://www.codehandling.com/2015/01/youmax-30-complete-youtube-channel-on.html">
+		<h1>Youmax 3.0 - Complete Youtube Channel on your Website - Jquery plugin</h1>
+		</a>
+<br><br>		
+<div id="youmax1" class="youmax"></div>
+<br><br>	
+<div id="youmax2" class="youmax"></div>
+
+<br/><br/>
+
+<a href="http://www.codehandling.com/2015/01/youmax-30-complete-youtube-channel-on.html">See how to use this plugin - at codehandling</a>
+
+<br/><br/><br/>
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+
+
+	<script>
+	
+	
+			$('#youmax1').youmax({"apiKey":"AIzaSyDEm5wGLsWi2G3WG40re-DAJcWioQSpJ6o","channel":"https://www.youtube.com/user/dota2",
+			"playList":["https://www.youtube.com/playlist?list=PL6295232EFE2E2D9A","https://www.youtube.com/playlist?list=PLxkyNsoBqOdAnM8mo8_rv0tul67ycfK-k"],
+			searchTab:[
+			{
+				"name":"search_1",restrictToChannels:"https://www.youtube.com/user/dota2","searchOrder":"date"
+			},
+			{
+				"name":"search_2",restrictToChannels:"https://www.youtube.com/user/dota2",searchQuery:"axe","searchOrder":"date"
+			},
+			{"name":"AdeleSearch",/*"relatedTo":"https://www.youtube.com/watch?v=DeumyOzKqgI",*/"searchQuery":"rolling|video","searchOrder":"viewCount",restrictToChannels:"https://www.youtube.com/channel/UComP_epzeKzvBX156r6pm1Q"}
+			],
+			"searchTab2":{"name":"search_2","searchOrder":"date"},"selectedTab":"s1","displayVideo":"popup","alwaysUseDropdown":false,"skin":"none","maxResults":25,"innerOffset":40,"minItemWidth":250,"maxItemWidth":300,"outerOffset":40,"maxContainerWidth":1000,skin:'white'});
+			
+			/*
+		
+
+	
+		$('#youmax1').youmax({
+			
+			//MANDATORY
+			//apiKey:'AIzaSyC35ov95TPl4RabHxl8eN8F38ummpDEpH4',
+			apiKey:'AIzaSyDEm5wGLsWi2G3WG40re-DAJcWioQSpJ6o',
+
+			//channel:'https://www.youtube.com/user/AdeleVEVO',
+			channel:'https://www.youtube.com/channel/UCQx_M1N54k3vFr1b1ZNKoBw',
+			playList: [
+				//'https://www.youtube.com/playlist?list=PL6295232EFE2E2D9A',
+				//'https://www.youtube.com/playlist?list=PLxkyNsoBqOdAnM8mo8_rv0tul67ycfK-k',
+				//'https://www.youtube.com/playlist?list=PLxkyNsoBqOdC8gYnOXhiSh772KHJNtCB4',
+			],
+			
+			
+			searchTab1: {
+				name:'Upcoming Events', //Name of the tab
+				restrictToChannels:'https://www.youtube.com/channel/UCQx_M1N54k3vFr1b1ZNKoBw', //Restrict search to these channels
+				searchOrder:'date', //Order descending by date|rating|relevance|title|viewCount
+				eventType:'upcoming' //upcoming|live|completed
+			},
+			searchTab2: {
+				name:'Live Events', //Name of the tab
+				restrictToChannels:'https://www.youtube.com/channel/UCQx_M1N54k3vFr1b1ZNKoBw', //Restrict search to these channels
+				searchOrder:'date', //Order descending by date|rating|relevance|title|viewCount
+				eventType:'live' //upcoming|live|completed
+			},
+			searchTab3: {
+				name:'Completed Events', //Name of the tab
+				restrictToChannels:'https://www.youtube.com/channel/UCQx_M1N54k3vFr1b1ZNKoBw', //Restrict search to these channels
+				searchOrder:'date', //Order descending by date|rating|relevance|title|viewCount
+				eventType:'completed' //upcoming|live|completed
+			},
+			/*
+			searchTab2: {
+				name:'MySearch2', //Name of the tab
+				restrictToChannels:'https://www.youtube.com/channel/UComP_epzeKzvBX156r6pm1Q,https://www.youtube.com/user/RihannaVEVO,https://www.youtube.com/channel/UCVttQE6tS_agDSAU61Q65aA', //Restrict search to these channels
+				//restrictToChannels:'https://www.youtube.com/channel/UCVttQE6tS_agDSAU61Q65aA', //Restrict search to these channels
+				//relatedTo:'https://www.youtube.com/watch?v=DeumyOzKqgI', //Find videos related to this video
+				searchQuery:'lyric video', //Search query
+				searchOrder:'date' //Order descending by date|rating|relevance|title|videoCount|viewCount
+			},
+			
+			//NON MANDATORY
+			//maxResults:30, //Maximum videos to display in one load
+			//innerOffset: 40, //Distance between video thumbnails
+			//minItemWidth: 250, //Minumum width of a video thumbnails
+			//maxItemWidth : 350, //Maximum width of a video thumbnails
+			//outerOffset: 40, //Distance between video thumbnails and plugin conatiner
+			//maxContainerWidth: 1000, //Maximum width of plugin container
+			
+			//UPDATED
+			selectedTab: 'u', //u - for uploads, p1 - for 1st playlist, p2 - for 2nd playlist .... s1 for 1st SearchTab, s2 for 2ns SearchTab .....
+			displayVideo: 'inline', //popup|inline
+			skin: 'white', //white|grey|none
+			//alwaysUseDropdown: false
+			
+		});
+		
+		
+/*
+		$('#youmax2').youmax({
+			
+			//MANDATORY
+			apiKey:'AIzaSyDEm5wGLsWi2G3WG40re-DAJcWioQSpJ6o',
+			channel:'https://www.youtube.com/user/AdeleVEVO',
+			//channel:'https://www.youtube.com/user/dota2',
+			playList: [
+				//'https://www.youtube.com/playlist?list=PL6295232EFE2E2D9A',
+				//'https://www.youtube.com/playlist?list=PLxkyNsoBqOdAnM8mo8_rv0tul67ycfK-k',
+				'https://www.youtube.com/playlist?list=PLxkyNsoBqOdC8gYnOXhiSh772KHJNtCB4',
+			],
+			
+			searchTab1: {
+				name:'MySearch2', //Name of the tab
+				restrictToChannels:'https://www.youtube.com/channel/UComP_epzeKzvBX156r6pm1Q,https://www.youtube.com/user/RihannaVEVO,https://www.youtube.com/channel/UCVttQE6tS_agDSAU61Q65aA', //Restrict search to these channels
+				//restrictToChannels:'https://www.youtube.com/channel/UCVttQE6tS_agDSAU61Q65aA', //Restrict search to these channels
+				//relatedTo:'https://www.youtube.com/watch?v=DeumyOzKqgI', //Find videos related to this video
+				searchQuery:'lyric video', //Search query
+				searchOrder:'date' //Order descending by date|rating|relevance|title|videoCount|viewCount
+				
+			},
+				
+			//NON MANDATORY
+			maxResults:30, //Maximum videos to display in one load
+			innerOffset: 40, //Distance between video thumbnails
+			minItemWidth: 250, //Minumum width of a video thumbnails
+			maxItemWidth : 300, //Maximum width of a video thumbnails
+			outerOffset: 40, //Distance between video thumbnails and plugin conatiner
+			maxContainerWidth: 1000, //Maximum width of plugin container
+			skin: 'white' //white|grey|none
+			
+		});
+		
+*/
+
+	
+
+
+	</script>
+
+  </body>
+</html>
+
+
+
