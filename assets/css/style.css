@@ -45,5 +45,16 @@
     margin:0px;
     text-align:justify;
     font-size:11px;
+}
 
+@media (max-width: 1800px) {
+    #youtube-channel div#youmax {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    #youtube-channel div#youmax {
+        padding-top: 87px;
+    }
 }
