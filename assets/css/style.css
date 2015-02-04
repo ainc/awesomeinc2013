@@ -67,5 +67,21 @@
     background-color: #f8f8f8 !important;
 }
 
+#youmax .youmax-video-list-title {
+    color: black;
+}
+
+#youmax #youmax-header {
+    height: 175px;
+}
+
+#youmax .youmax-subscribe {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3%;
+}
+
+
+
 
 
