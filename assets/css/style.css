@@ -51,11 +51,20 @@
     #youtube-channel div#youmax {
         padding-top: 50px;
     }
+    #youmax .youmax-subscribe {
+        position: absolute;
+        margin-left: 85.5%;
+        margin-top: 8%;
+    }
 }
 
 @media (max-width: 991px) {
     #youtube-channel div#youmax {
         padding-top: 87px;
+    }
+    #youmax .youmax-subscribe {
+        margin-top: 14%;
+        margin-left: 80%
     }
 }
 
@@ -75,11 +84,7 @@
     height: 175px;
 }
 
-#youmax .youmax-subscribe {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 3%;
-}
+
 
 
 
