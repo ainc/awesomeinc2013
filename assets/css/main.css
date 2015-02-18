@@ -2660,80 +2660,64 @@ div#mc_embed_signup {
 =======
 
 /* Alumni Page*/
-		#alpha-alumni{
+#alpha-alumni{
 			margin-right: auto;
 			margin-left: auto;
-			width: 1000px;	
+			margin-bottom: auto;
+			width: 400px;	
 			text-align: center;
 			background-color: #e2e2e2;
-			padding: 20px;
 			}
 
 		#alpha-alumni p { 
 			display:inline-block;
 			margin-bottom:0 ;
-			padding: 0 15px;
-			width: 400px;
+			font-size: 16px;
+			
+			
 		}
 
-		#alpha-alumni h3 {
-			text-align: left;
+
+		#alpha-alumni h2{
+			text-align: center;
 			position: relative;
-			left: 205px ;
-			font-size: 25px;
-			margin-top: 0;
+			padding-top: 0px;
 		}
 
-		.alumni-center h2{
-			text-align: left;
-			position: relative;
-			left: 205px;
-		}
-
-		.alumni-center {
- 		 width: 1000px;
-		}
 
 		.alumni-img {
   			display: inline-block;
   			position: relative;
   			left: 175px;
  			float: left;
- 			height: 200px;
-  			width: 200px;
-  			box-shadow: 10px 10px  rgba(0,0,0,0.6); 
-  			border-radius: 90px;
+ 			height: 150px;
+  			width: 50px;
+  			padding: 0px 125px;
   			opacity: 1;
 		}
 
-		.alumni-twitter{
+		.alumni-bio{
 			color: black;
 			position: absolute;
-  			top: 50px;
-  			bottom: 0;
- 			left: 0;
-  			right: 0;
+			width: 400px;
+			height:200px;
+  			bottom: 200px;
+  			background-color: #e2e2e2;
+  			border-radius: 10px; 
   			visibility: hidden;
   			opacity: 0;
   			font-weight: bold;
   			font-size: 25px;
+
 		}
 
 		.alumni-img:hover img {
 			opacity: .5;
 		}
 
-		.alumni-img:hover  .alumni-twitter {
+		.alumni-img:hover .alumni-bio {
 
   			visibility: visible;
-  			opacity: 1;
-		}
-
-		.white p {
-			background: white;
-		}
-
-		.red p {
-			background: #F5A9A9;
-		}
+  			opacity: .95;
+  		}
 >>>>>>> 838da3f4779bf424e559f0e2ea490578897d06ba
