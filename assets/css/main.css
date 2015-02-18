@@ -1954,7 +1954,7 @@ h2.core-value {
 }
 
 #members img {
-	width: 151px;
+	width: 200px;
 	height: 200px;
 }
 
@@ -2364,7 +2364,7 @@ div#mc_embed_signup {
 }
 
 #team-alpha span.team {
-		font-family: Journal;
+		font-family: JournalRegular;
 		font-size: 20px;
 		color: #CF353B;
 }
