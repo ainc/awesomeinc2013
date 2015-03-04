@@ -2660,11 +2660,11 @@ div#mc_embed_signup {
 =======
 
 /* Alumni Page*/
-#alpha-alumni{
+		#alpha-alumni{
 			margin-right: auto;
 			margin-left: auto;
 			margin-bottom: auto;
-			width: 400px;	
+			width: 1000px;	
 			text-align: center;
 			background-color: #e2e2e2;
 			}
@@ -2681,27 +2681,54 @@ div#mc_embed_signup {
 		#alpha-alumni h2{
 			text-align: center;
 			position: relative;
-			padding-top: 0px;
+			padding: 0px;
+
 		}
 
+		
+		#alpha-alumni span.team {
+		font-family: JournalRegular;
+		font-size: 20px;
+		color: #CF353B;
+		padding: 0px;
+		margin: 0px;
+		}
+
+		#alpha-alumni img{
+			position: relative;
+			left: 12.6%;
+			/* Firefox */
+			left: -moz-calc(50% - 75px);
+			/* WebKit */
+			left: -webkit-calc(50% - 75px);
+			/* Opera */
+			left: -o-calc(50% - 75px);
+		}
 
 		.alumni-img {
   			display: inline-block;
   			position: relative;
-  			left: 175px;
- 			float: left;
+  			left: 8.3333%;
+  			float: none;
  			height: 150px;
-  			width: 50px;
-  			padding: 0px 125px;
+  			width: 16.6666667%;
+  			min-width: 200px;
+  			padding: 0px 0px 250px 0px;
   			opacity: 1;
+		}
+
+		.alumni-img h2 {
+			font-size: 20px;
+			padding: 0px;
+
 		}
 
 		.alumni-bio{
 			color: black;
 			position: absolute;
 			width: 400px;
-			height:200px;
-  			bottom: 200px;
+			height: 200px;
+  			bottom: 250px;
   			background-color: #e2e2e2;
   			border-radius: 10px; 
   			visibility: hidden;
@@ -2716,7 +2743,6 @@ div#mc_embed_signup {
 		}
 
 		.alumni-img:hover .alumni-bio {
-
   			visibility: visible;
   			opacity: .95;
   		}
