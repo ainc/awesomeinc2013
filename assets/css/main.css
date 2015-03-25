@@ -2346,7 +2346,8 @@ div#mc_embed_signup {
 }
 
 #team-alpha img {
-	height: 100px;
+	height: 200px;
+	min-width: 200px;
 }
 
 #team-alpha h2 {
@@ -2356,7 +2357,7 @@ div#mc_embed_signup {
 #team-alpha .col-lg-2 {
 	padding: 0px;
 	padding-bottom: 20px;
-	width: 11.666666666666664%;
+	
 }
 
 #team-alpha .col-lg-offset-3 {
