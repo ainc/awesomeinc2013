@@ -58,12 +58,13 @@
                 var objH = $('.modalPopLite-child-' + thisPopID).outerHeight();
                 var left = (winW / 2) - (objW / 2);
                 var top = (winH / 2) - (objH / 2);
+                var test = 20;
 
                 $('#modalPopLite-mask' + thisPopID).css('height', winH + "px");
                 $('#modalPopLite-mask' + thisPopID).fadeTo('slow', 0.6);
                 //$('#modalPopLite-wrapper' + thisPopID).hide();
                 $('#modalPopLite-wrapper' + thisPopID).css({ 'left': left + "px", 'top': top });
-                $('#modalPopLite-wrapper' + thisPopID).fadeIn('slow');
+                
                 isOpen = true;
             });
 

@@ -196,8 +196,10 @@
 
  <!-- Modal Email Popup ############################################### -->
  
+
+
     <div id="popup-wrapper" style="background-color: #ccc;">
-      <img src="/assets/img/A-faded.png" style="width:80%; max-width:100%"/>
+      <img class="popup-img" src="/assets/img/A-faded.png" style="width:80%; max-width:100%"/>
 
       <h1>
         Sign up now to get updates on Awesome Inc!
@@ -212,6 +214,11 @@
       </form>
       <a id="close-btn" href="#">Close</a> 
     </div> 
+    <script>
+        var element = document.getElementById("popup-wrapper");
+        element.style.display = "none";
+        setTimeout(function() {element.style.display = "block"}, 1000);
+    </script>
     <!-- /Modal Email Popup ############################
 
     <!-- Body content ############################### -->
