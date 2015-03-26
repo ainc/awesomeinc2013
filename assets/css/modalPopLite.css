@@ -46,6 +46,7 @@
 }
 
 #popup-wrapper {
+	display: none;
 	padding: 0 50px;
 	text-align: center;
 	position: relative;
