@@ -61,9 +61,14 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
    <script type="text/javascript"> 
+   var width = $(window).width();
     $(function () 
       {     
-        $('#popup-wrapper').modalPopLite({ openButton: '#clicker', closeButton: '#close-btn' }); 
+        if (width < 1100) {
+          $('.stay-connected').attr("href", "http://awesomeinc.us2.list-manage.com/subscribe?u=5114422b2183673d50186748d&id=de5f188075");
+        } else {
+          $('#popup-wrapper').modalPopLite({ openButton: '#clicker', closeButton: '#close-btn' }); 
+        }
       }); 
     </script>
 
@@ -182,7 +187,7 @@
             	</div>
             </li>
             <li onclick="buttonClick()">
-            	<a id="clicker" style="color: #FF1440; cursor:pointer">Stay Connected</a>
+            	<a class="stay-connected" id="clicker" style="color: #FF1440; cursor:pointer">Stay Connected</a>
             </li>
 
 
@@ -215,19 +220,15 @@
     </div> 
 
     <script>
+    var width = $(window).width();
       function buttonClick() {
-        // $("#popup-wrapper").show();
-        // $(".popup-img").show();
-        $("#popup-wrapper").show();
-        //$(".popup-img").show();
+        if (width < 1100) {
+          $('.stay-connected').attr("href", "http://awesomeinc.us2.list-manage.com/subscribe?u=5114422b2183673d50186748d&id=de5f188075");
+        } else {
+          $("#popup-wrapper").show();
+        }
       }
 
-        // var element = document.getElementById("popup-wrapper");
-        // var imgElement = document.getElementById("popup-img");
-        // element.style.display = "none";
-        // imgElement.style.display = "none";
-        // setTimeout(function() {element.style.display = "block"}, 1000);
-        // setTimeout(function() {imgElement.style.display = "block"}, 1000);
 
     </script>
     <!-- /Modal Email Popup ############################
