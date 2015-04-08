@@ -2370,6 +2370,36 @@ div#mc_embed_signup {
 		color: #CF353B;
 }
 
+.alpha-img
+{
+	opacity: 1;
+	display: block;
+	height: 200px;
+	max-width: 100%;
+	margin: auto;}
+
+
+.alpha-bio
+{
+	color: black;
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	bottom: 250px;
+	right:5px;
+	background-color: #e2e2e2;
+	border-radius: 10px; 
+	visibility: hidden;
+	opacity: 0;
+	font-weight: bold;
+	font-size: 25px;
+	z-index: +1;
+	overflow: auto;
+	}
+.alpha-img:hover .alpha-bio {
+		visibility: visible;
+		opacity: .95;
+	}
 .div-home-page p {
 	font-size: 17px;
 	line-height: 28px;
