@@ -2340,7 +2340,7 @@ div#mc_embed_signup {
 	line-height: 22px;
 }
 
-#team-alpha b {
+#team-alpha b{
 	line-height: 14px;
 	font-size: 17px;
 }
@@ -2352,13 +2352,10 @@ div#mc_embed_signup {
 
 #team-alpha h2 {
 	font-size: 20px;
+
 }
 
-#team-alpha .col-lg-2 {
-	padding: 0px;
-	padding-bottom: 20px;
-	
-}
+
 
 #team-alpha .col-lg-offset-3 {
 	margin-left: 27.88888888888888%;
@@ -2373,33 +2370,44 @@ div#mc_embed_signup {
 .alpha-img
 {
 	opacity: 1;
-	display: block;
-	height: 200px;
+	height: 300px;
 	max-width: 100%;
-	margin: auto;}
+
+}
 
 
+#team-alpha h6
+{
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	padding-top: 2.5%;
+}
 .alpha-bio
 {
 	color: black;
 	position: absolute;
 	width: 400px;
-	height: 200px;
-	bottom: 250px;
+	height: 300px;
+	bottom: 150px;
 	right:5px;
-	background-color: #e2e2e2;
+	background-color: white;
 	border-radius: 10px; 
 	visibility: hidden;
 	opacity: 0;
-	font-weight: bold;
-	font-size: 25px;
+	font-weight: normal;
+	font-size: 15px;
 	z-index: +1;
 	overflow: auto;
 	}
+
 .alpha-img:hover .alpha-bio {
 		visibility: visible;
 		opacity: .95;
 	}
+
+
 .div-home-page p {
 	font-size: 17px;
 	line-height: 28px;
@@ -2766,7 +2774,7 @@ div#mc_embed_signup {
 
 		}
 
-		.alumni-bio hr{
+		.alumni-bio h4{
 			size:30px;
 			margin:15px auto 7px auto;
 			padding: 0px;
