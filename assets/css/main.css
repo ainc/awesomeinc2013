@@ -2384,14 +2384,16 @@ div#mc_embed_signup {
 	font-weight: bold;
 	padding-top: 2.5%;
 }
+
+
 .alpha-bio
 {
 	color: black;
 	position: absolute;
 	width: 400px;
 	height: 300px;
-	bottom: 150px;
-	right:5px;
+	bottom: 50%;
+	left:-110px;
 	background-color: white;
 	border-radius: 10px; 
 	visibility: hidden;
@@ -2402,6 +2404,10 @@ div#mc_embed_signup {
 	overflow: auto;
 	}
 
+#team-alpha .col-lg-offset-1 .alpha-bio
+{
+	left: 10%;
+}
 .alpha-img:hover .alpha-bio {
 		visibility: visible;
 		opacity: .95;
