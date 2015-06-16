@@ -28,7 +28,15 @@ layout: page
 								{{alum.location}}
 		
 								<h4>What are you doing?</h4>
-								 {{alum.work.postion}}
+
+								{% for job in alum.work limit:1 %}
+								 	{{ job.position}} 
+
+								 	{% if job.company != "" %}
+								 	at {{job.company}}
+								 	{% endif %}
+
+								 {% endfor %}
 
 								<h4>Favorite memory?</h4>
 								{{alum.memory}}
