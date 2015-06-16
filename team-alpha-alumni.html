@@ -2,8 +2,8 @@
 layout: page
 ---
 <br><br><br>			
-					<div id="pop-up">
-					<div id="alpha-alumni">
+			<div id="pop-up">
+				<div id="alpha-alumni">
 
 						<br><div class = "row centered"><strong>See the current <a href="/team-alpha">team</a></strong></div><br>
 
@@ -12,244 +12,39 @@ layout: page
 						<h2>Take a look at people who helped make Awesome inc awesome!</h2><br>
 
 
+
+					{% for alum in site.data.alumni %}
+					{% if alum.thumbnail != "http://i.imgur.com/sCovnRU.png" and  alum.thumbnail != "http://i.imgur.com/riaT1M8.png" %}
+
 						<div class ="alumni-img">
-							<img src = "/assets/img/Alumni/Danny Thorne.png" alt="Danny Thorne">
 
-							<div class ="alumni-bio">
-							<h4>Where are you now?</h4>
-							<p></p><hr>
-							<h4>What are you doing?</h4>
-							<p></p><hr>
-							<h4>Favorite memory?</h4>
-							<p></p><hr>
-							<h4>How long were you with us?</h4>
-							<p></p><hr>
-							</div>
-							<h2>Danny Thorne<br><span class="team">Unknown</span></h2>
-						</div>
+								<img src = '{{alum.thumbnail}}' alt="{{alum.fullName}}">
 
-							
+								<div class ="alumni-bio">
+
+								<p>
+								<br>
+								<h4>Where are you now?</h4>
+								{{alum.location}}
 		
+								<h4>What are you doing?</h4>
+								 {{alum.work.postion}}
 
-	
-							<div class ="alumni-img">
-							<img src = "/assets/img/Alumni/Erica Clark.png" alt="Erica Clark">
-
-							<div class ="alumni-bio">
-
-							<h4>Where are you now?</h4>
-							<p></p><hr>
-							<h4>What are you doing?</h4>
-							<p></p><hr>
-							<h4>Favorite memory?</h4>
-							<p></p><hr>
-							<h4>How long were you with us?</h4>
-							<p></p><hr>
-
-							</div>
-							<h2>Erica Clark<br><span class="team">Unknown</span></h2>
-						</div>
-
-						<div class ="alumni-img">
-							<img src = "/assets/img/Alumni/Hamzah Khan.png" alt="Hamzah Khan">
-
-							<div class ="alumni-bio">
-							
-							<h4>Where are you now?</h4>
-							<p>New Orleans, Louisiana</p><hr>
-							<h4>What are you doing?</h4>
-							<p>Tulane University Law School</p><hr>
-							<h4>Favorite memory?</h4>
-							<p>Awesome Olympics</p><hr>
-							<h4>How long were you with us?</h4>
-							<p>January/14 - August/14</p><hr>
-							</div>
-							<h2>Hamzah Khan<br><span class="team">Blog Team</span></h2>
-						</div>						
-
-
-						<div class ="alumni-img">
-							<img src = "/assets/img/Alumni/Huu Nguyen.png" alt="Huu Nguyen">
-							<div class ="alumni-bio">
-
-							<h4>Where are you now?</h4>
-							<p></p><hr>
-							<h4>What are you doing?</h4>
-							<p></p><hr>
-							<h4>Favorite memory?</h4>
-							<p></p><hr>
-							<h4>How long were you with us?</h4>
-							<p></p><hr>
-
-							</div>
-							<h2>Huu Nguyen<br><span class="team">Unknown</span></h2>
-						</div>							
-							
-						<div class ="alumni-img">
-							<img src = "/assets/img/Alumni/Jessika Jones.png" alt="Jessika Jones">
-
-							<div class ="alumni-bio">
-
-							<h4>Where are you now?</h4>
-							<p></p><hr>
-							<h4>What are you doing?</h4>
-							<p></p><hr>
-							<h4>Favorite memory?</h4>
-							<p></p><hr>
-							<h4>How long were you with us?</h4>
-							<p></p><hr>
-
-							</div>
-							<h2>Jessika Jones<br><span class="team">Unknown</span></h2>
-						</div>		
-
-						<div class ="alumni-img">
-							<img src = "/assets/img/Alumni/Meredith Scroggin.png" alt="Meredith Scroggin">
-
-							<div class ="alumni-bio">
-
-							<h4>Where are you now?</h4>
-							<p>Richmond, Virgina</p><hr>
-							<h4>What are you doing?</h4>
-							<p>University of Richmond Buisness Major with a focus in</p><p> marketing</p><hr>
-							<h4>Favorite memory?</h4>
-							<p>I loved when we all got to try Mix on Vine and the aerial yoga!</p><hr>
-							<h4>How long were you with us?</h4>
-							<p>May/2013-August/2014</p><hr>
-
-							</div>
-							<h2>Meredith Scroggin<br><span class="team">Blog Team</span></h2>
-						</div>
+								<h4>Favorite memory?</h4>
+								{{alum.memory}}
 								
-						<div class ="alumni-img">
-							<img src = "/assets/img/Alumni/Petra Ronald.png" alt="Petra Ronald">
+								<h4>when were you with us?</h4>
+								{{alum.year}}
+								
+								</p>
+								</div>
 
-							<div class ="alumni-bio">
-
-							<h4>Where are you now?</h4>
-							<p></p><hr>
-							<h4>What are you doing?</h4>
-							<p></p><hr>
-							<h4>Favorite memory?</h4>
-							<p></p><hr>
-							<h4>How long were you with us?</h4>
-							<p></p><hr>
-
-							</div>
-							<h2>Petra Ronald<br><span class="team">Unknown</span></h2>
-						</div>		
-
-						<div class ="alumni-img">
-							<img src = "/assets/img/Alumni/Will Oldham.png" alt="Will Oldham">
-
-							<div class ="alumni-bio">
-
-							<h4>Where are you now?</h4>
-							<p></p><hr>
-							<h4>What are you doing?</h4>
-							<p></p><hr>
-							<h4>Favorite memory?</h4>
-							<p></p><hr>
-							<h4>How long were you with us?</h4>
-							<p></p><hr>
-
-							</div>
-							<h2>Will Oldham<br><span class="team">Unknown</span></h2>
-						</div>		
-
-						<div class ="alumni-img">
-							<img src = "/assets/img/Alumni/teamalpha.png" alt="Name">
-
-							<div class ="alumni-bio">
-
-							<h4>Where are you now?</h4>
-							<p>Louisville, Kentucky</p><hr>
-							<h4>What are you doing?</h4>
-							<p>Mechanical Designer, Aereon Inc.</p><hr>
-							<h4>Favorite memory?</h4>
-							<p>Hanging out with Seahawks fullback Kerry Carter after</p><p> a Mobile X conference.</p><hr>
-							<h4>How long were you with us?</h4>
-							<p>September/2011 - August/2012</p><hr>
-
-							</div>
-							<h2>Andy Hampton<br><span class="team">Blog Team</span></h2>
+								
+								<h2>{{alum.fullName}}<br><span class="team">{{alum.role}} team</span></h2>
 						</div>
+					{% endif %}
+					{% endfor %}
 
-
-						<div class ="alumni-img">
-							<img src = "/assets/img/Alumni/Jamie Pridemore.png" alt="Jamie Pridemore">
-
-							<div class ="alumni-bio">
-
-							<h4>Where are you now?</h4>
-							<p>Minneapolis, MN</p><hr>
-							<h4>What are you doing?</h4>
-							<p>Account Development Manager with Campus Media</p><hr>
-							<h4>Favorite memory?</h4>
-							<p>Hanging out with awesome people during the accelerator</p><p> program, building a solid professional network, and making</p><p> countless friends.</p><hr>
-							<h4>How long were you with us?</h4>
-							<p>April 2012 to July 2013</p><hr>
-
-							</div>
-							<h2>Jamie Pridemore<br><span class="team">Blog Team</span></h2>
-						</div>
-
-						<div class ="alumni-img">
-							<img src = "/assets/img/Alumni/Lawrence Rogers.png" alt="Lawrence Rogers">
-
-							<div class ="alumni-bio">
-
-							<h4>Where are you now?</h4>
-							<p>Stanford, California</p><hr>
-							<h4>What are you doing?</h4>
-							<p>Senior, Stanford. B.s. Product design, m.s. Computer science.</p><hr>
-							<h4>Favorite memory?</h4>
-							<p>Winning 5across and getting Jimmy Johns </p><p>every day all summer</p><hr>
-							<h4>How long were you with us?</h4>
-							<p>June/2011 to September/2011</p><hr>
-
-							</div>
-							<h2>Lawrence Rogers<br><span class="team">Kingdoms of Eternity </span></h2>
-						</div>						
-
-						<div class ="alumni-img">
-							<img src = "/assets/img/Alumni/teamalpha.png" alt="Name">
-
-							<div class ="alumni-bio">
-
-							<h4>Where are you now?</h4>
-							<p>Ft. Knox, KY<hr>
-							<h4>What are you doing?</h4>
-							<p>SAIC, US Army. Sr Software Engineer.</p><hr>
-							<h4>Favorite memory?</h4>
-							<p>Every day I was there. Even when there wasn't much to be done</p><p> it was an environment I needed at the time after some really</p><p> bad patches in life. </p><hr>
-							<h4>How long were you with us?</h4>
-							<p>January 2008 to December 2008</p><hr>
-
-							</div>
-							<h2>Dave (Thunder) Boyer<br><span class="team">Awesome camp</span></h2>
-						</div>
-
-						<div class ="alumni-img">
-							<img src = "/assets/img/Alumni/Tyler green.png" alt="Tyler green">
-
-							<div class ="alumni-bio">
-
-							<h4>Where are you now?</h4>
-							<p>Fort Collins, CO</p><hr>
-							<h4>What are you doing?</h4>
-							<p>Design Engineer at Advanced Micro Devices, Inc.</p><hr>
-							<h4>Favorite memory?</h4>
-							<p>When we hosted the first Kentucky Entrepreneur Hall of Fame</p><p> induction and got to meet the people who I grew up recognizing</p><p> as the leaders of the state.</p><hr>
-							<h4>How long were you with us?</h4>
-							<p>May 2010 to Maya 2011</p><hr>
-
-							</div>
-							<h2>Tyler green<br><span class="team">Development Team</span></h2>
-						</div>
-
-
-
-					</div>
-					</div>
+			</div>
+				</div>
 					
