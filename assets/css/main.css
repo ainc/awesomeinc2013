@@ -2819,4 +2819,27 @@ div#mc_embed_signup {
   			visibility: visible;
   			opacity: .95;
   		}
+
+  /* Transparency Classes */
+
+.item_container {
+	position:relative;
+	width: 250px;
+	height: 150px;
+	float: left;
+}
+
+.item_container_rollover {
+	position:absolute;
+	display: none;
+	height: 100%;
+	width: 100%;
+	left:-2px;
+}
+
+.item_container_sub {
+	position:absolute;
+	height: 100%;
+	width: 100%;
+}
 >>>>>>> 838da3f4779bf424e559f0e2ea490578897d06ba
