@@ -2788,6 +2788,7 @@ div#mc_embed_signup {
 			padding: 0px;
 			font-weight: bold;
 			padding-top: 2.5%;
+			
 
 
 		}
@@ -2803,7 +2804,7 @@ div#mc_embed_signup {
 			height: 250px;
   			bottom: 100px;
   			right:5px;
-  			background-color: white;
+  			background-color: #e6e6e6;
   			border-radius: 10px; 
   			visibility: hidden;
   			opacity: 0;
