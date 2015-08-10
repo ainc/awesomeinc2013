@@ -1475,7 +1475,7 @@ div.shadow:hover {
 
 
 /*for top img*/
-div.coworking-page, div.entrep-page, div.internship-page, div.about-page  {
+div.coworking-page, div.entrep-page, div.internship-page, div.about-page, div.parking-page  {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1484,6 +1484,8 @@ div.coworking-page, div.entrep-page, div.internship-page, div.about-page  {
 }
 
 div.coworking-page { background-image: url("/assets/img/coworking-head.jpg") }
+
+div.parking-page { background-image: url("/assets/img/parking-head-4.jpg") }
 
 div.entrep-page { background-image: url("/assets/img/entrep-head.jpg"); margin-top:20px; }
 
@@ -1517,6 +1519,13 @@ div.about-page { background-image: url("/assets/img/aboutpage.jpg") }
 	.img-overlay {
 		font-size: 20px;
 	}
+}
+
+/*for the parking page */
+
+div.parking {
+	text-align: center;
+	padding: 50px;
 }
 
 
