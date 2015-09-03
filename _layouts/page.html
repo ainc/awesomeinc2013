@@ -92,6 +92,20 @@
 	});
 	</script>
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+  
+      $('#QuoteOpen').click(function(){
+        if($('#QuoteInfo').is(':visible')){
+          $('#QuoteInfo').hide();
+        }
+        else{
+          $('QuoteInfo').show();
+        }
+      });
+    });
+    </script>
+
   </head>
 
   <body>
@@ -131,6 +145,7 @@
             			<a href="/about/#our-blog">Our Blog</a>
             			<a href="/about/#events">Events</a>
             			<a href="/culture-book.pdf">Culture Book</a>
+                  <a href="/taservices">Team Alpha Services</a>
             	</div>
             </li> 
         	<li class="dropdown">  <!-- FOR ENTREPRENEURS -->
@@ -231,6 +246,7 @@
 
 
     </script>
+    
     <!-- /Modal Email Popup ############################
 
     <!-- Body content ############################### -->
