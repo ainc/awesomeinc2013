@@ -1475,7 +1475,7 @@ div.shadow:hover {
 
 
 /*for top img*/
-div.coworking-page, div.entrep-page, div.internship-page, div.about-page, div.parking-page  {
+div.coworking-page, div.entrep-page, div.internship-page, div.about-page, div.parking-page, div.awesomeincgame-page  {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1492,6 +1492,8 @@ div.entrep-page { background-image: url("/assets/img/entrep-head.jpg"); margin-t
 div.internship-page { background-image: url("/assets/img/internships-tree.jpg") }
 
 div.about-page { background-image: url("/assets/img/aboutpage.jpg") }
+
+div.awesomeincgame-page { background-image: url("/assets/img/awesomeincgame-banner.png") }
 
 .img-overlay {
 	color: white;
