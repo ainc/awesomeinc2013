@@ -85,8 +85,20 @@
 }
 
 
+#CustInfo{
+    width:100%;
+    padding:5px;
+    margin:5px;
+}
 
+#QuoteInfo{
+    width:50%;
 
+}
+
+#QuoteInfo1{
+    width:50%;
+}
 
 
 

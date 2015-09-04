@@ -45,7 +45,7 @@
 	width: 35%;
 }
 
-#popup-wrapper {
+#popup-wrapper{
 	display: none;
 	padding: 0 50px;
 	text-align: center;
@@ -95,6 +95,58 @@
 #close-btn {
 	padding: 8px;
 }
+
+#popup-wrapper1{
+	display: none;
+	padding: 0 50px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#popup-wrapper1 h1 {
+	font-weight: bold;
+	font-size: 26px;
+	position: absolute;
+	top: 35px;
+	padding-right: 50px;
+	margin-top: 12px;
+}
+
+#popup-wrapper1 h2 {
+	position: absolute;
+	top: 125px;
+	width: 75%;
+	text-align: center;
+	font-size: 17px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+#popup-wrapper1 form {
+	position: absolute;
+	top: 150px;
+	width: 75%;
+}
+
+#popup-wrapper1 a {
+	position: absolute;
+	top: 200px;
+	width: 15%;
+	right: 42%;
+	color: black;
+}
+
+#popup-wrapper1 .button {
+	border-radius: 2px;
+	border: 2px;
+	padding: 4px 10px;
+}
+
+#close-btn1 {
+	padding: 8px;
+}
+
 .popBox-container 
 {
      display:none;

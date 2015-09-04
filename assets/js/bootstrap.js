@@ -465,6 +465,9 @@
     e.preventDefault()
   })
 
+
+
+
 }(window.jQuery);/* =============================================================
  * bootstrap-collapse.js v2.3.2
  * http://getbootstrap.com/2.3.2/javascript.html#collapse
@@ -2278,3 +2281,4 @@
 
 
 }(window.jQuery);
+
