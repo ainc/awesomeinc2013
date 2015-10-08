@@ -102,11 +102,14 @@
     line-height:25px !important;
 }
 #QuoteOpen{
-    margin-left:25%;
-    margin-right:25%;
+    margin-left:32%;
+    
 }
 
-
+#WthroughAnchor{
+    height:50px;
+    width:100%;
+}
 #Wthrough{
     background-color:rgb(255,222,223);
     width:100% !important;
