@@ -103,6 +103,66 @@ excerpt: "Awesome Inc provides a flexible coworking space and is also the perfec
 	</div> <!-- CONTAINER -->
 </div> <!-- ROW -->
 
+<div class = "container" id="Wthrough">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("#QuoteInfo").hide();
+	    $("#hide").click(function(){
+	        $("#QuoteInfo").hide();
+	    });
+	    $("#QuoteOpen").click(function(){
+	        $("#QuoteInfo").show();
+	        $("QuoteDescp").hide();
+	        $("#QuoteDesc").hide();
+	        $("#QuoteOpen").hide();
+	        
+
+	    });
+	});
+	</script>
+		<div class = "col-md-6">
+			<div class = "container" id="QuoteDesc">
+			<h2 > Schedule a Walkthrough </h2>
+			<p > Catchy text about walking through awesome goes here. </p>
+			</div>
+			
+		
+			<h3>
+				<a type="button" id="QuoteOpen" class="btn btn-danger btn-large">Schedule a Walkthrough</a>
+			</h3>
+			<div id="QuoteInfo" style="display:none" class="container">
+			<div class = "col-md-6">
+				<h2>Schedule<br>Walkthrough</h2>
+				<p>Please fill out the form and we will be in contact with you soon.</p>
+			</div>
+			<div class = "col-md-6">
+				<form method="POST"  action="////formspree.io/theresa.simcic@gmail.com">
+					<input type="hidden" name="_cc" value="ek.andrews11@gmail.com">
+
+			      	<input type="email" id="CustInfo" name="_replyto" placeholder="Your email" /><br>
+			      	<input type="text" id="CustInfo" name="name" placeholder="Your name"><br>
+			      	<textarea name="message" id="CustInfo" rows="5" placeholder="Your message"></textarea><br>
+			      	<input type="text" name="_gotcha" style="display:none">
+			      	<h3>
+			      	<button type="submit" class ="btn btn-danger btn-large" id ="hide">Send</button>
+			      	</h3>
+				</form>
+				</div>
+			</div>
+			
+		</div>
+
+
+
+	
+		
+		<div class = "col-md-6">
+			<iframe width="560" height="315px"  src="https://www.youtube.com/embed/Xh2VKU-5GP8" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
 
 <div id="r2">
 	<span class="anchor" id="rent-space"></span>

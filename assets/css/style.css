@@ -92,13 +92,23 @@
 }
 
 #QuoteInfo{
-    width:50%;
+    width:100%;
 
 }
-
-#QuoteInfo1{
-    width:50%;
+#QuoteInfo h2{
+    font-size:35px !important;
+}
+#QuoteInfo p{
+    line-height:25px !important;
+}
+#QuoteOpen{
+    margin-left:25%;
+    margin-right:25%;
 }
 
 
-
+#Wthrough{
+    background-color:rgb(255,222,223);
+    width:100% !important;
+    min-height:366px;
+}

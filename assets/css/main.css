@@ -1550,7 +1550,7 @@ div.parking {
 	height: 187px;
 }
 
-#r2 p {
+#r2 p , #Wthrough p{
 	text-align: center;
 	font-family: "open sans";
 	font-weight: 500;
@@ -1559,7 +1559,7 @@ div.parking {
 	margin-top: 10px;
 }
 
-#c2 a, #r2 a {
+#c2 a, #r2 a , #Wthrough a, #hide{
 	font-family: "open sans";
 	background-color: rgb(207, 53, 59);
 	border-radius: 2px;
@@ -1624,7 +1624,7 @@ div.parking {
 		font-size: 23px;
 		padding-left: 10px;
 	}
-	#r2 p {
+	#r2 p , #Wthrough p{
 		font-size: 15px;
 	}
 	#r2 a, #c2 a {
@@ -2033,7 +2033,7 @@ img.tenant {
 		padding-left: 10px;
 		margin-top: 10px;
 	}
-	#r2 h2 {
+	#r2 h2, #Wthrough h2{
 		font-size: 3em;
 	}
 }
@@ -2058,7 +2058,7 @@ img.tenant {
 		font-size: 14px;
 		float: right;
 	}
-	#c2 h2, #r2 h2 {
+	#c2 h2, #r2 h2, #Wthrough h2 {
 		font-size: 22px;
 	}
 
@@ -2124,7 +2124,7 @@ div.sub-row {
 	background-color: white;
 }
 
-#r2 h2 {
+#r2 h2, #Wthrough h2 {
 	font-family: "open sans";
 	color: #2e2e2e;
 	text-align: center;
