@@ -454,7 +454,7 @@ input[type="submit"] {
 @media(min-width: 700px) {
 	#f {
 		background:url("../img/map.png") repeat;
-		padding-top: 50px;
+		padding-top: 20px;
 		padding-bottom: 20px;
 	}
 }
