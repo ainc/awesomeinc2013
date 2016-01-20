@@ -2758,7 +2758,7 @@ div#mc_embed_signup {
 
 
 		#alpha-alumni h2{
-			text-align: center;
+			
 			position: relative;
 			padding: 0px;
 
@@ -2798,11 +2798,17 @@ div#mc_embed_signup {
   			opacity: 1;
 		}
 
+		#team-alpha .alumni-img{
+			height;
+		}
+
 		.alumni-img h2 {
+			text-align: center;
 			font-size: 20px;
 			padding: 0px;
 
 		}
+
 
 		.alumni-bio h4{
 			font-size: 20px;
@@ -2818,7 +2824,22 @@ div#mc_embed_signup {
 		.alumni-bio p {
 			font-size: 17px;
 		}
-
+		.alumni-bio{
+			position: absolute;
+		    text-align: center;
+		    width: 300px;
+		    height: 300px;
+		    bottom: 0px;
+		    right: -20px;
+		    padding: 10px 20px 10px 20px;
+		    background-color: #e6e6e6;
+		    border-radius: 50%;
+		    visibility: hidden;
+		    opacity: 0;
+		    z-index: +1;
+		    overflow: auto;
+		}
+/*
 		.alumni-bio{
 			position: absolute;
 			text-align: center;
@@ -2833,7 +2854,7 @@ div#mc_embed_signup {
   			z-index: +1;
   			overflow: auto;
 		}
-
+*/
 		.alumni-img:hover img {
 			opacity: .5;
 		}
