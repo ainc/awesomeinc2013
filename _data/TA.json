@@ -6,7 +6,7 @@
         "favoriteSong": "Dreams - Van Halen",
         "favoriteAwesomePerson": "Steven Levitt",
         "randomFact": "I am a photographer and I shoot underwater portraits. ",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\adamchaffins_wall.gif\" alt=\"Adam Chaffins\">"
+        "team": "Marketing Team"
     },
     {
         "time": "2015-11-16T19:20:50.470Z",
@@ -14,8 +14,7 @@
         "favoriteRule": "Rule #17 - Bring the fun!",
         "favoriteSong": "Somewhere Only We Know by Keane",
         "favoriteAwesomePerson": "Ellen DeGeneres",
-        "randomFact": "So far I have a movie collection of 230 movies.",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\amberbowman_wall.gif\" alt=\"Amber Bowman\">"
+        "randomFact": "So far I have a movie collection of 230 movies."
     },
     {
         "name": "Brian Raney",
@@ -23,7 +22,7 @@
         "favoriteSong": "The Thing",
         "favoriteAwesomePerson": "Truett Cathy",
         "randomFact": "I started a water gun selling business when I was in middle school",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\brianraney_wall.gif\" alt=\"Brian Raney\">"
+        "team": "Co-Founder"
     },
     {
         "time": "2015-11-04T21:54:01.951Z",
@@ -31,17 +30,7 @@
         "favoriteRule": "Rule # 4 Always do something awesome over something not awesome",
         "favoriteSong": "Brighter than Sunshine, Aqualung",
         "favoriteAwesomePerson": "Jane Austen",
-        "randomFact": "90% of the time, I read the book before I saw the movie.",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\brittanydurham_wall.gif\" alt=\"Brittany Durham\">"
-    },
-    {
-        "time": "2015-11-06T02:08:06.120Z",
-        "name": "Chase Northrip",
-        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
-        "favoriteSong": "I'm Awesome by Spose",
-        "favoriteAwesomePerson": "Bruce Lee",
-        "randomFact": "I've been cussed out by Dr. Cox from Scrubs a couple times.",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\chasenorthrip_wall.gif\" alt=\"Chase Northrip\">"
+        "randomFact": "90% of the time, I read the book before I saw the movie."
     },
     {
         "time": "2015-10-28T03:09:08.806Z",
@@ -49,8 +38,7 @@
         "favoriteRule": "Rule #21: The universal principle and indeed the purpose of life, business, sports, and all competition: Dominate.",
         "favoriteSong": "Puppeteer - MAX",
         "favoriteAwesomePerson": "Harvey Specter",
-        "randomFact": "I made it across Percy-Lake with a floaty. Which is pretty awesome considering I can't swim. ",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\dianteelcock_wall.gif\" alt=\"Diante' Elcock\">"
+        "randomFact": "I made it across Percy-Lake with a floaty. Which is pretty awesome considering I can't swim. "
     },
     {
         "time": "2015-10-15T14:40:07.060Z",
@@ -59,7 +47,7 @@
         "favoriteSong": "Madeon - Finale",
         "favoriteAwesomePerson": "Nikola Tesla",
         "randomFact": "I can play the piano.",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\drakewitt_wall.gif\" alt=\"Drake Witt\">"
+        "team": "Development Team"
     },
     {
         "time": "2015-07-10T21:24:25.522Z",
@@ -68,7 +56,7 @@
         "favoriteSong": "Winter - Joshua Radin",
         "favoriteAwesomePerson": "Joseph Gordon-Levitt",
         "randomFact": "I'm a Tough Mudder Legionnaire, and I complete at least one Tough Mudder every year.",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\dustinpeerce_wall.gif\" alt=\"Dustin Peerce\">"
+        "team": "Development Team"
     },
     {
         "time": "2015-10-21T18:52:45.810Z",
@@ -77,7 +65,7 @@
         "favoriteSong": "Farther Along - Josh Garrels",
         "favoriteAwesomePerson": "C.S. Lewis",
         "randomFact": "I have a twin sister that was born exactly 2 years and 4 days before me.",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\emilyandrews_wall.gif\" alt=\"Emily Andrews\">"
+        "team": "Director"
     },
     {
         "name": "Garrett Ebel",
@@ -85,7 +73,7 @@
         "favoriteSong": "The Thing",
         "favoriteAwesomePerson": "Sam Walton",
         "randomFact": "I once earned a set of golden balls (yes, testicles) for linking 8,000 rounds of .50 Caliber ammunition in less than 7 hours.",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\garrettebel_wall.gif\" alt=\"Garrett Ebel\">"
+        "team": "Director"
     },
     {
         "time": "2014-09-29T21:40:51.000Z",
@@ -94,7 +82,7 @@
         "favoriteSong": "Kryptonite by Three Doors Down",
         "favoriteAwesomePerson": "Adam Savage",
         "randomFact": "I try to quote Douglas Adams' Hitchhikers Guide to the Galaxy as often as possible.",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\isaacrowe_wall.gif\" alt=\"Isaac Rowe\">"
+        "team": "Development Team"
     },
     {
         "time": "2013-01-03T18:44:22.000Z",
@@ -103,7 +91,7 @@
         "favoriteSong": "Across the Universe - The Beatles",
         "favoriteAwesomePerson": "Kanye West",
         "randomFact": "I play the guitar",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\jaketapia_wall.gif\" alt=\"Jake Tapia\">"
+        "team": "Marketing Team"
     },
     {
         "time": "2015-07-03T20:26:01.226Z",
@@ -111,8 +99,7 @@
         "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
         "favoriteSong": "Since I've Been Lovin You - Led Zeppelin, Black and Gold - Joe Robinson, Call me the Breeze - Any version",
         "favoriteAwesomePerson": "Rob Pardo- Creator of some of the most addicting things on the planet.",
-        "randomFact": "I can lick my elbow (Try it).",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\joeywilliams_wall.gif\" alt=\"Joey Williams\">"
+        "randomFact": "I can lick my elbow (Try it)."
     },
     {
         "time": "2015-02-19T21:21:39.851Z",
@@ -121,7 +108,7 @@
         "favoriteSong": "loose Control - Missy Elliott",
         "favoriteAwesomePerson": "Martin Luther King Jr.",
         "randomFact": "I have Five Bikes",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\kevinjoiner_wall.gif\" alt=\"Kevin Joiner\">"
+        "team": "Development Team"
     },
     {
         "time": "2014-01-15T23:25:29.000Z",
@@ -130,7 +117,7 @@
         "favoriteSong": "Safe and Sound - Capital Cities",
         "favoriteAwesomePerson": "John Wall",
         "randomFact": "I sell beef jerky and healthy snacks for a living.",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\kyleraney_wall.gif\" alt=\"Kyle Raney\">"
+        "team": "Development Team"
     },
     {
         "time": "2015-11-16T01:48:44.969Z",
@@ -138,8 +125,7 @@
         "favoriteRule": "#17 Bring The Fun",
         "favoriteSong": "Turn Down For What- DJ Snake/Lil John",
         "favoriteAwesomePerson": "Lady Gaga",
-        "randomFact": "I've had 6 nicknames throughout my life.",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\lindseykirkpatrick_wall.gif\" alt=\"Lindsey Kirkpatrick\">"
+        "randomFact": "I've had 6 nicknames throughout my life."
     },
     {
         "time": "2015-07-13T23:29:37.282Z",
@@ -148,7 +134,7 @@
         "favoriteSong": "The Call- Regina Spektor",
         "favoriteAwesomePerson": "C.S. Lewis",
         "randomFact": "I play the ukulele!",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\lizziemoore_wall.gif\" alt=\"Lizzie moore\">"
+        "team": "Design Team"
     },
     {
         "name": "Luke Murray",
@@ -156,7 +142,7 @@
         "favoriteSong": "The Thing",
         "favoriteAwesomePerson": "Abe Lincoln",
         "randomFact": "I rode my bike from Canada to Mexico",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\lukemurray_wall.gif\" alt=\"Luke Murray\">"
+        "team": "Co-Founder"
     },
     {
         "time": "2014-12-04T04:16:07.000Z",
@@ -165,7 +151,7 @@
         "favoriteSong": "Soldier, Gavin DeGraw",
         "favoriteAwesomePerson": "Elon Musk",
         "randomFact": "I can play 5.5 instruments: Guitar, Piano, Bass, Drums, Mandolin, and a little Harmonica.",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\michaellewis_wall.gif\" alt=\"Michael Lewis\">"
+        "team": "Recruitment Team"
     },
     {
         "time": "2015-08-02T23:01:13.326Z",
@@ -174,7 +160,7 @@
         "favoriteSong": "Intergalactic - Beastie Boys 2009",
         "favoriteAwesomePerson": "Buckminster Fuller",
         "randomFact": "I'm definitely a wilderness enthusiast.",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\monicaleslie_wall.gif\" alt=\"Monica Leslie\">"
+        "team": "Tean Alpha Services"
     },
     {
         "time": "2015-01-22T00:15:09.000Z",
@@ -183,7 +169,7 @@
         "favoriteSong": "Billy Joel - We Didn't Start the Fire",
         "favoriteAwesomePerson": "Elon Musk",
         "randomFact": "In college, I was an international race car driver",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\nicksuch_wall.gif\" alt=\"Nick Such\">"
+        "team": "Co-Founder"
     },
     {
         "time": "2014-11-12T02:34:16.000Z",
@@ -192,7 +178,7 @@
         "favoriteSong": "Who We Are by Imagine Dragons",
         "favoriteAwesomePerson": "Neil Armstrong",
         "randomFact": "I own and regularly drive a purple moped. ",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\peterbriggs_wall.gif\" alt=\"Peter Briggs\">"
+        "team": "Video Team"
     },
     {
         "time": "2015-05-14T23:24:39.217Z",
@@ -201,16 +187,7 @@
         "favoriteSong": "Thunder Road by Bruce Springsteen",
         "favoriteAwesomePerson": "Amy Poehler",
         "randomFact": "I want to be a New York Times Best Selling novelist.",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\sarahbrookbank_wall.gif\" alt=\"Sarah Brookbank\">"
-    },
-    {
-        "time": "2015-12-31T14:35:12.081Z",
-        "name": "Serra Doll",
-        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
-        "favoriteSong": "All Over the World - Above&Beyond",
-        "favoriteAwesomePerson": "Eleanor Roosevelt",
-        "randomFact": "The spelling of my name was taken from a nun my parents knew, who chose St. Junipero Serra (a dude) as her religious name sake. ",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\serradoll_wall.gif\" alt=\"Serra Doll\">"
+        "team": "Blog Team"
     },
     {
         "time": "2013-11-18T19:55:15.000Z",
@@ -219,7 +196,7 @@
         "favoriteSong": "\"Song for the Suburbs\" -- Ben Rector",
         "favoriteAwesomePerson": "Blake Mycoskie",
         "randomFact": "I was cast to play a murder victim during a re-enactment in an episode of the show Forensic Files.",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\theresasimcic_wall.gif\" alt=\"Theresa Simcic\">"
+        "team": "Director"
     },
     {
         "time": "2015-01-14T06:01:23.000Z",
@@ -228,7 +205,7 @@
         "favoriteSong": "We are young, Fun",
         "favoriteAwesomePerson": "Lebron James ",
         "randomFact": "I have an obsession with Dr. Pepper",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\tjbarnett_wall.gif\" alt=\"TJ  Barnett\">"
+        "team": "Recruitment Team"
     },
     {
         "name": "Will Swinton-Ginsberg",
@@ -236,6 +213,6 @@
         "favoriteSong": "Get Along - Michael Kiwanuka",
         "favoriteAwesomePerson": "My Grandma",
         "randomFact": "I dove with Great White Sharks in South Africa",
-        "picture": "<img class=\"img-responsive\" src=\"\\assets\\img\\teamalpha\\Team alpha wall photos\\willswinton-ginsberg_wall.gif\" alt=\"Will Swinton-Ginsberg\">"
+        "team": "Development Team"
     }
 ]
