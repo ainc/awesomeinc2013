@@ -1543,6 +1543,20 @@ div.parking {
 
 /*for the coworking page */
 
+#Schedule1{
+	width:45%;
+}
+
+#Schedule2{
+	min-width:560px;
+	min-height:315px;
+}
+
+#walkVideo{
+	margin-top:1%;
+	margin-left:5%;
+}
+
 #r2 img {
 	margin-left: 10%;
 	border-radius: 4px;
