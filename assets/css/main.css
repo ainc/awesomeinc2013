@@ -1142,10 +1142,6 @@ div.shadow:hover {
 		line-height: 40px;
 	}
 
-	.fell-img {
-		padding-top: 25px;
-	}
-
 	#fellowship a, #across a, #cherub a, #startup a, #hof a {
 		font-size: 32px;
 		font-weight: 400;
@@ -1161,10 +1157,6 @@ div.shadow:hover {
 		text-align: center;
 	}
 
-	#fellowship img {
-		width: 110%;
-		height: 110%;
-	}
 }
 
 @media (max-width: 1000px) {
@@ -1215,10 +1207,6 @@ div.shadow:hover {
 	#fellowship h2, #across h2, #cherub h2, #startup h2, #hof h2 {
 		font-weight: 700;
 		font-size: 15px;
-	}
-
-	#startup img {
-		padding-top: 20%;
 	}
 
 	#fellowship p, #across p, #cherub p, #startup p, #hof p {
@@ -1325,7 +1313,7 @@ div.shadow:hover {
 }
 
 #cherub {
-	background-color: rgb(255, 222, 223);
+	background-color: #E2E2E2;
 }
 
 #cherub img, #hof img {
@@ -1396,12 +1384,6 @@ div.shadow:hover {
 	#cherub a {
 		font-size: 9px;
 	}
-}
-
-#startup img {
-	margin: 5%;
-	width: 100%;
-	height: 100%;
 }
 
 #startup h3, #startup h2, #hof h2, #hof h3 {
