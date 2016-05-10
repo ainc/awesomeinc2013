@@ -2,6 +2,9 @@ name: Awesome Inc
 permalink: pretty
 relative_permalinks: false
 include: [_data]
+sass:
+  sass_dir: _scss
+  # style: compressed
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from

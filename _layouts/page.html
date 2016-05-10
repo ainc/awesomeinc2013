@@ -36,11 +36,13 @@
 	
     <!-- Bootstrap core CSS -->
 
-
     <link href="/assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="/assets/css/main.css" rel="stylesheet">
+
+    <!-- SCSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
 
 	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
 
@@ -241,8 +243,9 @@
     <!-- /Modal Email Popup ############################
 
     <!-- Body content ############################### -->
-
-    {{content}}
+    <div class="{{page.title}}">
+      {{content}}
+    </div>
 
     <!-- Footer content #################################### -->
 
