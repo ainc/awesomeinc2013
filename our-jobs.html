@@ -13,7 +13,7 @@ title: Our Jobs
 					<h5>{{ job.title }}</h5>
 					<p>{{ job.description }}</p>
 					<span>
-						<a href="mailto:{{ job.email }}">Questions? Email us.</a>
+						<a href="mailto:{{ job.email }}">Questions? Email {{ job.manager }}: {{ job.email }}.</a>
 					</span>
 				</div>
 				<div class="col-md-3">
