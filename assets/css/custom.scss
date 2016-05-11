@@ -87,7 +87,28 @@ $mobile-width: $tablet-width - 1;
 }
 
 
-
+.Our {
+	margin-top: 50px;
+	.container {
+		padding-top: 50px;
+	}
+	legend {
+		font-size: 34px;
+		font-weight: bold;
+		text-align: center;
+	}
+	h5 {
+		font-size: 24px;
+	}
+	p {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.btn {
+		font-size: 22px;
+		font-weight: bold;
+	}
+}
 
 
 

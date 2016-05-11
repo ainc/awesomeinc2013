@@ -1,0 +1,30 @@
+---
+layout: page
+permalink: our-jobs/
+title: Our Jobs
+---
+
+<div class="container">
+	<div class="col-md-10 col-md-offset-1 well">
+		<legend>Join Our Team</legend>
+		{% for job in site.data.openings %}
+			<div class="row">
+				<div class="col-md-9">
+					<h5>{{ job.title }}</h5>
+					<p>{{ job.description }}</p>
+					<span>
+						<a href="mailto:{{ job.email }}">Questions? Email us.</a>
+					</span>
+				</div>
+				<div class="col-md-3">
+					<h3>
+						<a type="button" class="btn btn-danger btn-large" href="{{ job.apply_url }}" target="_blank">Apply here</a>
+					</h3>
+					
+				</div>
+
+			</div>
+			<hr>
+		{% endfor %}
+	</div>
+</div>

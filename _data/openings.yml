@@ -1,0 +1,28 @@
+- title: Bootcamp Lead Instructor
+  description: Developer with expertise preferrably in python/django.  3 month program where students will go from knowing nothing about programming to being an a proficient full-stack developer.
+  apply_url: http://www.awesomeincu.com
+  email: nick@awesomeinc.org
+  manager: Nick
+  time-commitment: full-time
+
+
+- title: Academy Instructor
+  description: Work with teenagers in developing their own project throughout a semester.  Meets two nights per week and works as a teacher and accountability partner for the students.
+  apply_url: http://www.awesomeincu.com
+  email: nick@awesomeinc.org
+  manager: Nick
+  time-commitment: 2 nights per week
+
+- title: Software Developer
+  description: Work for the best custom software solution company in the Lexington area.  Experience in python/django preffered
+  apply_url: http://www.apaxsoftware.com
+  email: brian@awesomeinc.org
+  manager: Brian
+  time-commitment: part-time or full-time
+
+- title: Team Alpha Intern
+  description: Learn more by clicking the apply button.
+  apply_url: http://www.awesomeinc.org/internships
+  email: Emily@awesomeinc.org
+  manager: Emily
+  time-commitment: part-time
