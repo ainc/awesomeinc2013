@@ -67,6 +67,13 @@ $mobile-width: $tablet-width - 1;
 }
 
 .Internships {
+	img {
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+
+.Internships_test {
 	#i2 {
 		text-align: center;
 		h1 {
