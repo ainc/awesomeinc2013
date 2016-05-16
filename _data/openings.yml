@@ -1,28 +1,40 @@
 - title: Bootcamp Lead Instructor
-  description: Developer with expertise preferrably in python/django.  3 month program where students will go from knowing nothing about programming to being an a proficient full-stack developer.
+  description: Awesome Inc U is launching a Developer Bootcamp in late August of 2016. We are looking for a full time Lead Instructor to teach this 12-week, intensive, in-person program. Classes will be held M-F every day, with a few hours of instruction, and many hours of project work for the students.  
   apply_url: http://www.awesomeincu.com
-  email: nick@awesomeinc.org
+  email: info@awesomeincu.com
+  team: Awesome Inc U
   manager: Nick
   time-commitment: full-time
 
 
 - title: Academy Instructor
-  description: Work with teenagers in developing their own project throughout a semester.  Meets two nights per week and works as a teacher and accountability partner for the students.
+  description: We are seeking a PT lead instructor for our elite programming class for teenagers. Students will develop their own project throughout the course of a semester. Meets two nights per week and works as a teacher and accountability partner for the students.
   apply_url: http://www.awesomeincu.com
-  email: nick@awesomeinc.org
+  email: info@awesomeinc.org
+  team: Awesome Inc U
   manager: Nick
   time-commitment: 2 nights per week
 
 - title: Software Developer
-  description: Work for the best custom software solution company in the Lexington area.  Experience in python/django preffered
+  description: Our Software Development Company at Awesome Inc (APAX Software-hyperlink this) is seeking candidates with experience in web and mobile application development.
   apply_url: http://www.apaxsoftware.com
   email: brian@awesomeinc.org
+  team: APAX software
   manager: Brian
   time-commitment: part-time or full-time
 
 - title: Team Alpha Intern
-  description: Learn more by clicking the apply button.
+  description: Join our internship team called Team Alpha and get the experience you need to pursue your definition of awesome! Learn more by clicking the Apply Here button.
   apply_url: http://www.awesomeinc.org/internships
-  email: Emily@awesomeinc.org
+  email: emily@awesomeinc.org
+  team: Awesome Inc
   manager: Emily
   time-commitment: part-time
+
+- title: Program Director
+  description: "We are seeking a Director to join our leadership team at Awesome Inc. Ideal candidates will be passionate about entrepreneurship and helping entrepreneurs reach their goals. The Director will work closely with the rest of the management team to hit fundraising goals, manage program budget, and manage a team. Additional tasks include: marketing & recruiting, planning/coordinating events, grant writing, effectively running meetings, accounting, and other administrative tasks associated with running an organization."
+  apply_url: http://www.awesomeinc.org/internships
+  email: brian@awesomeinc.org
+  team: Awesome Inc
+  manager: Brian
+  time-commitment: full-time
