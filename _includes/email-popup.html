@@ -1,0 +1,41 @@
+   <script type="text/javascript"> 
+   var width = $(window).width();
+    $(function () 
+      {     
+        if (width < 1100) {
+          $('.stay-connected').attr("href", "http://awesomeinc.us2.list-manage.com/subscribe?u=5114422b2183673d50186748d&id=de5f188075");
+        } else {
+          $('#popup-wrapper').modalPopLite({ openButton: '#clicker', closeButton: '#close-btn' }); 
+        }
+      }); 
+    </script>
+
+<div id="popup-wrapper" style="background-color: #ccc;">
+      <img class="popup-img" src="/assets/img/A-faded.png" style="width:80%; max-width:100%"/>
+
+      <h1>
+        Sign up now to get updates on Awesome Inc!
+      </h1>
+      <h2>
+        Enter your email below:
+      </h2>
+      <form style="padding:0px" action="http://awesomeinc.us2.list-manage.com/subscribe?u=5114422b2183673d50186748d&id=de5f188075" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <input style="margin: auto; width:170px" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <input style="color: white; background-color: rgb(212, 63, 58);" onmouseover="this.style.color='rgb(255,155,155)'" onmouseout="this.style.color='white'" type="submit" value="Join Now" name="subscribe" id="mc-embedded-subscribe" class="button">
+        <br>
+      </form>
+      <a id="close-btn" href="#">Close</a> 
+    </div> 
+
+    <script>
+    var width = $(window).width();
+      function buttonClick() {
+        if (width < 1100) {
+          $('.stay-connected').attr("href", "http://awesomeinc.us2.list-manage.com/subscribe?u=5114422b2183673d50186748d&id=de5f188075");
+        } else {
+          $("#popup-wrapper").show();
+        }
+      }
+
+
+    </script>
