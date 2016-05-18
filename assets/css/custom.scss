@@ -41,6 +41,93 @@ $mobile-width: $tablet-width - 1;
 	display: block;
 }
 
+/* =============================================
+				Index Page
+============================================= */
+
+
+
+#features {
+	.feature-img {
+		margin-top: 20px;
+		margin-right: auto;
+		margin-left: auto;
+		width: 180px;
+		height: 180px;
+		background-size: cover;
+	}
+	@include desktop {
+	    h2 {
+			color: #313131;
+			text-align: center;
+			font-size: 25px;
+			font-weight: 700;
+			line-height: 22px;
+			font-family: "Open Sans";
+			margin-bottom: 15px;
+	    }
+	    p {
+			font-size: 18px;
+			text-align: center;
+			font-family: "open sans";
+			font-weight: 400;
+	    }
+	}
+
+	@include tablet {
+	    h2 {
+			font-size: 20px;
+			line-height: 22px;
+	    }
+	    p {
+			font-size: 13px;
+	    }
+	  	.feature-img {
+			width: 100px;
+			height: 100px;
+	  	}
+	}
+
+	@include mobile {
+	    h2 {
+			font-size: 15px;
+			line-height: 16px;
+	    }
+	    p {
+			font-size: 10px;
+			line-height: 12px;
+	    }
+		.feature-img {
+			width: 80px;
+			height: 80px;
+		}
+	}
+
+	.feature-img-left {
+		background-image: url("/assets/img/Homepage_Icons/Icon_For-Entrepreneurs.png");
+		&:hover {
+			background-image: url("/assets/img/Homepage_Icons/Icon_For-Entrepreneurs_Red.png");
+		}
+	}
+
+	.feature-img-center {
+		background-image: url("/assets/img/Homepage_Icons/Icon_Coworking.png");
+		&:hover {
+			background-image: url("/assets/img/Homepage_Icons/Icon_Coworking_Red.png");
+		}
+	}
+
+	.feature-img-right {
+		background-image: url("/assets/img/Homepage_Icons/Icon_LTC.png");
+		&:hover {
+			background-image: url("/assets/img/Homepage_Icons/Icon_LTC_Red.png");
+		}
+	}
+}
+
+/* =============================================
+				Section for pages
+=============================================  */
 .container section {
 	width: 100%;
     min-height: 100%;
@@ -66,6 +153,9 @@ $mobile-width: $tablet-width - 1;
 	}
 }
 
+/* =============================================
+				Internships
+================================================ */
 .Internships {
 	img {
 		width: 80%;
@@ -73,27 +163,18 @@ $mobile-width: $tablet-width - 1;
 	}
 }
 
-.Internships_test {
-	#i2 {
-		text-align: center;
-		h1 {
-			font-weight: 600;
-			font-size: 30px;
-		}
-		p {
-			font-weight: 400;
-		}
-	}
-	
-}
-
+/* =============================================
+				For Entrepreneurs
+================================================ */
 .For {
 	section {
 		margin-top: 0;
 	}
 }
 
-
+/* =============================================
+					Our Jobs
+================================================ */
 .Our {
 	margin-top: 50px;
 	.container {
@@ -117,10 +198,92 @@ $mobile-width: $tablet-width - 1;
 	}
 }
 
+/* =============================================
+					FOOTER
+================================================ */
+
+footer {
+@media (min-width: 700px) 
+  {
+    background: url("../img/map.png") repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
 
 
+  h3 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  p {
+    color: black;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
 
+
+#footer-links {
+  p a {
+    color: black;
+    word-wrap: break-word;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+  }
+  a:hover {
+    color: #D80000;
+    text-decoration: none;
+    outline: 0;
+  }
+}
+
+/* Map Wrap */
+
+#map {
+  width: 100%;
+}
+
+.fellowship-content {
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 33px;
+  color: white;
+  margin: 15px;
+  text-decoration: underline;
+}
+
+#fellowship-list {
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 33px;
+  color: white;
+  margin: 15px;
+  text-decoration: underline;
+  margin: auto;
+  margin-top: -10px;
+  width: 35em;
+  ul {
+    margin-left: 1em;
+  }
+  li {
+    float: left;
+  }
+}
+
+	b.fellowship-content {
+		float: left;
+		width: 100%;
+		font-size: 1.2em;
+		font-weight: bold;
+		text-decoration: none;
+		margin-top: 1em;
+	}
+}
 
 
 
