@@ -1165,5 +1165,95 @@
       "experience":"",
       "thumbnail":"https://i.imgur.com/sCovnRU.png",
       "fullRes":"https://i.imgur.com/sCovnRU.png"
-   }
+   },
+    {
+        "fullName": "Diante' Elcock",
+		"location":"",
+      "work":[  
+
+      ],
+      "year":2015,
+      "role":"Marketing Team",
+      "memory":"",
+      "experience":"",
+      "thumbnail":"https://i.imgur.com/sCovnRU.png",
+      "fullRes":"https://i.imgur.com/sCovnRU.png",
+        "favoriteRule": "Rule #21: The universal principle and indeed the purpose of life, business, sports, and all competition: Dominate.",
+        "favoriteSong": "Puppeteer - MAX",
+        "favoriteAwesomePerson": "Harvey Specter",
+        "randomFact": "I made it across Percy-Lake with a floaty. Which is pretty awesome considering I can't swim. ",
+        "team": "Marketing Team"
+    },
+	{
+        "time": "2015-02-19T21:21:39.851Z",
+        "fullName": "Kevin Joiner",
+		"location":"",
+      "work":[  
+
+      ],
+      "year":2015,
+      "role":"Development Team",
+      "memory":"",
+      "experience":"",
+      "thumbnail":"https://i.imgur.com/sCovnRU.png",
+      "fullRes":"https://i.imgur.com/sCovnRU.png",
+        "favoriteRule": "Rule #76 \"No excuses, play like a champion\"",
+        "favoriteSong": "loose Control - Missy Elliott",
+        "favoriteAwesomePerson": "Martin Luther King Jr.",
+        "randomFact": "I have Five Bikes",
+        "team": "Development Team"
+    },
+    {
+        "time": "2015-01-14T06:01:23.000Z",
+        "fullName": "TJ Barnett",
+		"location":"",
+      "work":[  
+
+      ],
+      "year":2015,
+      "memory":"",
+      "experience":"",
+      "thumbnail":"https://i.imgur.com/sCovnRU.png",
+      "fullRes":"https://i.imgur.com/sCovnRU.png",
+        "favoriteRule": "Rule #17 - Bring the fun!",
+        "favoriteSong": "We are young, Fun",
+        "favoriteAwesomePerson": "Lebron James ",
+        "randomFact": "I have an obsession with Dr. Pepper",
+        "role": "Recruitment Team"
+    },
+    {
+        "fullName": "Will Swinton-Ginsberg",
+		"location":"",
+      "work":[  
+
+      ],
+      "year":2015,
+      "memory":"",
+      "experience":"",
+      "thumbnail":"https://i.imgur.com/sCovnRU.png",
+      "fullRes":"https://i.imgur.com/sCovnRU.png",
+        "favoriteRule": "Rule #21: The universal principle and indeed the purpose of life, business, sports, and all competition: Dominate.",
+        "favoriteSong": "Get Along - Michael Kiwanuka",
+        "favoriteAwesomePerson": "My Grandma",
+        "randomFact": "I dove with Great White Sharks in South Africa",
+        "role": "Development Team"
+    },
+    {
+        "time": "2015-05-14T23:24:39.217Z",
+        "fullName": "Sarah Brookbank",
+		"location":"",
+      "work":[  
+
+      ],
+      "year":2015,
+      "memory":"",
+      "experience":"",
+      "thumbnail":"https://i.imgur.com/sCovnRU.png",
+      "fullRes":"https://i.imgur.com/sCovnRU.png",
+        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
+        "favoriteSong": "Thunder Road by Bruce Springsteen",
+        "favoriteAwesomePerson": "Amy Poehler",
+        "randomFact": "I want to be a New York Times Best Selling novelist.",
+        "role": "Blog Team"
+    }
 ]
