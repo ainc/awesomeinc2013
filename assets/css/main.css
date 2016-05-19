@@ -394,137 +394,6 @@ input[type="submit"] {
 	padding-left: 0px;
 	padding-right: 0px;
 }
-
-/* White Wrap - Version 1 */
-
-#w1 {
-	background: #ffffff;
-	padding-top: 50px;
-	padding-bottom: 0px;
-}
-
-
-#w1 i {
-	font-size: 70px;
-	color: #2f2f2f;
-	padding-bottom: 30px;
-	padding-left: 23px;
-	padding-right: 23px;
-}
-
-#w1 i:hover {
-	color: #f1c40f
-}
-
-
-#w1 h1 {
-	font-size: 90px;
-}
-
-#w1 h2 {
-	color: #2f2f2f;
-}
-
-/* White Wrap - Version 2 */
-
-#w2 {
-	background: #ffffff;
-	padding-bottom: 50px;
-}
-
-#w2 i {
-	font-size: 70px;
-	color: #2f2f2f;
-	padding-bottom: 30px;
-}
-
-#w2 i:hover {
-	color: #EE2524
-}
-
-#w2 h2 {
-	color: #2f2f2f;
-}
-
-
-/* Footer Wrap */
-
-// @media(min-width: 700px) {
-// 	#f {
-// 		background:url("../img/map.png") repeat;
-// 		padding-top: 20px;
-// 		padding-bottom: 20px;
-// 	}
-// }
-
-// #f h3 {
-// 	color: black;
-// 	font-weight: bold;
-// 	font-size: 30px;
-// }
-
-// #f p {
-// 	color: black;
-// 	font-size: 17px;
-// 	line-height: 20px;
-// 	margin-bottom: 0;
-// }
-
-// #footer-links p a {
-// 	color: black;
-// 	word-wrap: break-word;
-
-//     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-//     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-//     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-//     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-//     transition: color 0.1s ease-in, background 0.1s ease-in;
-// }
-
-// #footer-links a:hover {
-// 	color: #D80000;
-// 	text-decoration: none;
-// 	outline: 0;
-// }
-
-// /* Map Wrap */
-
-// #map {
-// 	width: 100%
-// }
-
-// .fellowship-content, #fellowship-list {
-// 	font-weight: 200;
-// 	font-size: 20px;
-// 	line-height: 33px;
-// 	color: white;
-// 	margin: 15px;
-// 	text-decoration: underline;
-// }
-
-// #fellowship-list {
-// 	margin: auto;
-// 	margin-top: -10px;
-// 	width: 35em;
-// }
-
-// #fellowship-list ul {
-// 	margin-left: 1em;
-// }
-
-// #fellowship-list li {
-// 	float: left;
-// }
-
-// b.fellowship-content {
-// 	float: left;
-// 	width: 100%;
-// 	font-size: 1.2em;
-// 	font-weight: bold;
-// 	text-decoration: none;
-// 	margin-top: 1em;
-// }
-
 /* Copyright */
 
 #c {
@@ -637,10 +506,6 @@ input[type="submit"] {
 	letter-spacing: 1px;
 	text-align: left;
 	font-weight: 700;
-}
-
-#calendar h1 {
-	text-align: center;
 }
 
 /* ========== SIDEBAR CONF ========== */
@@ -977,32 +842,6 @@ p > tag {
 .company-bio p {
 	margin: 0;
 	font-size: 1.1em;
-}
-
-@media (max-width: 1800px) {
-	div#calendar {
-		margin: auto;
-		width: 80%;
-	}	
-}
-
-@media (max-width: 1000px) {
-	div#calendar {
-		margin: auto;
-		width: 70%;
-	}
-}
-@media (max-width: 700px) {
-	div#calendar {
-		margin: auto;
-		width: 70%;
-	}
-}
-@media (max-width: 400px) {
-	div#calendar {
-		margin: auto;
-		width: 70%;
-	}
 }
 
 @media (max-width: 700px) {
@@ -1442,13 +1281,6 @@ div.shadow:hover {
 
 #hof a { padding: 6px 10%;}
 
-#calendar h2 {
-	color:black;
-	font-family: "open sans";
-	font-weight: 600;
-	text-align: center;
-}
-
 /*end of entrep page */
 
 
@@ -1563,110 +1395,6 @@ div.parking {
 	box-shadow: 5px 5px 5px #2e2e2e;
 }
 
-@media screen and (max-width: 1800px) {
-	#a2 p 
-	{ 
-		font-size: 23px;
-		line-height: 26px;
-		margin: 25px 100px 25px 100px;
-	}
-	#a2 h2 {
-		font-size: 23px;
-	}
-	#a2 img {
-		width: 225px;
-		height: 275px;
-	}
-	#cv h2 {
-		padding-bottom: 15px;
-	}
-	#r2 h3, #c2 h3 {
-		text-align: center;
-	}
-	#c2 h3 {
-		margin-top: 30px;
-	}
-	#r2 a, #c2 a {
-		font-size: 20px;
-	}
-}
-
-
-@media screen and (max-width: 550px) {
-	#a2 p  
-	{ 
-		font-size: 15px;
-		line-height: 16px;
-		margin: 10px 10px 10px 10px;
-		width: 225px;
-	}
-	#a2 h2, #c2 h3 {
-		font-size: 23px;
-	}
-
-	#cv img {
-		padding-right: 0;
-		box-shadow: 10px 10px 5px #2f2f2f;
-		margin-bottom: 10px;
-	}
-
-	#cv h2 {
-		font-size: 23px;
-		padding-left: 10px;
-	}
-	#r2 p , #Wthrough p{
-		font-size: 15px;
-	}
-	#r2 a, #c2 a {
-		font-size: 10px;
-	}
-	#r2 img {
-		width: 80%;
-		height: 80%;
-	}
-}
-
-#a2 {
-	background-color: #bfbfbf;
-}
-
-#a2 h2 {
-	padding-top: 25px;
-	margin-top: 0px;
-	font-style: italic;
-	font-weight: bold;
-	color: rgb(207, 53, 59);
-	font-family: 'open sans';
-	text-align: center;
-}
-
-#a2 p {
-	font-family: 'open sans';
-	
-	font-style: normal;
-	font-weight: 600;
-	color: black;
-}
-
-#cv {
-	margin-top: 0px;
-	background-color: white;
-}
-
-h2.core-value {
-	font-family: 'open sans';
-	font-size:45px;
-	color: #2e2e2e;
-	font-weight: 700;
-	margin-top: 0px;
-	padding-left: 30px;
-}
-
-
-
-.cv-img-offset2 {
-	margin-right:0px;
-}
 
 .tumblr-container {
 	font-family: "open sans";
@@ -2048,7 +1776,7 @@ img.tenant {
 		font-size: 14px;
 		float: right;
 	}
-	#c2 h2, #r2 h2, #Wthrough h2 {
+	#r2 h2, #Wthrough h2 {
 		font-size: 22px;
 	}
 
@@ -2373,10 +2101,6 @@ div#mc_embed_signup {
 
 #left-content {
 	margin-top: 0;
-}
-
-#social-phrase h2 {
-	color: black;
 }
 
 #retreat {
