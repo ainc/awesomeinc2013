@@ -910,16 +910,6 @@ div.shadow:hover {
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	background-color: #EE2524;
 	}
-	
-/*for the subpage layout*/
-.subheader {
-	width: 100%;
-	height: 300px;
-	border-bottom: 25px rgb(207, 53, 59);
-}
-
-
-
 .temp-div {
 	height:35px; 
 	width:100%; 
@@ -1313,34 +1303,6 @@ div.about-page { background-image: url("/assets/img/aboutpage.jpg") }
 
 div.awesomeincgame-page { background-image: url("/assets/img/awesomeincgame-banner.png") }
 
-.img-overlay {
-	color: white;
-	padding: 170px 0 40px 0;
-	font-family: 'open sans';
-	font-weight: 800;
-	font-size: 80px;
-	font-style: shadow;
-	text-shadow: 1px 3px rgba(0,0,0, 0.5);
-}
-
-
-
-@media screen and (max-width: 1000px) {
-	.img-overlay {
-		font-size: 60px;
-	}
-}
-@media screen and (max-width: 700px) {
-	.img-overlay {
-		font-size: 40px;
-	}
-}
-@media screen and (max-width: 480px) {
-	.img-overlay {
-		font-size: 20px;
-	}
-}
-
 /*for the parking page */
 
 div.parking {
@@ -1358,11 +1320,6 @@ div.parking {
 #Schedule2{
 	min-width:560px;
 	min-height:315px;
-}
-
-#walkVideo{
-	margin-top:1%;
-	margin-left:5%;
 }
 
 #r2 img {
@@ -1735,80 +1692,6 @@ img.tenant {
 	width: 75%;
 	height: 80%;
 	margin-left: 12.5%;
-}
-
-#b2 {
-	background-color: white;
-}
-
-
-@media screen and (max-width: 1800px) {
-	#b2 p 
-	{ 
-		font-size: 22px;
-		float: right;
-		width: 240px;
-		padding-left: 10px;
-		margin-top: 10px;
-	}
-	#r2 h2, #Wthrough h2{
-		font-size: 3em;
-	}
-}
-
-@media screen and (max-width: 1200px) {
-	#b2 p 
-	{ 
-		font-size: 18px;
-		float: right;
-		width: 180px;
-
-	}
-	#b2 img {
-		height: 60px;
-		width: 60px;
-	}	
-}
-
-@media screen and (max-width: 600px) {
-	#b2 p 
-	{ 
-		font-size: 14px;
-		float: right;
-	}
-	#r2 h2, #Wthrough h2 {
-		font-size: 22px;
-	}
-
-	#r2 p {
-		font-size: 
-	}
-}
-
-@media screen and (max-width: 330px) {
-	#b2 p 
-	{ 
-		font-size: 12px;
-		float: right;
-		width: 100px;
-		margin-top: 0;
-		line-height: 12px;
-	}
-
-	#b2 img {
-		width:25px;
-		height: 25px;
-	}
-}
-
-#b2 div.well {
-	background-color: white;
-	border: none;
-}
-
-p.too-much-text {
-	font-size: 18px;
-	margin-top: 0;
 }
 
 div.sub-row {
