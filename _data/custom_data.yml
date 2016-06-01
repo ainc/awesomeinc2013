@@ -1,0 +1,6 @@
+- name: 5across
+  register_link: http://5across.eventbrite.com/
+  apply_link: http://www.5across.org/apply/
+
+- name: startup_weekend
+  link: http://www.up.co/communities/usa/lexington/startup-weekend/6987
