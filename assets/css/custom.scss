@@ -1,6 +1,8 @@
 ---
 ---
-//colors
+/*****************************************************
+						Colors
+*****************************************************/
 $color_alto_approx: rgb(222, 222, 222);
 $color_cardinal_approx: rgb(184, 17, 36);
 $color_cardinal_approx_feature: rgb(150, 0, 23);
@@ -15,7 +17,9 @@ $color_silver_chalice_approx: #aaa;
 
 @import "bootstrap";
 
-//sizes
+/*****************************************************
+						Sizes
+*****************************************************/
 
 $tablet-width: 768px;
 $desktop-width: 1024px;
@@ -40,6 +44,15 @@ $mobile-width: $tablet-width - 1;
 }
 
 /*****************************************************
+					Hover States
+*****************************************************/
+@mixin setLinkSelectorStyle {
+	&:hover, &:active, &:focus {
+		@content;
+	}
+}
+
+/*****************************************************
 					Consistencies
 *****************************************************/
 
@@ -51,6 +64,13 @@ $mobile-width: $tablet-width - 1;
 h2 {
 	color: $color_cardinal_approx;
 	margin: 40px 0;
+	@include mobile {
+		font-size: 16px;
+	}
+}
+h3 {
+	color: $color_cardinal_approx;
+	margin: 20px 0;
 	@include mobile {
 		font-size: 16px;
 	}
@@ -99,8 +119,9 @@ iframe {
 }
 
 
-/* Header with image
- */
+/******************************* 
+ * Header with image
+ *******************************/
 .subheader {
 	width: 100%;
 	height: 300px;
@@ -122,11 +143,12 @@ iframe {
 	
 }
 
-/* Red button
+/******************************* 
+ * Red button
  * Rounded edges
  * White font
- */
-.action-btn {
+ *******************************/
+.btn-action {
 	background-color: $color_cardinal_approx;
 	color: white;
 	border-color: $color_cardinal_approx;
@@ -134,7 +156,8 @@ iframe {
 	font-size: 24px;
 	padding: 2px 14px;
 	font-weight: 400;
-	&:hover {
+	margin-bottom: 20px;
+	@include setLinkSelectorStyle {
 		background-color: $color_cardinal_approx_shade;
 		border-color: $color_cardinal_approx_shade;
 	}
@@ -143,18 +166,20 @@ iframe {
 	}
 }
 
-/* Statement for beginning of page
+/******************************
+ * Statement for beginning of page
  * Example on about page
  * gray bg 
- */
+ ******************************/
 .statement {
-	background-color: $color_shady_lady_approx;
+	background-color: $color_light_gray;
+	text-align: center;
 	p { 
 		font-family: 'open sans';
 		font-style: normal;
 		font-weight: 600;
 		color: black;
-		font-size: 23px;
+		font-size: 18px;
 		line-height: 26px;
 		margin: 25px 100px 25px 100px;
 	}
@@ -209,6 +234,53 @@ section.grey-bg {
 .no-bullet {
 	list-style-type: none;
 	padding-left: 0;
+}
+
+/*****************************
+ * Container for blog
+ * grey bg
+ * Example found on about page
+ * 6/2/2016
+ *****************************/
+.tumblr-container {
+	div#blog-post {
+		background-color: #e2e2e2;
+		border-radius: 4px;
+		padding: 5%;
+		margin: 1%;
+		line-height: 18px;
+	}
+	h3 {
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+	}
+	img {
+		width:70%;
+		height:auto;
+		margin-left: 15%; 
+	}
+}
+
+/*****************************
+ * wrapper for buttons to center
+ * buttons across container
+ *****************************/
+h5 {
+	text-align: center;
+	margin: 20px 0;
+}
+
+/*****************************
+ * navbar active
+ *****************************/
+.nav {
+	li.active > a {
+		background-color: #color_shady_lady_approx;
+	}
+	li > a:focus {
+		color: #313131;
+	}
 }
 
 /* =============================================
@@ -327,13 +399,8 @@ section.grey-bg {
 .About {
 	
 	#core-values {
-		h2 {
-			padding-top: 50px;
-			font-family: 'open sans';
-			font-size: 45px;
-			color: #2e2e2e;
-			font-weight: 700;
-			padding-left: 30px;
+		.col-sm-3, col-xs-6 {
+			padding-left: 0;
 		}
 		img {
 			width: 95%;
@@ -347,61 +414,22 @@ section.grey-bg {
 				margin-bottom: 10px;
 			}
 		}
-	#culture-book {
-		@include mobile {
-			h2 {
-				font-size: 22px;
-			}
+	}
+	.blog-post {
+		background-color: $color_light_gray;
+		height: 250px;
+		h3 {
+			height: 150px;
+			padding: 8% 5%;
+			line-height: 32px;
+		}
+		a, h5 {
+			text-align: center;
 		}
 	}
-	#r2 h3, #c2 h3 {
-		text-align: center;
+	.col-xs-6 {
+		padding-left: 0;
 	}
-	#c2 h3 {
-		margin-top: 30px;
-	}
-	#r2 a, #c2 a {
-		font-size: 20px;
-	}
-}
-
-
-@include mobile {
-	
-
-	
-	#r2 p , #Wthrough p{
-		font-size: 15px;
-	}
-	#r2 a, #c2 a {
-		font-size: 10px;
-	}
-	#r2 img {
-		width: 80%;
-		height: 80%;
-	}
-}
-
-#cv {
-	margin-top: 0px;
-	background-color: white;
-}
-
-h2.core-value {
-	font-family: 'open sans';
-	font-size:45px;
-	color: #2e2e2e;
-	font-weight: 700;
-	margin-top: 0px;
-	padding-left: 30px;
-}
-
-
-
-.cv-img-offset2 {
-	margin-right:0px;
-}
-
 }
 
 /* =============================================
@@ -412,6 +440,219 @@ h2.core-value {
 		width: 80%;
 		margin-left: 10%;
 	}
+}
+
+@media (max-width: 1800px) {
+
+	h1.internship {
+		font-family: 'open sans';
+		font-size: 30px;
+		color: #2e2e2e;
+		font-weight: 700;
+		margin-top: 0px;
+		padding-top: 30px;
+		text-align: center;
+	}
+	p.internship {
+		font-family: 'open sans';
+		font-size: 22px;
+		line-height: 30px;
+		text-align: center;
+		color: #2e2e2e;
+		font-weight: 400;
+	}
+	#i2 a, .ta-apply a {
+		font-size: 26px;
+		text-align: center;
+		font-family: "open sans";
+		font-weight: 700;
+		padding: 0 10%;
+		border-radius: 4px;
+	}
+	#i2 h3, .ta-apply {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 1000px) {
+
+	h1.internship {
+		font-size: 30px;
+	}
+	p.internship {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	#i2 a, .ta-apply a {
+		font-size: 28px;
+	}
+}
+@media (max-width: 700px) {
+
+	h1.internship {
+		font-size: 25px;
+	}
+	p.internship {
+		font-size: 16px;
+		line-height: 17px;
+	}
+	#i2 a, .ta-apply a {
+		font-size: 23px;
+	}
+}
+
+@media (max-width: 400px) {
+
+	h1.internship {
+		font-size: 20px;
+	}
+	p.internship {
+		font-size: 14px;
+		line-height: 15px;
+	}
+	#i2 a, .ta-apply a {
+		font-size: 18px;
+	}
+}
+
+#teams ul {
+	padding-left: 55px;
+	font-weight: 400;
+}
+
+#join {
+	padding-bottom: 25px;
+}
+
+@media (max-width: 1800px) {
+	#teams h2, #who h2, #why h2, #what h2, #join h2 {
+		font-size: 33px;
+		color: rgb(38, 38, 38);
+		font-family: 'open sans';
+		font-weight: 600;
+	}
+
+	#teams li {
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 36px;
+		color: rgb(38, 38, 38);	
+	}
+
+	#who p, #why p, #what p, #join p {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 33px;
+		color: rgb(38, 38, 38);
+	}
+
+	#what p, #join p {
+		text-align: justify;
+	}
+
+	// #teams img, #who img, #what img, #join img {
+	// 	width: 100%;
+	// 	height: 100%;
+	// 	margin-top: 20px;
+	// }
+
+	// #who img, #join img {
+	// 	width: 80%;
+	// 	margin-left: 10%;
+	// 	border: solid black 1px;
+	// }
+
+	#members h3 {
+		color: rgb(26, 26, 26);
+		font-family: "open sans";
+	}
+
+}
+
+@media (max-width: 700px) {
+	#teams h2, #who h2, #why h2, #what h2, #join h2 {
+		font-size: 25px;
+	}
+
+	#teams li {
+		font-size: 22px;
+	}
+	#teams ul {
+		padding-left: 5px;
+	}
+
+	#who p, #why p, #what p, #join p {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	#teams img, #who img, #what img, #join img {
+		height: 150px;
+	}
+
+	#who img, #join img {
+		width: 80%;
+		margin-left: 10%;
+		border: solid black 1px;
+	}
+	#members h3 {
+		font-size: 20px;
+	}
+}
+@media (max-width: 400px) {
+	#teams h2, #who h2, #why h2, #what h2, #join h2 {
+		font-size: 15px;
+	}
+
+	#teams li {
+		font-size: 10px;
+	}
+
+	#teams img, #who img, #what img, #join img {
+		height: 100px;
+	}
+
+	#who img, #join img {
+		width: 80%;
+		margin-left: 10%;
+		border: solid black 1px;
+	}
+	#who p, #why p, #what p, #join p {
+		font-size: 10px;
+		line-height: 12px;
+	}
+
+	#members h3 {
+		font-size: 15px;
+	}
+}
+
+#members { 
+	background-color: #e2e2e2;
+	padding-bottom: 25px;
+}
+
+#members h2 {
+	color: rgb(26, 26, 26);
+	text-align: center;
+	font-weight: 600;
+}
+
+#members img {
+	width: 200px;
+	height: 200px;
+}
+
+#members div.ta-bio p {
+	line-height: 18px;
+}
+
+#members div.ta-bio br {
+	line-height: 20px;
+}
+
+#members div.ta-bio strong {
+	font-weight: 500;
 }
 
 /* =============================================

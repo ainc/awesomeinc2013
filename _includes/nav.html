@@ -22,7 +22,7 @@
         <div class="navbar-collapse collapse navbar-inner">
           
         <ul id="sddm" class="nav navbar-nav right-nav"> <!-- RIGHT ALIGNED NAVBAR -->
-        	<li class="dropdown"> 	<!-- ABOUT -->
+        	<li {% if page.path contains 'about' %} class="active" {% endif %} class="dropdown"> 	<!-- ABOUT -->
             	<a href="/about/" 
             	onmouseover="mopen('m1')" 
         		onmouseout="mclosetime()">About
@@ -36,7 +36,7 @@
                   
             	</div>
             </li> 
-        	<li class="dropdown">  <!-- FOR ENTREPRENEURS -->
+        	<li {% if page.path contains 'for-entrepreneuers' %} class="active" {% endif %} class="dropdown">  <!-- FOR ENTREPRENEURS -->
             	<a href="/for-entrepreneurs/" 
             	onmouseover="mopen('m2')" 
         		onmouseout="mclosetime()">For Entrepreneurs
@@ -66,7 +66,7 @@
             			<a href="http://www.awesomeincu.com/register/" target="_blank">Register</a>
             	</div>
             </li>
-        	<li class="dropdown">   <!-- COWORKING -->
+        	<li {% if page.path contains 'coworking' %} class="active" {% endif %} class="dropdown">   <!-- COWORKING -->
             	<a href="/coworking/" 
             	onmouseover="mopen('m4')" 
         		onmouseout="mclosetime()">Coworking
@@ -78,7 +78,7 @@
             			<a href="/coworking/#rent-space">Rent Space</a>
             	</div>
             </li>
-        	<li class="dropdown">	<!-- INTERNSHIPS -->
+        	<li {% if page.path contains 'internships' %} class="active" {% endif %} class="dropdown">	<!-- INTERNSHIPS -->
             	<a href="/internships/" 
             	onmouseover="mopen('m5')" 
         		onmouseout="mclosetime()">Internships
@@ -92,7 +92,7 @@
             	</div>
             </li>
             <li onclick="buttonClick()">
-            	<a class="stay-connected" id="clicker" style="color: #FF1440; cursor:pointer">Stay Connected</a>
+            	<a class="stay-connected" id="clicker" style="color: rgb(184, 17, 36); cursor:pointer">Stay Connected</a>
             </li>
 
 
