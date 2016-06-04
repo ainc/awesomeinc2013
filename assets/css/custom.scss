@@ -107,7 +107,7 @@ iframe {
 		border: none;
 	}
 	img {
-		margin-top: 50px;
+		margin-top: 30px;
 		margin-bottom: 25px;
 	}
 }
@@ -235,6 +235,13 @@ section.grey-bg {
 	list-style-type: none;
 	padding-left: 0;
 }
+/*****************************
+ * Extra space for moving elements
+ *****************************/
+.extra-space {
+	margin-top: 40px;
+}
+
 
 /*****************************
  * Container for blog
@@ -397,20 +404,34 @@ h5 {
 					About
 ================================================ */
 .About {
-	
+	.subheader {
+		background-image: url("/assets/img/headers/about_us.png");
+	}
 	#core-values {
 		.col-sm-3, col-xs-6 {
 			padding-left: 0;
 		}
 		img {
 			width: 95%;
-			box-shadow: 5px 5px 5px #2e2e2e;
+			/*box-shadow: 5px 5px 5px #2e2e2e;*/
 			margin-bottom: 35px;
+		}
+		p {
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 20px;
+			text-align: center;
+			&:first-child {
+				margin-bottom: 0;
+			}
+			&:last-child {
+				margin-top: 0;
+			}
 		}
 		@include mobile {
 			img {
 				padding-right: 0;
-				box-shadow: 10px 10px 5px #2f2f2f;
+				/*box-shadow: 10px 10px 5px #2f2f2f;*/
 				margin-bottom: 10px;
 			}
 		}
@@ -436,6 +457,9 @@ h5 {
 				Internships
 ================================================ */
 .Internships {
+	.subheader {
+		background-image: url("/assets/img/headers/for_entrepreneurs.png");
+	}
 	img {
 		width: 80%;
 		margin-left: 10%;
@@ -659,6 +683,9 @@ h5 {
 				For Entrepreneurs
 ================================================ */
 .For {
+	.subheader {
+		background-image: url("/assets/img/headers/for_entrepreneurs.png");
+	}
 	section {
 		margin-top: 0;
 	}
@@ -669,6 +696,9 @@ h5 {
 ================================================ */
 
 .Coworking {
+	.subheader {
+		background-image: url("/assets/img/headers/coworking.png");
+	}
 	.custom-grid {
 		.well {
 			background-color: white;
@@ -793,91 +823,138 @@ h5 {
 /* =============================================
 					FOOTER
 ================================================ */
-
-footer {
-	@media (min-width: 700px) 
-	  {
-	    background: url("../img/map.png") repeat;
-	    padding-top: 20px;
-	    padding-bottom: 20px;
-	  }
-
-
-
-	  h3 {
-	    color: black;
-	    font-weight: bold;
-	    font-size: 30px;
-	  }
-	  p {
-	    color: black;
-	    font-size: 17px;
-	    line-height: 20px;
-	    margin-bottom: 0;
-	  }
-
-
-	#footer-links {
-	  p a {
-	    color: black;
-	    word-wrap: break-word;
-	    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-	    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-	    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-	    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-	    transition: color 0.1s ease-in, background 0.1s ease-in;
-	  }
-	  a:hover {
-	    color: #D80000;
-	    text-decoration: none;
-	    outline: 0;
-	  }
-	}
-
-	/* Map Wrap */
-
-	#map {
-	  width: 100%;
-	}
-
-	.fellowship-content {
-	  font-weight: 200;
-	  font-size: 20px;
-	  line-height: 33px;
-	  color: white;
-	  margin: 15px;
-	  text-decoration: underline;
-	}
-
-	#fellowship-list {
-	  font-weight: 200;
-	  font-size: 20px;
-	  line-height: 33px;
-	  color: white;
-	  margin: 15px;
-	  text-decoration: underline;
-	  margin: auto;
-	  margin-top: -10px;
-	  width: 35em;
-	  ul {
-	    margin-left: 1em;
-	  }
-	  li {
-	    float: left;
-	  }
-	}
-
-		b.fellowship-content {
-			float: left;
-			width: 100%;
-			font-size: 1.2em;
-			font-weight: bold;
-			text-decoration: none;
-			margin-top: 1em;
+.community-footer {
+	background: #2f2f2f;
+	padding-top: 15px;
+	@include desktop {
+		a {
+			font-size: 24px;
 		}
+	}
+	@include tablet {
+		a {
+			font-size: 12px;
+		}
+		table tbody th {
+			font-size: 15px;
+		}
+	}
+	table tbody {
+		a:hover {
+			color: #dedede;
+		}
+		th {
+			border-bottom: 1px solid $color_alto_approx;
+			border-top: none;
+			font-size: 1.76em;
+			color: $color_alto_approx;
+			font-weight: 600;
+			&:last-child {
+				width: 25%;
+			}
+		}
+		tr td {
+			border-top: none;
+			padding: 5px;
+		}
+		img {
+			width: 35px;
+			height: 35px;
+		}
+		@include mobile {
+			th {
+				font-size: 1em;
+			}
+			tr td {
+				padding: 0;
+				padding-right: 2px;
+			}
+			img {
+				display: none;
+			}
+		}
+	}
+	position: relative;
+	clear: both;
+	h4 {
+		color: $color_pumice_approx;
+		font-weight: 400;
+	}
+	.row {
+		margin: 0;
+	}
+	li {
+		list-style-type: none;
+		margin-bottom: 10px;
+	}
+	a {
+		color: $color_shady_lady_approx;
+	}
+	img {
+		margin-bottom: 10px;
+	}
 }
 
 
+
+footer {
+	@media (min-width: 700px) 
+	{
+		background: url("../img/map.png") repeat;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+
+
+	h3 {
+		color: black;
+		font-weight: bold;
+		font-size: 30px;
+	}
+	p {
+		color: black;
+		font-size: 17px;
+		line-height: 20px;
+		margin-bottom: 0;
+	}
+
+
+	#footer-links {
+		p a {
+			color: black;
+			word-wrap: break-word;
+			-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+			-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+			-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+			-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+			transition: color 0.1s ease-in, background 0.1s ease-in;
+		}
+		a:hover {
+			color: #D80000;
+			text-decoration: none;
+			outline: 0;
+		}
+	}	
+}
+
+#sponsors {
+	background: #2f2f2f;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	h4 {
+		font-size: 18px;
+		display: inline-block;
+		margin: 0 10px 0 0;
+	}
+	img {
+		height: 50px;
+		margin: 0 10px;
+		&:first-child {
+			margin-left: 40px;
+		}
+	}
+}
 
 
 

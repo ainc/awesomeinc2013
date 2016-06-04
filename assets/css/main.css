@@ -389,17 +389,6 @@ input[type="submit"] {
 	padding-left: 0px;
 	padding-right: 0px;
 }
-/* Copyright */
-
-#c {
-	background: #2f2f2f;
-	padding-top: 15px;
-}
-
-#c p {
-	color: white;
-	font-size: 14px;
-}
 
 
 /* ==========================================================================
@@ -757,17 +746,6 @@ p > tag {
 
 .pricing-option .pricing-signup:hover {
     background: #f39c12;
-}
-
-/*  --- new ---- */
-#sponsor_text {
-	display: inline-block;
-	margin: 0 10px 0 0;
-}
-.sponsor_img {
-	opacity: 0.7;
-	height: 50px;
-	margin: 0 10px;
 }
 
 ::-webkit-scrollbar {
@@ -1286,15 +1264,7 @@ div.coworking-page, div.entrep-page, div.internship-page, div.about-page, div.pa
 
 div.TAS-page { background-image: url("/assets/img/TAServices/Optimized-TAServicesBanner05-crop.jpg") }
 
-div.coworking-page { background-image: url("/assets/img/coworking-head.jpg") }
-
 div.parking-page { background-image: url("/assets/img/parking-head-4.jpg") }
-
-div.entrep-page { background-image: url("/assets/img/entrep-head.jpg"); margin-top:20px; }
-
-div.internship-page { background-image: url("/assets/img/internships-tree.jpg") }
-
-div.about-page { background-image: url("/assets/img/aboutpage.jpg") }
 
 div.awesomeincgame-page { background-image: url("/assets/img/awesomeincgame-banner.png") }
 
