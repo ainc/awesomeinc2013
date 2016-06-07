@@ -6,7 +6,18 @@
         "favoriteSong": "Dreams - Van Halen",
         "favoriteAwesomePerson": "Steven Levitt",
         "randomFact": "I am a photographer and I shoot underwater portraits. ",
-        "team": "Marketing Team"
+        "team": "Marketing Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2015-11-16T19:20:50.470Z",
@@ -15,7 +26,18 @@
         "favoriteSong": "Somewhere Only We Know by Keane",
         "favoriteAwesomePerson": "Ellen DeGeneres",
         "randomFact": "So far I have a movie collection of 230 movies.",
-        "team": "Design Team"
+        "team": "Design Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "name": "Brian Raney",
@@ -23,7 +45,18 @@
         "favoriteSong": "The Thing",
         "favoriteAwesomePerson": "Truett Cathy",
         "randomFact": "I started a water gun selling business when I was in middle school",
-        "team": "Co-Founder"
+        "team": "Co-Founder",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2015-11-04T21:54:01.951Z",
@@ -32,7 +65,18 @@
         "favoriteSong": "Brighter than Sunshine, Aqualung",
         "favoriteAwesomePerson": "Jane Austen",
         "randomFact": "90% of the time, I read the book before I saw the movie.",
-        "team": "Design Team"
+        "team": "Design Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2015-10-15T14:40:07.060Z",
@@ -41,7 +85,18 @@
         "favoriteSong": "Madeon - Finale",
         "favoriteAwesomePerson": "Nikola Tesla",
         "randomFact": "I can play the piano.",
-        "team": "Development Team"
+        "team": "Development Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2015-07-10T21:24:25.522Z",
@@ -50,7 +105,18 @@
         "favoriteSong": "Winter - Joshua Radin",
         "favoriteAwesomePerson": "Joseph Gordon-Levitt",
         "randomFact": "I'm a Tough Mudder Legionnaire, and I complete at least one Tough Mudder every year.",
-        "team": "Development Team"
+        "team": "Development Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2015-10-21T18:52:45.810Z",
@@ -59,7 +125,18 @@
         "favoriteSong": "Farther Along - Josh Garrels",
         "favoriteAwesomePerson": "C.S. Lewis",
         "randomFact": "I have a twin sister that was born exactly 2 years and 4 days before me.",
-        "team": "Director"
+        "team": "Director",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "name": "Garrett Ebel",
@@ -67,7 +144,18 @@
         "favoriteSong": "The Thing",
         "favoriteAwesomePerson": "Sam Walton",
         "randomFact": "I once earned a set of golden balls (yes, testicles) for linking 8,000 rounds of .50 Caliber ammunition in less than 7 hours.",
-        "team": "Director"
+        "team": "Director",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2014-09-29T21:40:51.000Z",
@@ -76,7 +164,18 @@
         "favoriteSong": "Kryptonite by Three Doors Down",
         "favoriteAwesomePerson": "Adam Savage",
         "randomFact": "I try to quote Douglas Adams' Hitchhikers Guide to the Galaxy as often as possible.",
-        "team": "Development Team"
+        "team": "Development Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2013-01-03T18:44:22.000Z",
@@ -85,7 +184,18 @@
         "favoriteSong": "Across the Universe - The Beatles",
         "favoriteAwesomePerson": "Kanye West",
         "randomFact": "I play the guitar",
-        "team": "Marketing Team"
+        "team": "Marketing Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2015-07-03T20:26:01.226Z",
@@ -94,7 +204,18 @@
         "favoriteSong": "Since I've Been Lovin You - Led Zeppelin, Black and Gold - Joe Robinson, Call me the Breeze - Any version",
         "favoriteAwesomePerson": "Rob Pardo- Creator of some of the most addicting things on the planet.",
         "randomFact": "I can lick my elbow (Try it).",
-        "team": "Development Team"
+        "team": "Development Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2014-01-15T23:25:29.000Z",
@@ -103,7 +224,18 @@
         "favoriteSong": "Safe and Sound - Capital Cities",
         "favoriteAwesomePerson": "John Wall",
         "randomFact": "I sell beef jerky and healthy snacks for a living.",
-        "team": "Development Team"
+        "team": "Development Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2015-11-16T01:48:44.969Z",
@@ -112,7 +244,18 @@
         "favoriteSong": "Turn Down For What- DJ Snake/Lil John",
         "favoriteAwesomePerson": "Lady Gaga",
         "randomFact": "I've had 6 nicknames throughout my life.",
-        "team": "Marketing Team"
+        "team": "Marketing Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2015-07-13T23:29:37.282Z",
@@ -121,7 +264,18 @@
         "favoriteSong": "The Call- Regina Spektor",
         "favoriteAwesomePerson": "C.S. Lewis",
         "randomFact": "I play the ukulele!",
-        "team": "Design Team"
+        "team": "Design Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "name": "Luke Murray",
@@ -129,7 +283,18 @@
         "favoriteSong": "The Thing",
         "favoriteAwesomePerson": "Abe Lincoln",
         "randomFact": "I rode my bike from Canada to Mexico",
-        "team": "Co-Founder"
+        "team": "Co-Founder",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2014-12-04T04:16:07.000Z",
@@ -138,7 +303,18 @@
         "favoriteSong": "Soldier, Gavin DeGraw",
         "favoriteAwesomePerson": "Elon Musk",
         "randomFact": "I can play 5.5 instruments: Guitar, Piano, Bass, Drums, Mandolin, and a little Harmonica.",
-        "team": "Recruitment Team"
+        "team": "Recruitment Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2015-08-02T23:01:13.326Z",
@@ -147,7 +323,18 @@
         "favoriteSong": "Intergalactic - Beastie Boys 2009",
         "favoriteAwesomePerson": "Buckminster Fuller",
         "randomFact": "I'm definitely a wilderness enthusiast.",
-        "team": "Tean Alpha Services"
+        "team": "Tean Alpha Services",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2015-01-22T00:15:09.000Z",
@@ -156,7 +343,18 @@
         "favoriteSong": "Billy Joel - We Didn't Start the Fire",
         "favoriteAwesomePerson": "Elon Musk",
         "randomFact": "In college, I was an international race car driver",
-        "team": "Co-Founder"
+        "team": "Co-Founder",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2014-11-12T02:34:16.000Z",
@@ -165,7 +363,18 @@
         "favoriteSong": "Who We Are by Imagine Dragons",
         "favoriteAwesomePerson": "Neil Armstrong",
         "randomFact": "I own and regularly drive a purple moped. ",
-        "team": "Video Team"
+        "team": "Video Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     },
     {
         "time": "2013-11-18T19:55:15.000Z",
@@ -174,6 +383,17 @@
         "favoriteSong": "\"Song for the Suburbs\" -- Ben Rector",
         "favoriteAwesomePerson": "Blake Mycoskie",
         "randomFact": "I was cast to play a murder victim during a re-enactment in an episode of the show Forensic Files.",
-        "team": "Director"
+        "team": "Director",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     }
 ]
