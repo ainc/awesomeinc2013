@@ -15,15 +15,13 @@ layout: page
 
 					{% for alum in site.data.alumni %}
 					{% if alum.thumbnail != "http://i.imgur.com/sCovnRU.png" and  alum.thumbnail != "http://i.imgur.com/riaT1M8.png" %}
-					{% if alum.fullName == "Kelsey Joseph" %}
-					<div class ="alumni-img col-lg-offset-2">
-					{% else %}
 
 						<div class ="alumni-img">
-						{% endif %}
-
-								<img src = '{{alum.thumbnail}}' alt="{{alum.fullName}}">
-
+							{% if alum.wallPhoto == true %}
+								<img src = '\assets\img\teamalpha\Team alpha wall photos\{{alum.name | downcase | remove: " " }}_wall.gif' alt="{{alum.name}}">
+							{% else %}
+								<img src = '{{alum.thumbnail}}' alt="{{alum.name}}">
+							{% endif %}
 								<div class ="alumni-bio">
 
 								<p>
@@ -45,14 +43,14 @@ layout: page
 								<h4>Favorite memory?</h4>
 								{{alum.memory}}
 								
-								<h4>when were you with us?</h4>
+								<h4>When were you with us?</h4>
 								{{alum.year}}
 								
 								</p>
 								</div>
 
 								
-								<h2>{{alum.fullName}}<br><span class="team">{{alum.role}} team</span></h2>
+								<h2>{{alum.name}}<br><span class="team">{{alum.team}}</span></h2>
 						</div>
 					{% endif %}
 					{% endfor %}
