@@ -1,4 +1,5 @@
 name: Awesome Inc
+description: Create and grow high tech startups
 permalink: pretty
 relative_permalinks: false
 include: [_data]
