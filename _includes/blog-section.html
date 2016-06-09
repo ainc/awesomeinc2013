@@ -1,0 +1,97 @@
+<div class="container custom-container tumblr-container" id="our-blog">
+	<h2><a href="http://blog.awesomeinc.org" targer="_blank">Our Blog</a></h2>
+    	
+    		<script type="text/javascript" src="http://blog.awesomeinc.org/api/read/json/"></script>
+    		<!-- FUNCTION FOR BLOG POSTS -->
+				<script type="text/javascript">
+				function compressBlog(post, length) {
+					var count = length-100;
+					var blogContent = tumblr_api_read["posts"][post]["regular-body"].substring(0, length);
+					for (var i = length - 100; i <= length; i++) {
+						if (blogContent[i] == "<") {
+							break;
+						}
+						count++;
+					};
+					var blogPreview = tumblr_api_read["posts"][post]["regular-body"].substring(0, count);
+					return blogPreview;
+				}	
+
+				function blogTitle(post) {
+					var title = tumblr_api_read["posts"][post]["regular-title"];
+					return title;
+				}
+
+				function blogLink(post) {
+					var link = 'http://blog.awesomeinc.org/post/' + tumblr_api_read["posts"][post]["id"]+ "'";
+					return link;
+				}
+					
+				</script> 
+		<div class="col-xs-6">
+			<div class="blog-post"> <!-- BLOG POST 1 -->
+				<h3 id="blog-title"><a href="#" target="_blank" id="blogLinkTitle"></a> </h3>
+				<h5><a id="blogLink" href="#" class="btn btn-primary btn-action" target="_blank">Read more<i class="fa fa-angle-double-right"></i></a></h5>
+				<script type="text/javascript">
+					var blogLength = 400;
+					var postIndex = 0;
+
+					// blog title
+					document.getElementById("blogLinkTitle").innerHTML = blogTitle(postIndex);
+					document.getElementById("blogLinkTitle").href = blogLink(postIndex);
+			    	// read more link
+			    	document.getElementById("blogLink").href = blogLink(postIndex);
+				</script>
+			</div>
+			<div class="blog-post"> <!-- BLOG POST 2 -->
+				<h3 id="blog-title2"><a href="#" target="_blank" id="blogLinkTitle2"></a> </h3>
+				<h5><a id="blogLink" href="#" class="btn btn-primary btn-action" target="_blank">Read more<i class="fa fa-angle-double-right"></i></a></h5>
+				<script type="text/javascript">
+					var blogLength = 400;
+					var postIndex = 1;
+
+					// blog title
+					document.getElementById("blogLinkTitle2").innerHTML = blogTitle(postIndex);
+					document.getElementById("blogLinkTitle2").href = blogLink(postIndex);
+			    	// blog body
+			    	// read more link
+			    	document.getElementById("blogLink2").href = blogLink(postIndex);
+				</script>
+			</div>
+   		</div>
+
+   		<div class="col-xs-6">
+   			<div class="blog-post"> <!-- BLOG POST 3 -->
+				<h3 id="blogTitle3"><a href="#" target="_blank" id="blogLinkTitle3"></a> </h3>
+				<h5><a id="blogLink" href="#" class="btn btn-primary btn-action" target="_blank">Read more<i class="fa fa-angle-double-right"></i></a></h5>
+				<script type="text/javascript">
+					var blogLength = 400;
+					var postIndex = 2;
+
+					// blog title
+					document.getElementById("blogLinkTitle3").innerHTML = blogTitle(postIndex);
+					document.getElementById("blogLinkTitle3").href = blogLink(postIndex);
+			    	// read more link
+			    	document.getElementById("blogLink3").href = blogLink(postIndex);
+				</script>
+			</div>
+
+			<div class="blog-post"> <!-- BLOG POST 4 -->
+				<h3 id="blogTitle4"><a href="#" target="_blank" id="blogLinkTitle4"></a> </h3>
+				<h5><a id="blogLink" href="#	" class="btn btn-primary btn-action" target="_blank">Read more<i class="fa fa-angle-double-right"></i></a></h5>
+				<script type="text/javascript">
+					var blogLength = 300;
+					var postIndex = 3;
+
+					// blog title
+					document.getElementById("blogLinkTitle4").innerHTML = blogTitle(postIndex);
+					document.getElementById("blogLinkTitle4").href = blogLink(postIndex);
+			    	// read more link
+			    	document.getElementById("blogLink4").href = blogLink(postIndex);
+				</script>
+
+			</div>
+
+   		</div>
+   		<a href="http://blog.awesomeinc.org/" class="btn btn-primary btn-action" target="_blank" style="margin-top: 20px;">Visit blog <i class="fa fa-angle-double-right"></i> </a>
+</div>

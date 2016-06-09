@@ -51,7 +51,7 @@ p {
 
 /* Links */
 a {
-    color: #d9534f;
+    color: rgb(184, 17, 36);
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -125,11 +125,6 @@ a:after {
 }
 
 /* Navbar Modification */
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-color: #ffffff;
-background-color: #2c3e50;
-}
 
 .right-nav {
 	float: right;
@@ -393,17 +388,6 @@ input[type="submit"] {
 #db .col-lg-2 {
 	padding-left: 0px;
 	padding-right: 0px;
-}
-/* Copyright */
-
-#c {
-	background: #2f2f2f;
-	padding-top: 15px;
-}
-
-#c p {
-	color: white;
-	font-size: 14px;
 }
 
 
@@ -764,17 +748,6 @@ p > tag {
     background: #f39c12;
 }
 
-/*  --- new ---- */
-#sponsor_text {
-	display: inline-block;
-	margin: 0 10px 0 0;
-}
-.sponsor_img {
-	opacity: 0.7;
-	height: 50px;
-	margin: 0 10px;
-}
-
 ::-webkit-scrollbar {
   background-color: rgba(120,120,120,0.2);
   width: 8px;
@@ -910,16 +883,6 @@ div.shadow:hover {
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	background-color: #EE2524;
 	}
-	
-/*for the subpage layout*/
-.subheader {
-	width: 100%;
-	height: 300px;
-	border-bottom: 25px rgb(207, 53, 59);
-}
-
-
-
 .temp-div {
 	height:35px; 
 	width:100%; 
@@ -1301,45 +1264,9 @@ div.coworking-page, div.entrep-page, div.internship-page, div.about-page, div.pa
 
 div.TAS-page { background-image: url("/assets/img/TAServices/Optimized-TAServicesBanner05-crop.jpg") }
 
-div.coworking-page { background-image: url("/assets/img/coworking-head.jpg") }
-
 div.parking-page { background-image: url("/assets/img/parking-head-4.jpg") }
 
-div.entrep-page { background-image: url("/assets/img/entrep-head.jpg"); margin-top:20px; }
-
-div.internship-page { background-image: url("/assets/img/internships-tree.jpg") }
-
-div.about-page { background-image: url("/assets/img/aboutpage.jpg") }
-
 div.awesomeincgame-page { background-image: url("/assets/img/awesomeincgame-banner.png") }
-
-.img-overlay {
-	color: white;
-	padding: 170px 0 40px 0;
-	font-family: 'open sans';
-	font-weight: 800;
-	font-size: 80px;
-	font-style: shadow;
-	text-shadow: 1px 3px rgba(0,0,0, 0.5);
-}
-
-
-
-@media screen and (max-width: 1000px) {
-	.img-overlay {
-		font-size: 60px;
-	}
-}
-@media screen and (max-width: 700px) {
-	.img-overlay {
-		font-size: 40px;
-	}
-}
-@media screen and (max-width: 480px) {
-	.img-overlay {
-		font-size: 20px;
-	}
-}
 
 /*for the parking page */
 
@@ -1358,11 +1285,6 @@ div.parking {
 #Schedule2{
 	min-width:560px;
 	min-height:315px;
-}
-
-#walkVideo{
-	margin-top:1%;
-	margin-left:5%;
 }
 
 #r2 img {
@@ -1396,319 +1318,13 @@ div.parking {
 }
 
 
-.tumblr-container {
-	font-family: "open sans";
-}
 
-.tumblr-container h3 {
-	text-align: center;
-}
-
-.view-blog {
-	font-weight: 500;
-	font-size: 30px;
-	border-radius: 2px;
-}
-
-.tumblr-container div#blog-post {
-	background-color: #e2e2e2;
-	border-radius: 4px;
-	padding: 5%;
-	margin: 1%;
-	line-height: 18px;
-}
-
-.tumblr-container div#blog-post p {
-	line-height: 18px;
-}
-
-.tumblr-container h1 {
-	font-size: 35px;
-	font-weight: bold;
-	text-align: center;
-}
-
-.tumblr-container h2 {
-	font-size: 25px;
-	font-weight: bold;
-	text-align: center;
-}
-
-.tumblr-container p {
-	font-size: 15px;
-	margin: 6px;
-}
-
-.tumblr-container img {
-	width:70%;
-	height:auto;
-	margin-left: 15%; 
-}
-
-@media (max-width: 1000px) {
-	.tumblr-container h1 {
-		font-size: 30px;
-	}
-
-	.tumblr-container h2 {
-		font-size: 20px;
-	}
-
-	.tumblr-container p {
-		font-size: 12px;
-	}
-}
-@media (max-width: 700px) {
-	.tumblr-container h1 {
-		font-size: 22px;
-	}
-
-	.tumblr-container h2 {
-		font-size: 18px;
-	}
-
-	.tumblr-container p {
-		font-size: 12px;
-		line-height: 14px;
-	}
-}
-@media (max-width: 300px) {
-	.tumblr-container h1 {
-		font-size: 18px;
-	}
-
-	.tumblr-container h2 {
-		font-size: 15px;
-	}
-
-	.tumblr-container p {
-		font-size: 10px;
-	}
-}
 
 /*end about page */
 
 /*Begin Interships page */
 
-#i2 { background-color: #E3E3E3 }
 
-#i2 h3, .ta-apply {
-	margin-top: 0;
-	text-align: center;
-}
-
-@media (max-width: 1800px) {
-
-	h1.internship {
-		font-family: 'open sans';
-		font-size: 30px;
-		color: #2e2e2e;
-		font-weight: 700;
-		margin-top: 0px;
-		padding-top: 30px;
-		text-align: center;
-	}
-	p.internship {
-		font-family: 'open sans';
-		font-size: 22px;
-		line-height: 30px;
-		text-align: center;
-		color: #2e2e2e;
-		font-weight: 400;
-	}
-	#i2 a, .ta-apply a {
-		font-size: 26px;
-		text-align: center;
-		font-family: "open sans";
-		font-weight: 700;
-		padding: 0 10%;
-		border-radius: 4px;
-	}
-	#i2 h3, .ta-apply {
-		margin-bottom: 30px;
-	}
-}
-
-@media (max-width: 1000px) {
-
-	h1.internship {
-		font-size: 30px;
-	}
-	p.internship {
-		font-size: 20px;
-		line-height: 24px;
-	}
-	#i2 a, .ta-apply a {
-		font-size: 28px;
-	}
-}
-@media (max-width: 700px) {
-
-	h1.internship {
-		font-size: 25px;
-	}
-	p.internship {
-		font-size: 16px;
-		line-height: 17px;
-	}
-	#i2 a, .ta-apply a {
-		font-size: 23px;
-	}
-}
-
-@media (max-width: 400px) {
-
-	h1.internship {
-		font-size: 20px;
-	}
-	p.internship {
-		font-size: 14px;
-		line-height: 15px;
-	}
-	#i2 a, .ta-apply a {
-		font-size: 18px;
-	}
-}
-
-#teams ul {
-	padding-left: 55px;
-	font-weight: 400;
-}
-
-#join {
-	padding-bottom: 25px;
-}
-
-@media (max-width: 1800px) {
-	#teams h2, #who h2, #why h2, #what h2, #join h2 {
-		font-size: 33px;
-		color: rgb(38, 38, 38);
-		font-family: 'open sans';
-		font-weight: 600;
-	}
-
-	#teams li {
-		font-weight: 400;
-		font-size: 22px;
-		line-height: 36px;
-		color: rgb(38, 38, 38);	
-	}
-
-	#who p, #why p, #what p, #join p {
-		font-weight: 400;
-		font-size: 18px;
-		line-height: 33px;
-		color: rgb(38, 38, 38);
-	}
-
-	#what p, #join p {
-		text-align: justify;
-	}
-
-	// #teams img, #who img, #what img, #join img {
-	// 	width: 100%;
-	// 	height: 100%;
-	// 	margin-top: 20px;
-	// }
-
-	// #who img, #join img {
-	// 	width: 80%;
-	// 	margin-left: 10%;
-	// 	border: solid black 1px;
-	// }
-
-	#members h3
-		color: rgb(26, 26, 26);
-		font-family: "open sans";
-	}
-
-}
-
-@media (max-width: 700px) {
-	#teams h2, #who h2, #why h2, #what h2, #join h2 {
-		font-size: 25px;
-	}
-
-	#teams li {
-		font-size: 22px;
-	}
-	#teams ul {
-		padding-left: 5px;
-	}
-
-	#who p, #why p, #what p, #join p {
-		font-size: 15px;
-		line-height: 18px;
-	}
-
-	#teams img, #who img, #what img, #join img {
-		height: 150px;
-	}
-
-	#who img, #join img {
-		width: 80%;
-		margin-left: 10%;
-		border: solid black 1px;
-	}
-	#members h3 {
-		font-size: 20px;
-	}
-}
-@media (max-width: 400px) {
-	#teams h2, #who h2, #why h2, #what h2, #join h2 {
-		font-size: 15px;
-	}
-
-	#teams li {
-		font-size: 10px;
-	}
-
-	#teams img, #who img, #what img, #join img {
-		height: 100px;
-	}
-
-	#who img, #join img {
-		width: 80%;
-		margin-left: 10%;
-		border: solid black 1px;
-	}
-	#who p, #why p, #what p, #join p {
-		font-size: 10px;
-		line-height: 12px;
-	}
-
-	#members h3 {
-		font-size: 15px;
-	}
-}
-
-#members { 
-	background-color: #e2e2e2;
-	padding-bottom: 25px;
-}
-
-#members h2 {
-	color: rgb(26, 26, 26);
-	text-align: center;
-	font-weight: 600;
-}
-
-#members img {
-	width: 200px;
-	height: 200px;
-}
-
-#members div.ta-bio p {
-	line-height: 18px;
-}
-
-#members div.ta-bio br {
-	line-height: 20px;
-}
-
-#members div.ta-bio strong {
-	font-weight: 500;
-}
 
 /*end internships page */
 
@@ -1735,80 +1351,6 @@ img.tenant {
 	width: 75%;
 	height: 80%;
 	margin-left: 12.5%;
-}
-
-#b2 {
-	background-color: white;
-}
-
-
-@media screen and (max-width: 1800px) {
-	#b2 p 
-	{ 
-		font-size: 22px;
-		float: right;
-		width: 240px;
-		padding-left: 10px;
-		margin-top: 10px;
-	}
-	#r2 h2, #Wthrough h2{
-		font-size: 3em;
-	}
-}
-
-@media screen and (max-width: 1200px) {
-	#b2 p 
-	{ 
-		font-size: 18px;
-		float: right;
-		width: 180px;
-
-	}
-	#b2 img {
-		height: 60px;
-		width: 60px;
-	}	
-}
-
-@media screen and (max-width: 600px) {
-	#b2 p 
-	{ 
-		font-size: 14px;
-		float: right;
-	}
-	#r2 h2, #Wthrough h2 {
-		font-size: 22px;
-	}
-
-	#r2 p {
-		font-size: 
-	}
-}
-
-@media screen and (max-width: 330px) {
-	#b2 p 
-	{ 
-		font-size: 12px;
-		float: right;
-		width: 100px;
-		margin-top: 0;
-		line-height: 12px;
-	}
-
-	#b2 img {
-		width:25px;
-		height: 25px;
-	}
-}
-
-#b2 div.well {
-	background-color: white;
-	border: none;
-}
-
-p.too-much-text {
-	font-size: 18px;
-	margin-top: 0;
 }
 
 div.sub-row {

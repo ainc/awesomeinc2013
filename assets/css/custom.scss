@@ -1,8 +1,12 @@
 ---
 ---
-//colors
+/*****************************************************
+						Colors
+*****************************************************/
 $color_alto_approx: rgb(222, 222, 222);
-$color_cardinal_approx: #c31337;
+$color_cardinal_approx: rgb(184, 17, 36);
+$color_cardinal_approx_feature: rgb(150, 0, 23);
+$color_cardinal_approx_shade: rgb(220, 17, 36);
 $color_pumice_approx: rgb(200, 200, 200);
 $color_shady_lady_approx: rgb(165, 165, 165);
 $color_pippin_approx: rgb(255,222,223);
@@ -11,19 +15,23 @@ $color_light_gray: rgb(236, 236, 236);
 $black: black;
 $color_silver_chalice_approx: #aaa;
 
-//sizes
+@import "bootstrap";
+
+/*****************************************************
+						Sizes
+*****************************************************/
 
 $tablet-width: 768px;
 $desktop-width: 1024px;
 $mobile-width: $tablet-width - 1;
 
-@mixin tablet { /* < 768 */
+@mixin tablet {  /* 768-1023 */
 	@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
 		@content;
 	}
 }
 
-@mixin mobile { /* 768-1023 */
+@mixin mobile {  /* < 768 */
 	@media (max-width: #{$mobile-width}) {
 		@content;
 	}
@@ -35,20 +43,143 @@ $mobile-width: $tablet-width - 1;
 	}
 }
 
+/*****************************************************
+					Hover States
+*****************************************************/
+@mixin setLinkSelectorStyle {
+	&:hover, &:active, &:focus {
+		@content;
+	}
+}
+
+/*****************************************************
+					Consistencies
+*****************************************************/
+
 .center {
 	text-align: center;
 	margin: auto;
 	display: block;
 }
+h2 {
+	color: $color_cardinal_approx;
+	margin: 40px 0;
+	@include mobile {
+		font-size: 16px;
+	}
+}
+h3 {
+	color: $color_cardinal_approx;
+	margin: 20px 0;
+	@include mobile {
+		font-size: 16px;
+	}
+}
 
+.custom-container {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+iframe {
+	width: 100%;
+	height: 550px;
+	margin: 20px 0;
+	@include tablet {
+		height: 350px;
+	}
+	@include mobile {
+		height: 250px;
+	}
+}
+.no-pad-col {
+	padding-right: 7px;
+	padding-left: 7px;
+}
+.panel-custom {
+	border: none;
+	background-color: $color_gray;
+	height: 400px;
+	.panel-heading {
+		background-color: $color_cardinal_approx;
+		color: white;
+		font-size: 22px;
+		font-weight: 600;
+		border: none;
+	}
+	img {
+		margin-top: 30px;
+		margin-bottom: 25px;
+	}
+}
+.panel-feature {
+	background-color: $color_shady_lady_approx;
+	.panel-heading {
+		background-color: $color_cardinal_approx_feature;
+	}
+}
+
+
+/******************************* 
+ * Header with image
+ *******************************/
+.subheader {
+	width: 100%;
+	height: 300px;
+	border-bottom: 25px rgb(207, 53, 59);
+	h1 {
+		color: white;
+		padding: 100px 0 0 0;
+		font-family: 'open sans';
+		font-weight: 800;
+		font-size: 80px;
+		font-family: Exo-Bold;
+		@include desktop { font-size: 60px; }
+		@include tablet { font-size: 40px; }
+		@include mobile { font-size: 20px; }
+	}
+	h2 {
+		color: white;
+	}
+	
+}
+
+/******************************* 
+ * Red button
+ * Rounded edges
+ * White font
+ *******************************/
+.btn-action {
+	background-color: $color_cardinal_approx;
+	color: white;
+	border-color: $color_cardinal_approx;
+	border-radius: 6px;
+	font-size: 24px;
+	padding: 2px 14px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	@include setLinkSelectorStyle {
+		background-color: $color_cardinal_approx_shade;
+		border-color: $color_cardinal_approx_shade;
+	}
+	i {
+		margin-left: 2px;
+	}
+}
+
+/******************************
+ * Statement for beginning of page
+ * Example on about page
+ * gray bg 
+ ******************************/
 .statement {
-	background-color: #bfbfbf;
+	background-color: $color_light_gray;
+	text-align: center;
 	p { 
 		font-family: 'open sans';
 		font-style: normal;
 		font-weight: 600;
 		color: black;
-		font-size: 23px;
+		font-size: 18px;
 		line-height: 26px;
 		margin: 25px 100px 25px 100px;
 	}
@@ -75,11 +206,93 @@ $mobile-width: $tablet-width - 1;
 	}
 }
 
+section.full-width {
+	padding-bottom: 40px;
+	padding-top: 40px;
+	h2 {
+		margin-top: 0;
+	}
+}
+
+section.white-bg {
+	background-color: white;
+}
+section.grey-bg {
+	background-color: $color_light_gray;
+}
+
+.vertical-align {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+	img {
+		width: 50%;
+		margin-left: 25%;
+	}
+}
+
+.no-bullet {
+	list-style-type: none;
+	padding-left: 0;
+}
+/*****************************
+ * Extra space for moving elements
+ *****************************/
+.extra-space {
+	margin-top: 40px;
+}
+
+
+/*****************************
+ * Container for blog
+ * grey bg
+ * Example found on about page
+ * 6/2/2016
+ *****************************/
+.tumblr-container {
+	div#blog-post {
+		background-color: #e2e2e2;
+		border-radius: 4px;
+		padding: 5%;
+		margin: 1%;
+		line-height: 18px;
+	}
+	h3 {
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+	}
+	img {
+		width:70%;
+		height:auto;
+		margin-left: 15%; 
+	}
+}
+
+/*****************************
+ * wrapper for buttons to center
+ * buttons across container
+ *****************************/
+h5 {
+	text-align: center;
+	margin: 20px 0;
+}
+
+/*****************************
+ * navbar active
+ *****************************/
+.nav {
+	li.active > a {
+		background-color: #color_shady_lady_approx;
+	}
+	li > a:focus {
+		color: #313131;
+	}
+}
+
 /* =============================================
 				Index Page
 ============================================= */
-
-
 
 #features {
 	.feature-img {
@@ -191,101 +404,345 @@ $mobile-width: $tablet-width - 1;
 					About
 ================================================ */
 .About {
-	
+	.subheader {
+		background-image: url("/assets/img/headers/about_us.png");
+	}
 	#core-values {
-		h2 {
-			padding-top: 50px;
-			font-family: 'open sans';
-			font-size: 45px;
-			color: #2e2e2e;
-			font-weight: 700;
-			padding-left: 30px;
+		.col-sm-3, col-xs-6 {
+			padding-left: 0;
 		}
 		img {
 			width: 95%;
-			box-shadow: 5px 5px 5px #2e2e2e;
+			/*box-shadow: 5px 5px 5px #2e2e2e;*/
 			margin-bottom: 35px;
+		}
+		p {
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 20px;
+			text-align: center;
+			&:first-child {
+				margin-bottom: 0;
+			}
+			&:last-child {
+				margin-top: 0;
+			}
 		}
 		@include mobile {
 			img {
 				padding-right: 0;
-				box-shadow: 10px 10px 5px #2f2f2f;
+				/*box-shadow: 10px 10px 5px #2f2f2f;*/
 				margin-bottom: 10px;
 			}
 		}
-	#culture-book {
-		@include mobile {
-			h2 {
-				font-size: 22px;
-			}
+	}
+	.blog-post {
+		background-color: $color_light_gray;
+		height: 250px;
+		h3 {
+			height: 150px;
+			padding: 8% 5%;
+			line-height: 32px;
+		}
+		a, h5 {
+			text-align: center;
 		}
 	}
-	#r2 h3, #c2 h3 {
-		text-align: center;
+	.col-xs-6 {
+		padding-left: 0;
 	}
-	#c2 h3 {
-		margin-top: 30px;
-	}
-	#r2 a, #c2 a {
-		font-size: 20px;
-	}
-}
-
-
-@include mobile {
-	
-
-	
-	#r2 p , #Wthrough p{
-		font-size: 15px;
-	}
-	#r2 a, #c2 a {
-		font-size: 10px;
-	}
-	#r2 img {
-		width: 80%;
-		height: 80%;
-	}
-}
-
-#cv {
-	margin-top: 0px;
-	background-color: white;
-}
-
-h2.core-value {
-	font-family: 'open sans';
-	font-size:45px;
-	color: #2e2e2e;
-	font-weight: 700;
-	margin-top: 0px;
-	padding-left: 30px;
-}
-
-
-
-.cv-img-offset2 {
-	margin-right:0px;
-}
-
 }
 
 /* =============================================
 				Internships
 ================================================ */
 .Internships {
+	.subheader {
+		background-image: url("/assets/img/headers/for_entrepreneurs.png");
+	}
 	img {
 		width: 80%;
 		margin-left: 10%;
 	}
 }
 
+@media (max-width: 1800px) {
+
+	h1.internship {
+		font-family: 'open sans';
+		font-size: 30px;
+		color: #2e2e2e;
+		font-weight: 700;
+		margin-top: 0px;
+		padding-top: 30px;
+		text-align: center;
+	}
+	p.internship {
+		font-family: 'open sans';
+		font-size: 22px;
+		line-height: 30px;
+		text-align: center;
+		color: #2e2e2e;
+		font-weight: 400;
+	}
+	#i2 a, .ta-apply a {
+		font-size: 26px;
+		text-align: center;
+		font-family: "open sans";
+		font-weight: 700;
+		padding: 0 10%;
+		border-radius: 4px;
+	}
+	#i2 h3, .ta-apply {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 1000px) {
+
+	h1.internship {
+		font-size: 30px;
+	}
+	p.internship {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	#i2 a, .ta-apply a {
+		font-size: 28px;
+	}
+}
+@media (max-width: 700px) {
+
+	h1.internship {
+		font-size: 25px;
+	}
+	p.internship {
+		font-size: 16px;
+		line-height: 17px;
+	}
+	#i2 a, .ta-apply a {
+		font-size: 23px;
+	}
+}
+
+@media (max-width: 400px) {
+
+	h1.internship {
+		font-size: 20px;
+	}
+	p.internship {
+		font-size: 14px;
+		line-height: 15px;
+	}
+	#i2 a, .ta-apply a {
+		font-size: 18px;
+	}
+}
+
+#teams ul {
+	padding-left: 55px;
+	font-weight: 400;
+}
+
+#join {
+	padding-bottom: 25px;
+}
+
+@media (max-width: 1800px) {
+	#teams h2, #who h2, #why h2, #what h2, #join h2 {
+		font-size: 33px;
+		color: rgb(38, 38, 38);
+		font-family: 'open sans';
+		font-weight: 600;
+	}
+
+	#teams li {
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 36px;
+		color: rgb(38, 38, 38);	
+	}
+
+	#who p, #why p, #what p, #join p {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 33px;
+		color: rgb(38, 38, 38);
+	}
+
+	#what p, #join p {
+		text-align: justify;
+	}
+
+	// #teams img, #who img, #what img, #join img {
+	// 	width: 100%;
+	// 	height: 100%;
+	// 	margin-top: 20px;
+	// }
+
+	// #who img, #join img {
+	// 	width: 80%;
+	// 	margin-left: 10%;
+	// 	border: solid black 1px;
+	// }
+
+	#members h3 {
+		color: rgb(26, 26, 26);
+		font-family: "open sans";
+	}
+
+}
+
+@media (max-width: 700px) {
+	#teams h2, #who h2, #why h2, #what h2, #join h2 {
+		font-size: 25px;
+	}
+
+	#teams li {
+		font-size: 22px;
+	}
+	#teams ul {
+		padding-left: 5px;
+	}
+
+	#who p, #why p, #what p, #join p {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	#teams img, #who img, #what img, #join img {
+		height: 150px;
+	}
+
+	#who img, #join img {
+		width: 80%;
+		margin-left: 10%;
+		border: solid black 1px;
+	}
+	#members h3 {
+		font-size: 20px;
+	}
+}
+@media (max-width: 400px) {
+	#teams h2, #who h2, #why h2, #what h2, #join h2 {
+		font-size: 15px;
+	}
+
+	#teams li {
+		font-size: 10px;
+	}
+
+	#teams img, #who img, #what img, #join img {
+		height: 100px;
+	}
+
+	#who img, #join img {
+		width: 80%;
+		margin-left: 10%;
+		border: solid black 1px;
+	}
+	#who p, #why p, #what p, #join p {
+		font-size: 10px;
+		line-height: 12px;
+	}
+
+	#members h3 {
+		font-size: 15px;
+	}
+}
+
+#members { 
+	background-color: #e2e2e2;
+	padding-bottom: 25px;
+}
+
+#members h2 {
+	color: rgb(26, 26, 26);
+	text-align: center;
+	font-weight: 600;
+}
+
+#members img {
+	width: 200px;
+	height: 200px;
+}
+
+#members div.ta-bio p {
+	line-height: 18px;
+}
+
+#members div.ta-bio br {
+	line-height: 20px;
+}
+
+#members div.ta-bio strong {
+	font-weight: 500;
+}
+
 /* =============================================
 				For Entrepreneurs
 ================================================ */
 .For {
+	.subheader {
+		background-image: url("/assets/img/headers/for_entrepreneurs.png");
+	}
 	section {
 		margin-top: 0;
+	}
+}
+
+/* =============================================
+					Coworking
+================================================ */
+
+.Coworking {
+	.subheader {
+		background-image: url("/assets/img/headers/coworking.png");
+	}
+	.custom-grid {
+		.well {
+			background-color: white;
+			border: none;
+
+		}
+		.row {
+			height: 110px;
+		}
+		.media-middle {
+			font-size: 14px;
+			text-align: center;
+			@include tablet {
+				font-size: 14px;
+			}
+			@include mobile {
+				font-size: 12px;
+				float: right;
+				width: 100px;
+				margin-top: 0;
+				line-height: 12px;
+			}
+		}	
+		img {
+			height: 60px;
+			width: 60px;
+			@include tablet {
+
+			}
+			@include mobile {
+				width:25px;
+				height: 25px;
+			}
+		}
+	}
+	.rentals {
+		.col-md-6 {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		img {
+			width: 90%;
+			margin-bottom: 40px;
+		}
 	}
 }
 
@@ -366,91 +823,138 @@ h2.core-value {
 /* =============================================
 					FOOTER
 ================================================ */
-
-footer {
-	@media (min-width: 700px) 
-	  {
-	    background: url("../img/map.png") repeat;
-	    padding-top: 20px;
-	    padding-bottom: 20px;
-	  }
-
-
-
-	  h3 {
-	    color: black;
-	    font-weight: bold;
-	    font-size: 30px;
-	  }
-	  p {
-	    color: black;
-	    font-size: 17px;
-	    line-height: 20px;
-	    margin-bottom: 0;
-	  }
-
-
-	#footer-links {
-	  p a {
-	    color: black;
-	    word-wrap: break-word;
-	    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-	    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-	    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-	    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-	    transition: color 0.1s ease-in, background 0.1s ease-in;
-	  }
-	  a:hover {
-	    color: #D80000;
-	    text-decoration: none;
-	    outline: 0;
-	  }
-	}
-
-	/* Map Wrap */
-
-	#map {
-	  width: 100%;
-	}
-
-	.fellowship-content {
-	  font-weight: 200;
-	  font-size: 20px;
-	  line-height: 33px;
-	  color: white;
-	  margin: 15px;
-	  text-decoration: underline;
-	}
-
-	#fellowship-list {
-	  font-weight: 200;
-	  font-size: 20px;
-	  line-height: 33px;
-	  color: white;
-	  margin: 15px;
-	  text-decoration: underline;
-	  margin: auto;
-	  margin-top: -10px;
-	  width: 35em;
-	  ul {
-	    margin-left: 1em;
-	  }
-	  li {
-	    float: left;
-	  }
-	}
-
-		b.fellowship-content {
-			float: left;
-			width: 100%;
-			font-size: 1.2em;
-			font-weight: bold;
-			text-decoration: none;
-			margin-top: 1em;
+.community-footer {
+	background: #2f2f2f;
+	padding-top: 15px;
+	@include desktop {
+		a {
+			font-size: 24px;
 		}
+	}
+	@include tablet {
+		a {
+			font-size: 12px;
+		}
+		table tbody th {
+			font-size: 15px;
+		}
+	}
+	table tbody {
+		a:hover {
+			color: #dedede;
+		}
+		th {
+			border-bottom: 1px solid $color_alto_approx;
+			border-top: none;
+			font-size: 1.76em;
+			color: $color_alto_approx;
+			font-weight: 600;
+			&:last-child {
+				width: 25%;
+			}
+		}
+		tr td {
+			border-top: none;
+			padding: 5px;
+		}
+		img {
+			width: 35px;
+			height: 35px;
+		}
+		@include mobile {
+			th {
+				font-size: 1em;
+			}
+			tr td {
+				padding: 0;
+				padding-right: 2px;
+			}
+			img {
+				display: none;
+			}
+		}
+	}
+	position: relative;
+	clear: both;
+	h4 {
+		color: $color_pumice_approx;
+		font-weight: 400;
+	}
+	.row {
+		margin: 0;
+	}
+	li {
+		list-style-type: none;
+		margin-bottom: 10px;
+	}
+	a {
+		color: $color_shady_lady_approx;
+	}
+	img {
+		margin-bottom: 10px;
+	}
 }
 
 
+
+footer {
+	@media (min-width: 700px) 
+	{
+		background: url("../img/map.png") repeat;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+
+
+	h3 {
+		color: black;
+		font-weight: bold;
+		font-size: 30px;
+	}
+	p {
+		color: black;
+		font-size: 17px;
+		line-height: 20px;
+		margin-bottom: 0;
+	}
+
+
+	#footer-links {
+		p a {
+			color: black;
+			word-wrap: break-word;
+			-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+			-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+			-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+			-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+			transition: color 0.1s ease-in, background 0.1s ease-in;
+		}
+		a:hover {
+			color: #D80000;
+			text-decoration: none;
+			outline: 0;
+		}
+	}	
+}
+
+#sponsors {
+	background: #2f2f2f;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	h4 {
+		font-size: 18px;
+		display: inline-block;
+		margin: 0 10px 0 0;
+	}
+	img {
+		height: 50px;
+		margin: 0 10px;
+		&:first-child {
+			margin-left: 40px;
+		}
+	}
+}
 
 
 

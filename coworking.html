@@ -9,199 +9,178 @@ redirect_from:
 ---
 
 <div class="subheader coworking-page"> <!-- Need to substitute img -->
-	<div class="container">
-    	<h2 class="img-overlay"> COWORKING </h2>
+	<div class="container custom-container">
+    	<h1 class="img-overlay"> Coworking </h1>
+    	<a href="#" class="btn btn-primary btn-action">Become a Tenant  <i class="fa fa-angle-double-right"></i></a>
     </div>
 
 </div>
 
-<div class="temp-div">
-</div>
-
-<div id="c2">
-	<div class="container">
-
-		<h3>
-			<a type="button" target="_blank" class="btn btn-danger btn-large" href="https://spreadsheets.google.com/spreadsheet/viewform?formkey=dGh0eWtpRkczSEZ0aXBhazV6S0JwV3c6MQ">Apply Today</a>
-		</h3>
-
-
-		<span class = "anchor" id="tour"></span>
-<div class = "container" id="Wthrough">
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script>
-	$(document).ready(function(){
-		$("#QuoteInfo").hide();
-	    $("#hide").click(function(){
-	        $("#QuoteInfo").hide();
-	    });
-	    $("#QuoteOpen").click(function(){
-	        $("#QuoteInfo").show();
-	        $("QuoteDescp").hide();
-	        $("#QuoteDesc").hide();
-	        $("#QuoteOpen").hide();
-	        
-
-	    });
-	});
-	</script>
-		<div class = "col-md-6" id="Schedule1">
-			<div class = "container" id="QuoteDesc">
-			<h2 > Schedule a Tour </h2>
-			<p > Come check out Awesome Inc </p>
-			</div>
-			
-		
-			<h3>
-				<a type="button" id="QuoteOpen" class="btn btn-danger btn-large">Schedule a Tour</a>
-			</h3>
-			<div id="QuoteInfo" style="display:none" class="container">
-			<div class = "col-md-6" id="Schedule1">
-				<h2>Schedule<br>a Tour</h2>
-				<p>Please fill out the form and we will be in contact with you soon.</p>
-			</div>
-			<div class = "col-md-6" id="Schedule2">
-				<form method="POST"  action="////formspree.io/theresa.simcic@gmail.com">
-					<input type="hidden" name="_cc" value="ek.andrews11@gmail.com">
-
-			      	<input type="email" id="CustInfo" name="_replyto" placeholder="Your email" /><br>
-			      	<input type="text" id="CustInfo" name="name" placeholder="Your name"><br>
-			      	<textarea name="message" id="CustInfo" rows="5" placeholder="Your message"></textarea><br>
-			      	<input type="text" name="_gotcha" style="display:none">
-			      	<h3>
-			      	<button type="submit" class ="btn btn-danger btn-large" id ="hide">Send</button>
-			      	</h3>
-				</form>
-				</div>
-			</div>
-			
-		</div>
-
-
-
-	
-		
-		<div class = "col-md-6" id="Schedule2">
-			<iframe width="560" height="315px" id="walkVideo" src="https://www.youtube.com/embed/Xh2VKU-5GP8" frameborder="0" allowfullscreen></iframe>
+<div class="container custom-container">
+	<h2>Check Out Our Space!</h2>
+	<div class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Xh2VKU-5GP8" allowfullscreen=""></iframe>
+	</div>
+	<a href="#" class="btn btn-primary btn-action">Schedule a Tour <i class="fa fa-angle-double-right"></i></a>
+	<h2>Membership Options</h2>
+	<div class="col-md-4 no-pad-col">
+		<div class="panel panel-danger panel-custom">
+			<div class="panel-heading center">Virtual Tenant</div>
+			<img class="center" src="/assets/img/virtual_plan.png">
+			<ul>
+				<li>Main St mailing address</li>
+				<li>4 hours of professional conference room</li>
+			</ul>
+			<button href="#" class="btn btn-primary btn-action center">$75/mo</button>
 		</div>
 	</div>
-</div>
-		
-		<img src="/assets/img/rent-a-desk.png" class="tenant" alt="Full-time services 24/7 access 10 hours of professional conference room, virtual tenant services regular weekday access 4 hours of professional conference room, conference room rental apple tv capability projection equipment included"> 
+	<div class="col-md-4 no-pad-col">
+		<div class="panel panel-danger panel-custom panel-feature">
+			<div class="panel-heading center">Full Time Tenant</div>
+			<img class="center" src="/assets/img/full_time_plan.png">
+			<ul>
+				<li>24/7 access to our space</li>
+				<li>10 hours of professional conference room</li>
+			</ul>
+			<button href="#" class="btn btn-primary btn-action center">$250/mo</a>
+		</div>
 	</div>
+	<div class="col-md-4 no-pad-col">
+		<div class="panel panel-danger panel-custom">
+			<div class="panel-heading center">Day Pass</div>
+			<img class="center" src="/assets/img/day_pass_plan.png">
+			<ul>
+				<li>9am - 6pm access</li>
+				<li>Professional conference room (depending on availability)</li>
+			</ul>
+			<button href="#" class="btn btn-primary btn-action center">$10/day</a>
+		</div>
+	</div>
+
+</div>
+
+<span class="anchor" id="features"></span>
+<div class="container custom-container custom-grid">
+	<h2>Membership Amenities</h2>
+	<!-- FIRST ROW OF AMENITIES -->
+	<div class="row"> 
+		<div class="col-md-4">
+			<div class="media">
+				<div class="media-left media-middle">
+					<img src="/assets/img/amenities/wifi.png" class="media-object" alt="High speed, secure Wi-Fi">
+				</div>
+				<div class="media-body media-middle">
+					High speed, secure Wi-Fi
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-4">
+			<div class="media">
+				<div class="media-left media-middle">
+					<img src="/assets/img/amenities/like-Minded-People.png" class="media-object" alt="Innovative environment">
+				</div>
+				<div class="media-body media-middle">
+					Innovative environment
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-4">
+			<div class="media">
+				<div class="media-left media-middle">
+					<img src="/assets/img/amenities/events.png" class="media-object" alt="Networking events ">
+				</div>
+				<div class="media-body media-middle">
+					Networking events
+				</div>
+			</div>
+		</div>
+	</div> 
+		<!-- SECOND ROW OF AMENITIES -->
+	<div class="row"> 
+		<div class="col-md-4">
+			<div class="media">
+				<div class="media-left media-middle"> 
+					<img src="/assets/img/amenities/meetings.png" class="media-object" alt="Conference & meeting rooms">
+				</div>
+				<div class="media-body media-middle">
+					Conference & meeting rooms 
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-4">
+			<div class="media">
+				<div class="media-left media-middle">
+					<img src="/assets/img/amenities/locker.png" class="media-object" alt="Storage lockers">
+				</div>
+				<div class="media-body media-middle">
+					Storage lockers
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-4">
+			<div class="media">
+				<div class="media-left media-middle">
+					<img src="/assets/img/amenities/breakroom.png" class="media-object" alt="Breakroom & kitchen">
+				</div>
+				<div class="media-body media-middle">
+					Breakroom & kitchen
+				</div>
+			</div>
+		</div> 
+	</div> 
+		<!-- THIRD ROW OF AMENITIES -->
+	<div class="row"> 
+		<div class="col-md-4">
+			<div class="media">
+				<div class="media-left media-middle">
+					<img src="/assets/img/amenities/printer.png" class="media-object" alt="print and copy">
+				</div>
+				<div class="media-body media-middle">
+					Print & copy 
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="media">
+				<div class="media-left media-middle">
+					<img src="/assets/img/amenities/mail.png" class="media-object" alt="Networking events">
+				</div>
+				<div class="media-body media-middle">
+					Downtown mailing address
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="media">
+				<div class="media-left media-middle">
+					<img src="/assets/img/amenities/mentorship.png" class="media-object" alt="Mentorship">
+				</div>
+				<div class="media-body media-middle">
+					Mentorship 
+				</div>
+			</div>
+		</div>
+	</div> 
+
+</div> <!-- CONTAINER -->
+
+<span class="anchor" id="rentals"></span>
+<div class="container custom-container rentals">
+	<h2>Event Rentals</h2>
+	<div class="col-md-6">
+		<img src="/assets/img/coworking_photo_1.png" />
+	</div>
+	<div class="col-md-6">
+		<img src="/assets/img/coworking_photo_2.png" />
+	</div>
+	<p><b>Interested in renting our space?</b>  See if Awesome Inc is right for your next event!  Email Awesome Inc's Director, <a href="mailto:emily@awesomeinc.org?subject=Space Rental">Emily Andrews</a>, for more rental information</p>
 </div>
 
 
-
-<div id="b2">
-	<span class="anchor" id="features"></span>
-	<div id="features" class="container">
-		<!-- FIRST ROW OF AMENITIES -->
-		<div class="row"> 
-			<div class="col-md-4">
-				<div class="well">
-				<img src="/assets/img/amenities/wifi.png" class="responsive-img" alt="High speed, secure Wi-Fi">
-				<p>High speed, secure Wi-Fi	</p>
-			</div>
-			</div>
-			
-			<div class="col-md-4">
-				<div class="well">
-					<img src="/assets/img/amenities/like-Minded-People.png" alt="Innovative environment">
-					<p class=""> Innovative environment</p>
-				</div>
-				
-			</div>
-			
-			<div class="col-md-4">
-				<div class="well">
-				<img src="/assets/img/amenities/events.png" alt="Networking events ">
-				<p>Networking events </p>
-				</div>
-			</div>
-		</div> 
-			<!-- SECOND ROW OF AMENITIES -->
-		<div class="row"> 
-			<div class="col-md-4">
-			<div class="well"> 
-				<img src="/assets/img/amenities/meetings.png" alt="Conference & meeting rooms">
-				<p class="too-much-text">Conference & meeting rooms </p>
-				</div>
-			</div>
-			
-			<div class="col-md-4">
-				<div class="well">
-				<img src="/assets/img/amenities/locker.png" alt="Storage lockers">
-				<p>Storage lockers </p>
-				</div>
-			</div>
-			
-			<div class="col-md-4">
-				<div class="well">
-				<img src="/assets/img/amenities/breakroom.png" alt="Breakroom & kitchen">
-				<p>Breakroom & kitchen </p>
-				</div>
-			</div> 
-		</div> 
-			<!-- THIRD ROW OF AMENITIES -->
-		<div class="row"> 
-			<div class="col-md-4">
-				<div class="well">
-				<img src="/assets/img/amenities/printer.png" alt="print and copy">
-				<p>Print & copy  </p>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="well">
-				<img src="/assets/img/amenities/mail.png" alt="Networking events">
-				<p>Downtown mailing address </p>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="well">
-				<img src="/assets/img/amenities/mentorship.png" alt="Mentorship">
-				<p>Mentorship </p>
-				</div>
-			</div>
-		</div> 
-
-	</div> <!-- CONTAINER -->
-</div> <!-- ROW -->
-
-
-
-<div id="r2">
-	<span class="anchor" id="rent-space"></span>
-	<div class="container" id="rent-space">
-		<h2> Rent the Space </h2>
-		<p> Awesome Inc is the perfect venue to host your next professional event.  Rates start at just $75. </p>
-
- 		<div class="col-md-4">
- 			<img src="/assets/img/space-pic.jpg">
- 			<p> Comfortably accommodate up to 100 attendees </p>
- 		</div>
- 		<div class="col-md-4">
- 			<img src="/assets/img/projector.jpg">
- 			<p> Professional presentation equipment available </p>
- 		</div>
- 		<div class="col-md-4">
- 			<img src="/assets/img/map-location.jpg">
- 			<p>Downtown location and parking available </p>
- 		</div>
-
- 		<h3>
-			<a type="button" data-toggle="modal" class="btn btn-danger btn-large" href="#tenant">Rent Space</a>
-		</h3>
-
-		<!-- Tenant Modal -->
-
-						
-							<div class="container">
-								<div class="row centered">
-			<p>     
-			
-			</p>
 											  <div class="modal fade" id="tenant" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 											    <div class="modal-dialog">
 											      <div class="modal-content">
@@ -222,13 +201,6 @@ redirect_from:
 											      </div><!-- /.modal-content -->
 											    </div><!-- /.modal-dialog -->
 											  </div><!-- /.modal -->
-			
-								</div><!-- /row -->
-							</div><!-- /container -->
-							<!-- Tenant Modal -->
-
-</div>
-</div>
 
 
 
