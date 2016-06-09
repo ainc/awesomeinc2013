@@ -11,9 +11,8 @@ redirect_from:
 <div class="subheader coworking-page"> <!-- Need to substitute img -->
 	<div class="container custom-container">
     	<h1 class="img-overlay"> Coworking </h1>
-    	<a href="#" class="btn btn-primary btn-action">Become a Tenant  <i class="fa fa-angle-double-right"></i></a>
+    	<a href="https://spreadsheets.google.com/spreadsheet/viewform?formkey=dGh0eWtpRkczSEZ0aXBhazV6S0JwV3c6MQ"  class="btn btn-primary btn-action">Become a Tenant  <i class="fa fa-angle-double-right"></i></a>
     </div>
-
 </div>
 
 <div class="container custom-container">
@@ -21,7 +20,8 @@ redirect_from:
 	<div class="embed-responsive embed-responsive-16by9">
 		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Xh2VKU-5GP8" allowfullscreen=""></iframe>
 	</div>
-	<a href="#" class="btn btn-primary btn-action">Schedule a Tour <i class="fa fa-angle-double-right"></i></a>
+	<a class="btn btn-primary btn-action" data-toggle="modal" data-target="#tour-popup">Schedule a Tour <i class="fa fa-angle-double-right"></i></a>
+	{% include schedule_a_tour.html %}
 	<h2>Membership Options</h2>
 	<div class="col-md-4 no-pad-col">
 		<div class="panel panel-danger panel-custom">
