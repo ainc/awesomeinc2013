@@ -15,7 +15,7 @@ $color_light_gray: rgb(236, 236, 236);
 $black: black;
 $color_silver_chalice_approx: #aaa;
 
-@import "bootstrap";
+/*@import "bootstrap";*/
 
 /*****************************************************
 						Sizes
@@ -397,6 +397,36 @@ h5 {
 	    width: 50%;
 	    display: table-cell;
 	    vertical-align: middle;
+	}
+}
+
+/* =============================================
+				Email Popup
+============================================= */
+.email-popup {
+	.modal-header {
+		background: $color_cardinal_approx;
+	}
+	.modal-body {
+		h5 {
+			text-align: left;
+			color: $color_cardinal_approx;
+			margin-top: 0;
+			line-height: 40px;
+		}
+		input[type=email] {
+			border-radius: 4px;
+			height: 38px;
+		}
+		input.button {
+			color: white;
+			background-color: $color_cardinal_approx;
+			border-radius: 4px;
+			font-size: 20px;
+			&:hover {
+				background-color: $color_cardinal_approx_shade;
+			}
+		}
 	}
 }
 
