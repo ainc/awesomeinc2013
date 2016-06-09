@@ -24,7 +24,7 @@ body {
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "open sans";
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 300;
     color: #333;
 }
@@ -590,7 +590,7 @@ p > tag {
 	padding: 20px;
 	color: #fff;
 	background: #2c3e50;
-	font-weight: 700;
+	
 }
 
 .grid figcaption h5 {
@@ -1988,17 +1988,24 @@ div#mc_embed_signup {
 	font-size: 17px;
 }
 
+
+/**
+*Members Styling
+**/
+
 .alpha-img {
 	display: inline-block;
 	position: relative;
-	left: 4%;
+	left: -4.5%;
 	float: none;
-	height: 125px;
-	width: 16.6666667%;
+	/*height: 125px;
+*/	width: 16.6666667%;
 	min-width: 250px;
-	padding: 0px 0px 250px 0px;
+	padding: 10px;
 	opacity: 1;
 	margin-top: 10px;
+	/*margin:0 0 2.5% 2.5%;*/
+	
 }
 .alpha-img h2 {
 	text-align: center;
@@ -2092,6 +2099,91 @@ div#mc_embed_signup {
 	visibility: visible;
 	opacity: .95;
 }
+
+
+/*TA Member Wall Styling */
+.grid {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+	list-style: none;
+	text-align: center;
+	margin-left: 110px
+}
+
+.grid li {
+	display: inline-block;
+	width: 350px;
+	margin: -40px;
+	padding: 20px 20px 70px 20px;
+	text-align: left;
+	position: relative;
+}
+
+.grid figure {
+	margin: 0px;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block; 
+	position: relative;
+
+}
+
+.grid figcaption {
+	/*This deals with the screen that appears when hovering over members */
+	position: absolute;
+	top: 0;
+	left: -7%;
+	padding: 0;
+	background: #d1d3d4;
+	color: #CF353B;
+	overflow: auto;
+}
+
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+/* Caption Style 1 */
+.cs-style-1 figcaption {
+	font-family: JournalRegular;
+	padding: 10%;
+	height: 88%;
+	width: 75%;
+	opacity: 0;
+	text-align: center;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.no-touch .cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: translate(15px, 15px);
+	-moz-transform: translate(15px, 15px);
+	-ms-transform: translate(15px, 15px);
+	transform: translate(15px, 15px);
+}
+
+.cs-style-1 figcaption h3 {
+	margin-top: 0%;
+}
+
+.cs-style-1 figcaption span {
+	display: block;
+}
+
+
+
+/* Done with Caption Style */
 
 .feature p {
 	background: white;

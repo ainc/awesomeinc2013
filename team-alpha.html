@@ -6,7 +6,9 @@ redirect_from:
  - /team-alpha.html
 ---
 
-
+<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
                                     
 <br><br><br>
 
@@ -15,18 +17,30 @@ redirect_from:
 
             <br><div class="row centered"><a data-toggle="modal" href="#teamalphaapp"> Apply </a> to be a part of Team Alpha today!</div><br>
             <h1>Team Alpha</h1>
-                     
-                    {% assign counter = 0 %}
-                    {% for member in site.data.TA %}
-                    {% assign check = {{ counter | modulo:5 }} %}
-                  
-                                <div class="alpha-img">
-                    
-                                    <img class="img-responsive" src="\assets\img\teamalpha\Team alpha wall photos\{{member.name | downcase | remove: " " }}_wall.gif" alt="{{member.name}}">    
-                                        
-                                        <!-- <div class = "alpha-bio">
+  
 
-                                            <p>
+                    <ul class="grid cs-style-1">
+
+
+
+                        {% assign counter = 0 %}
+                        {% for member in site.data.TA %}
+                        {% assign check = {{ counter | modulo:5 }} %}
+                      
+        
+                            <li>
+                                <figure>
+
+                                <div class="alpha-img">
+
+                                    <img class="img-responsive" src="\assets\img\teamalpha\TA_minified\{{member.name | downcase | remove: " " }}_wall.PNG" alt="{{member.name}}" style="border-radius:2%">    
+                                </div>
+
+                                    <figcaption style="overflow: auto;">
+
+                                        <h3>{{member.name}}<br><span class="team">{{member.team}}</span></h3>
+
+                                        <p> 
                                             <h6>Favorite Rule</h6>
                                             {{member.favoriteRule}}
                                             <h6>Favorite Song</h6>
@@ -35,18 +49,23 @@ redirect_from:
                                             {{member.favoriteAwesomePerson}}
                                             <h6>Random Fact</h6>
                                             {{member.randomFact}}
-                                            </p>
+                                        </p>
+
+                                    </figcaption>
+
+                                
+                                </figure>
+                            </li>
+                        
+                         {% endfor %}
 
 
-                                        </div> -->
-                                       
-                                                               
-                                    <h2>{{member.name}}<br><span class="team">{{member.team}}</span></h2>
-                                </div><!-- /col --> 
-                               
+                    </ul>
 
-                    
-                    {% endfor %}
+                    <!-- JavaScript Animation -->
+                    <script src="/assets/js/toucheffects.js"></script>
+
+
             </div>
             </div>                          
 
@@ -68,6 +87,6 @@ redirect_from:
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
-    </div><!-- /.modal-content -->
+    </div><!-- /.modal-content
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->  
