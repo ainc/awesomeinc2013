@@ -75,7 +75,12 @@ h3 {
 		font-size: 16px;
 	}
 }
-
+p {
+	@include mobile {
+		font-size: 13px;
+		line-height: 15px;
+	}
+}
 .custom-container {
 	padding-left: 10%;
 	padding-right: 10%;
@@ -236,6 +241,10 @@ section.grey-bg {
 	padding-left: 0;
 	font-size: 20px;
 	line-height: 33px;
+	@include mobile {
+		font-size: 13px;
+		line-height: 15px;
+	}
 }
 /*****************************
  * Extra space for moving elements
