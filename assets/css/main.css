@@ -1644,7 +1644,7 @@ div#mc_embed_signup {
 
 
 /*TA Member Wall Styling */
-.grid {
+.grid_TA_Wall {
 	padding: 20px 20px 100px 20px;
 	max-width: 1300px;
 	list-style: none;
@@ -1652,7 +1652,7 @@ div#mc_embed_signup {
 	margin-left: 110px
 }
 
-.grid li {
+.grid_TA_Wall li {
 	display: inline-block;
 	width: 350px;
 	margin: -40px;
@@ -1661,19 +1661,19 @@ div#mc_embed_signup {
 	position: relative;
 }
 
-.grid figure {
+.grid_TA_Wall figure {
 	margin: 0px;
 	position: relative;
 }
 
-.grid figure img {
+.grid_TA_Wall figure img {
 	max-width: 100%;
 	display: block; 
 	position: relative;
 
 }
 
-.grid figcaption {
+.grid_TA_Wall figcaption {
 	/*This deals with the screen that appears when hovering over members */
 	position: absolute;
 	top: 0;
@@ -1684,13 +1684,61 @@ div#mc_embed_signup {
 	overflow: auto;
 }
 
-.grid figcaption h3 {
+.grid_TA_Wall figcaption h3 {
 	margin: 0;
 	padding: 0;
 	color: #333;
 }
 
-/* Caption Style 1 */
+/*TA Alumni Wall Styling */
+.grid_TA_alumni {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+	list-style: none;
+	text-align: center;
+	margin-left: 30px
+}
+
+.grid_TA_alumni li {
+	display: inline-block;
+	width: 300px;
+	margin: -40px;
+	padding: 20px 20px 70px 20px;
+	text-align: left;
+	position: relative;
+}
+
+.grid_TA_alumni figure {
+	margin: 0px;
+	position: relative;
+}
+
+.grid_TA_alumni figure img {
+	max-width: 100%;
+	display: block; 
+	position: relative;
+
+}
+
+.grid_TA_alumni figcaption {
+	/*This deals with the screen that appears when hovering over members */
+	position: absolute;
+	top: -10%;
+	left: 5%;
+	padding: 0;
+	background: #d1d3d4;
+	color: #CF353B;
+	overflow: auto;
+}
+
+.grid_TA_alumni figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+
+/*TA Member Wall Caption Styling */
 .cs-style-1 figcaption {
 	font-family: JournalRegular;
 	padding: 10%;
@@ -1704,6 +1752,7 @@ div#mc_embed_signup {
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
 	transition: transform 0.3s, opacity 0.3s;
+	border-radius: 5%;
 }
 
 .no-touch .cs-style-1 figure:hover figcaption,
@@ -1722,6 +1771,41 @@ div#mc_embed_signup {
 .cs-style-1 figcaption span {
 	display: block;
 }
+
+/*TA Alumni Wall Caption Styling */
+.cs-style-2 figcaption {
+	font-family: JournalRegular;
+	padding: 0 10% 20% 10%;
+	height: 110%;
+	width: 88%;
+	opacity: 0;
+	text-align: center;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	border-radius: 5%;
+}
+
+.no-touch .cs-style-2 figure:hover figcaption,
+.cs-style-2 figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: translate(15px, 15px);
+	-moz-transform: translate(15px, 15px);
+	-ms-transform: translate(15px, 15px);
+	transform: translate(15px, 15px);
+}
+
+.cs-style-2 figcaption h3 {
+	margin-top: 0%;
+}
+
+.cs-style-2 figcaption span {
+	display: block;
+}
+
 
 
 
@@ -2043,6 +2127,7 @@ div#mc_embed_signup {
 			
 			position: relative;
 			padding: 0px;
+			text-align: center;
 
 		}
 
@@ -2076,7 +2161,7 @@ div#mc_embed_signup {
  			height: 125px;
   			width: 16.6666667%;
   			min-width: 250px;
-  			padding: 0px 0px 250px 0px;
+  			padding: 0px 0px 170px 0px;
   			opacity: 1;
   			margin-top: 10px;
 		}
