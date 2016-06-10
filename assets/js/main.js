@@ -166,9 +166,9 @@ var getWindowWidth = function() {
 
 
 
-$('#myCarousel').carousel({
-  interval: 10000
-});
+// $('#myCarousel').carousel({
+//   interval: 10000
+// });
 
 $('.carousel .item').each(function(){
   var next = $(this).next();

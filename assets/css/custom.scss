@@ -15,7 +15,7 @@ $color_light_gray: rgb(236, 236, 236);
 $black: black;
 $color_silver_chalice_approx: #aaa;
 
-/*@import "bootstrap";*/
+@import "bootstrap";
 
 /*****************************************************
 						Sizes
@@ -338,15 +338,20 @@ h5 {
 	}
 
 	@include mobile {
+		text-align: center;
 	    h2 {
-			font-size: 15px;
-			line-height: 16px;
+			font-size: 20px;
+			line-height: 23px;
+			margin-top: 5px;
+			margin-bottom: 4px;
 	    }
 	    p {
-			font-size: 10px;
-			line-height: 12px;
+			font-size: 14px;
+			line-height: 16px;
+			margin-bottom: 0;
 	    }
 		.feature-img {
+			margin-top: 0;
 			width: 80px;
 			height: 80px;
 		}
