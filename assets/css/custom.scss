@@ -406,6 +406,7 @@ h5 {
 				Email Popup
 ============================================= */
 .modal-popup {
+	overflow-y: hidden;
 	.modal-header {
 		background: $color_cardinal_approx;
 	}
@@ -418,7 +419,7 @@ h5 {
 		}
 		input {
 			border-radius: 4px;
-			height: 38px;
+			height: 46px;
 		}
 		input.button {
 			color: white;
