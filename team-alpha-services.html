@@ -6,60 +6,15 @@ title: Team Alpha Services
 
 <div class="subheader TAS-page"> 
 	<div class="container">
-    	<h2 class="img-overlay"> TEAM ALPHA SERVICES </h2>
+    	<h1> Team Alpha Services </h1>
     </div>
 
 </div>
 
-<div class="temp-div"></div>
+<div class="container">
+	<h5><a type="button" class="btn btn-primary btn-action" data-toggle="modal" data-target="#tas-popup">Contact Us<i class="fa fa-angle-double-right"></i></a></h5>
+	{% include ta-services.html %}
 
-
-
-
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-	$("#QuoteInfo").hide();
-    $("#hide").click(function(){
-        $("#QuoteInfo").hide();
-    });
-    $("#QuoteOpen").click(function(){
-        $("#QuoteInfo").show();
-        $("#QuoteOpen").hide();
-
-    });
-});
-</script>
-
-<div id="c2">
-<div class = "container">
-<center>
-<h3>
-	<a type="button" id="QuoteOpen" class="btn btn-danger btn-large">Contact Us</a>
-</h3>
-<div id="QuoteInfo" style="display:none">
-	<form method="POST"  action="//formspree.io/kyle@awesomeinc.org">
-
-      	<input type="email" id="CustInfo" name="_replyto" placeholder="Your email" /><br>
-      	<input type="text" id="CustInfo" name="name" placeholder="Your name"><br>
-      	<textarea name="message" id="CustInfo" rows="5" placeholder="Your message"></textarea><br>
-      	<input type="text" name="_gotcha" style="display:none">
-      	<input type="hidden" name="_subject" value="Team Alpha Services form submission"/>
-      	<input type="hidden" name="_next" value="//www.awesomeinc.org/thanks/">
-      	<h3>
-      	
-      	<button type="submit" class ="btn btn-danger btn-large" id ="hide">Send</button>
-      	</h3>
-	</form>
-</div>
-</center>
-
-
-</div>
 </div>
 
 <div id="r2">

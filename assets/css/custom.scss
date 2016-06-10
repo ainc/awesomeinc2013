@@ -410,6 +410,10 @@ h5 {
 /* =============================================
 				Email Popup
 ============================================= */
+.modal-dialog {
+	left: 0;
+}
+
 .modal-popup {
 	overflow-y: hidden;
 	.modal-header {
