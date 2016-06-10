@@ -13,60 +13,57 @@ redirect_from:
 <br><br><br>
 
             <div id="pop-up">
-            <div id="team-alpha">
+                <div id="team-alpha">
 
-            <br><div class="row centered"><a data-toggle="modal" href="#teamalphaapp"> Apply </a> to be a part of Team Alpha today!</div><br>
-            <h1>Team Alpha</h1>
-  
+                <br><div class="row centered"><a data-toggle="modal" href="#teamalphaapp"> Apply </a> to be a part of Team Alpha today!</div><br>
+                <h1>Team Alpha</h1>
+      
+                        <ul class="grid_TA_Wall cs-style-1">
 
-                    <ul class="grid cs-style-1">
+                            {% assign counter = 0 %}
+                            {% for member in site.data.TA %}
+                            {% assign check = {{ counter | modulo:5 }} %}
+                          
+            
+                                <li>
+                                    <figure>
 
+                                        <div class="alpha-img">
 
+                                            <img class="img-responsive" src="\assets\img\teamalpha\TA_minified\{{member.name | downcase | remove: " " }}_wall.PNG" alt="{{member.name}}" style="border-radius:2%">    
+                                        </div>
 
-                        {% assign counter = 0 %}
-                        {% for member in site.data.TA %}
-                        {% assign check = {{ counter | modulo:5 }} %}
-                      
-        
-                            <li>
-                                <figure>
+                                        <figcaption style="overflow: auto;">
 
-                                <div class="alpha-img">
+                                            <h3>{{member.name}}<br><span class="team">{{member.team}}</span></h3>
 
-                                    <img class="img-responsive" src="\assets\img\teamalpha\TA_minified\{{member.name | downcase | remove: " " }}_wall.PNG" alt="{{member.name}}" style="border-radius:2%">    
-                                </div>
+                                                <p> 
+                                                    <h6>Favorite Rule</h6>
+                                                    {{member.favoriteRule}}
+                                                    <h6>Favorite Song</h6>
+                                                    {{member.favoriteSong}}
+                                                    <h6>Favorite Awesome Person</h6>
+                                                    {{member.favoriteAwesomePerson}}
+                                                    <h6>Random Fact</h6>
+                                                    {{member.randomFact}}
+                                                </p>
 
-                                    <figcaption style="overflow: auto;">
+                                        </figcaption>
 
-                                        <h3>{{member.name}}<br><span class="team">{{member.team}}</span></h3>
-
-                                        <p> 
-                                            <h6>Favorite Rule</h6>
-                                            {{member.favoriteRule}}
-                                            <h6>Favorite Song</h6>
-                                            {{member.favoriteSong}}
-                                            <h6>Favorite Awesome Person</h6>
-                                            {{member.favoriteAwesomePerson}}
-                                            <h6>Random Fact</h6>
-                                            {{member.randomFact}}
-                                        </p>
-
-                                    </figcaption>
-
-                                
-                                </figure>
-                            </li>
-                        
-                         {% endfor %}
+                                    
+                                    </figure>
+                                </li>
+                            
+                             {% endfor %}
 
 
-                    </ul>
+                        </ul>
 
-                    <!-- JavaScript Animation -->
-                    <script src="/assets/js/toucheffects.js"></script>
+                        <!-- JavaScript Animation -->
+                        <script src="/assets/js/toucheffects.js"></script>
 
 
-            </div>
+                </div>
             </div>                          
 
 
