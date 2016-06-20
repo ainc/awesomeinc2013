@@ -1645,7 +1645,7 @@ div#mc_embed_signup {
 
 /*TA Member Wall Styling */
 .grid_TA_Wall {
-	padding: 20px 20px 100px 20px;
+	padding: 2% 2% 0 2%;
 	max-width: 1300px;
 	list-style: none;
 	text-align: center;
@@ -1692,7 +1692,7 @@ div#mc_embed_signup {
 
 /*TA Alumni Wall Styling */
 .grid_TA_alumni {
-	padding: 20px 20px 100px 20px;
+	padding: 2% 2% 0 2%;
 	max-width: 1300px;
 	list-style: none;
 	text-align: center;
@@ -2106,16 +2106,16 @@ div#mc_embed_signup {
 			white-space: nowrap;
 			text-align: center;
 			margin-bottom:0 ;
-			font-size: 14px;
+			font-size: 17px;
 			font-weight: normal;
 			padding: 0px;
-			margin: -14px 0px -20px 0px;			
+			margin: -30px 0px -20px 0px;			
 		}
 
 		#alpha-alumni h4
 		{
 			text-align: center;
-			font-size: 16px;
+			font-size: 20px;
 			font-weight: bold;
 			margin: 0px 0px 8px 0px;
 

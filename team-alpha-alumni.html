@@ -14,8 +14,14 @@ layout: page
 
 					<ul class="grid_TA_alumni cs-style-2">
 
-							{% for alum in site.data.alumni %}
+							{% assign sorted_alumni = (site.data.alumni | sort: 'name') %}
+
+							{% for alum in sorted_alumni %}
 							{% if alum.thumbnail != "http://i.imgur.com/sCovnRU.png" and  alum.thumbnail != "http://i.imgur.com/riaT1M8.png" %}
+
+
+							
+
 
 							<li>
 								<figure>
