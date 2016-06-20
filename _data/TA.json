@@ -19,26 +19,7 @@
 		"memory":"",
 		"experience":""	
     },
-    {
-        "time": "2015-11-16T19:20:50.470Z",
-        "name": "Amber Bowman",
-        "favoriteRule": "Rule #17 - Bring the fun!",
-        "favoriteSong": "Somewhere Only We Know by Keane",
-        "favoriteAwesomePerson": "Ellen DeGeneres",
-        "randomFact": "So far I have a movie collection of 230 movies.",
-        "team": "Design Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""	
-    },
+   
     {
         "name": "Brian Raney",
         "favoriteRule": "Rule # 4 Always do something awesome over something not awesome",
@@ -98,26 +79,7 @@
 		"memory":"",
 		"experience":""	
     },
-    {
-        "time": "2015-07-10T21:24:25.522Z",
-        "name": "Dustin Peerce",
-        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
-        "favoriteSong": "Winter - Joshua Radin",
-        "favoriteAwesomePerson": "Joseph Gordon-Levitt",
-        "randomFact": "I'm a Tough Mudder Legionnaire, and I complete at least one Tough Mudder every year.",
-        "team": "Development Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""	
-    },
+  
     {
         "time": "2015-10-21T18:52:45.810Z",
         "name": "Emily Andrews",
@@ -197,26 +159,7 @@
 		"memory":"",
 		"experience":""	
     },
-    {
-        "time": "2015-07-03T20:26:01.226Z",
-        "name": "Joey Williams",
-        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
-        "favoriteSong": "Since I've Been Lovin You - Led Zeppelin, Black and Gold - Joe Robinson, Call me the Breeze - Any version",
-        "favoriteAwesomePerson": "Rob Pardo- Creator of some of the most addicting things on the planet.",
-        "randomFact": "I can lick my elbow (Try it).",
-        "team": "Development Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""	
-    },
+   
     {
         "time": "2014-01-15T23:25:29.000Z",
         "name": "Kyle Raney",
@@ -237,26 +180,7 @@
 		"memory":"",
 		"experience":""	
     },
-    {
-        "time": "2015-11-16T01:48:44.969Z",
-        "name": "Lindsey Kirkpatrick",
-        "favoriteRule": "#17 Bring The Fun",
-        "favoriteSong": "Turn Down For What- DJ Snake/Lil John",
-        "favoriteAwesomePerson": "Lady Gaga",
-        "randomFact": "I've had 6 nicknames throughout my life.",
-        "team": "Marketing Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""	
-    },
+  
     {
         "time": "2015-07-13T23:29:37.282Z",
         "name": "Lizzie Moore",
