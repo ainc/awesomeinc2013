@@ -1,0 +1,71 @@
+/*.svg {
+  width: 100%;
+  height: auto;
+}*/
+
+/*#somebox {
+  visibility: visible;
+}*/
+
+/*.testtext {
+  visibility: visible;
+}*/
+
+
+
+
+.svg-container{
+
+margin-top: 10%; 
+
+}
+
+@keyframes testfadeIn {
+  from     {opacity: 0}
+  to  {opacity: 1}
+/*  85%, 100% {opacity: 0}*/
+}
+
+@keyframes testfadeOut {
+  from     {opacity: 1}
+  to  {opacity: 0}
+
+}
+
+/*#kstc_logo:hover + #sometext {
+    visibility: hidden;
+}*/
+
+/*@keyframes textrect {
+  0%        {opacity: 0}
+  15%, 70%  {opacity: 1}
+  85%, 100% {opacity: 0}
+}*/
+
+/*.testfade:hover {
+  animation: testfadeIn 1.3s ease;
+}*/
+
+/*#sometext:hover{
+
+ animation: testfadeIn 1.3s ease;
+
+}*/
+
+/*.textrect {
+  animation: textrect 5s ease infinite;
+}*/
+
+
+
+
+ /*     -webkit-animation-duration: .02s;
+    -webkit-animation-iteration-count: 10;
+    -webkit-animation-timing-function: linear;*/
+
+
+
+
+.content1,.content2,.content3, .content4,.content5,.content6 {
+  opacity: 0;
+}
