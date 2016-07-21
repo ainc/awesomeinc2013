@@ -1,6 +1,17 @@
 
+.svg-container{
+width: 100%;
+margin-top: 10%; 
 
-.entry_points { 
+}
+
+.content1,.content2,.content3, .content4,.content5,.content6 {
+  visibility: hidden;
+  opacity: 0;
+}
+
+
+.entry_points, .preseed_funding, .accelerators, .angel_investors, .tech_resources, .venture_capital { 
     
 
     cursor: pointer;    
@@ -12,14 +23,10 @@
     -o-transition: all 0.5s ease-in;
     -ms-transition: all 0.5s ease-in; 
     transition: all 0.5s ease-in; 
-    
-
-    
+   
 }
 
-
-
-.content1 {
+/*.content1 {
 
     
     position: absolute;
@@ -31,11 +38,187 @@
     transition: all 0.5s ease-in; 
  
 }
-
-
-.entry_points:hover .content1 {
+*/
+/*.entry_points:hover .content1 {
     
+    visibility: visible;
     opacity: 100;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in; 
+}
+*/
+
+#content_text1, #content_text2, #content_text3, #content_text4, #content_text5, #content_text6{
+
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in; 
+
+
+}
+
+
+#content_box1, #content_box2, #content_box3, #content_box4, #content_box5, #content_box6{
+
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in; 
+
+
+}
+
+#content_text1.show{
+
+    visibility: visible;
+    opacity: 1;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in; 
+
+}
+
+#content_box1.showbox{
+
+    visibility: visible;
+    opacity: 1;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in; 
+}
+
+#content_text2.show2{
+
+    visibility: visible;
+    opacity: 1;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in; 
+
+}
+
+#content_box2.showbox2{
+
+    visibility: visible;
+    opacity: 1;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in; 
+}
+#content_text3.show3{
+
+    visibility: visible;
+    opacity: 1;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in; 
+
+}
+
+#content_box3.showbox3{
+
+    visibility: visible;
+    opacity: 1;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in; 
+}
+#content_text4.show4{
+
+    visibility: visible;
+    opacity: 1;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in; 
+
+}
+
+#content_box4.showbox4{
+
+    visibility: visible;
+    opacity: 1;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in; 
+}
+#content_text5.show5{
+
+    visibility: visible;
+    opacity: 1;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in; 
+
+}
+
+#content_box5.showbox5{
+
+    visibility: visible;
+    opacity: 1;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in; 
+}
+#content_text6.show6{
+
+    visibility: visible;
+    opacity: 1;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in; 
+
+}
+
+#content_box6.showbox6{
+
+    visibility: visible;
+    opacity: 1;
     
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in; 
@@ -45,61 +228,6 @@
 }
 
 
-.entry_points:hover .content1 div:nth-child(2) {
-    
-    -webkit-animation-name: your_custom_animation;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-iteration-count: 4;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-timing-function: ease-in;
-    
-    -moz-animation-name: your_custom_animation;
-    -moz-animation-duration: 2s;
-    -moz-animation-iteration-count: 4;
-    -moz-animation-direction: alternate;
-    -moz-animation-timing-function: ease-in;
-    
-    -ms-animation-name: your_custom_animation;
-    -ms-animation-duration: 2s;
-    -ms-animation-iteration-count: 4;
-    -ms-animation-direction: alternate;
-    -ms-animation-timing-function: ease-in;
-    
-}
 
 
 
-.svg-container{
-
-margin-top: 10%; 
-
-}
-/*
-@keyframes testfadeIn {
-  from     {opacity: 0}
-  to  {opacity: 1}
-}
-
-@keyframes testfadeOut {
-  from     {opacity: 1}
-  to  {opacity: 0}
-
-}*/
-
-/*#kstc_logo:hover + #sometext {
-    visibility: hidden;
-}*/
-
-/*@keyframes textrect {
-  0%        {opacity: 0}
-  15%, 70%  {opacity: 1}
-  85%, 100% {opacity: 0}
-}*/
-
-
-
-
-
-.content1,.content2,.content3, .content4,.content5,.content6 {
-  opacity: 0;
-}
