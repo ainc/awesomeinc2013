@@ -8,9 +8,6 @@ redirect_from:
 
 <div class="svg-container"> 
 
-
-  
-
 <svg
    xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -4503,12 +4500,14 @@ $(document).ready(function(){
 $( ".entry_points" ).hover(function() {
 
   //console.log("Anything..");
-    $( "#content_text1" ).attr("class", "content1 show" );
-    $( "#content_box1" ).attr("class", "content1 showbox" );
+    // $( "#content_text1" ).attr("class", "content1 show" );
+    // $( "#content_box1" ).attr("class", "content1 showbox" );
+    $( "#two_0" ).attr("class", " show" )
   },function() {
 
-   $( "#content_text1" ).attr("class", "content1" );
-   $( "#content_box1" ).attr("class", "content1" );
+   // $( "#content_text1" ).attr("class", "content1" );
+   // $( "#content_box1" ).attr("class", "content1" );
+   $( "#two_0" ).attr("class", "" )
   });
 
 $( ".preseed_funding" ).hover(function() {
@@ -4568,6 +4567,58 @@ $( ".venture_capital" ).hover(function() {
    $( "#content_text6" ).attr("class", "content6" );
    $( "#content_box6" ).attr("class", "content6" );
   });
+
+
+
+
+
+
+var elem = document.getElementById('pipeline');
+
+          var two = new Two({
+            
+            autostart: true,
+            width: 1600 , 
+            height: 3291 
+          });
+
+          two.appendTo(elem);
+
+
+          var rect0 = two.makeRectangle(600, 540, 500, 325);
+          rect0.noStroke().fill = getRandomColor();
+
+          // Update the renderer in order to generate corresponding DOM Elements.
+          two.update();
+
+          //var rectOpacity = document.getElementById('rect0')
+
+          var opacity = $('rect0').css("opacity");
+          console.log(opacity);
+
+          $(rect0._renderer.elem).css('cursor', 'pointer').mouseenter(function(e) {
+              rect0.fill = getRandomColor();              
+            });
+
+
+
+
+          two.bind('update', function(frameCount, timeDelta) {
+
+          if (opacity <= 1){
+              rect0.rotation = frameCount / 10;
+          }
+            
+          });
+
+          function getRandomColor() {
+            return 'rgb('
+              + Math.floor(Math.random() * 255) + ','
+              + Math.floor(Math.random() * 255) + ','
+              + Math.floor(Math.random() * 255) + ')';
+          }
+
+
 
 });
 </script>

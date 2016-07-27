@@ -10,6 +10,10 @@ margin-top: 10%;
   opacity: 0;
 }
 
+#two_0 {
+  visibility: hidden;
+  opacity: 0;
+}
 
 .entry_points, .preseed_funding, .accelerators, .angel_investors, .tech_resources, .venture_capital { 
     
@@ -78,6 +82,20 @@ margin-top: 10%;
     -ms-transition: all 0.5s ease-in; 
     transition: all 0.5s ease-in; 
 
+
+}
+
+
+#two_0.show{
+
+    visibility: visible;
+    opacity: 1;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in; 
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in; 
 
 }
 
