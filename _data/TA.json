@@ -319,5 +319,46 @@
 		],
 		"memory":"",
 		"experience":""	
+    },
+
+
+    {
+        "name": "Kristian Toole",
+        "favoriteRule": "Rule # 4 Always do something awesome over something not awesome",
+        "favoriteSong": "Ten Thousand Hours by Macklemore",
+        "favoriteAwesomePerson": "Elon Musk",
+        "randomFact": "I used to know over 50 yoyo tricks",
+        "team": "Development Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
+    },
+
+        {
+        "name": "Xuetao Hong",
+        "favoriteRule": "Rule # 17 Bring the fun!",
+        "favoriteSong": "It Will Rain",
+        "favoriteAwesomePerson": "Brian Raney",
+        "randomFact": "It is fun to build a versatile software.",
+        "team": "Development Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
     }
 ]
