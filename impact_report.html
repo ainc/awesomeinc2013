@@ -1,18 +1,38 @@
+<head>
+<script src="/assets/js/jquery-1.9.1.min.js"></script>
+	<script>
+		$( document ).ready(function() {
+			var h = screen.height;
+			$("img").css("height", h-110);
+			$("img").css("padding-top", 55)
+		});
+	</script>
+</head>
+
 <body>
 <style type="text/css">
 	body {
 		margin: 0 !important;
+		background-color: rgb(49, 49, 49);
 	}
-	/*div {
-		height: 100vh;
-	}*/
-	@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
-  	div {
-    	height: 768px;
-  	}
+	.warning {
+		display: none;
+		color: white;
+		margin: auto;
+	}
+	@media screen and (orientation:portrait) {
+		.warning {
+			display: block;
+		}
+		img {
+			display: none;
+		}
+	}
 }
 </style>
-	<div>
-		<img src="/assets/img/impact_report/1_min.png" />
+
+	<div class="img-cont">
+		<h1 class="warning">Please orient to landscape</h1>
+		<img src="/assets/img/impact_report/1.png" />
 	</div>
 </body>
