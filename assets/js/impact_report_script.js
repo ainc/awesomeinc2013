@@ -65,7 +65,7 @@ $(function() {
 				imageWidths.push(imgWidth);
 				return item.number + ': ' + item.width;
 			});
-			for (i = 0; i < 8; i++) {
+			for (i = 0; i < 37; i++) {
 				currImg = imageDOM[i];
 
 				$(".container").append( currImg );
