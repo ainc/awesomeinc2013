@@ -3,7 +3,7 @@ $(function() {
 // todo: Load images as it scrolls (Lazy loading)
 // adding hash
 
-	function getImageObjects() {
+	function getImageObjects() { // currently doesn't work
 		imgIds = [];
 		imgWidths = [];
 
@@ -24,7 +24,8 @@ $(function() {
 		});
 		return imgWidths;
 	}
-	var widths = getImageObjects();
+	var widths = getImageObjects(); // currently doesn't work
+	var bodyWidth = 0;
 	
 	var WINDOW_WIDTH_CONST = $( window ).width();
 	var WINDOW_HEIGHT_CONST = $( window ).height();
@@ -63,6 +64,8 @@ $(function() {
 				var htmlStr = "<div class='section' id='" + imgNumber + "' style='width:" + imgWidth + "'><img src='/assets/img/IR2/" + imgNumber + "-min.jpg' height='" + targetImageHeight + "px' /></div>"
 				imageDOM.push(htmlStr);
 				imageWidths.push(imgWidth);
+				console.log(bodyWidth);
+				bodyWidth += parseInt(imgWidth);
 				return item.number + ': ' + item.width;
 			});
 			for (i = 0; i < 37; i++) {
@@ -70,24 +73,16 @@ $(function() {
 
 				$(".container").append( currImg );
 			}
-			
+			$('body').css("width", bodyWidth + 22);	
 		});
+
+		
 		
 	});
 
 	function getPositionToGoToRight(divId) {
 		var totalWidth = 0;
 		var allWidths = [];
-
-		// $.getJSON("/assets/ajax/ir_data.json", function ( data ) {
-		// 	var images = data.images.map( function ( item ) {
-		// 		var imgNumber = item.number;
-		// 		var imgWidth = item.width * VP_HEIGHT_CONST;
-		// 		allWidths.push(imgWidth);
-		// 		return;
-		// 	});
-			
-		// });
 
 		for (var j = 0; j < divId; j++) {
 			totalWidth = totalWidth + imageWidths[j];
@@ -98,16 +93,6 @@ $(function() {
 	function getPositionToGoToLeft(divId) {
 		var totalWidth = 0;
 		var allWidths = [];
-
-		// $.getJSON("/assets/ajax/ir_data.json", function ( data ) {
-		// 	var images = data.images.map( function ( item ) {
-		// 		var imgNumber = item.number;
-		// 		var imgWidth = item.width * VP_HEIGHT_CONST;
-		// 		allWidths.push(imgWidth);
-		// 		return;
-		// 	});
-			
-		// });
 
 		for (var j = 0; j < divId - 2; j++) {
 			totalWidth = totalWidth + imageWidths[j];
