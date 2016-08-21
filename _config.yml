@@ -9,3 +9,5 @@ sass:
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
+exclude:
+  - node_modules
