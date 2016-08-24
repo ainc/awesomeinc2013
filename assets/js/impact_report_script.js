@@ -41,6 +41,8 @@ $(function() {
 
 	var targetImageWidth = firstImageWidth * targetScaleRatio;
 	var targetImageHeight = firstImageHeight * targetScaleRatio;
+	var targetFooterHeight = WINDOW_HEIGHT_CONST - targetImageHeight > 30 ?
+								WINDOW_HEIGHT_CONST - targetImageHeight : 112;
 
 	var scrollPos;
 	var imageWidths = [];
@@ -53,7 +55,7 @@ $(function() {
 		scrollPos = $( document ).scrollLeft();
 		// console.log("scroll: " + scrollPos);
 
-		$( "#footer" ).css("height", ( 112 ) ); // dynamically change later
+		$( "#footer" ).css("height", ( targetFooterHeight ) ); // dynamically change later
 
 		$.getJSON("/assets/ajax/ir_data.json", function ( data ) {
 			var images = data.images.map( function ( item ) {
@@ -64,7 +66,7 @@ $(function() {
 				var htmlStr = "<div class='section' id='" + imgNumber + "' style='width:" + imgWidth + "'><img src='/assets/img/IR2/" + imgNumber + "-min.jpg' height='" + targetImageHeight + "px' /></div>"
 				imageDOM.push(htmlStr);
 				imageWidths.push(imgWidth);
-				console.log(bodyWidth);
+				// console.log(bodyWidth);
 				bodyWidth += parseInt(imgWidth);
 				return item.number + ': ' + item.width;
 			});
