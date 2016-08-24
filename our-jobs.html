@@ -3,10 +3,14 @@ layout: page
 permalink: our-jobs/
 title: Our Jobs
 ---
+<div class="subheader no-image jobs-page"> 
+	<div class="container custom-container">
+    	<h1 class="img-overlay">Openings at Awesome Inc</h1>
+    </div>
+</div>
 
-<div class="container">
+<div class="container custom-container">
 	<div class="col-md-10 col-md-offset-1 well">
-		<legend>Join Our Team</legend>
 		{% for job in site.data.openings %}
 			<div class="row">
 				<div class="col-md-9">
@@ -18,7 +22,7 @@ title: Our Jobs
 				</div>
 				<div class="col-md-3">
 					<h3>
-						<a type="button" class="btn btn-danger btn-large" href="{% if job.apply_url %}{{ job.apply_url }}{% else %}mailto:{{ job.email }}?subject=I'm interested in applying to the {{ job.title }} position at {{ job.team }}{% endif %}">Apply Here</a>
+						<a type="button" class="btn btn-action btn-large" href="{% if job.apply_url %}{{ job.apply_url }}{% else %}mailto:{{ job.email }}?subject=I'm interested in applying to the {{ job.title }} position at {{ job.team }}{% endif %}">Apply Here</a>
 					</h3>
 					
 				</div>
