@@ -56,6 +56,8 @@ $(function() {
 		// console.log("scroll: " + scrollPos);
 
 		$( "#footer" ).css("height", ( targetFooterHeight ) ); // dynamically change later
+		var targetBottomAdjust = Math.round( ( - ( targetFooterHeight / 20 ) ) );
+		$( "#footer" ).css("bottom", ( targetBottomAdjust + "%" ) );
 
 		$.getJSON("/assets/ajax/ir_data.json", function ( data ) {
 			var images = data.images.map( function ( item ) {
