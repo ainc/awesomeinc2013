@@ -1,0 +1,45 @@
+<script>
+	$(document).ready(function(){
+   var $form = $('form');
+   $form.submit(function(){
+      $.post($(this).attr('action'), $(this).serialize(), function(response){
+      		$('.form-btn').toggle()
+            $('.form-complete').toggle()
+            $("#form-spree").each(function() {
+            	this.reset();
+            });
+      },'json');
+      return false;
+   });
+});
+</script>
+
+<div class="container" id="contact">
+
+	<div class="row" id="contact">
+		<div class="col-lg-12 col-xs-12" style="margin-top: 0;">
+			<h3>Let us know how we can reach you</h3>
+			<div class="form-group">
+			<form action="//formspree.io/contact@awesomeinc.org"
+		      method="POST" id="form-spree">					
+			      	<div class="form-group">
+				    	<input type="text" name="name" placeholder="Your Name" class="form-control input-lg">
+				    </div>
+				    <div class="form-group">
+				    	<input type="tel" name="phone" placeholder="Phone Number (optional)" class="form-control input-lg">
+				    </div>
+				    <div class="form-group">
+				    	<input type="email" name="_replyto" placeholder="Email address" class="form-control input-lg">
+				    </div> 
+				    <div class="form-group">
+				    	<textarea type="text" name="problem" placeholder="How can we help?" class="form-control input-lg large-box"></textarea>
+				    </div>
+				    <input type="hidden" name="_subject" value="Contact Us form submission"/>
+				    <input type="text" name="_gotcha" style="display:none"/> 
+				    <button type="submit" class="btn btn-default form-btn" style="float: right">Submit</button> 
+				    <p class="form-complete" style="display:none">Thank you for your submission. </p>
+				</form>
+			</div>
+		</div> <!-- /col-lg-12 -->
+	</div> <!-- /row -->
+</div> <!-- /container -->
