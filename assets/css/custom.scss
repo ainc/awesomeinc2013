@@ -829,7 +829,7 @@ h5 {
 /* =============================================
 					Our Jobs
 ================================================ */
-.Our {
+.Our, .OurJobs {
 	margin-top: 50px;
 	.container {
 		padding-top: 50px;
@@ -842,7 +842,12 @@ h5 {
 	h5 {
 		font-size: 24px;
 	}
-	p {
+	b {
+		font-weight: 400;
+		font-size: 20px;
+		margin-bottom: 12px;
+	}
+	p, ul, li {
 		font-size: 18px;
 		margin-bottom: 10px;
 	}
