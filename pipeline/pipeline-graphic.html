@@ -25,11 +25,16 @@ redirect_from:
 
 <script type="text/javascript">
 
-$(window).load(function() {
-	$("#loading").hide();
+$(window).on("load", function() {
+	// $("#loading").hide(1000);
+	$("#loading").animate({
+		opacity: 0
+	}, {
+		duration: 1000
+	});
 });
 
-window.onload = function() {
+$(document).ready(function() {
 	var s = Snap("#stage");
 
 	Snap.load("pipeline2016.svg", onSVGLoaded);
@@ -39,6 +44,6 @@ window.onload = function() {
 		s.append(svg);
 
 	};
-};
+});
 </script>
 
