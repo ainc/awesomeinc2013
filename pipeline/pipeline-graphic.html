@@ -5,17 +5,30 @@ redirect_from:
  - /pipeline-graphic.html
 ---
 <style type="text/css">
+	body {
+		margin-top: 50px;
+	}
 	svg {
 		padding-left: 150px;
 	}
 	a:hover {
 		text-decoration: underline;
 	}
+
 </style>
+<div id="loading">
+	<img class="center" id="loading-image" src="/assets/img/ajax-loader.gif" alt="Loading..." />
+</div>
 <script type="text/javascript" src="snap.svg-min.js"></script>
+
 <div id="stage"></div>
 
 <script type="text/javascript">
+
+$(window).load(function() {
+	$("#loading").hide();
+});
+
 window.onload = function() {
 	var s = Snap("#stage");
 
