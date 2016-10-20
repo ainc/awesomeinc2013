@@ -1,0 +1,31 @@
+---
+layout: page
+permalink: pipeline/
+redirect_from: 
+ - /pipeline-graphic.html
+---
+<style type="text/css">
+	svg {
+		padding-left: 150px;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+</style>
+<script type="text/javascript" src="snap.svg-min.js"></script>
+<div id="stage"></div>
+
+<script type="text/javascript">
+window.onload = function() {
+	var s = Snap("#stage");
+
+	Snap.load("Pipeline2016.svg", onSVGLoaded);
+
+	function onSVGLoaded(svg) {
+
+		s.append(svg);
+
+	};
+};
+</script>
+
