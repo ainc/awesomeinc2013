@@ -26,12 +26,14 @@ redirect_from:
 <script type="text/javascript">
 
 $(window).on("load", function() {
-	// $("#loading").hide(1000);
-	$("#loading").animate({
+	
+	$("#loading").css("display", "none").animate({
 		opacity: 0
 	}, {
 		duration: 1000
 	});
+
+	$("#loading").hide().delay(2500);
 });
 
 $(document).ready(function() {
@@ -44,6 +46,7 @@ $(document).ready(function() {
 		s.append(svg);
 
 	};
+
 });
 </script>
 
