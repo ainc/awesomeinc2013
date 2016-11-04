@@ -172,6 +172,13 @@ iframe {
 		color: white;
 	}
 }
+.small-subheader {
+	height: 200px;
+	h1 {
+		padding-top: 75px;
+	}
+
+}
 
 .no-image {
 	height: 250px;
@@ -929,6 +936,15 @@ h5 {
 	}
 	h2 {
 		color: #2f2f2f;
+	}
+}
+
+/* =============================================
+					Press
+================================================ */
+.Press {
+	li {
+		font-size: 20px;
 	}
 }
 
