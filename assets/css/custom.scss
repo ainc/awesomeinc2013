@@ -328,14 +328,26 @@ h5 {
 }
 
 /*****************************
- * navbar active
+ * navbar
  *****************************/
-.nav {
+.navbar {
+	background-color: #f8f8f8;
+	border-color: #e7e7e7; 
+	span {
+		background-color: $color_gray;
+	}
+	button {
+		border: 1px solid $color_gray;
+	}
 	li.active > a {
-		background-color: #color_shady_lady_approx;
+		background-color: $color_shady_lady_approx;
 	}
 	li > a:focus {
 		color: #313131;
+	}
+	.dropdown:hover .dropdown-menu {
+		display: block;
+
 	}
 }
 
@@ -878,8 +890,12 @@ h5 {
 		font-size: 20px;
 		margin-bottom: 12px;
 	}
+	p {
+		text-align: justify;
+	}
 	p, ul, li {
 		font-size: 18px;
+		line-height: 22px;
 		margin-bottom: 10px;
 	}
 	ul {

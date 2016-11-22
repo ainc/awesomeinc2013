@@ -1,102 +1,93 @@
-<div class="navbar navbar-default navbar-fixed-top navbar-static">
-      <div class="container">
+<nav class="navbar navbar-default navbar-fixed-top navbar-static">
+    <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-           <!-- Old Header Text 
-           <a class="navbar-brand" href="#"><b>Awesome Inc</b></a>
-      		 -->
-      		 <!-- Added to make the logo move down a little.
-      		 -->
-         	<div style="margin: 0px; padding:0px; clear: both; height: 6px">
-				&nbsp;
-			</div>
-
-			<a href="/"><img src="/assets/img/logo.png" alt="Awesome Inc Logo"> </a>
+            <a href="/"><img src="/assets/img/logo.png" alt="Awesome Inc Logo" style="margin-top: 10px;"> </a>
         </div>
 
         <div class="navbar-collapse collapse navbar-inner">
           
-        <ul id="sddm" class="nav navbar-nav right-nav"> <!-- RIGHT ALIGNED NAVBAR -->
-        	<li {% if page.path contains 'about' %} class="active" {% endif %} class="dropdown"> 	<!-- ABOUT -->
-            	<a href="/about/" 
-            	onmouseover="mopen('m1')" 
-        		onmouseout="mclosetime()">About
-        		</a>
-            	<div id="m1" onmouseover="mcancelclosetime()" 
-            onmouseout="mclosetime()">
-            			<a href="/about/#core-values">Core Values</a>
-            			<a href="http://blog.awesomeinc.org">Our Blog</a>
-            			<a href="/about/#events">Events</a>
-            			<a href="/culture-book.pdf">Culture Book</a>
-                        <a href="/impact_report">Impact Report</a>
-            	</div>
-            </li> 
-        	<li {% if page.path contains 'for-entrepreneuers' %} class="active" {% endif %} class="dropdown">  <!-- FOR ENTREPRENEURS -->
-            	<a href="/for-entrepreneurs/" 
-            	onmouseover="mopen('m2')" 
-        		onmouseout="mclosetime()">For Entrepreneurs
-        		</a>
-            	<div id="m2" onmouseover="mcancelclosetime()" 
-            onmouseout="mclosetime()">
-            			<a href="/for-entrepreneurs/#fellowship">Fellowship Program</a>
-            			<a href="/for-entrepreneurs/#5across">5 Across</a>
-            			<a href="/for-entrepreneurs/#cherub">Cherub Fund</a>
-            			<a href="/for-entrepreneurs/#swlex">Startup Weekend</a>
-            			<a href="/for-entrepreneurs/#hof">Entrepreneur Hall of Fame</a>
-                        <a href="/teamalphaservices">Team Alpha Services</a>
-            			<a href="/for-entrepreneurs/#idea">I Have an Idea</a>
-            	</div>
-            </li>
-        	<li class="dropdown">    <!-- LEARN TO CODE -->
-            	<a href="http://www.awesomeincu.com" 
-            	onmouseover="mopen('m3')" 
-        		onmouseout="mclosetime()"
-        		>Learn to Code
-        		</a>
-            	<div id="m3" onmouseover="mcancelclosetime()" 
-            onmouseout="mclosetime()">
-            			<a href="http://www.awesomeincu.com/#courses">Upcoming Classes</a>
-            			<a href="http://awesomeincu.com/blog">The Blog</a>
-            			<a href="http://www.awesomeincu.com/register/">Register</a>
-            	</div>
-            </li>
-        	<li {% if page.path contains 'coworking' %} class="active" {% endif %} class="dropdown">   <!-- COWORKING -->
-            	<a href="/coworking/" 
-            	onmouseover="mopen('m4')" 
-        		onmouseout="mclosetime()">Coworking
-        		</a>
-            	<div id="m4" onmouseover="mcancelclosetime()" 
-            onmouseout="mclosetime()">
-            			<a href="/coworking/#features">Features</a>
-                  <a href="/coworking/#tour">Schedule a Tour</a>
-            			<a href="/coworking/#rent-space">Rent Space</a>
-            	</div>
-            </li>
-        	<li {% if page.path contains 'internships' %} class="active" {% endif %} class="dropdown">	<!-- INTERNSHIPS -->
-            	<a href="/internships/" 
-            	onmouseover="mopen('m5')" 
-        		onmouseout="mclosetime()">Internships
-        		</a>
-            	<div id="m5" onmouseover="mcancelclosetime()" 
-            onmouseout="mclosetime()">
-            			<a href="https://docs.google.com/spreadsheet/embeddedform?formkey=dDNLRTI0MmcyYWtDSDZNNGZOVERfNUE6MQ">Apply Now</a>
-            			<a href="/internships/#who">Who We Are</a>
-            			<a href="/team-alpha">Current Team</a>
-            			<!--<a href="/team-alpha-alumni"> Alumni</a>-->
-            	</div>
-            </li>
-            <li>
-            	<a class="stay-connected" data-toggle="modal" data-target="#email-popup" style="color: rgb(184, 17, 36); cursor:pointer">Stay Connected</a>
-            </li>
+            <ul id="sddm" class="nav navbar-nav right-nav"> <!-- RIGHT ALIGNED NAVBAR -->
+                <li {% if page.path contains 'about' %} class="active" {% endif %} class="dropdown">    <!-- ABOUT -->
+                    <a href="/about/" 
+                    onmouseover="mopen('m1')" 
+                    onmouseout="mclosetime()">About
+                    </a>
+                    <div id="m1" onmouseover="mcancelclosetime()" 
+                onmouseout="mclosetime()">
+                            <a href="/about/#core-values">Core Values</a>
+                            <a href="http://blog.awesomeinc.org">Our Blog</a>
+                            <a href="/about/#events">Events</a>
+                            <a href="/culture-book.pdf">Culture Book</a>
+                            <a href="/impact_report">Impact Report</a>
+                    </div>
+                </li> 
+                <li {% if page.path contains 'for-entrepreneuers' %} class="active" {% endif %} class="dropdown">  <!-- FOR ENTREPRENEURS -->
+                    <a href="/for-entrepreneurs/" 
+                    onmouseover="mopen('m2')" 
+                    onmouseout="mclosetime()">For Entrepreneurs
+                    </a>
+                    <div id="m2" onmouseover="mcancelclosetime()" 
+                onmouseout="mclosetime()">
+                            <a href="/for-entrepreneurs/#fellowship">Fellowship Program</a>
+                            <a href="/for-entrepreneurs/#5across">5 Across</a>
+                            <a href="/for-entrepreneurs/#cherub">Cherub Fund</a>
+                            <a href="/for-entrepreneurs/#swlex">Startup Weekend</a>
+                            <a href="/for-entrepreneurs/#hof">Entrepreneur Hall of Fame</a>
+                            <a href="/teamalphaservices">Team Alpha Services</a>
+                            <a href="/for-entrepreneurs/#idea">I Have an Idea</a>
+                    </div>
+                </li>
+                <li class="dropdown">    <!-- LEARN TO CODE -->
+                    <a href="http://www.awesomeincu.com" 
+                    onmouseover="mopen('m3')" 
+                    onmouseout="mclosetime()"
+                    >Learn to Code
+                    </a>
+                    <div id="m3" onmouseover="mcancelclosetime()" 
+                onmouseout="mclosetime()">
+                            <a href="http://www.awesomeincu.com/#courses">Upcoming Classes</a>
+                            <a href="http://awesomeincu.com/blog">The Blog</a>
+                            <a href="http://www.awesomeincu.com/register/">Register</a>
+                    </div>
+                </li>
+                <li {% if page.path contains 'coworking' %} class="active" {% endif %} class="dropdown">   <!-- COWORKING -->
+                    <a href="/coworking/" 
+                    onmouseover="mopen('m4')" 
+                    onmouseout="mclosetime()">Coworking
+                    </a>
+                    <div id="m4" onmouseover="mcancelclosetime()" 
+                onmouseout="mclosetime()">
+                            <a href="/coworking/#features">Features</a>
+                      <a href="/coworking/#tour">Schedule a Tour</a>
+                            <a href="/coworking/#rent-space">Rent Space</a>
+                    </div>
+                </li>
+                <li {% if page.path contains 'internships' %} class="active" {% endif %} class="dropdown">  <!-- INTERNSHIPS -->
+                    <a href="/internships/" 
+                    onmouseover="mopen('m5')" 
+                    onmouseout="mclosetime()">Internships
+                    </a>
+                    <div id="m5" onmouseover="mcancelclosetime()" 
+                onmouseout="mclosetime()">
+                            <a href="https://docs.google.com/spreadsheet/embeddedform?formkey=dDNLRTI0MmcyYWtDSDZNNGZOVERfNUE6MQ">Apply Now</a>
+                            <a href="/internships/#who">Who We Are</a>
+                            <a href="/team-alpha">Current Team</a>
+                            <!--<a href="/team-alpha-alumni"> Alumni</a>-->
+                    </div>
+                </li>
+                <li>
+                    <a class="stay-connected" data-toggle="modal" data-target="#email-popup" style="color: rgb(184, 17, 36); cursor:pointer">Stay Connected</a>
+                </li>
 
 
 
-          </ul>
-          <div style="clear:both"></div>
+              </ul>
+          <!-- <div style="clear:both"></div> -->
         </div><!--/.nav-collapse -->
       </div>
-    </div>
+    </nav>
