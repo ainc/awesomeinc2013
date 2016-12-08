@@ -890,13 +890,17 @@ h5 {
 		font-size: 20px;
 		margin-bottom: 12px;
 	}
-	p {
-		text-align: justify;
-	}
 	p, ul, li {
 		font-size: 18px;
-		line-height: 22px;
+		line-height: 24px;
 		margin-bottom: 10px;
+	}
+	@include mobile {
+		p {
+			text-align: justify;
+			font-size: 14px;
+			line-height: 20px;
+		}
 	}
 	ul {
 		padding-left: 20px;
