@@ -1,0 +1,11 @@
+# Jekyll generated folders
+_site/
+github.php
+
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+
+# Sass files
+.sass_cache/
