@@ -6,3 +6,6 @@ github.php
 .DS_Store
 ._*
 Thumbs.db
+
+# Sass files
+.sass_cache/
