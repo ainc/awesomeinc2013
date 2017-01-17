@@ -18,20 +18,19 @@ redirect_from:
                 <br><div class="row centered"><a data-toggle="modal" href="#teamalphaapp"> Apply </a> to be a part of Team Alpha today!</div><br>
                 <h1>Team Alpha</h1>
       
-                        <ul class="grid_TA_Wall cs-style-1">
+                        <div class="row centered">
+
+                            <ul class="grid_TA_Wall cs-style-1">
 
                             {% assign counter = 0 %}
                             {% for member in site.data.TA %}
                             {% assign check = {{ counter | modulo:5 }} %}
                           
-            
+                            <div class="item col-lg-3 col-sm-4 col-xs-6">
                                 <li>
                                     <figure>
 
-                                        <div class="alpha-img">
-
-                                           <img class="img-responsive" src="\assets\img\teamalpha\TA_minified\{{member.name | downcase | remove: " "}}_wall.png" alt="{{member.name}}" style="border-radius:2%">
-                                        </div>
+                                        <img src="\assets\img\teamalpha\TA_minified\{{member.name | downcase | remove: " "}}_wall.png" alt="{{member.name}}" style="border-radius:2%">
 
                                         <figcaption style="overflow: auto;">
 
@@ -55,12 +54,12 @@ redirect_from:
                                     
                                     </figure>
                                 </li>
-                            
+                            </div>
                              {% endfor %}
 
 
                         </ul>
-
+                        </div>
                         <!-- JavaScript Animation -->
                         <script src="/assets/js/toucheffects.js"></script>
 

@@ -1644,40 +1644,43 @@ div#mc_embed_signup {
 
 /*TA Member Wall Styling */
 .grid_TA_Wall {
-	padding: 2% 2% 0 2%;
+	padding: 2%;
 	max-width: 1300px;
 	list-style: none;
 	text-align: center;
-	margin-left: 110px
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.grid_TA_Wall .item {
+	display: inline;
+	float: none;
 }
 
 .grid_TA_Wall li {
 	display: inline-block;
-	width: 350px;
-	margin: -40px;
-	padding: 20px 20px 70px 20px;
-	text-align: left;
+	margin: 0;
+	padding: 1%;
+	text-align: center;
 	position: relative;
 }
 
 .grid_TA_Wall figure {
-	margin: 0px;
+	margin: 0;
 	position: relative;
 }
 
 .grid_TA_Wall figure img {
-	max-width: 100%;
-	display: block; 
+	width: 100%;
 	position: relative;
-
+	border-radius: 2%;
 }
 
 .grid_TA_Wall figcaption {
 	/*This deals with the screen that appears when hovering over members */
 	position: absolute;
 	top: 0;
-	left: -7%;
-	padding: 0;
+	left: 0;
 	background: #d1d3d4;
 	color: #CF353B;
 	overflow: auto;
@@ -1741,8 +1744,8 @@ div#mc_embed_signup {
 .cs-style-1 figcaption {
 	font-family: JournalRegular;
 	padding: 10%;
-	height: 88%;
-	width: 75%;
+	height: 100%;
+	width: 100%;
 	opacity: 0;
 	text-align: center;
 	-webkit-backface-visibility: hidden;
@@ -1751,16 +1754,12 @@ div#mc_embed_signup {
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
 	transition: transform 0.3s, opacity 0.3s;
-	border-radius: 5%;
+	border-radius: 2%;
 }
 
 .no-touch .cs-style-1 figure:hover figcaption,
-.cs-style-1 figure.cs-hover figcaption {
+.cs-style-1 figure.cs-hover figcaption, .no-touch .cs-style-1 figure:focus figcaption {
 	opacity: 1;
-	-webkit-transform: translate(15px, 15px);
-	-moz-transform: translate(15px, 15px);
-	-ms-transform: translate(15px, 15px);
-	transform: translate(15px, 15px);
 }
 
 .cs-style-1 figcaption h3 {
@@ -2284,6 +2283,19 @@ transition:all 1s;
 @media (max-width: 767px){
 	.popup-container {
 	width:100%;
+	}
+
+	.grid_TA_Wall {
+		padding: 5%;
+		margin-left: 0;
+	}
+
+	.grid_TA_Wall li {
+		padding: 10px;
+	}
+
+	.grid_TA_Wall .item {
+		float: left;
 	}
 }
 .popup-container {
