@@ -29,14 +29,6 @@
   time-commitment: part-time
   active: false
 
-- title: Program Director
-  description: "<p>We are seeking a Director to join our leadership team at Awesome Inc. Ideal candidates will be passionate about entrepreneurship and helping entrepreneurs reach their goals. The Director will work closely with the rest of the management team to hit fundraising goals, manage program budget, and manage a team. Additional tasks include: marketing & recruiting, planning/coordinating events, grant writing, effectively running meetings, accounting, and other administrative tasks associated with running an organization.</p>  <p>Should have experience organizing events, giving feedback to peers or subordinates, managing accounting systems (Quickbooks), financial planning, using Google Docs.</p>"
-  email: brian@awesomeinc.org
-  team: Awesome Inc
-  manager: Brian
-  time-commitment: full-time
-  active: true
-
 - title: Bootcamp Lead Instructor
   description: Awesome Inc U is launching our next Developer Bootcamp in Spring of 2017. We are looking for a full time Lead Instructor to teach this 12-week, intensive, in-person program. Classes will be held M-F every day, with a few hours of instruction, and many hours of project work for the students.  
   email: info@awesomeincu.com
