@@ -1,0 +1,122 @@
+.tooltip {
+    pointer-events:none; /*let mouse events pass through*/
+    opacity:0;
+    transition: opacity 0.3s;
+    z-index: 999;
+}
+
+g.tooltip{
+	opacity: 0;
+}
+
+[data-name = "kstc"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "awesome_inc"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "uk_venture_studio"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "inet"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "5_across"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "sbir_sttr"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "idea_state_u"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "startup_weekend"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "kentucky_innovation_network"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "cherub_fund"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "connetic"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "wild_duck"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "access_ventures"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "lincoln_trail_venture_group"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "bga_luanch_grant_fund"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "ocean"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "brandery"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "awesome_fellowship"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "xlerate_health"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "uptech"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "bluegrass_angels"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "kscf"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "e_a"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "louisville_angel_investor_network"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "commonwealth_seed_capital"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "awesome_inc_u"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "code_louisville"]:hover g.tooltip{
+		opacity: 1;
+}
+
+[data-name = "chrysalis_ventures"]:hover g.tooltip{
+		opacity: 1;
+}

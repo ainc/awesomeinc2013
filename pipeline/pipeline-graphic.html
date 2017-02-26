@@ -16,6 +16,7 @@ redirect_from:
 	}
 
 </style>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
 <div id="loading">
 	<img class="center" id="loading-image" src="/assets/img/ajax-loader.gif" alt="Loading..." />
 </div>
@@ -39,7 +40,7 @@ $(window).on("load", function() {
 $(document).ready(function() {
 	var s = Snap("#stage");
 
-	Snap.load("pipeline_2016.svg", onSVGLoaded);
+	Snap.load("Pipeline2016.svg", onSVGLoaded);
 
 	function onSVGLoaded(svg) {
 
