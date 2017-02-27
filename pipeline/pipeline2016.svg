@@ -2,7 +2,7 @@
 
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-30em" y="270" width="14em" height="6.5em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-23em" y="290" text-anchor="middle">Chrysalis Ventures</text> 
+          <text x = "-23em" y="290" text-anchor="middle" class="box_title">Chrysalis Ventures</text> 
           <text x = "-55em" y="305" text-anchor="middle" font-size= "5px">Manages one of Mid-America’s largest funds for early-stage </text>
           <text x = "-55em" y="315" text-anchor="middle" font-size= "5px">investments with approx. $400 mil under management, </text>
           <text x = "-55em" y="325" text-anchor="middle" font-size= "5px">partnering with entrepreneurs primarily</text>
@@ -12,7 +12,7 @@
 <rect class="6419c556-9fb6-4a1e-8457-7a45e56ace13" x="41.23" y="551.35" width="67" height="28.41"/><image id="2a15449a-df06-471f-8cc9-4532ce8448a3" data-name="c_v" width="728" height="297" transform="translate(41.23 551.35) scale(0.09)" xlink:href="Pipeline20161.png"/></g><g id="109472dc-5508-4654-adc6-bc69e7f53101" data-name="tech_resources"><g id="0a553a12-acb2-4da3-9bc6-db7db806f849" data-name="code_louisville">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-5.5em" y="190" width="14em" height="7em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "1.5em" y="213" text-anchor="middle">Code Louisville</text> 
+          <text x = "1.5em" y="213" text-anchor="middle" class="box_title">Code Louisville</text> 
           <text x = "3.5em" y="229" text-anchor="middle" font-size= "5px">Collaboration of employers who want Louisville to be a</text>
           <text x = "3.5em" y="239" text-anchor="middle" font-size= "5px">place of technological innovation; offers free 12-week</text>
           <text x = "3.5em" y="249" text-anchor="middle" font-size= "5px">coding courses &amp; resources to connect developers </text>
@@ -21,7 +21,7 @@
 <rect class="6419c556-9fb6-4a1e-8457-7a45e56ace13" x="330.42" y="492.69" width="67.39" height="11.72"/><g id="0579582d-4c6d-48df-9b1b-bca6c18a85f4" data-name="cl"><path class="2f6c7c11-6779-4bab-a9a3-d6cac22525b7" d="M398.51,492.92h1c0,2.67-.1,5.54.07,8.09-.17.17-.65,0-.94.07a2.7,2.7,0,0,0-.07-.79c-1,1.57-3.94,1-4.26-1.23-.3-2.08,1.12-4.49,3.39-3.54.34.14.37.34.79.65Zm-2.09,7.44c2.62.86,2.94-4.49.36-4.12C394.89,496.51,394.94,499.87,396.42,500.36Z" transform="translate(-46.08)"/><path class="2f6c7c11-6779-4bab-a9a3-d6cac22525b7" d="M407,495.09h29.1v6.21H407v-6C407,495.2,406.95,495.1,407,495.09Zm5,5.06c2.11.55,2.06-4.27.07-3.68C411.11,496.74,410.73,499.8,412,500.14Zm7.87-3.47c-1.17,1.17,1,1.81.87,2.67-.17.23-.81.16-1.08.07,0,.24-.12.36-.07.65.91.23,1.72,0,1.88-.65.29-1.16-.88-1.29-1.16-2.1.08-.35.59-.32.94-.22,0-.24.12-.36.07-.65A1.61,1.61,0,0,0,419.88,496.67Zm-11,3.47h1.66v-.65c-.29,0-.77.09-.94-.07v-3h-.72Zm5.63-3.68c-.25,1.73,0,4.72,1.73,3.54.77-.52.29-2.26.43-3.54H416c-.16,1,.39,2.75-.43,3.11-.58-.56-.16-2.1-.29-3.11Zm3.32,0v3.68h.72v-3.68Zm5.13,3.68h.79c.24-1.25.6-2.39.79-3.68h-.79a19.85,19.85,0,0,1-.43,2.74c0-1-.31-1.76-.36-2.74h-.79C422.4,497.75,422.71,498.93,423,500.14Zm2.46-3.68c0,1.2-.09,2.6.07,3.68h.65c0-1.09,0-2.4,0-3.68Zm2,3.68h1.66v-.65c-.29,0-.77.09-.94-.07v-3h-.72Zm2.6,0h1.66v-.65c-.29,0-.77.09-.94-.07v-3H430Zm2.67,0h1.66v-.65h-.94v-1h.79v-.58c-.24,0-.67.09-.79-.07,0-.24-.09-.67.07-.79h.79v-.58h-1.59Z" transform="translate(-46.08)"/><path class="2f6c7c11-6779-4bab-a9a3-d6cac22525b7" d="M388.18,495.66c-.05.28-.15.52-.22.79-3.29-1.73-4.41,3.9-1.23,4a4.59,4.59,0,0,0,1.3-.29,2.68,2.68,0,0,0,.14.79c-3.82,1.82-5.82-3.23-3.25-5.05A3.65,3.65,0,0,1,388.18,495.66Z" transform="translate(-46.08)"/><path class="2f6c7c11-6779-4bab-a9a3-d6cac22525b7" d="M390.78,495.45a2.86,2.86,0,0,1,2.82,4.33c-.76,1.57-3.64,2.14-4.77.29A3,3,0,0,1,390.78,495.45Zm.79,5c1.73-.4,1.75-4.82-.87-4.19C388.77,496.71,389.06,501,391.58,500.43Z" transform="translate(-46.08)"/><path class="2f6c7c11-6779-4bab-a9a3-d6cac22525b7" d="M405.22,498.48h-3.9c-.16,1.89,2,2.3,3.47,1.66,0,.29.14.43.14.72-2.33.95-4.58,0-4.62-2.38C400.24,494.54,405.78,494.3,405.22,498.48Zm-3.9-.72h3C404.5,495.5,401.2,495.76,401.33,497.76Z" transform="translate(-46.08)"/><path class="2f6c7c11-6779-4bab-a9a3-d6cac22525b7" d="M382.62,497c-1.06.39-2,.85-3.11,1.23a16.8,16.8,0,0,0,3.11,1.37v.94c-1.53-.59-3-1.29-4.48-1.88v-.72c1.47-.6,2.95-1.19,4.33-1.88C382.79,496.07,382.54,496.68,382.62,497Z" transform="translate(-46.08)"/><path class="2f6c7c11-6779-4bab-a9a3-d6cac22525b7" d="M437.72,496c1.53.59,3,1.28,4.48,1.88v.72c-1.52.6-2.95,1.29-4.48,1.88v-.94c1.11-.36,2-.9,3.18-1.23a22.75,22.75,0,0,0-3.18-1.37Z" transform="translate(-46.08)"/><path class="e53030a7-c27f-4e47-8ffd-26e69c09f7db" d="M412.09,496.46c2-.58,2,4.23-.07,3.68C410.73,499.8,411.11,496.74,412.09,496.46Zm.36,3.11c.48-.38.6-2.27-.07-2.53C411.74,497.35,411.75,499.33,412.45,499.56Z" transform="translate(-46.08)"/><path class="e53030a7-c27f-4e47-8ffd-26e69c09f7db" d="M421.33,496.46c0,.29-.07.41-.07.65-.35-.1-.86-.14-.94.22.27.8,1.45.94,1.16,2.1-.15.61-1,.88-1.88.65,0-.29.07-.41.07-.65.27.09.91.15,1.08-.07.15-.86-2-1.5-.87-2.67A1.61,1.61,0,0,1,421.33,496.46Z" transform="translate(-46.08)"/><path class="e53030a7-c27f-4e47-8ffd-26e69c09f7db" d="M408.91,496.46h.72v3c.17.16.65,0,.94.07v.65h-1.66Z" transform="translate(-46.08)"/><path class="e53030a7-c27f-4e47-8ffd-26e69c09f7db" d="M415.26,496.46c.12,1-.29,2.55.29,3.11.82-.36.27-2.09.43-3.11h.72c-.15,1.28.34,3-.43,3.54-1.73,1.18-2-1.81-1.73-3.54Z" transform="translate(-46.08)"/><path class="e53030a7-c27f-4e47-8ffd-26e69c09f7db" d="M418.58,496.46v3.68h-.72v-3.68Z" transform="translate(-46.08)"/><path class="e53030a7-c27f-4e47-8ffd-26e69c09f7db" d="M422.19,496.46H423c.05,1,.34,1.73.36,2.74a19.85,19.85,0,0,0,.43-2.74h.79c-.2,1.29-.55,2.43-.79,3.68H423C422.71,498.93,422.4,497.75,422.19,496.46Z" transform="translate(-46.08)"/><path class="e53030a7-c27f-4e47-8ffd-26e69c09f7db" d="M426.17,496.46c0,1.28,0,2.59,0,3.68h-.65c-.17-1.09,0-2.48-.07-3.68Z" transform="translate(-46.08)"/><path class="e53030a7-c27f-4e47-8ffd-26e69c09f7db" d="M427.39,496.46h.72v3c.17.16.65,0,.94.07v.65h-1.66Z" transform="translate(-46.08)"/><path class="e53030a7-c27f-4e47-8ffd-26e69c09f7db" d="M430,496.46h.72v3c.17.16.65,0,.94.07v.65H430Z" transform="translate(-46.08)"/><path class="e53030a7-c27f-4e47-8ffd-26e69c09f7db" d="M432.67,496.46h1.59V497h-.79c-.17.12,0,.55-.07.79.12.16.55,0,.79.07v.58h-.79v1h.94v.65h-1.66Z" transform="translate(-46.08)"/><path class="2f6c7c11-6779-4bab-a9a3-d6cac22525b7" d="M412.37,497c.67.26.56,2.15.07,2.53C411.75,499.33,411.74,497.35,412.37,497Z" transform="translate(-46.08)"/></g></g><g id="026068de-610c-4aae-8092-d4930378bb83" data-name="awesome_inc_u">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-11em" y="190" width="14em" height="7em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-4em" y="213" text-anchor="middle">Awesome Inc U</text> 
+          <text x = "-4em" y="213" text-anchor="middle" class="box_title">Awesome Inc U</text> 
           <text x = "-9.8em" y="229" text-anchor="middle" font-size= "5px">Coding school designed to help people learn </text>
           <text x = "-9.8em" y="239" text-anchor="middle" font-size= "5px">how to create software (websites, mobile apps, or video games)</text>
           <text x = "-9.8em" y="249" text-anchor="middle" font-size= "5px">through hands-on, in-person classes, online classes, </text>
@@ -30,7 +30,7 @@
 <polygon class="f62dab1e-a82e-4e30-a62d-e55c611bdcce" points="294.51 502.31 304.91 482.09 315.3 502.31 294.51 502.31"/><polygon class="9ef61024-1341-4079-b737-93da4c89858e" points="294.51 502.31 304.91 482.09 315.3 502.31 294.51 502.31"/><rect class="86791da2-c3b7-4a01-958d-e1c0fd01877f" x="292.53" y="479.78" width="24.76" height="24.77"/><g class="2e1a17fc-4662-4a7b-8e70-4b0cca18e42c"><g class="a7076a94-4278-48d8-a90b-5111ef235b0c"><g class="a7076a94-4278-48d8-a90b-5111ef235b0c"><polygon class="d5118903-f6a9-49e0-8054-caba47ee7540" points="315.3 502.31 302.03 487.68 304.91 482.09 294.51 502.31 315.3 502.31"/></g></g></g><g class="7748e0ea-ef9b-4ada-84a0-8d6cfba1cc7b"><g class="9fab1ac3-a79e-4399-b543-bbc7db843321"><g class="9fab1ac3-a79e-4399-b543-bbc7db843321"><polygon class="9816830c-8b07-4516-a743-fbb18bff5232" points="294.51 502.31 306.36 484.91 315.3 502.31 294.51 502.31"/></g></g></g><g class="2e1a17fc-4662-4a7b-8e70-4b0cca18e42c"><g class="a7076a94-4278-48d8-a90b-5111ef235b0c"><g class="a7076a94-4278-48d8-a90b-5111ef235b0c"><polygon class="d5118903-f6a9-49e0-8054-caba47ee7540" points="294.51 502.31 307.78 487.68 304.91 482.09 315.3 502.31 294.51 502.31"/></g></g></g><g class="7748e0ea-ef9b-4ada-84a0-8d6cfba1cc7b"><g class="9fab1ac3-a79e-4399-b543-bbc7db843321"><g class="9fab1ac3-a79e-4399-b543-bbc7db843321"><polygon class="9816830c-8b07-4516-a743-fbb18bff5232" points="315.3 502.31 303.46 484.91 294.51 502.31 315.3 502.31"/></g></g></g><g class="f5181cfd-bf1e-411f-be84-ee1107ea165f"><g class="d9a20acb-4f23-43d6-9f92-25d9469b0f0b"><g class="d9a20acb-4f23-43d6-9f92-25d9469b0f0b"><polygon class="dcd9c062-9376-4acf-b3a3-2c1af8b07f2b" points="310.5 492.99 315.3 502.32 299.86 502.32 310.5 492.99"/></g></g></g><g class="f5181cfd-bf1e-411f-be84-ee1107ea165f"><g class="455164a6-f6c2-4bcb-ac4f-687206cd27b9"><g class="455164a6-f6c2-4bcb-ac4f-687206cd27b9"><polygon class="dcd9c062-9376-4acf-b3a3-2c1af8b07f2b" points="299.31 492.99 294.51 502.32 309.95 502.32 299.31 492.99"/></g></g></g><path class="6419c556-9fb6-4a1e-8457-7a45e56ace13" d="M354.22,496.23a3.17,3.17,0,1,0-5.32,2.33h0c1,1,1,1.37,1,1.37h2.31v-.07a3.62,3.62,0,0,1,.89-1.2,3.16,3.16,0,0,0,1.13-2.42" transform="translate(-46.08)"/><path class="9609dc63-e3f5-4cdd-89fb-8b33cda493b1" d="M348.63,497.09a3.06,3.06,0,0,1,4.36-2.76,2.71,2.71,0,0,0-4.33,3.18,3.06,3.06,0,0,1,0-.42" transform="translate(-46.08)"/><path class="6419c556-9fb6-4a1e-8457-7a45e56ace13" d="M352.22,500.53a.3.3,0,0,1-.3.3h-1.72a.3.3,0,0,1,0-.59h1.72a.3.3,0,0,1,.3.3" transform="translate(-46.08)"/><path class="6419c556-9fb6-4a1e-8457-7a45e56ace13" d="M352.22,501.4a.3.3,0,0,1-.3.3h-1.72a.3.3,0,0,1,0-.59h1.72a.3.3,0,0,1,.3.3" transform="translate(-46.08)"/><polygon class="6419c556-9fb6-4a1e-8457-7a45e56ace13" points="304.98 502.02 304.97 502.02 304.1 502.02 304.24 502.41 304.97 502.41 304.98 502.41 305.71 502.41 305.85 502.02 304.98 502.02"/><rect class="86791da2-c3b7-4a01-958d-e1c0fd01877f" x="292.53" y="479.78" width="24.76" height="24.77"/><text class="4403fbbb-6d0b-412d-b882-5e45daa8645e" transform="translate(285.05 508.6)"><tspan class="9369b4f7-f13a-471c-b6ac-92cddf25e272">A</tspan><tspan class="59607099-a261-49cb-9830-a51d7f5e79c6" x="3.16" y="0">W</tspan><tspan x="8.43" y="0">ES</tspan><tspan class="f9518cf0-d806-4f55-afe7-702de2103911" x="14.69" y="0">O</tspan><tspan class="36bcb4a2-d70b-4bd4-9689-691e571f8f98" x="18.23" y="0">M</tspan><tspan x="22.9" y="0">E INC U</tspan></text></g></g><g id="d0231348-a9b2-4e78-8ad7-029813e0d87f" data-name="angel_investors"><g id="5782c794-2515-4250-98b2-b278bf61110e" data-name="kscf">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-30.5em" y="120" width="15em" height="7em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-23em" y="143" text-anchor="middle">Kentucky Seed Capital Fund</text> 
+          <text x = "-23em" y="143" text-anchor="middle" class="box_title">Kentucky Seed Capital Fund</text> 
           <text x = "-55.5em" y="160" text-anchor="middle" font-size= "5px">Invests in early-stage Kentucky or Louisville</text>
           <text x = "-55.5em" y="170" text-anchor="middle" font-size= "5px">metropolitan-based businesses that specialize in</text>
           <text x = "-55.5em" y="180" text-anchor="middle" font-size= "5px">biomedical and health care services, medical device</text>
@@ -41,7 +41,7 @@
 <g id="176c59b3-ed5a-48c7-838d-5bab5cc615c0" data-name="e_a">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-26.5em" y="132.5" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-19.5em" y="153" text-anchor="middle">Enterprise Angel Fund</text> 
+          <text x = "-19.5em" y="153" text-anchor="middle" class="box_title">Enterprise Angel Fund</text> 
           <text x = "-47em" y="170" text-anchor="middle" font-size= "5px">Invests in 3-5 early to mid stage growth Kentucky based</text>
           <text x = "-47em" y="180" text-anchor="middle" font-size= "5px"> companies each year who are seeking between </text>
           <text x = "-47em" y="190" text-anchor="middle" font-size= "5px">$100K to $5M in investment</text>
@@ -50,8 +50,8 @@
 
 <g id="b6503d97-fd3f-4dd2-b050-4c395cb2b3c9" data-name="bluegrass_angels">
 <g class="tooltip" transform="translate(350,200)">
-          <rect x="-33.5em" y="120" width="14em" height="7em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-26.5em" y="143" text-anchor="middle">Bluegrass Angels</text> 
+          <rect x="-32.5em" y="120" width="12em" height="7em" rx="10" ry="10" fill="LightGrey"/>
+          <text x = "-26.5em" y="143" text-anchor="middle" class="box_title">Bluegrass Angels</text> 
           <text x = "-63.5em" y="160" text-anchor="middle" font-size= "5px">Organization of local angel investors interested in</text>
           <text x = "-63.5em" y="170" text-anchor="middle" font-size= "5px"> fostering the growth of start-up businesses in Kentucky</text>
           <text x = "-63.5em" y="180" text-anchor="middle" font-size= "5px">by investing time, knowledge and money into new,</text>
@@ -59,16 +59,18 @@
 </g>
 <rect class="6419c556-9fb6-4a1e-8457-7a45e56ace13" x="19.57" y="409.92" width="34.52" height="18.42"/><image id="abf2c000-f162-48a6-8d87-d46ada7ff003" data-name="b_a" width="166" height="93" transform="translate(19.57 409.92) scale(0.21)" xlink:href="Pipeline20164.png"/></g><g id="81745736-979d-4d3d-a89d-1c93be190d4e" data-name="commonwealth_seed_capital">
 <g class="tooltip" transform="translate(350,200)">
-          <rect x="-27em" y="155" width="15em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-19.5em" y="177" text-anchor="middle">Commonwealth Seed Capital</text> 
+          <rect x="-25.5em" y="143" width="12em" height="7em" rx="10" ry="10" fill="LightGrey"/>
+          <text x = "-19.5em" y="165" text-anchor="middle" class="box_title">Commonwealth </text> 
+          <text x = "-19.5em" y="180" text-anchor="middle" class="box_title"> Seed Capital</text> 
           <text x = "-47em" y="195" text-anchor="middle" font-size= "5px">Invests in early-stage Kentucky business entities</text>
           <text x = "-47em" y="205" text-anchor="middle" font-size= "5px"> focused on commercializing innovative </text>
           <text x = "-47em" y="215" text-anchor="middle" font-size= "5px">ideas and technologies.</text>
 </g>
 <rect class="6419c556-9fb6-4a1e-8457-7a45e56ace13" x="79.7" y="438.86" width="46.15" height="15.02"/><text class="96d07b0a-d279-4dd4-bc00-b59895defff6" transform="translate(81.69 445.21) scale(0.88 1)">COMMONWEALTH<tspan class="0149260d-843f-4ca7-8888-75cf0c3d94c5"><tspan x="4.68" y="6.48">SEED CAPITAL</tspan></tspan></text></g><g id="4c8b98e9-93ea-45f8-a056-2d09e4213ced" data-name="louisville_angel_investor_network">
 <g class="tooltip" transform="translate(350,200)">
-          <rect x="-34.5em" y="143" width="18em" height="7em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-25.5em" y="166" text-anchor="middle">Louisville Angel Investor Network</text> 
+          <rect x="-31.7em" y="130.5" width="12em" height="8em" rx="10" ry="10" fill="LightGrey"/>
+          <text x = "-25.5em" y="152" text-anchor="middle" class="box_title">Louisville Angel</text> 
+          <text x = "-25.5em" y="167" text-anchor="middle" class="box_title">Investor Network</text> 
           <text x = "-61.5em" y="183" text-anchor="middle" font-size= "5px">(with Healthcare Innovation Exchange) - Focuses on</text>
           <text x = "-61.5em" y="193" text-anchor="middle" font-size= "5px">investment, joint venture &amp; partnership opportunities in</text>
           <text x = "-61.5em" y="203" text-anchor="middle" font-size= "5px">the health/life science sectors and in any concept that</text>
@@ -77,7 +79,7 @@
 <rect class="6419c556-9fb6-4a1e-8457-7a45e56ace13" x="21.75" y="438.86" width="51.99" height="16.94"/><text class="a6c69418-82e6-4b08-8ad1-c87e8a103c27" transform="translate(25.52 445.2) scale(0.9 1)">LOUISVILLE ANGEL<tspan x="-2.69" y="6.48">INVESTOR NETWORK</tspan></text></g></g><g id="fc5493aa-51e2-49c8-ab7e-25e8743b9ce5" data-name="accelerators"><g id="70a709f4-ef86-47c6-bc19-66c44e70c928" data-name="awesome_fellowship">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-5em" y="60" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "2em" y="83" text-anchor="middle">Awesome Fellowship</text> 
+          <text x = "2em" y="83" text-anchor="middle" class="box_title">Awesome Fellowship</text> 
           <text x = "5em" y="97" text-anchor="middle" font-size= "5px">Mentor-driven program designed to accelerate high tech</text>
           <text x = "5em" y="107" text-anchor="middle" font-size= "5px">startups; provides mentorship and a variety of tech talent</text>
           <text x = "5em" y="117" text-anchor="middle" font-size= "5px">for up to 1 year.</text>
@@ -85,14 +87,14 @@
 <polygon class="f62dab1e-a82e-4e30-a62d-e55c611bdcce" points="371.92 351.56 379.11 337.58 386.3 351.56 371.92 351.56"/><polygon class="0266d5cd-c52d-4d69-8e4c-76e80b75e52c" points="371.92 351.56 379.11 337.58 386.3 351.56 371.92 351.56"/><g class="2e1a17fc-4662-4a7b-8e70-4b0cca18e42c"><g class="a993ffbb-1689-4045-9c4e-157172f4bd0e"><g class="a993ffbb-1689-4045-9c4e-157172f4bd0e"><polygon class="d5118903-f6a9-49e0-8054-caba47ee7540" points="386.3 351.56 377.12 341.45 379.11 337.58 371.92 351.56 386.3 351.56"/></g></g></g><g class="7748e0ea-ef9b-4ada-84a0-8d6cfba1cc7b"><g class="8e0ef719-b763-45c3-81cd-00d86cfac460"><g class="8e0ef719-b763-45c3-81cd-00d86cfac460"><polygon class="9816830c-8b07-4516-a743-fbb18bff5232" points="371.92 351.56 380.11 339.53 386.3 351.56 371.92 351.56"/></g></g></g><g class="2e1a17fc-4662-4a7b-8e70-4b0cca18e42c"><g class="a993ffbb-1689-4045-9c4e-157172f4bd0e"><g class="a993ffbb-1689-4045-9c4e-157172f4bd0e"><polygon class="d5118903-f6a9-49e0-8054-caba47ee7540" points="371.92 351.56 381.1 341.45 379.11 337.58 386.3 351.56 371.92 351.56"/></g></g></g><g class="7748e0ea-ef9b-4ada-84a0-8d6cfba1cc7b"><g class="8e0ef719-b763-45c3-81cd-00d86cfac460"><g class="8e0ef719-b763-45c3-81cd-00d86cfac460"><polygon class="9816830c-8b07-4516-a743-fbb18bff5232" points="386.3 351.56 378.11 339.53 371.92 351.56 386.3 351.56"/></g></g></g><g class="f5181cfd-bf1e-411f-be84-ee1107ea165f"><g class="dbb71351-7272-4719-8b3e-d5f262ec5ad6"><g class="dbb71351-7272-4719-8b3e-d5f262ec5ad6"><polygon class="dcd9c062-9376-4acf-b3a3-2c1af8b07f2b" points="382.98 345.12 386.3 351.57 375.62 351.57 382.98 345.12"/></g></g></g><g class="f5181cfd-bf1e-411f-be84-ee1107ea165f"><g class="0e796f7f-bd78-4b33-91e1-c1badcc8a3ed"><g class="0e796f7f-bd78-4b33-91e1-c1badcc8a3ed"><polygon class="dcd9c062-9376-4acf-b3a3-2c1af8b07f2b" points="375.24 345.12 371.92 351.57 382.6 351.57 375.24 345.12"/></g></g></g><path class="6419c556-9fb6-4a1e-8457-7a45e56ace13" d="M427.43,347.36a2.19,2.19,0,1,0-3.68,1.61h0c.69.7.68.95.68.95H426v-.05a2.5,2.5,0,0,1,.61-.83,2.18,2.18,0,0,0,.78-1.68" transform="translate(-46.08)"/><path class="9609dc63-e3f5-4cdd-89fb-8b33cda493b1" d="M423.56,348a2.11,2.11,0,0,1,3-1.91,1.88,1.88,0,0,0-3,2.2,2,2,0,0,1,0-.29" transform="translate(-46.08)"/><path class="6419c556-9fb6-4a1e-8457-7a45e56ace13" d="M426,350.34a.2.2,0,0,1-.2.2h-1.19a.2.2,0,1,1,0-.41h1.19a.2.2,0,0,1,.2.2" transform="translate(-46.08)"/><path class="6419c556-9fb6-4a1e-8457-7a45e56ace13" d="M426,350.93a.21.21,0,0,1-.2.2h-1.19a.2.2,0,1,1,0-.41h1.19a.21.21,0,0,1,.2.2" transform="translate(-46.08)"/><polygon class="6419c556-9fb6-4a1e-8457-7a45e56ace13" points="379.16 351.36 379.15 351.36 378.55 351.36 378.65 351.63 379.15 351.63 379.16 351.63 379.67 351.63 379.76 351.36 379.16 351.36"/><path class="2317601d-9826-424d-8295-969a102c939f" d="M415.42,355.74H416l.22-.67h1l.22.67h.62l-1-3h-.66Zm1-1.18.36-1.08.34,1.08Z" transform="translate(-46.08)"/><polygon class="2317601d-9826-424d-8295-969a102c939f" points="371.69 352.71 372.64 355.74 373.31 355.74 373.66 354.5 374.07 355.74 374.74 355.74 375.57 352.71 374.96 352.71 374.4 354.97 373.93 353.49 374.14 352.71 373.52 352.71 372.97 354.95 372.3 352.71 371.69 352.71"/><path class="2317601d-9826-424d-8295-969a102c939f" d="M421.79,355.14c0,.56.43.62.7.61,0,0,1.05,0,1.29-.07v-.48h-1.15c-.12,0-.26,0-.26-.22v-.47l1.22,0V354l-1.22,0v-.47c0-.11,0-.23.21-.23h1.19v-.48c-.26,0-1.33-.07-1.33-.07a.58.58,0,0,0-.66.63Z" transform="translate(-46.08)"/><path class="2317601d-9826-424d-8295-969a102c939f" d="M424.11,353.73a.71.71,0,0,0,.78.8h.46c.22,0,.27.11.27.29V355c0,.23-.2.26-.37.26-.38,0-.89,0-1.05,0v.45a4.07,4.07,0,0,0,1.17.12c.41,0,.83-.13.83-.82v-.2c0-.33-.12-.8-.71-.8H425c-.23,0-.32,0-.32-.29v-.15c0-.28.15-.3.4-.29s.75,0,1,0v-.46a4.64,4.64,0,0,0-1.17-.12c-.46,0-.82.18-.82.78Z" transform="translate(-46.08)"/><path class="2317601d-9826-424d-8295-969a102c939f" d="M426.55,354.24c0,1.38.47,1.51,1.22,1.51s1.22-.17,1.22-1.51-.5-1.56-1.22-1.56S426.55,352.83,426.55,354.24Zm.58,0c0-1,.19-1,.64-1s.64.08.64,1-.15,1-.64,1S427.12,355.07,427.12,354.24Z" transform="translate(-46.08)"/><polygon class="2317601d-9826-424d-8295-969a102c939f" points="383.17 355.74 383.74 355.74 383.92 353.71 384.43 355.74 385.07 355.74 385.56 353.71 385.76 355.74 386.33 355.74 386.05 352.71 385.24 352.71 384.74 354.78 384.24 352.71 383.43 352.71 383.17 355.74"/><path class="2317601d-9826-424d-8295-969a102c939f" d="M432.73,355.14c0,.56.43.62.7.61,0,0,1.05,0,1.29-.07v-.48h-1.15c-.12,0-.26,0-.26-.22v-.47l1.22,0V354l-1.22,0v-.47c0-.11,0-.23.21-.23h1.2v-.48c-.26,0-1.33-.07-1.33-.07a.58.58,0,0,0-.66.63Z" transform="translate(-46.08)"/><path class="2317601d-9826-424d-8295-969a102c939f" d="M415.6,359H416V358l.93,0v-.36l-.93,0v-.36c0-.08,0-.18.16-.18h.91v-.36c-.2,0-1-.05-1-.05a.45.45,0,0,0-.5.48Z" transform="translate(-46.08)"/><path class="2317601d-9826-424d-8295-969a102c939f" d="M417.51,358.52c0,.42.33.47.53.46,0,0,.8,0,1-.05v-.36h-.88c-.09,0-.19,0-.19-.16V358l.93,0v-.36l-.93,0v-.36c0-.08,0-.18.16-.18H419v-.36c-.2,0-1-.05-1-.05a.44.44,0,0,0-.5.48Z" transform="translate(-46.08)"/><path class="2317601d-9826-424d-8295-969a102c939f" d="M419.42,358.53c0,.35.23.45.48.45h.94v-.4h-.79c-.09,0-.19,0-.19-.16v-1.73h-.44Z" transform="translate(-46.08)"/><path class="2317601d-9826-424d-8295-969a102c939f" d="M421.23,358.53c0,.35.23.45.48.45h.94v-.4h-.79c-.09,0-.19,0-.19-.16v-1.73h-.44Z" transform="translate(-46.08)"/><path class="2317601d-9826-424d-8295-969a102c939f" d="M422.92,357.84c0,1,.36,1.14.92,1.14s.92-.13.92-1.14-.38-1.18-.92-1.18S422.92,356.77,422.92,357.84Zm.44,0c0-.73.14-.77.48-.77s.48.06.48.77-.11.74-.48.74S423.36,358.47,423.36,357.84Z" transform="translate(-46.08)"/><polygon class="2317601d-9826-424d-8295-969a102c939f" points="378.88 356.68 379.61 358.98 380.11 358.98 380.38 358.04 380.69 358.98 381.2 358.98 381.83 356.68 381.37 356.68 380.95 358.39 380.58 357.27 380.74 356.68 380.27 356.68 379.86 358.38 379.35 356.68 378.88 356.68"/><path class="2317601d-9826-424d-8295-969a102c939f" d="M428.22,357.45a.54.54,0,0,0,.59.61h.35c.17,0,.21.08.21.22v.12c0,.18-.15.2-.28.2-.29,0-.67,0-.8,0v.35a3.12,3.12,0,0,0,.89.09c.31,0,.63-.1.63-.62v-.15c0-.25-.09-.61-.54-.61h-.36c-.18,0-.24,0-.24-.22v-.11c0-.21.11-.23.3-.22s.57,0,.77,0v-.35a3.51,3.51,0,0,0-.89-.09c-.35,0-.62.14-.62.59Z" transform="translate(-46.08)"/><polygon class="2317601d-9826-424d-8295-969a102c939f" points="384.15 358.98 384.59 358.98 384.59 358.07 385.38 358.07 385.38 358.98 385.81 358.98 385.81 356.68 385.38 356.68 385.38 357.66 384.59 357.66 384.59 356.68 384.15 356.68 384.15 358.98"/><rect class="2317601d-9826-424d-8295-969a102c939f" x="386.27" y="356.68" width="0.44" height="2.3"/><path class="2317601d-9826-424d-8295-969a102c939f" d="M433.21,359h.44v-.91l.55.06c.26,0,.64,0,.64-.74s-.35-.71-.64-.71h-1Zm.44-1.24v-.67h.51c.11,0,.23.05.23.32s-.09.35-.23.35Z" transform="translate(-46.08)"/></g><g id="9bafca62-3f58-43f2-aaf2-6fe332ea8059" data-name="ocean">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-11em" y="60" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-4em" y="83" text-anchor="middle">Ocean</text> 
+          <text x = "-4em" y="83" text-anchor="middle" class="box_title">Ocean</text> 
           <text x = "-9.8em" y="100" text-anchor="middle" font-size= "5px">Faith-based accelerator; 5-month journey that builds</text>
           <text x = "-9.8em" y="115" text-anchor="middle" font-size= "5px">  infrastructure, deepens character, attracts investors.</text>
 </g>
 <rect class="6419c556-9fb6-4a1e-8457-7a45e56ace13" x="291.21" y="338.03" width="20.97" height="20.97"/><image id="9f24fba2-de02-49fa-bcce-80a17135ffa5" data-name="&lt;image&gt;" width="1024" height="1024" transform="translate(291.21 338.03) scale(0.02)" xlink:href="Pipeline20166.png"/></g><g id="6462a84c-57df-4648-86ea-71a5faf7cb5c" data-name="brandery">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-8em" y="60" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-1em" y="83" text-anchor="middle">The Brandery</text> 
+          <text x = "-1em" y="83" text-anchor="middle" class="box_title">The Brandery</text> 
           <text x = "-2.5em" y="97" text-anchor="middle" font-size= "5px">Runs a 4 month accelerator program for 10-12 companies</text>
           <text x = "-2.5em" y="107" text-anchor="middle" font-size= "5px">for 6% equity stake in exchange for $50k, a year of free</text>
           <text x = "-2.5em" y="117" text-anchor="middle" font-size= "5px">office space, and additional resources.</text>
@@ -101,7 +103,7 @@
 <g id="b7030ae3-56f3-466e-9b46-00e8f0ca8b3f" data-name="xlerate_health">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-11em" y="90" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-4em" y="113" text-anchor="middle">XLerate Health</text> 
+          <text x = "-4em" y="113" text-anchor="middle" class="box_title">XLerate Health</text> 
           <text x = "-9.8em" y="127" text-anchor="middle" font-size= "5px">13-week training course that connects startups to</text>
           <text x = "-9.8em" y="137" text-anchor="middle" font-size= "5px">mentors and leading health and wellness companies and</text>
           <text x = "-9.8em" y="147" text-anchor="middle" font-size= "5px">offers a $20,000 stipend for 6% equity stake.</text>
@@ -110,7 +112,7 @@
 <g id="a2d4bec3-fe2f-4343-9d50-7667975d821e" data-name="uptech">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-5em" y="90" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "2em" y="113" text-anchor="middle">UpTech</text> 
+          <text x = "2em" y="113" text-anchor="middle" class="box_title">UpTech</text> 
           <text x = "5em" y="130" text-anchor="middle" font-size= "5px">Accepts up to 10 startups per year to participate in a 6</text>
           <text x = "5em" y="145" text-anchor="middle" font-size= "5px">month program with up to $50,000 in funding for each team.</text>
 </g>
@@ -119,8 +121,8 @@
 
 <g id="aae5878a-4d18-4d6d-aa0e-158f454867ce" data-name="pre_seed_funding"><g id="396469de-06f5-42ea-a69e-3d1e820d803d" data-name="cherub_fund">
 <g class="tooltip" transform="translate(350,200)">
-          <rect x="-33.5em" y="-9" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-26.5em" y="12" text-anchor="middle">Cherub Fund</text> 
+          <rect x="-32.5em" y="-9" width="12em" height="6em" rx="10" ry="10" fill="LightGrey"/>
+          <text x = "-26.5em" y="12" text-anchor="middle" class="box_title">Cherub Fund</text> 
           <text x = "-63.5em" y="30" text-anchor="middle" font-size= "5px">Provides small amounts of funding to early stage startups;</text>
           <text x = "-63.5em" y="40" text-anchor="middle" font-size= "5px"> comprised of entrepreneurs, angel investors and </text>
           <text x = "-63.5em" y="50" text-anchor="middle" font-size= "5px">supporters of entrepreneurs.</text>
@@ -129,8 +131,8 @@
 
 <g id="b1274273-4ef9-4de7-8493-ea63567d1e43" data-name="connetic">
 <g class="tooltip" transform="translate(350,200)">
-          <rect x="-30em" y="-9" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-23em" y="12" text-anchor="middle">Connetic</text> 
+          <rect x="-29em" y="-9" width="12em" height="6em" rx="10" ry="10" fill="LightGrey"/>
+          <text x = "-23em" y="12" text-anchor="middle" class="box_title">Connetic</text> 
           <text x = "-55.5em" y="30" text-anchor="middle" font-size= "5px">The core investment strategy is to see more deals</text>
           <text x = "-55.5em" y="40" text-anchor="middle" font-size= "5px">so we can do more deals and create</text>
           <text x = "-55.5em" y="50" text-anchor="middle" font-size= "5px">a diversified portfolio. They move quickly.</text>
@@ -139,7 +141,7 @@
 <g id="f12b1b4c-4e5b-4958-8640-f9832052cc75" data-name="wild_duck">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-26.5em" y="-9" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-19.5em" y="12" text-anchor="middle">Wild Duck Investments</text> 
+          <text x = "-19.5em" y="12" text-anchor="middle" class="box_title">Wild Duck Investments</text> 
           <text x = "-47em" y="30" text-anchor="middle" font-size= "5px">Invests time, energy and money into people and their</text>
           <text x = "-47em" y="40" text-anchor="middle" font-size= "5px"> ideas that help the community and make Kentucky </text>
           <text x = "-47em" y="50" text-anchor="middle" font-size= "5px">and our world a better place to live in.</text>
@@ -148,23 +150,23 @@
 <g id="608f3084-6388-41c4-871a-60ee60634da6" data-name="bga_luanch_grant_fund">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-26.5em" y="20" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-19.5em" y="42" text-anchor="middle">BGA Launch Grant Fund</text> 
+          <text x = "-19.5em" y="42" text-anchor="middle" class="box_title">BGA Launch Grant Fund</text> 
           <text x = "-47em" y="60" text-anchor="middle" font-size= "5px">Provides financial assistance in the form of</text>
           <text x = "-47em" y="70" text-anchor="middle" font-size= "5px">small grants to startup companies as a part of the</text>
           <text x = "-47em" y="80" text-anchor="middle" font-size= "5px">Bluegrass Angels.</text>
 </g>
 <rect class="6419c556-9fb6-4a1e-8457-7a45e56ace13" x="100.21" y="300.76" width="30.11" height="13.95"/><text class="1d130aa5-70f2-4cb7-a38a-cb7969aa2a33" transform="translate(99.87 306.42)">BGA LAUNCH<tspan x="-0.16" y="6">GRANT FUND</tspan></text></g><g id="1f1726a4-243e-43c2-bb4d-3d2d5f533d6c" data-name="access_ventures">
 <g class="tooltip" transform="translate(350,200)">
-          <rect x="-33.5em" y="20" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-26.5em" y="42" text-anchor="middle">Access Ventures</text> 
+          <rect x="-32.5em" y="20" width="12em" height="6em" rx="10" ry="10" fill="LightGrey"/>
+          <text x = "-26.5em" y="42" text-anchor="middle" class="box_title">Access Ventures</text> 
           <text x = "-63.5em" y="60" text-anchor="middle" font-size= "5px">Invests financial and human capital</text>
           <text x = "-63.5em" y="70" text-anchor="middle" font-size= "5px"> into companies, initiatives, and ideas that enable</text>
           <text x = "-63.5em" y="80" text-anchor="middle" font-size= "5px">human flourishing.</text>
 </g>
 <rect class="6419c556-9fb6-4a1e-8457-7a45e56ace13" x="17.46" y="305.27" width="46.51" height="7.41"/><image id="aadd0fef-3c3e-4b9d-9d0b-54516fe52ba4" data-name="av" width="590" height="94" transform="translate(17.46 305.27) scale(0.08)" xlink:href="Pipeline201610.png"/></g><g id="fa26f65a-1538-4574-87b7-96ed4c6d5c52" data-name="lincoln_trail_venture_group">
 <g class="tooltip" transform="translate(350,200)">
-          <rect x="-30em" y="20" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-23em" y="42" text-anchor="middle">Lincoln Trail</text> 
+          <rect x="-29em" y="20" width="12em" height="6em" rx="10" ry="10" fill="LightGrey"/>
+          <text x = "-23em" y="42" text-anchor="middle" class="box_title">Lincoln Trail</text> 
           <text x = "-55.5em" y="60" text-anchor="middle" font-size= "5px">A diverse group of central KY citizens interested</text>
           <text x = "-55.5em" y="70" text-anchor="middle" font-size= "5px">sin angel investing for early stage</text>
           <text x = "-55.5em" y="80" text-anchor="middle" font-size= "5px">development or startup companies.</text>
@@ -177,7 +179,7 @@
 <g id="30402f38-5cc1-4aa7-81c9-75192363c5f2" data-name="kstc">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-13em" y="-125" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-6.1em" y="-105" text-anchor="middle"> KSTC</text> 
+          <text x = "-6.1em" y="-105" text-anchor="middle" class="box_title"> KSTC</text> 
           <text x = "-14em" y="-90" text-anchor="middle" font-size= "5px"> Provides pre-seed and seed-stage funding </text>
           <text x = "-14em" y="-80" text-anchor="middle" font-size= "5px"> and other resources to Kentucky-based companies with the </text>
           <text x = "-14em" y="-70" text-anchor="middle" font-size= "5px"> goal of building successful technology-related companies in KY. </text>
@@ -187,7 +189,7 @@
 <g id="785df653-1188-4732-a8e2-31b8066c9e54" data-name="awesome_inc">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-10em" y="-125" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-3.1em" y="-105" text-anchor="middle"> Awesome Inc</text> 
+          <text x = "-3.1em" y="-105" text-anchor="middle" class="box_title"> Awesome Inc</text> 
           <text x = "-7em" y="-90" text-anchor="middle" font-size= "5px"> Exists to create and grow high tech startups  </text>
           <text x = "-7em" y="-80" text-anchor="middle" font-size= "5px"> by hosting community events, leading technology education  </text>
           <text x = "-7em" y="-70" text-anchor="middle" font-size= "5px"> courses and offering a shared workspace environment. </text>
@@ -197,7 +199,7 @@
 <g id="e93fa297-6ffb-452d-a5c1-1951b9e38036" data-name="uk_venture_studio"><rect class="6419c556-9fb6-4a1e-8457-7a45e56ace13" x="342.72" y="155.81" width="22.82" height="11.67"/>
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-6em" y="-125" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "1.1em" y="-105" text-anchor="middle">Venture Studio</text> 
+          <text x = "1.1em" y="-105" text-anchor="middle" class="box_title">Venture Studio</text> 
           <text x = "2.2em" y="-90" text-anchor="middle" font-size= "5px">UK initiative that hosts a one semester program to assess </text>
           <text x = "2.2em" y="-80" text-anchor="middle" font-size= "5px"> and validate the feasibility of a business concept, create a business </text>
           <text x = "2.2em" y="-70" text-anchor="middle" font-size= "5px">model, and provide hands-on experience with real world projects. </text>
@@ -207,7 +209,7 @@
 <g id="28e3fc90-4696-4140-bc1c-51a5549dd899" data-name="inet">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-13em" y="-115" width="14em" height="7em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-6.1em" y="-92" text-anchor="middle"> iNET</text> 
+          <text x = "-6.1em" y="-92" text-anchor="middle" class="box_title"> iNET</text> 
           <text x = "-14em" y="-78" text-anchor="middle" font-size= "5px"> Undergraduate academic program in leadership  </text>
           <text x = "-14em" y="-68" text-anchor="middle" font-size= "5px">and entrepreneurial thinking for UK students that </text>
           <text x = "-14em" y="-58" text-anchor="middle" font-size= "5px">connects students to other students with entrepreneurial  </text>
@@ -218,7 +220,7 @@
 <g id="d5652133-ead7-433b-9208-783b0a6b5426" data-name="5_across">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-10em" y="-102.7" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-3.1em" y="-80" text-anchor="middle"> 5Across</text> 
+          <text x = "-3.1em" y="-80" text-anchor="middle" class="box_title"> 5Across</text> 
           <text x = "-7em" y="-60" text-anchor="middle" font-size= "5px"> Bi-monthly business pitch competition for entrepreneurs. </text>
 </g>
 <image width="472" height="217" transform="translate(302.14 176.6) scale(0.05 0.04)" xlink:href="Pipeline201613.png"/></g>
@@ -226,8 +228,8 @@
 <g id="4003c606-e650-49da-88cd-bad9ea52baa3" data-name="sbir_sttr">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-6em" y="-115" width="14em" height="7em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "1.1em" y="-95" text-anchor="middle">Small Business</text>
-          <text x = "1.1em" y="-83" text-anchor="middle">Innovation Research</text>
+          <text x = "1.1em" y="-95" text-anchor="middle" class="box_title">Small Business</text>
+          <text x = "1.1em" y="-83" text-anchor="middle" class="box_title">Innovation Research</text>
           <text x = "2.2em" y="-71" text-anchor="middle" font-size= "5px">Encourages Federal Research/Research and Development (R/R&amp;D)  </text>
           <text x = "2.2em" y="-61" text-anchor="middle" font-size= "5px"> that has the potential for commercialization. The Cabinet will </text>
           <text x = "2.2em" y="-51" text-anchor="middle" font-size= "5px">match awards received by Kentucky high-tech small businesses </text>
@@ -240,7 +242,7 @@
 <g id="64ca9bc6-1c40-452b-bc72-a1e3cbf91f4d" data-name="kentucky_innovation_network">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-6em" y="-86" width="14em" height="6em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "1.1em" y="-64" text-anchor="middle">KY Innovation Network</text> 
+          <text x = "1.1em" y="-64" text-anchor="middle" class="box_title">KY Innovation Network</text> 
           <text x = "2.2em" y="-48" text-anchor="middle" font-size= "5px">Creates a network of business leaders and mentors </text>
           <text x = "2.2em" y="-38" text-anchor="middle" font-size= "5px"> to grow companies through the thirteen </text>
           <text x = "2.2em" y="-28" text-anchor="middle" font-size= "5px">offices throughout Kentucky. </text>
@@ -251,7 +253,7 @@
 <g id="f73ca47a-4971-4a9f-b9cc-5aa982108904" data-name="idea_state_u">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-13em" y="-98" width="14em" height="7em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-6.1em" y="-75" text-anchor="middle"> Idea State U</text> 
+          <text x = "-6.1em" y="-75" text-anchor="middle" class="box_title"> Idea State U</text> 
           <text x = "-14em" y="-58" text-anchor="middle" font-size= "5px"> Kentucky’s statewide business plan competition designed </text>
           <text x = "-14em" y="-48" text-anchor="middle" font-size= "5px">to encourage innovation and entrepreneurship by rewarding</text>
           <text x = "-14em" y="-38" text-anchor="middle" font-size= "5px">student teams from the Commonwealth’s colleges  </text>
@@ -262,7 +264,7 @@
 <g id="a70d2184-b27c-4841-b42c-4c704033e03e" data-name="startup_weekend">
 <g class="tooltip" transform="translate(350,200)">
           <rect x="-10em" y="-98" width="14em" height="7em" rx="10" ry="10" fill="LightGrey"/>
-          <text x = "-3.1em" y="-75" text-anchor="middle"> Startup Weekend</text> 
+          <text x = "-3.1em" y="-75" text-anchor="middle" class="box_title"> Startup Weekend</text> 
           <text x = "-7em" y="-58" text-anchor="middle" font-size= "5px"> 54-hour events where developers, designers, marketers, </text>
           <text x = "-7em" y="-48" text-anchor="middle" font-size= "5px">product managers and startup enthusiasts come</text>
           <text x = "-7em" y="-38" text-anchor="middle" font-size= "5px">together to share ideas, form teams, build products,</text>

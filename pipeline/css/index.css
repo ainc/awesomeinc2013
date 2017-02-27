@@ -2,11 +2,14 @@
     pointer-events:none; /*let mouse events pass through*/
     opacity:0;
     transition: opacity 0.3s;
-    z-index: 999;
 }
 
 g.tooltip{
 	opacity: 0;
+}
+
+.box_title {
+	font-weight: bold;
 }
 
 [data-name = "kstc"]:hover g.tooltip{
