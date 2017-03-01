@@ -126,9 +126,10 @@ a:after {
 
 /* Navbar Modification */
 
+
 .right-nav {
 	float: right;
-	min-width: 733px
+	min-width: 250px
 }
 
 
@@ -1409,7 +1410,7 @@ div.sub-row {
 {	
 	margin: 0;
 	padding: 0;
-	z-index: 30
+	z-index: 30;
 }
 
 #sddm li
@@ -1417,7 +1418,7 @@ div.sub-row {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	float: left;
+	text-align: right;
 }
 
 #sddm li:hover {
@@ -1429,7 +1430,7 @@ div.sub-row {
 
 	display: block;
 	margin: 0 1px 0 0;
-	text-align: center;
+	
 	text-decoration: none;
 }
 

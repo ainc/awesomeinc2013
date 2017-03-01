@@ -9,9 +9,12 @@
             <a href="/"><img src="/assets/img/logo.svg" alt="Awesome Inc Logo" style="margin-top: 10px;"> </a>
         </div>
 
-        <div class="navbar-collapse collapse navbar-inner">
+
+        <div class="navbar-collapse collapse">
           
             <ul id="sddm" class="nav navbar-nav right-nav"> <!-- RIGHT ALIGNED NAVBAR -->
+
+
                 <li {% if page.path contains 'about' %} class="active" {% endif %} class="dropdown">    <!-- ABOUT -->
                     <a href="/about/" 
                     onmouseover="mopen('m1')" 
@@ -26,6 +29,9 @@
                             <a href="/impact_report">Impact Report</a>
                     </div>
                 </li> 
+                
+
+
                 <li {% if page.path contains 'for-entrepreneuers' %} class="active" {% endif %} class="dropdown">  <!-- FOR ENTREPRENEURS -->
                     <a href="/for-entrepreneurs/" 
                     onmouseover="mopen('m2')" 
@@ -81,7 +87,7 @@
                     </div>
                 </li>
                 <li>
-                    <a class="stay-connected" data-toggle="modal" data-target="#email-popup" style="color: rgb(184, 17, 36); cursor:pointer">Stay Connected</a>
+                    <a class="stay-connected" data-toggle="modal" data-target="#email-popup" style="cursor:pointer">Stay Connected</a>
                 </li>
 
 
