@@ -123,3 +123,118 @@ g.tooltip{
 [data-name = "chrysalis_ventures"]:hover g.tooltip{
 		opacity: 1;
 }
+
+@media screen and (max-width: 1024px) {
+	[data-name = "kstc"]:active g.tooltip{
+		opacity: 1;
+	}
+
+	[data-name = "awesome_inc"]:active g.tooltip{
+		opacity: 1;
+	}
+
+	[data-name = "uk_venture_studio"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "inet"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "5_across"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "sbir_sttr"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "idea_state_u"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "startup_weekend"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "kentucky_innovation_network"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "cherub_fund"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "connetic"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "wild_duck"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "access_ventures"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "lincoln_trail_venture_group"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "bga_luanch_grant_fund"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "ocean"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "brandery"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "awesome_fellowship"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "xlerate_health"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "uptech"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "bluegrass_angels"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "kscf"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "e_a"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "louisville_angel_investor_network"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "commonwealth_seed_capital"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "awesome_inc_u"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "code_louisville"]:active g.tooltip{
+			opacity: 1;
+	}
+
+	[data-name = "chrysalis_ventures"]:active g.tooltip{
+			opacity: 1;
+	}
+
+}
