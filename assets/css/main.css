@@ -126,7 +126,6 @@ a:after {
 
 /* Navbar Modification */
 
-
 .right-nav {
 	float: right;
 	min-width: 250px
@@ -1457,7 +1456,7 @@ div.sub-row {
 	{	position: relative;
 		display: block;
 		margin: 0;
-		padding: 5px 10px;
+		padding: 5px 9px;
 		width: auto;
 		
 		color: #313131;
@@ -2379,6 +2378,109 @@ a.popup-close {
 	width:100px;
 	height:200px;
 }
+
+
+/*========== Navbar Adjustments ==========*/
+
+#sddm{
+	padding-top: 3px;
+}
+
+
+@media screen and (min-width: 1141px){
+	#nav_container{
+		margin: 0 10%;
+	}
+}
+
+@media screen and (max-width: 1174px) and (min-width: 1141px){
+	#nav_container{
+		margin: 0 8%;
+	}
+}
+
+
+@media screen and (max-width: 1140px) and (min-width: 1100px){
+	#nav_container{
+		margin: 0 8%;
+	}
+}
+
+@media screen and (max-width: 1099px) and (min-width: 1015px){
+	#nav_container{
+		margin: 0 5%;
+	}
+}
+
+@media screen and (max-width: 1014px){
+	#nav_container{
+		margin: 0 5%;
+	}
+}
+
+
+
+
+/* bootstrap collapse adjustment */
+
+@media (max-width: 1065px) {
+
+	#m1, #m2, #m3, #m4, #m5, #m6{
+		display: none;
+	}
+
+
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+   .navbar-nav .open .dropdown-menu {
+       position: static;
+       float: none;
+       width: auto;
+       margin-top: 0;
+       background-color: transparent;
+       border: 0;
+       -webkit-box-shadow: none;
+       box-shadow: none;
+    }
+}
+
+
+
+
+
+
 
 
 

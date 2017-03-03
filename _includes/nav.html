@@ -1,5 +1,5 @@
 <nav class="navbar navbar-default navbar-fixed-top navbar-static">
-    <div class="container">
+    <div id="nav_container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
@@ -32,7 +32,7 @@
                 
 
 
-                <li {% if page.path contains 'for-entrepreneuers' %} class="active" {% endif %} class="dropdown">  <!-- FOR ENTREPRENEURS -->
+                <li {% if page.path contains 'for-entrepreneurs' %} class="active" {% endif %} class="dropdown">  <!-- FOR ENTREPRENEURS -->
                     <a href="/for-entrepreneurs/" 
                     onmouseover="mopen('m2')" 
                     onmouseout="mclosetime()">For Entrepreneurs

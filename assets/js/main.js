@@ -187,7 +187,4 @@ $('.carousel .item').each(function(){
      
   }
 
- 
-
-
 });
