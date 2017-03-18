@@ -1529,6 +1529,15 @@ div#mc_embed_signup {
 	font-size: 17px;
 }
 
+/**
+ * Team alpha wall pictures for current team
+ **/
+
+#team-alpha-wall-picture{
+	width: 200px;
+	height: 200px;
+}
+
 
 /**
 *Members Styling

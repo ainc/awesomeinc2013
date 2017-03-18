@@ -342,7 +342,7 @@
 		"experience":""	
     },
 
-        {
+    {
         "name": "Xuetao Hong",
         "favoriteRule": "Rule # 17 Bring the fun!",
         "favoriteSong": "It Will Rain",
@@ -360,5 +360,267 @@
 		],
 		"memory":"",
 		"experience":""	
-    }
+    },
+
+    {
+        "name": "Keith McMunn",
+        "favoriteRule": "Rule # 17 Bring the fun!",
+        "favoriteSong": "Menswear - The 1975",
+        "favoriteAwesomePerson": "Jerry Seinfeld",
+        "randomFact": "I drive a Toyota Highlander...like a lot of other 45 year old women in Lexington.",
+        "team": "Fellowship",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
+    },
+
+    {
+        "name": "Amanda Murray",
+        "favoriteRule": "#76	no excuses, play like a champion",
+        "favoriteSong": "She's Always a Woman - Billy Joel",
+        "favoriteAwesomePerson": "Joy Mangano",
+        "randomFact": "I once made a birthday cake for Britney Spears.",
+        "team": "Marketing Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
+	}, 
+
+	{
+        "name": "Stephanie Burton",
+        "favoriteRule": "#22 go big or don't be my friend",
+        "favoriteSong": "Drumming Song- Florence & The Machine",
+        "favoriteAwesomePerson": "Walt Disney",
+        "randomFact": "I can slalom water ski",
+        "team": "Design Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
+	}, 
+
+	{
+        "name": "Garrett Ringler",
+        "favoriteRule": "#22 go big or don't be my friend",
+        "favoriteSong": "Bleed It Out by Linkin Park",
+        "favoriteAwesomePerson": "Brandon Beck",
+        "randomFact": "In the past I participated in Tae Kwon Do tournaments.",
+        "team": "Marketing Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
+	}, 
+
+	{
+        "name": "Zach Frey",
+        "favoriteRule": "#45	If you can't make it rain, stay out of the desert... And don't expect an invitation when I'm taking a trip across the sahara",
+        "favoriteSong": "Ima Just Do It",
+        "favoriteAwesomePerson": "Shawn Bolz",
+        "randomFact": "I can touch my tongue to my nose.",
+        "team": "Design Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
+	}, 
+
+	{
+        "name": "Clay Watson",
+        "favoriteRule": "#26	don't let stupid things keep you from doing awesome things",
+        "favoriteSong": "All These Things That I've Done",
+        "favoriteAwesomePerson": "Jon Stewart",
+        "randomFact": "Ever since I was little I've been able to harness the power to wiggle my ears.",
+        "team": "Awesome Inc U",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
+	}, 
+
+	{
+        "name": "Isaac Meisner",
+        "favoriteRule": "#26 don't let stupid things keep you from doing awesome things",
+        "favoriteSong": "Anything by The Beatles!",
+        "favoriteAwesomePerson": "Jimmy Fallon",
+        "randomFact": "I played soccer at Georgetown College",
+        "team": "Development Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
+	}, 
+
+	{
+        "name": "Da-un Chung",
+        "favoriteRule": "#26 don't let stupid things keep you from doing awesome things",
+        "favoriteSong": "Stop This Train - John Mayer",
+        "favoriteAwesomePerson": "Louis CK",
+        "randomFact": "I know how to play the violin.",
+        "team": "Development Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
+	}, 
+
+	{
+        "name": "Chase Smith",
+        "favoriteRule": "#76	no excuses, play like a champion",
+        "favoriteSong": "One Big Holiday - My Morning Jacket",
+        "favoriteAwesomePerson": "James Doty, M.D.",
+        "randomFact": "I'm a live music enthusiast. ",
+        "team": "Development Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
+	},
+
+	{
+        "name": "Marvin Anderson",
+        "favoriteRule": "#4	always do something awesome over something not awesome",
+        "favoriteSong": "The Incredible True Story - Logic",
+        "favoriteAwesomePerson": "Steve Jobs",
+        "randomFact": "I am an alumni of the Kentucky Governor's School for the Arts #heyGSA2012 #Trumpet",
+        "team": "Development Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
+	},
+
+	{
+        "name": "Parker Householder",
+        "favoriteRule": "#26	don't let stupid things keep you from doing awesome things",
+        "favoriteSong": "The Call -Backstreet Boys",
+        "favoriteAwesomePerson": "Mark Zuckerberg",
+        "randomFact": "I can solve an 11x11x11 rubik's cube.",
+        "team": "Development Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
+	},
+
+	{
+        "name": "Liz Moore",
+        "favoriteRule": "#36	Shoot for an S:S of 20:80 ratio or better in those you do close business with.  Tolerate nothing less than a 1:99 or better in yourself or intimate business partners/best friends.",
+        "favoriteSong": "Nakamarra - Hiatus Kaiyote",
+        "favoriteAwesomePerson": "Tim Keller",
+        "randomFact": "I love Asian culture, everything about it (food, TV, fashion, mannerisms, etc.) except their music... Chinese opera music is the most prominent mall feature and also the worst.",
+        "team": "Design Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
+	},
+
+	{
+        "name": "Alex Haas",
+        "favoriteRule": "#4	always do something awesome over something not awesome",
+        "favoriteSong": "Slide - Calvin Harris",
+        "favoriteAwesomePerson": "Lady Gaga",
+        "randomFact": "I've played tennis for 15 years",
+        "team": "Marketing Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
+	},
+
+
 ]
