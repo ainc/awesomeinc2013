@@ -402,25 +402,7 @@
 		"experience":""	
 	}, 
 
-	{
-        "name": "Stephanie Burton",
-        "favoriteRule": "#22 go big or don't be my friend",
-        "favoriteSong": "Drumming Song- Florence & The Machine",
-        "favoriteAwesomePerson": "Walt Disney",
-        "randomFact": "I can slalom water ski",
-        "team": "Design Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""	
-	}, 
+	
 
 	{
         "name": "Garrett Ringler",
@@ -562,25 +544,7 @@
 		"experience":""	
 	},
 
-	{
-        "name": "Parker Householder",
-        "favoriteRule": "#26	don't let stupid things keep you from doing awesome things",
-        "favoriteSong": "The Call -Backstreet Boys",
-        "favoriteAwesomePerson": "Mark Zuckerberg",
-        "randomFact": "I can solve an 11x11x11 rubik's cube.",
-        "team": "Development Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""	
-	},
+	
 
 	{
         "name": "Liz Moore",
@@ -602,25 +566,72 @@
 		"experience":""	
 	},
 
-	{
-        "name": "Alex Haas",
-        "favoriteRule": "#4	always do something awesome over something not awesome",
-        "favoriteSong": "Slide - Calvin Harris",
-        "favoriteAwesomePerson": "Lady Gaga",
-        "randomFact": "I've played tennis for 15 years",
-        "team": "Marketing Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""	
-	},
 
 
 ]
+
+//======================
+//Names without pictures
+//======================
+
+// {
+//         "name": "Stephanie Burton",
+//         "favoriteRule": "#22 go big or don't be my friend",
+//         "favoriteSong": "Drumming Song- Florence & The Machine",
+//         "favoriteAwesomePerson": "Walt Disney",
+//         "randomFact": "I can slalom water ski",
+//         "team": "Design Team",
+// 		"wallPhoto":true,
+// 		"location": "",
+// 		"work":[
+// 			{
+// 				"position":"",
+// 				"company":"",
+// 				"logo":"",
+// 			}
+// 		],
+// 		"memory":"",
+// 		"experience":""	
+// 	}, 
+
+
+// 	{
+ //        "name": "Parker Householder",
+ //        "favoriteRule": "#26	don't let stupid things keep you from doing awesome things",
+ //        "favoriteSong": "The Call -Backstreet Boys",
+ //        "favoriteAwesomePerson": "Mark Zuckerberg",
+ //        "randomFact": "I can solve an 11x11x11 rubik's cube.",
+ //        "team": "Development Team",
+	// 	"wallPhoto":true,
+	// 	"location": "",
+	// 	"work":[
+	// 		{
+	// 			"position":"",
+	// 			"company":"",
+	// 			"logo":"",
+	// 		}
+	// 	],
+	// 	"memory":"",
+	// 	"experience":""	
+	// },
+
+
+// {
+//         "name": "Alex Haas",
+//         "favoriteRule": "#4	always do something awesome over something not awesome",
+//         "favoriteSong": "Slide - Calvin Harris",
+//         "favoriteAwesomePerson": "Lady Gaga",
+//         "randomFact": "I've played tennis for 15 years",
+//         "team": "Marketing Team",
+// 		"wallPhoto":true,
+// 		"location": "",
+// 		"work":[
+// 			{
+// 				"position":"",
+// 				"company":"",
+// 				"logo":"",
+// 			}
+// 		],
+// 		"memory":"",
+// 		"experience":""	
+// 	},
