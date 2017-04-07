@@ -30,7 +30,7 @@
         "favoriteSong": "Farther Along - Josh Garrels",
         "favoriteAwesomePerson": "C.S. Lewis",
         "randomFact": "I have a twin sister that was born exactly 2 years and 4 days before me.",
-        "team": "Director",
+        "team": "Director of Operations",
 		"wallPhoto":true,
 		"location": "",
 		"work":[
@@ -139,7 +139,7 @@
         "favoriteSong": "She's Always a Woman - Billy Joel",
         "favoriteAwesomePerson": "Joy Mangano",
         "randomFact": "I once made a birthday cake for Britney Spears.",
-        "team": "Marketing Team",
+        "team": "Director of Marketing",
 		"wallPhoto":true,
 		"location": "",
 		"work":[
@@ -316,6 +316,26 @@
 		"memory":"",
 		"experience":""	
 	},
+
+	{
+        "name": "Blake Sweet",
+        "favoriteRule": "#26	don't let stupid things keep you from doing awesome things",
+        "favoriteSong": "Seein Red - Dustin Lynch",
+        "favoriteAwesomePerson": "Super Man",
+        "randomFact": "I played baseball in highschool",
+        "team": "Development Team",
+		"wallPhoto":true,
+		"location": "",
+		"work":[
+			{
+				"position":"",
+				"company":"",
+				"logo":"",
+			}
+		],
+		"memory":"",
+		"experience":""	
+    },
 
 
 
