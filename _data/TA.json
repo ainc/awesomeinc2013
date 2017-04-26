@@ -336,6 +336,88 @@
 		"memory":"",
 		"experience":""	
     },
+	
+    {
+         "name": "Stephanie Burton",
+         "favoriteRule": "#22 go big or don't be my friend",
+         "favoriteSong": "Drumming Song- Florence & The Machine",
+         "favoriteAwesomePerson": "Walt Disney",
+         "randomFact": "I can slalom water ski",
+         "team": "Design Team",
+		"wallPhoto":true,
+ 		"location": "",
+		"work":[
+ 			{
+ 				"position":"",
+ 				"company":"",
+				"logo":"",
+			}
+ 		],
+		"memory":"",
+ 		"experience":""	
+ 	},
+
+ 	{
+         "name": "Alex Haas",
+         "favoriteRule": "#4	always do something awesome over something not awesome",
+         "favoriteSong": "Slide - Calvin Harris",
+         "favoriteAwesomePerson": "Lady Gaga",
+         "randomFact": "I've played tennis for 15 years",
+         "team": "Marketing Team",
+ 		"wallPhoto":true,
+ 		"location": "",
+ 		"work":[
+ 			{
+ 				"position":"",
+ 				"company":"",
+ 				"logo":"",
+ 			}
+		],
+ 		"memory":"",
+ 		"experience":""	
+ 	},
+
+ 	 {
+         "time": "2013-01-03T18:44:22.000Z",
+         "name": "Jake Tapia",
+         "favoriteRule": "Rule #22: Go big or don't be my friend.",
+         "favoriteSong": "Across the Universe - The Beatles",
+         "favoriteAwesomePerson": "Kanye West",
+         "randomFact": "I play the guitar",
+         "team": "Marketing Team",
+ 		"wallPhoto":true,
+ 		"location": "",
+ 		"work":[
+ 			{
+ 				"position":"",
+ 				"company":"",
+ 				"logo":"",
+ 			}
+ 		],
+ 		"memory":"",
+ 		"experience":""	
+     },
+
+     {
+         "time": "2013-01-03T18:44:22.000Z",
+         "name": "Kaitlyn Carr",
+         "favoriteRule": "",
+         "favoriteSong": "",
+         "favoriteAwesomePerson": "",
+         "randomFact": "",
+         "team": "Marketing Team",
+ 		"wallPhoto":true,
+ 		"location": "",
+ 		"work":[
+ 			{
+ 				"position":"",
+ 				"company":"",
+ 				"logo":"",
+ 			}
+ 		],
+ 		"memory":"",
+ 		"experience":""	
+     },	
 
 
 
