@@ -148,7 +148,7 @@ iframe {
 }
 
 
-/******************************* 
+/*******************************
  * Header with image
  *******************************/
 
@@ -186,7 +186,7 @@ iframe {
 
 }
 
-/******************************* 
+/*******************************
  * Red button
  * Rounded edges
  * White font
@@ -212,12 +212,12 @@ iframe {
 /******************************
  * Statement for beginning of page
  * Example on about page
- * gray bg 
+ * gray bg
  ******************************/
 .statement {
 	background-color: $color_light_gray;
 	text-align: center;
-	p { 
+	p {
 		font-family: 'open sans';
 		font-style: normal;
 		font-weight: 600;
@@ -237,7 +237,7 @@ iframe {
 		font-size: 23px;
 	}
 	@include mobile {
-		p { 
+		p {
 			font-size: 15px;
 			line-height: 16px;
 			margin: 10px 10px 10px 10px;
@@ -315,7 +315,7 @@ section.grey-bg {
 	img {
 		width:70%;
 		height:auto;
-		margin-left: 15%; 
+		margin-left: 15%;
 	}
 }
 
@@ -333,7 +333,7 @@ h5 {
  *****************************/
 .navbar {
 	background-color: #f8f8f8;
-	border-color: #e7e7e7; 
+	border-color: #e7e7e7;
 	span {
 		background-color: $color_gray;
 	}
@@ -506,6 +506,34 @@ h5 {
 					About
 ================================================ */
 .About {
+		.description {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	  background-color: #F8F8F8;
+		font-size: 8;
+		border: 1px solid lightgray;
+		border-radius: 2px;
+	  color: #B81124;
+	  visibility: hidden;
+	  opacity: 0;
+		overflow-y: scroll;
+	}
+	.CV {
+		font-size: 9pt;
+		text-align: left;
+	}
+	.imgWrap {
+  	position: relative;
+		&:hover {
+			.description {
+				visibility: visible;
+  			opacity: 1;
+			}
+		}
+	}
 	.subheader {
 		background-image: url("/assets/img/headers/about_us.png");
 	}
@@ -669,7 +697,7 @@ h5 {
 		font-weight: 400;
 		font-size: 22px;
 		line-height: 36px;
-		color: rgb(38, 38, 38);	
+		color: rgb(38, 38, 38);
 	}
 
 	#who p, #why p, #what p, #join p {
@@ -760,7 +788,7 @@ h5 {
 	}
 }
 
-#members { 
+#members {
 	background-color: #e2e2e2;
 	padding-bottom: 25px;
 }
@@ -830,7 +858,7 @@ h5 {
 				margin-top: 0;
 				line-height: 12px;
 			}
-		}	
+		}
 		img {
 			height: 60px;
 			width: 60px;
@@ -861,9 +889,9 @@ h5 {
 
 .TeamAlphaServices {
 	img {
-		
+
 	}
-	
+
 	.build {
 		i {
 			font-size: 8em;
@@ -938,7 +966,7 @@ h5 {
 	@include desktop {
 		margin: auto;
 		width: 80%;
-	}	
+	}
 
 	@include tablet {
 		margin: auto;
@@ -1054,7 +1082,7 @@ h5 {
 
 
 footer {
-	@media (min-width: 700px) 
+	@media (min-width: 700px)
 	{
 		background: url("../img/map.png") repeat;
 		padding-top: 20px;
@@ -1091,7 +1119,7 @@ footer {
 			text-decoration: none;
 			outline: 0;
 		}
-	}	
+	}
 }
 
 #sponsors {
@@ -1126,8 +1154,3 @@ footer {
 		}
 	}
 }
-
-
-
-
-
