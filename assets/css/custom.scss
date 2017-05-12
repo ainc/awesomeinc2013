@@ -532,7 +532,27 @@ h5 {
 			.description {
 				visibility: visible;
   			opacity: 1;
+				animation-name: fadeIn;
+				animation-timing-function: ease-in;
+				animation-duration: .8s;
+				animation-fill-mode: forwards;
 			}
+		}
+	}
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100%{
+			opacity: 1;
+		}
+	}
+	@keyframes fadeOut {
+		0% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 0;
 		}
 	}
 	.subheader {
