@@ -506,7 +506,7 @@ h5 {
 					About
 ================================================ */
 .About {
-		.description {
+	.description {
 		position: absolute;
 		top: 0;
 		bottom: 0;
@@ -515,16 +515,27 @@ h5 {
 	  background-color: white;
 		font-size: 8;
 		/*border: 1px solid lightgray;*/
-		border-bottom: 3px solid #B81124;
-		border-radius: 2px;
 	  color: #B81124;
 	  visibility: hidden;
 	  opacity: 0;
+		&:after {
+			display: grid;
+			content: '';
+			border-bottom: 3px solid #B81124;
+			transform: scaleX(0);
+			transition: transform 500ms ease-in-out;
+		}
+		&:hover {
+			&:after {
+				transform: scaleX(1);
+			}
+		}
 	}
 	.CV {
 		font-size: 15pt;
 		text-align: center;
 		font-family: "Open Sans";
+		padding-bottom: 130px;
 	}
 	.imgWrap {
   	position: relative;
