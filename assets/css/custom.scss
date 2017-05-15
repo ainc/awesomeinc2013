@@ -522,6 +522,9 @@ h5 {
 			display: grid;
 			content: '';
 			border-bottom: 3px solid #B81124;
+			@include mobile {
+				border-bottom: none;
+			}
 			transform: scaleX(0);
 			transition: transform 500ms ease-in-out;
 		}
