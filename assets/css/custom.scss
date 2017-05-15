@@ -512,18 +512,18 @@ h5 {
 		bottom: 0;
 		left: 0;
 		right: 0;
-	  background-color: #F8F8F8;
+	  background-color: white;
 		font-size: 8;
-		border: 1px solid lightgray;
+		/*border: 1px solid lightgray;*/
+		border-bottom: 3px solid #B81124;
 		border-radius: 2px;
 	  color: #B81124;
 	  visibility: hidden;
 	  opacity: 0;
-		overflow-y: scroll;
 	}
 	.CV {
-		font-size: 9pt;
-		text-align: left;
+		font-size: 15pt;
+		text-align: center;
 		font-family: "Open Sans";
 	}
 	.imgWrap {
@@ -534,7 +534,7 @@ h5 {
   			opacity: 1;
 				animation-name: fadeIn;
 				animation-timing-function: ease-in;
-				animation-duration: .8s;
+				animation-duration: .4s;
 				animation-fill-mode: forwards;
 			}
 		}
