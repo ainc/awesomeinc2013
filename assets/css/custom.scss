@@ -524,6 +524,9 @@ h5 {
 			@include mobile {
 				border-bottom: none;
 			}
+			@include tablet {
+				border-bottom: none;
+			}
 			transform: scaleX(0);
 			transition: transform 500ms ease-in-out;
 		}
@@ -538,12 +541,13 @@ h5 {
 		font-weight: bold;
 		text-align: center;
 		font-family: "Open Sans";
-		padding-bottom: 55px;
-		padding-top: 75px;
 		@include mobile {
-			padding-top: 30px;
 			font-size: 10pt;
 		}
+		@include tablet {
+			font-size: 12pt;
+		}
+		height: 100%;
 	}
 	.imgWrap {
   	position: relative;
