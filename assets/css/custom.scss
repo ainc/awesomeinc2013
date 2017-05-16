@@ -557,8 +557,13 @@ h5 {
   			opacity: 1;
 				animation-name: fadeIn;
 				animation-timing-function: ease-in;
-				animation-duration: .4s;
+				animation-duration: .3s;
 				animation-fill-mode: forwards;
+			}
+			.CV {
+				animation-name: fadeIn;
+				animation-timing-function: ease-in;
+				animation-duration: 1s;
 			}
 		}
 	}
