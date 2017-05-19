@@ -513,7 +513,6 @@ h5 {
 		left: 0;
 		right: 0;
 	  background-color: white;
-		/*border: 1px solid lightgray;*/
 	  color: #B81124;
 	  visibility: hidden;
 	  opacity: 0;
@@ -546,6 +545,9 @@ h5 {
 		}
 		@include tablet {
 			font-size: 12pt;
+		}
+		@media (max-width: 568px){  
+			font-size: 6pt;
 		}
 		height: 100%;
 	}
