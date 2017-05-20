@@ -1,0 +1,30 @@
+.Team .subheader {
+	background-image: url("/assets/img/headers/team_subheader.png");
+	opacity: 0.8;
+}
+
+.subheader h1.header-overlay {
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-top: 120px;
+}
+
+.header-overlay {
+	background-color: rgba(48, 48, 48, 0.6);
+	padding: 5px;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+.team_member {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.team_member:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+

@@ -1,0 +1,60 @@
+---
+layout: page
+permalink: team/
+title: Team
+
+team: 
+    - name: Brian Raney 
+      job: Founder
+      img: /assets/img/default-avatar.jpg
+    - name: Emily Wehrle
+      job: Director of Operations
+      img: /assets/img/default-avatar.jpg
+    - name: Amanda Murray
+      job: Director of Marketing
+      img: /assets/img/default-avatar.jpg
+    - name: Keith McMunn
+      job: Director of The Fellowship
+      img: /assets/img/default-avatar.jpg
+    - name: Nick Such
+      job: Director of Awesome Inc U
+      img: /assets/img/default-avatar.jpg
+    - name: Zach Frey
+      job: Graphic Designer
+      img: /assets/img/default-avatar.jpg
+    - name: Kyle Raney
+      job: Developer
+      img: /assets/img/default-avatar.jpg
+    - name: Keith Kurzendoerfer
+      job: APAX Software VP
+      img: /assets/img/default-avatar.jpg
+---
+<head>
+<link rel=StyleSheet href="../assets/css/team.css" type="text/css">
+</head>
+<body>
+	 <div class="Team">  
+		<div class="subheader"> 
+			<div class="container custom-container">
+				<h1 class="img-overlay header-overlay">Our Team</h1>
+				<h2 class="subtext header-overlay">Who we are and what we do</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class= "container" style= "margin-top: 32px;">
+		<div class = "row">
+			{% for member in page.team %}
+				<div class="col-md-3">
+					<div class="panel panel-default team_member">
+						<div class="panel-body">
+							<img src="{{ member.img }}" class="center-block img-responsive">
+							<h1>{{ member.name }}</h1>
+							<span class="text-muted">{{ member.job }}</span>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</body>
