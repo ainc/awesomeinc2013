@@ -542,12 +542,18 @@ h5 {
 		font-family: "Open Sans";
 		@include mobile {
 			font-size: 10pt;
+			padding-top: 40px;
 		}
 		@include tablet {
 			font-size: 12pt;
+			padding-top: 30px;
 		}
-		@media (max-width: 568px){  
+		@media (max-width: 568px){
 			font-size: 6pt;
+			padding-top: 25px;
+		}
+		@media (min-width: 1024px){
+			padding-top: 50px;
 		}
 		height: 100%;
 	}
