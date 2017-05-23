@@ -6,55 +6,91 @@ title: Team
 team: 
     - name: Brian Raney 
       job: Founder
-      img: /assets/img/default-avatar.jpg
+      imgSerious: /assets/img/staff/brian.jpg
+      imgGoofy: /assets/img/staff/brian_2.jpg
     - name: Emily Wehrle
       job: Director of Operations
-      img: /assets/img/default-avatar.jpg
+      imgSerious: /assets/img/staff/emily.jpg
+      imgGoofy: /assets/img/staff/emily_4.jpg
     - name: Amanda Murray
       job: Director of Marketing
-      img: /assets/img/default-avatar.jpg
+      imgSerious: /assets/img/staff/amanda.jpg
+      imgGoofy: /assets/img/staff/amanda.jpg
     - name: Keith McMunn
       job: Director of The Fellowship
-      img: /assets/img/default-avatar.jpg
+      imgSerious: /assets/img/staff/keith_m.jpg
+      imgGoofy: /assets/img/staff/keith_m_3.jpg
     - name: Nick Such
       job: Director of Awesome Inc U
-      img: /assets/img/default-avatar.jpg
+      imgSerious: /assets/img/staff/nick.jpg
+      imgGoofy: /assets/img/staff/nick_2.jpg
     - name: Zach Frey
       job: Graphic Designer
-      img: /assets/img/default-avatar.jpg
+      imgSerious: /assets/img/staff/zach_2.jpg
+      imgGoofy: /assets/img/staff/zach2.jpg
     - name: Kyle Raney
       job: Developer
-      img: /assets/img/default-avatar.jpg
+      imgSerious: /assets/img/staff/kyle.jpg
+      imgGoofy: /assets/img/staff/kyle_2.jpg
     - name: Keith Kurzendoerfer
       job: APAX Software VP
-      img: /assets/img/default-avatar.jpg
----
-<head>
-<link rel=StyleSheet href="../assets/css/team.css" type="text/css">
-</head>
-<body>
-	 <div class="Team">  
-		<div class="subheader"> 
-			<div class="container custom-container">
-				<h1 class="img-overlay header-overlay">Our Team</h1>
-				<h2 class="subtext header-overlay">Who we are and what we do</h2>
-			</div>
-		</div>
-	</div>
+      imgSerious: /assets/img/default-avatar.jpg
+      imgGoofy: /assets/img/default-avatar.jpg
+--- 
 
-	<div class= "container" style= "margin-top: 32px;">
-		<div class = "row">
-			{% for member in page.team %}
-				<div class="col-md-3">
-					<div class="panel panel-default team_member">
-						<div class="panel-body">
-							<img src="{{ member.img }}" class="center-block img-responsive">
-							<h1>{{ member.name }}</h1>
-							<span class="text-muted">{{ member.job }}</span>
-						</div>
-					</div>
-				</div>
-			{% endfor %}
-		</div>
-	</div>
+<link rel=StyleSheet href="../assets/css/team.css" type="text/css">
+<style>
+{% for member in page.team %}
+        #{{member.name |  replace: ' ', '' }} .staff-picture {
+            background-image: url({{member.imgSerious}});
+            background-size: 100% 100%; 
+        }
+        #{{member.name | replace: ' ', '' }}:hover .staff-picture {
+            background-image: url({{member.imgGoofy}});
+            background-size: 100% 100%;
+        }
+    {% endfor %}
+</style>
+
+<body>
+     <div class="Team">  
+        <div class="subheader"> 
+            <div class="container custom-container">
+                <h1 class="img-overlay header-overlay">Our Team</h1>
+                <h2 class="subtext header-overlay">Who we are and what we do</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class= "container" style= "margin-top: 32px;">
+        <div class = "row">
+            {% for member in page.team %}
+                <div class="col-md-3" id="{{member.name | replace: ' ', '' }}">
+                    <div class="panel panel-default team_member">
+                        <div class="panel-body">
+                            <div class="staff-picture col-xs-12"></div>
+                            <h1>{{ member.name }}</h1>
+                            <span class="text-muted">{{ member.job }}</span>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    
+  <script>
+        var aspectRatio = 1.43820224719;
+        var staff = document.querySelectorAll(".staff-picture");
+        
+        function resizeImages() {
+            staff.forEach(function (staffmember, index, arg) {
+                staffmember.style.height = (staffmember.clientWidth/aspectRatio) + 'px';
+            });
+        }
+        
+        document.addEventListener("DOMContentLoaded", function(event) {
+            window.addEventListener("resize", resizeImages);
+            resizeImages();
+        });
+    </script>
 </body>
