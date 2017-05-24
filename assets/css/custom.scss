@@ -506,6 +506,11 @@ h5 {
 					About
 ================================================ */
 .About {
+	@media (max-width: 568px){
+		p.description {
+			margin-bottom: 0px;
+		}
+	}
 	.description {
 		position: absolute;
 		top: 0;
