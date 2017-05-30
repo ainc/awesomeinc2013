@@ -709,6 +709,10 @@ h5 {
 	#i2 a, .ta-apply a {
 		font-size: 28px;
 	}
+
+	section.full-width h2 {
+		margin-top: 25px;
+	}
 }
 @media (max-width: 700px) {
 
@@ -721,6 +725,10 @@ h5 {
 	}
 	#i2 a, .ta-apply a {
 		font-size: 23px;
+	}
+
+	section.full-width p, section.full-width ul {
+		margin-top: -20px;
 	}
 }
 
