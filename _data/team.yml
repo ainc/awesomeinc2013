@@ -1,0 +1,33 @@
+ team:   
+    - name: Brian Raney 
+      job:  Founder
+      imgSerious: /assets/img/staff/brian.jpg    
+      imgGoofy: /assets/img/staff/brian_2.jpg        
+    - name: Emily Wehrle
+      job: Director of Operations
+      imgSerious: /assets/img/staff/emily.jpg    
+      imgGoofy: /assets/img/staff/emily_4.jpg        
+    - name: Amanda Murray
+      job: Director of Marketing    
+      imgSerious: /assets/img/staff/amanda.jpg   
+      imgGoofy: /assets/img/staff/amanda.jpg    
+    - name: Keith McMunn
+      job: Director of The Fellowship
+      imgSerious: /assets/img/staff/keith_m.jpg
+      imgGoofy: /assets/img/staff/keith_m_3.jpg
+    - name: Nick Such
+      job: Director of Awesome Inc U
+      imgSerious: /assets/img/staff/nick.jpg
+      imgGoofy: /assets/img/staff/nick_2.jpg
+    - name: Zach Frey
+      job: Graphic Designer
+      imgSerious: /assets/img/staff/zach2.jpg
+      imgGoofy: /assets/img/staff/zach_2.jpg
+    - name: Kyle Raney
+      job: Developer
+      imgSerious: /assets/img/staff/kyle.jpg
+      imgGoofy: /assets/img/staff/kyle_2.jpg
+    - name: Keith Kurzendoerfer
+      job: APAX Software VP
+      imgSerious: /assets/img/default-avatar.jpg
+      imgGoofy: /assets/img/default-avatar.jpg
