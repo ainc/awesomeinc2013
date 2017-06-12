@@ -506,6 +506,11 @@ h5 {
 					About
 ================================================ */
 .About {
+	@media (max-width: 568px){
+		p.description {
+			margin-bottom: 0px;
+		}
+	}
 	.description {
 		position: absolute;
 		top: 0;
@@ -513,7 +518,6 @@ h5 {
 		left: 0;
 		right: 0;
 	  background-color: white;
-		/*border: 1px solid lightgray;*/
 	  color: #B81124;
 	  visibility: hidden;
 	  opacity: 0;
@@ -543,9 +547,18 @@ h5 {
 		font-family: "Open Sans";
 		@include mobile {
 			font-size: 10pt;
+			padding-top: 40px;
 		}
 		@include tablet {
 			font-size: 12pt;
+			padding-top: 30px;
+		}
+		@media (max-width: 568px){
+			font-size: 6pt;
+			padding-top: 25px;
+		}
+		@media (min-width: 1024px){
+			padding-top: 50px;
 		}
 		height: 100%;
 	}
@@ -650,6 +663,13 @@ h5 {
 		width: 80%;
 		margin-left: 10%;
 	}
+
+	@media (max-width: 991px){
+		img {
+			width: 100%;
+			margin-left: 0;
+		}
+	}
 }
 
 @media (max-width: 1800px) {
@@ -696,6 +716,10 @@ h5 {
 	#i2 a, .ta-apply a {
 		font-size: 28px;
 	}
+
+	section.full-width h2 {
+		margin-top: 25px;
+	}
 }
 @media (max-width: 700px) {
 
@@ -708,6 +732,10 @@ h5 {
 	}
 	#i2 a, .ta-apply a {
 		font-size: 23px;
+	}
+
+	section.full-width p, section.full-width ul {
+		margin-top: -20px;
 	}
 }
 
@@ -1048,9 +1076,16 @@ h5 {
 					Press
 ================================================ */
 .Press {
+	h2 {
+		margin-bottom: 2px;
+	}
+	ul {
+		margin-top: 38px;
+	}
 	li {
 		font-size: 20px;
 	}
+	
 }
 
 /* =============================================
