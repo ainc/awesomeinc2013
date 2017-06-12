@@ -419,9 +419,147 @@
  		"experience":""	
      },	
 
+     {
+         "time": "2013-01-03T18:44:22.000Z",
+         "name": "Julia Wilson",
+         "favoriteRule": "#45 If you can't make it rain, stay out of the desert... And don't expect an invitation when I'm taking a trip across the sahara",
+         "favoriteSong": "Pride and Joy - Brandi Carlile",
+         "favoriteAwesomePerson": "Michelle Obama",
+         "randomFact": "I play the ukulele!",
+         "team": "Video Team",
+ 		"wallPhoto":true,
+ 		"location": "",
+ 		"work":[
+ 			{
+ 				"position":"",
+ 				"company":"",
+ 				"logo":"",
+ 			}
+ 		],
+ 		"memory":"",
+ 		"experience":""	
+     },	
+
+
+     {
+         "time": "2013-01-03T18:44:22.000Z",
+         "name": "Parker Householder",
+         "favoriteRule": "#26	don't let stupid things keep you from doing awesome things",
+         "favoriteSong": "The Call -Backstreet Boys",
+         "favoriteAwesomePerson": "Mark Zuckerberg",
+         "randomFact": "I can solve an 11x11x11 rubik's cube. ",
+         "team": "Development Team",
+ 		"wallPhoto":true,
+ 		"location": "",
+ 		"work":[
+ 			{
+ 				"position":"",
+ 				"company":"",
+ 				"logo":"",
+ 			}
+ 		],
+ 		"memory":"",
+ 		"experience":""	
+     },
+
+
+     {
+         "time": "2013-01-03T18:44:22.000Z",
+         "name": "Kevin Moore",
+         "favoriteRule": "#17 bring the fun!",
+         "favoriteSong": "i2i - Powerline",
+         "favoriteAwesomePerson": "Kanye West",
+         "randomFact": "I've been to the Dome of the Rock",
+         "team": "Design Team",
+ 		"wallPhoto":true,
+ 		"location": "",
+ 		"work":[
+ 			{
+ 				"position":"",
+ 				"company":"",
+ 				"logo":"",
+ 			}
+ 		],
+ 		"memory":"",
+ 		"experience":""	
+     },
+
+
+     {
+         "time": "2013-01-03T18:44:22.000Z",
+         "name": "Ethan Wooldridge",
+         "favoriteRule": "#4	always do something awesome over something not awesome",
+         "favoriteSong": "The Cure- Disintegration",
+         "favoriteAwesomePerson": "Henry Rollins",
+         "randomFact": "Even though I don't believe in the afterlife, I'm overly invested in anything weird, spooky, or supernatural.",
+         "team": "Design Team",
+ 		"wallPhoto":true,
+ 		"location": "",
+ 		"work":[
+ 			{
+ 				"position":"",
+ 				"company":"",
+ 				"logo":"",
+ 			}
+ 		],
+ 		"memory":"",
+ 		"experience":""	
+     },
+
+
+
+
+{
+         "time": "2013-01-03T18:44:22.000Z",
+         "name": "Tyler Smith",
+         "favoriteRule": "#76	no excuses, play like a champion",
+         "favoriteSong": "Blue Boy - Mac Demarco",
+         "favoriteAwesomePerson": "Elon Musk",
+         "randomFact": "I lived in Bowling Green, KY for two years.",
+         "team": "Development Team",
+ 		"wallPhoto":true,
+ 		"location": "",
+ 		"work":[
+ 			{
+ 				"position":"",
+ 				"company":"",
+ 				"logo":"",
+ 			}
+ 		],
+ 		"memory":"",
+ 		"experience":""	
+     },
+
+
+
 
 
 ]
+
+
+
+// TEMPLATE
+
+// {
+//          "time": "2013-01-03T18:44:22.000Z",
+//          "name": "",
+//          "favoriteRule": "",
+//          "favoriteSong": "",
+//          "favoriteAwesomePerson": "",
+//          "randomFact": "",
+//          "team": "Events",
+//  		"wallPhoto":true,
+//  		"location": "",
+//  		"work":[
+//  			{
+//  				"position":"",
+//  				"company":"",
+//  				"logo":"",
+//  			}
+//  		],
+//  		"memory":"",
+//  		"experience":""	
+//      },
 
 //======================
 //Names without pictures
