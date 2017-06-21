@@ -13,8 +13,8 @@
       imgGoofy: /assets/img/default-avatar.jpg
     - name: Katy Brown
       job: Director of Tech Association
-      imgSerious: /assets/img/default-avatar.jpg
-      imgGoofy: /assets/img/default-avatar.jpg
+      imgSerious: /assets/img/katy.jpg
+      imgGoofy: /assets/img/katy_2.jpg
     - name: Emily Wehrle
       job: Director of Operations
       imgSerious: /assets/img/staff/emily.jpg    
