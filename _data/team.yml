@@ -2,7 +2,19 @@
     - name: Brian Raney 
       job:  Founder
       imgSerious: /assets/img/staff/brian.jpg    
-      imgGoofy: /assets/img/staff/brian_2.jpg        
+      imgGoofy: /assets/img/staff/brian_2.jpg
+    - name: Luke Murray
+      job: Co-Founder
+      imgSerious: /assets/img/default-avatar.jpg
+      imgGoofy: /assets/img/default-avatar.jpg
+    - name: Nathan Fort
+      job: Co-Founder
+      imgSerious: /assets/img/default-avatar.jpg
+      imgGoofy: /assets/img/default-avatar.jpg
+    - name: Katy Brown
+      job: Director of Tech Association
+      imgSerious: /assets/img/default-avatar.jpg
+      imgGoofy: /assets/img/default-avatar.jpg
     - name: Emily Wehrle
       job: Director of Operations
       imgSerious: /assets/img/staff/emily.jpg    
