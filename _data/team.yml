@@ -5,16 +5,16 @@
       imgGoofy: /assets/img/staff/brian_2.jpg
     - name: Luke Murray
       job: Co-Founder
-      imgSerious: /assets/img/default-avatar.jpg
-      imgGoofy: /assets/img/default-avatar.jpg
+      imgSerious: /assets/img/staff/luke.jpg
+      imgGoofy: /assets/img/staff/luke.jpg
     - name: Nathan Fort
       job: Co-Founder
       imgSerious: /assets/img/default-avatar.jpg
       imgGoofy: /assets/img/default-avatar.jpg
     - name: Katy Brown
       job: Director of Tech Association
-      imgSerious: /assets/img/katy.jpg
-      imgGoofy: /assets/img/katy_2.jpg
+      imgSerious: /assets/img/staff/katy.jpg
+      imgGoofy: /assets/img/staff/katy_2.jpg
     - name: Emily Wehrle
       job: Director of Operations
       imgSerious: /assets/img/staff/emily.jpg    
