@@ -153,27 +153,6 @@
 		"experience":""	
 	}, 
 
-	
-
-	{
-        "name": "Garrett Ringler",
-        "favoriteRule": "#22 go big or don't be my friend",
-        "favoriteSong": "Bleed It Out by Linkin Park",
-        "favoriteAwesomePerson": "Brandon Beck",
-        "randomFact": "In the past I participated in Tae Kwon Do tournaments.",
-        "team": "Marketing Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""	
-	}, 
 
 	{
         "name": "Zach Frey",
@@ -195,25 +174,6 @@
 		"experience":""	
 	}, 
 
-	{
-        "name": "Clay Watson",
-        "favoriteRule": "#26	don't let stupid things keep you from doing awesome things",
-        "favoriteSong": "All These Things That I've Done",
-        "favoriteAwesomePerson": "Jon Stewart",
-        "randomFact": "Ever since I was little I've been able to harness the power to wiggle my ears.",
-        "team": "Awesome Inc U",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""	
-	}, 
 
 	{
         "name": "Isaac Meisner",
