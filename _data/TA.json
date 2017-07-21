@@ -467,9 +467,7 @@
      },
 
 
-
-
-{
+	 {
          "time": "2013-01-03T18:44:22.000Z",
          "name": "Tyler Smith",
          "favoriteRule": "#76	no excuses, play like a champion",
@@ -489,11 +487,52 @@
  		"memory":"",
  		"experience":""	
      },
-
-
-
-
-
+	  
+	  
+	  {
+          "time": "2013-01-03T18:44:22.000Z",
+          "name": "Michael Riemland",
+          "favoriteRule": "#22 go big or don't be my friend",
+          "favoriteSong": "Baba O'Riley",
+          "favoriteAwesomePerson": "Bill Gates",
+          "randomFact": "At age 12 I went on a summer fishing trip in Manitoba, Canada and caught a record Northern Pike.",
+          "team": "Marketing Team",
+  		"wallPhoto":true,
+  		"location": "",
+  		"work":[
+  			{
+  				"position":"",
+  				"company":"",
+  				"logo":"",
+  			}
+  		],
+  		"memory":"",
+  		"experience":""	
+      },
+	  
+	  
+	  {
+          "time": "2013-01-03T18:44:22.000Z",
+          "name": "Chris Saad",
+          "favoriteRule": "#22 go big or don't be my friend",
+          "favoriteSong": "i",
+          "favoriteAwesomePerson": "Lionel Messi",
+          "randomFact": "I grew up in Dubai",
+          "team": "Development Team",
+  		"wallPhoto":true,
+  		"location": "",
+  		"work":[
+  			{
+  				"position":"",
+  				"company":"",
+  				"logo":"",
+  			}
+  		],
+  		"memory":"",
+  		"experience":""	
+      },
+	  
+	  
 ]
 
 
@@ -524,6 +563,7 @@
 //======================
 //Names without pictures
 //======================
+
 
 // {
 //         "name": "Stephanie Burton",
