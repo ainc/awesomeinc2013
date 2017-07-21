@@ -527,28 +527,6 @@
  		"memory":"",
  		"experience":""	
      },
-
-
-	 {
-          "time": "2013-01-03T18:44:22.000Z",
-          "name": "Vidyaarthi Pugalenthi",
-          "favoriteRule": "#22 go big or don't be my friend",
-          "favoriteSong": "That's What I Like - Bruno Mars",
-          "favoriteAwesomePerson": "The Obama Family",
-          "randomFact": "I write a lot of poetry",
-          "team": "Marketing Team",
-  		"wallPhoto":true,
-  		"location": "",
-  		"work":[
-  			{
-  				"position":"",
-  				"company":"",
-  				"logo":"",
-  			}
-  		],
-  		"memory":"",
-  		"experience":""	
-      },
 	  
 	  
 	  {
@@ -595,9 +573,6 @@
       },
 	  
 	  
-
-
-
 ]
 
 
@@ -628,6 +603,7 @@
 //======================
 //Names without pictures
 //======================
+
 
 // {
 //         "name": "Stephanie Burton",
