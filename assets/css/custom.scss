@@ -958,6 +958,34 @@ h5 {
 			margin-bottom: 40px;
 		}
 	}
+	.media {
+		@include mobile {
+			img {
+				margin: 0 auto;
+			}
+		}
+	}
+	.media-body {
+		@include mobile {
+			padding: 10px;
+			font-size: 10px;
+		}
+	}
+	.amenity {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		p {
+			font-size: 14px;
+		}
+		@include mobile {
+			flex-direction: column;
+			p {
+				font-size: 10px;
+			}
+		}
+	}
+
 }
 
 /* =============================================
