@@ -2,7 +2,7 @@
  * Author: Carlos Alvarez
  * URL: http://alvarez.is
  *
- * Project Name: 
+ * Project Name:
  * Version: 1.0
  * URL: http://alvarez.is
  */
@@ -120,6 +120,13 @@ a:after {
 	color: white;
 }
 
+.modal-header {
+	background: blah;
+	h4 {
+		color: white
+	}
+}
+
 .modal-footer {
 	background: #2b2b2b;
 }
@@ -181,7 +188,7 @@ input[type="submit"] {
 	background-position: center center;
 	min-height: 500px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -212,7 +219,7 @@ input[type="submit"] {
 	background-position: center center;
 	min-height: 500px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -242,7 +249,7 @@ input[type="submit"] {
 	background-position: center center;
 	min-height: 450px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -285,12 +292,12 @@ input[type="submit"] {
 .youtube .thumbnail {
     margin: 2px;
     width: 80%;
-    border: 1px solid black;  
+    border: 1px solid black;
 }
 
 .youtube iframe.player {
     width: 80%;
-    height: 300px;  
+    height: 300px;
     overflow: auto;
     border: 0;
 }
@@ -308,7 +315,7 @@ input[type="submit"] {
 	background-position: center center;
 	min-height: 450px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -457,7 +464,7 @@ input[type="submit"] {
 .blog-post em {
 	text-align: left;
 	font-size: 22px;
-	color: #767676;	
+	color: #767676;
 }
 
 .blog-post i {
@@ -515,27 +522,27 @@ input[type="submit"] {
 	font-weight: 700;
 }
 
-.popular-posts { 
+.popular-posts {
 	margin: 0px;
 	padding-left: 0px;
 	}
-	
+
 .popular-posts li {
-	list-style: none; 
-	margin-bottom: 20px; 
+	list-style: none;
+	margin-bottom: 20px;
 	min-height: 70px;
 }
-.popular-posts li a, 
+.popular-posts li a,
 .popular-posts li a:hover {
-	color:#2f2f2f; 
+	color:#2f2f2f;
 	text-decoration: none;
 	}
-	
+
 .popular-posts li img {
-	float: left; 
+	float: left;
 	margin-right: 20px;
 	}
-	
+
 .popular-posts li em {
 	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
@@ -573,7 +580,7 @@ p > tag {
 	padding: 20px;
 	color: #fff;
 	background: #2c3e50;
-	
+
 }
 
 .grid figcaption h5 {
@@ -584,7 +591,7 @@ p > tag {
 	color: #fff;
 	text-align: left;
 	letter-spacing: 1px;
-	
+
 }
 
 .grid figcaption a {
@@ -654,7 +661,7 @@ p > tag {
 /* ==========================================================================
    Pricing Tables
    ========================================================================== */
-   
+
 .pricing-option {
     padding-bottom: 40px;
 }
@@ -883,8 +890,8 @@ div.shadow:hover {
 	background-color: #EE2524;
 	}
 .temp-div {
-	height:35px; 
-	width:100%; 
+	height:35px;
+	width:100%;
 	background-color:rgb(207, 53, 59);
 }
 
@@ -1406,14 +1413,14 @@ div.sub-row {
 /* dropdown */
 
 #sddm
-{	
+{
 	margin: 0;
 	padding: 0;
 	z-index: 30;
 }
 
 #sddm li
-{	
+{
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -1425,16 +1432,16 @@ div.sub-row {
 }
 
 #sddm li a
-{	
+{
 
 	display: block;
 	margin: 0 1px 0 0;
-	
+
 	text-decoration: none;
 }
 
 #sddm li a:hover
-{	
+{
 	color: rgb(207, 53, 59);
 	background-color: none;
 }
@@ -1458,14 +1465,14 @@ div.sub-row {
 		margin: 0;
 		padding: 5px 9px;
 		width: auto;
-		
+
 		color: #313131;
 		white-space: nowrap;
 		text-align: center;
 	}
 
 	#sddm div a:hover
-	{	
+	{
 		/*background: #49A3FF;
 		color: #FFF*/
 		color: rgb(207, 53, 59);
@@ -1481,7 +1488,7 @@ div.sub-row {
 		/* end dropdown */
 
 
-	
+
 div.footerbox {
 		float:left;
 		width: 300px;
@@ -1489,12 +1496,12 @@ div.footerbox {
 		border: 1px solid #ccc;
 		padding: 10px;
 		background-color: #ACACAC;
-		/* For Opacity 
-	    opacity: .50; 
-	    filter: alpha(opacity=50); 
-	    -ms-filter: "alpha(opacity=50)"; 
-	    -khtml-opacity: .50; 
-	    -moz-opacity: .50; 
+		/* For Opacity
+	    opacity: .50;
+	    filter: alpha(opacity=50);
+	    -ms-filter: "alpha(opacity=50)";
+	    -khtml-opacity: .50;
+	    -moz-opacity: .50;
 		*/
 		}
 
@@ -1555,7 +1562,7 @@ div#mc_embed_signup {
 	opacity: 1;
 	margin-top: 10px;
 	/*margin:0 0 2.5% 2.5%;*/
-	
+
 }
 .alpha-img h2 {
 	text-align: center;
@@ -1599,7 +1606,7 @@ div#mc_embed_signup {
 	bottom: 50%;
 	left:-110px;
 	background-color: white;
-	border-radius: 10px; 
+	border-radius: 10px;
 	visibility: hidden;
 	opacity: 0;
 	font-weight: normal;
@@ -1726,7 +1733,7 @@ div#mc_embed_signup {
 
 .grid_TA_alumni figure img {
 	max-width: 100%;
-	display: block; 
+	display: block;
 	position: relative;
 
 }
@@ -1933,7 +1940,7 @@ div#mc_embed_signup {
 			padding-left: 0px;
 			padding-right: 0px;
 		}
-		
+
 /* Sub Page White Ribbons 1 */
 
 		#s2 {
@@ -1951,15 +1958,15 @@ div#mc_embed_signup {
 		#s2 i:hover {
 			color: #f1c40f
 		}
-		
+
 		#s2 h2 {
 			color: black;
 		}
-		
+
 		#s2 p {
 			font-weight: 200;
-			color: black;		
-}		
+			color: black;
+}
 
 /* Sub Page Gray Ribbons 2 */
 		#s3 {
@@ -2007,15 +2014,15 @@ div#mc_embed_signup {
 		#s4 i:hover {
 			color: #f1c40f
 		}
-		
+
 		#s4 h2 {
 			color: black;
 		}
-		
+
 		#s4 p {
 			font-weight: 200;
-			color: black;		
-}				
+			color: black;
+}
 
 /* Sub Page Gray Ribbons 3 */
 		#s5 {
@@ -2065,15 +2072,15 @@ div#mc_embed_signup {
 		#s6 i:hover {
 			color: #f1c40f
 		}
-		
+
 		#s6 h2 {
 			color: black;
 		}
-		
+
 		#s6 p {
 			font-weight: 200;
-			color: black;		
-}	
+			color: black;
+}
 
 /* Mentors Page*/
 
@@ -2083,7 +2090,7 @@ div#mc_embed_signup {
 			margin-bottom: 18px;
 			margin-left: 20px;
 			width: 170px;
-		}	
+		}
 
 		#mentors p {
 			line-height:20px;
@@ -2093,10 +2100,10 @@ div#mc_embed_signup {
 
 		#mentors a {
 			color:#0088cc;
-		}	
+		}
 
 <<<<<<< HEAD
-		
+
 =======
 
 /* Alumni Page*/
@@ -2104,19 +2111,19 @@ div#mc_embed_signup {
 			margin-right: auto;
 			margin-left: auto;
 			margin-bottom: auto;
-			width: 1000px;	
+			width: 1000px;
 			text-align: center;
 			background-color: #e2e2e2;
 			}
 
-		#alpha-alumni p { 
+		#alpha-alumni p {
 			white-space: nowrap;
 			text-align: center;
 			margin-bottom:0 ;
 			font-size: 17px;
 			font-weight: normal;
 			padding: 0px;
-			margin: -30px 0px -20px 0px;			
+			margin: -30px 0px -20px 0px;
 		}
 
 		#alpha-alumni h4
@@ -2131,14 +2138,14 @@ div#mc_embed_signup {
 
 
 		#alpha-alumni h2{
-			
+
 			position: relative;
 			padding: 0px;
 			text-align: center;
 
 		}
 
-		
+
 		#alpha-alumni span.team {
 		font-family: JournalRegular;
 		font-size: 20px;
@@ -2188,7 +2195,7 @@ div#mc_embed_signup {
 			padding: 0px;
 			font-weight: bold;
 			padding-top: 2.5%;
-			
+
 
 
 		}
@@ -2360,7 +2367,7 @@ a.popup-close {
 .popup-form .input-group input[type="message"]{
 	border:0px;
 	position: relative;
-	
+
 }
 
 .popup-form .input-group input[type="submit"] {
@@ -2379,7 +2386,7 @@ a.popup-close {
 	width:100%;
 	height:200px;
 
-	
+
 }
 
 #TASDesc{
