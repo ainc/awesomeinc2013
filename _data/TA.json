@@ -1,6 +1,4 @@
 [
-    
-
     {
         "name": "Brian Raney",
         "favoriteRule": "Rule # 4 Always do something awesome over something not awesome",
@@ -18,10 +16,8 @@
 			}
 		],
 		"memory":"",
-		"experience":""	
+		"experience":""
     },
-    
-    
 
     {
         "time": "2015-10-21T18:52:45.810Z",
@@ -41,11 +37,8 @@
 			}
 		],
 		"memory":"",
-		"experience":""	
+		"experience":""
     },
-    
-    
-    
 
     {
         "time": "2014-01-15T23:25:29.000Z",
@@ -65,13 +58,9 @@
 			}
 		],
 		"memory":"",
-		"experience":""	
+		"experience":""
     },
 
-    
-    
-    
-    
     {
         "time": "2015-01-22T00:15:09.000Z",
         "name": "Nick Such",
@@ -90,8 +79,9 @@
 			}
 		],
 		"memory":"",
-		"experience":""	
+		"experience":""
     },
+
     {
         "time": "2014-11-12T02:34:16.000Z",
         "name": "Peter Briggs",
@@ -110,7 +100,7 @@
 			}
 		],
 		"memory":"",
-		"experience":""	
+		"experience":""
     },
 
     {
@@ -130,7 +120,7 @@
 			}
 		],
 		"memory":"",
-		"experience":""	
+		"experience":""
     },
 
     {
@@ -150,9 +140,8 @@
 			}
 		],
 		"memory":"",
-		"experience":""	
-	}, 
-
+		"experience":""
+	},
 
 	{
         "name": "Zach Frey",
@@ -171,110 +160,7 @@
 			}
 		],
 		"memory":"",
-		"experience":""	
-	}, 
-
-
-	{
-        "name": "Isaac Meisner",
-        "favoriteRule": "#26 don't let stupid things keep you from doing awesome things",
-        "favoriteSong": "Anything by The Beatles!",
-        "favoriteAwesomePerson": "Jimmy Fallon",
-        "randomFact": "I played soccer at Georgetown College",
-        "team": "Development Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""	
-	}, 
-
-	{
-        "name": "Da-un Chung",
-        "favoriteRule": "#26 don't let stupid things keep you from doing awesome things",
-        "favoriteSong": "Stop This Train - John Mayer",
-        "favoriteAwesomePerson": "Louis CK",
-        "randomFact": "I know how to play the violin.",
-        "team": "Development Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""	
-	}, 
-
-	{
-        "name": "Chase Smith",
-        "favoriteRule": "#76	no excuses, play like a champion",
-        "favoriteSong": "One Big Holiday - My Morning Jacket",
-        "favoriteAwesomePerson": "James Doty, M.D.",
-        "randomFact": "I'm a live music enthusiast. ",
-        "team": "Development Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""	
-	},
-
-	{
-        "name": "Marvin Anderson",
-        "favoriteRule": "#4	always do something awesome over something not awesome",
-        "favoriteSong": "The Incredible True Story - Logic",
-        "favoriteAwesomePerson": "Steve Jobs",
-        "randomFact": "I am an alumni of the Kentucky Governor's School for the Arts #heyGSA2012 #Trumpet",
-        "team": "Development Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""	
-	},
-
-	
-
-	{
-        "name": "Liz Moore",
-        "favoriteRule": "#36	Shoot for an S:S of 20:80 ratio or better in those you do close business with.  Tolerate nothing less than a 1:99 or better in yourself or intimate business partners/best friends.",
-        "favoriteSong": "Nakamarra - Hiatus Kaiyote",
-        "favoriteAwesomePerson": "Tim Keller",
-        "randomFact": "I love Asian culture, everything about it (food, TV, fashion, mannerisms, etc.) except their music... Chinese opera music is the most prominent mall feature and also the worst.",
-        "team": "Design Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""	
+		"experience":""
 	},
 
 	{
@@ -294,57 +180,17 @@
 			}
 		],
 		"memory":"",
-		"experience":""	
+		"experience":""
     },
-	
-    {
-         "name": "Stephanie Burton",
-         "favoriteRule": "#22 go big or don't be my friend",
-         "favoriteSong": "Drumming Song- Florence & The Machine",
-         "favoriteAwesomePerson": "Walt Disney",
-         "randomFact": "I can slalom water ski",
-         "team": "Design Team",
-		"wallPhoto":true,
- 		"location": "",
-		"work":[
- 			{
- 				"position":"",
- 				"company":"",
-				"logo":"",
-			}
- 		],
-		"memory":"",
- 		"experience":""	
- 	},
 
  	{
-         "name": "Alex Haas",
-         "favoriteRule": "#4	always do something awesome over something not awesome",
-         "favoriteSong": "Slide - Calvin Harris",
-         "favoriteAwesomePerson": "Lady Gaga",
-         "randomFact": "I've played tennis for 15 years",
-         "team": "Marketing Team",
- 		"wallPhoto":true,
- 		"location": "",
- 		"work":[
- 			{
- 				"position":"",
- 				"company":"",
- 				"logo":"",
- 			}
-		],
- 		"memory":"",
- 		"experience":""	
- 	},
-
- 	 {
-         "time": "2013-01-03T18:44:22.000Z",
-         "name": "Jake Tapia",
-         "favoriteRule": "Rule #22: Go big or don't be my friend.",
-         "favoriteSong": "Across the Universe - The Beatles",
-         "favoriteAwesomePerson": "Kanye West",
-         "randomFact": "I play the guitar",
-         "team": "Marketing Team",
+        "time": "2013-01-03T18:44:22.000Z",
+        "name": "Jake Tapia",
+        "favoriteRule": "Rule #22: Go big or don't be my friend.",
+        "favoriteSong": "Across the Universe - The Beatles",
+        "favoriteAwesomePerson": "Kanye West",
+        "randomFact": "I play the guitar",
+        "team": "Marketing Team",
  		"wallPhoto":true,
  		"location": "",
  		"work":[
@@ -355,17 +201,17 @@
  			}
  		],
  		"memory":"",
- 		"experience":""	
-     },
+ 		"experience":""
+    },
 
-     {
-         "time": "2013-01-03T18:44:22.000Z",
-         "name": "Kaitlyn Carr",
-         "favoriteRule": "#26 don't let stupid things keep you from doing awesome things",
-         "favoriteSong": "anything by Luke Bryan",
-         "favoriteAwesomePerson": "Michael Scott",
-         "randomFact": "I once turned down the opportunity to start modeling in New York so that I could go to soccer camp.",
-         "team": "Events",
+    {
+        "time": "2013-01-03T18:44:22.000Z",
+        "name": "Parker Householder",
+        "favoriteRule": "#26	don't let stupid things keep you from doing awesome things",
+        "favoriteSong": "The Call -Backstreet Boys",
+        "favoriteAwesomePerson": "Mark Zuckerberg",
+        "randomFact": "I can solve an 11x11x11 rubik's cube. ",
+        "team": "Development Team",
  		"wallPhoto":true,
  		"location": "",
  		"work":[
@@ -376,163 +222,136 @@
  			}
  		],
  		"memory":"",
- 		"experience":""	
-     },	
+ 		"experience":""
+    },
 
-     {
-         "time": "2013-01-03T18:44:22.000Z",
-         "name": "Julia Wilson",
-         "favoriteRule": "#45 If you can't make it rain, stay out of the desert... And don't expect an invitation when I'm taking a trip across the sahara",
-         "favoriteSong": "Pride and Joy - Brandi Carlile",
-         "favoriteAwesomePerson": "Michelle Obama",
-         "randomFact": "I play the ukulele!",
-         "team": "Video Team",
- 		"wallPhoto":true,
- 		"location": "",
- 		"work":[
- 			{
- 				"position":"",
- 				"company":"",
- 				"logo":"",
- 			}
- 		],
- 		"memory":"",
- 		"experience":""	
-     },	
+    {
+        "name": "Brendan Thompson",
+        "year":2017,
+        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
+        "favoriteSong": "Innerbloom -RÜFÜS DU SOL",
+        "favoriteAwesomePerson": "Dave Grohl",
+        "randomFact": "I played in an NCAA DIII Lacrosse Tournament Game",
+        "team": "Development Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Nick Sladic",
+        "year":2017,
+        "favoriteRule": "Rule #34: A person's Shit:Substance ratio or their ss for short refers to the amount of bullshit someone is made up of relative to their ability to actually back up their claims and/or confidence.",
+        "favoriteSong": "Objects In The Mirror -Mac Miller",
+        "favoriteAwesomePerson": "Elon Musk",
+        "randomFact": "I can solve a second order implicit differential equation but I can't iron my own shirt",
+        "team": "Development Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Aayat Ali",
+        "year":2017,
+        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
+        "favoriteSong": "Wah-Wah -George Harrison",
+        "favoriteAwesomePerson": "Beyonce",
+        "randomFact": "I've played guitar for 8 years",
+        "team": "Blog/Marketing Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Megan Rose",
+        "year":2017,
+        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
+        "favoriteSong": "Good Times -All Time Low",
+        "favoriteAwesomePerson": "Viola Davis",
+        "randomFact": "I love French Bulldogs and often run across streets to pet one",
+        "team": "Events/Marketing Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Cassidy Stamper",
+        "year":2017,
+        "favoriteRule": "Rule #4: always do something awesome over something not awesome",
+        "favoriteSong": "Currently Anything by Frank Ocean",
+        "favoriteAwesomePerson": "Gordon Holbein",
+        "randomFact": "I'm a vegetarian",
+        "team": "Video Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Ross Ladenburger",
+        "year":2017,
+        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
+        "favoriteSong": "I Forget Where We Were -Ben Howard",
+        "favoriteAwesomePerson": "Alex Honnold",
+        "randomFact": "I went to clown camp when I was a kid",
+        "team": "AInc U",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    }
 
 
-     {
-         "time": "2013-01-03T18:44:22.000Z",
-         "name": "Parker Householder",
-         "favoriteRule": "#26	don't let stupid things keep you from doing awesome things",
-         "favoriteSong": "The Call -Backstreet Boys",
-         "favoriteAwesomePerson": "Mark Zuckerberg",
-         "randomFact": "I can solve an 11x11x11 rubik's cube. ",
-         "team": "Development Team",
- 		"wallPhoto":true,
- 		"location": "",
- 		"work":[
- 			{
- 				"position":"",
- 				"company":"",
- 				"logo":"",
- 			}
- 		],
- 		"memory":"",
- 		"experience":""	
-     },
-
-
-     {
-         "time": "2013-01-03T18:44:22.000Z",
-         "name": "Kevin Moore",
-         "favoriteRule": "#17 bring the fun!",
-         "favoriteSong": "i2i - Powerline",
-         "favoriteAwesomePerson": "Kanye West",
-         "randomFact": "I've been to the Dome of the Rock",
-         "team": "Design Team",
- 		"wallPhoto":true,
- 		"location": "",
- 		"work":[
- 			{
- 				"position":"",
- 				"company":"",
- 				"logo":"",
- 			}
- 		],
- 		"memory":"",
- 		"experience":""	
-     },
-
-
-     {
-         "time": "2013-01-03T18:44:22.000Z",
-         "name": "Ethan Wooldridge",
-         "favoriteRule": "#4	always do something awesome over something not awesome",
-         "favoriteSong": "The Cure- Disintegration",
-         "favoriteAwesomePerson": "Henry Rollins",
-         "randomFact": "Even though I don't believe in the afterlife, I'm overly invested in anything weird, spooky, or supernatural.",
-         "team": "Design Team",
- 		"wallPhoto":true,
- 		"location": "",
- 		"work":[
- 			{
- 				"position":"",
- 				"company":"",
- 				"logo":"",
- 			}
- 		],
- 		"memory":"",
- 		"experience":""	
-     },
-
-
-	 {
-         "time": "2013-01-03T18:44:22.000Z",
-         "name": "Tyler Smith",
-         "favoriteRule": "#76	no excuses, play like a champion",
-         "favoriteSong": "Blue Boy - Mac Demarco",
-         "favoriteAwesomePerson": "Elon Musk",
-         "randomFact": "I lived in Bowling Green, KY for two years.",
-         "team": "Development Team",
- 		"wallPhoto":true,
- 		"location": "",
- 		"work":[
- 			{
- 				"position":"",
- 				"company":"",
- 				"logo":"",
- 			}
- 		],
- 		"memory":"",
- 		"experience":""	
-     },
-	  
-	  
-	  {
-          "time": "2013-01-03T18:44:22.000Z",
-          "name": "Michael Riemland",
-          "favoriteRule": "#22 go big or don't be my friend",
-          "favoriteSong": "Baba O'Riley",
-          "favoriteAwesomePerson": "Bill Gates",
-          "randomFact": "At age 12 I went on a summer fishing trip in Manitoba, Canada and caught a record Northern Pike.",
-          "team": "Marketing Team",
-  		"wallPhoto":true,
-  		"location": "",
-  		"work":[
-  			{
-  				"position":"",
-  				"company":"",
-  				"logo":"",
-  			}
-  		],
-  		"memory":"",
-  		"experience":""	
-      },
-	  
-	  
-	  {
-          "time": "2013-01-03T18:44:22.000Z",
-          "name": "Chris Saad",
-          "favoriteRule": "#22 go big or don't be my friend",
-          "favoriteSong": "i",
-          "favoriteAwesomePerson": "Lionel Messi",
-          "randomFact": "I grew up in Dubai",
-          "team": "Development Team",
-  		"wallPhoto":true,
-  		"location": "",
-  		"work":[
-  			{
-  				"position":"",
-  				"company":"",
-  				"logo":"",
-  			}
-  		],
-  		"memory":"",
-  		"experience":""	
-      },
-	  
-	  
 ]
 
 
@@ -557,7 +376,7 @@
 //  			}
 //  		],
 //  		"memory":"",
-//  		"experience":""	
+//  		"experience":""
 //      },
 
 //======================
@@ -582,8 +401,8 @@
 // 			}
 // 		],
 // 		"memory":"",
-// 		"experience":""	
-// 	}, 
+// 		"experience":""
+// 	},
 
 
 // 	{
@@ -603,7 +422,7 @@
 	// 		}
 	// 	],
 	// 	"memory":"",
-	// 	"experience":""	
+	// 	"experience":""
 	// },
 
 
@@ -624,13 +443,13 @@
 // 			}
 // 		],
 // 		"memory":"",
-// 		"experience":""	
+// 		"experience":""
 // 	},
 
 
 
 //============================================
-//People without new pictures. No longer here? 
+//People without new pictures. No longer here?
 //============================================
 // {
 //         "time": "2013-02-15T19:07:09.000Z",
@@ -650,7 +469,7 @@
 // 			}
 // 		],
 // 		"memory":"",
-// 		"experience":""	
+// 		"experience":""
 //     },
 
 // {
@@ -671,7 +490,7 @@
 // 			}
 // 		],
 // 		"memory":"",
-// 		"experience":""	
+// 		"experience":""
 //     },
 
 
@@ -692,7 +511,7 @@
 // 			}
 // 		],
 // 		"memory":"",
-// 		"experience":""	
+// 		"experience":""
 //     },
 
 
@@ -714,7 +533,7 @@
 // 			}
 // 		],
 // 		"memory":"",
-// 		"experience":""	
+// 		"experience":""
 //     },
 
 // {
@@ -735,7 +554,7 @@
 // 			}
 // 		],
 // 		"memory":"",
-// 		"experience":""	
+// 		"experience":""
 //     },
 
 
@@ -757,7 +576,7 @@
 // 			}
 // 		],
 // 		"memory":"",
-// 		"experience":""	
+// 		"experience":""
 //     },
 
 
@@ -778,7 +597,7 @@
 // 			}
 // 		],
 // 		"memory":"",
-// 		"experience":""	
+// 		"experience":""
 //     },
 
 
@@ -800,7 +619,7 @@
 // 			}
 // 		],
 // 		"memory":"",
-// 		"experience":""	
+// 		"experience":""
 //     },
 
 
@@ -822,7 +641,7 @@
 // 			}
 // 		],
 // 		"memory":"",
-// 		"experience":""	
+// 		"experience":""
 //     },
 
 
@@ -844,7 +663,7 @@
 // 			}
 // 		],
 // 		"memory":"",
-// 		"experience":""	
+// 		"experience":""
 //     },
 
 // {
@@ -864,7 +683,7 @@
 // 			}
 // 		],
 // 		"memory":"",
-// 		"experience":""	
+// 		"experience":""
 //     },
 
 // {
@@ -884,5 +703,5 @@
 // 			}
 // 		],
 // 		"memory":"",
-// 		"experience":""	
+// 		"experience":""
 //     },

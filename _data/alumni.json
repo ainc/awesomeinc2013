@@ -1,9 +1,9 @@
-[  
-   {  
+[
+   {
       "name":"Hamzah Khan",
       "location":"New Orleans, Louisiana",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"Tulane University Law School",
             "logo":""
@@ -15,11 +15,11 @@
       "thumbnail":"https://i.imgur.com/HlPZVLf.png",
       "fullRes":"https://i.imgur.com/HlPZVLf.png"
    },
-   {  
+   {
       "name":"Andy Hampton",
       "location":"Louisville, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Mechanical Designer",
             "company":"Aereon",
             "logo":"https://i.imgur.com/7bbCKOq.png"
@@ -31,21 +31,21 @@
       "thumbnail":"https://i.imgur.com/8jTYXeY.png",
       "fullRes":"https://i.imgur.com/8jTYXeY.png"
    },
-   {  
+   {
       "name":"Lawrence Rogers",
       "location":"Stanford, California",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"Stanford University",
             "logo":""
          },
-         {  
+         {
             "position":"Software Engineer Intern",
             "company":"Facebook",
             "logo":"https://i.imgur.com/unIBrmo.png"
          },
-         {  
+         {
             "position":"Associate Product Manager Intern",
             "company":"Google",
             "logo":"https://i.imgur.com/7mjlWUS.pong"
@@ -57,11 +57,11 @@
       "thumbnail":"https://i.imgur.com/aRn66Gc.png",
       "fullRes":"https://i.imgur.com/aRn66Gc.png"
    },
-   {  
+   {
       "name":"Jamie Pridemore",
       "location":"Minneapolis, Minnesota",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Account Development Manager",
             "company":"Campus Media Group",
             "logo":"https://i.imgur.com/gY2DN47.png"
@@ -73,11 +73,11 @@
       "thumbnail":"https://i.imgur.com/3Xjy7NW.png",
       "fullRes":"https://i.imgur.com/3Xjy7NW.png"
    },
-   {  
+   {
       "name":"Dave Boyer",
       "location":"Fort Knox, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Senior Software Engineer",
             "company":"Science Applications International Corporation",
             "logo":"https://i.imgur.com/V1Yt7vS.png"
@@ -89,11 +89,11 @@
       "thumbnail":"https://i.imgur.com/riaT1M8.png",
       "fullRes":"https://i.imgur.com/riaT1M8.png"
    },
-   {  
+   {
       "name":"Tyler Green",
       "location":"Fort Collins, Colorado",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Design Engineer",
             "company":"Advanced Micro Devices (AMD)",
             "logo":"https://i.imgur.com/WyFQDaB.png"
@@ -105,11 +105,11 @@
       "thumbnail":"https://i.imgur.com/cIhs6JO.png",
       "fullRes":"https://i.imgur.com/cIhs6JO.png"
    },
-   {  
+   {
       "name":"Meredith Scroggin",
       "location":"Richmond, Virginia",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"University of Richmond",
             "logo":""
@@ -121,11 +121,11 @@
       "thumbnail":"https://i.imgur.com/WYQw5WA.png",
       "fullRes":"https://i.imgur.com/WYQw5WA.png"
    },
-   {  
+   {
       "name":"Adam Shepherd",
       "location":"Cincinnati, Ohio",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Manager of Training & Safety",
             "company":"National Railroad Safety Services",
             "logo":""
@@ -137,11 +137,11 @@
       "thumbnail":"https://i.imgur.com/riaT1M8.png",
       "fullRes":"https://i.imgur.com/riaT1M8.png"
    },
-   {  
+   {
       "name":"Stefan Hagfors",
       "location":"Cold Spring, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Database Consultant",
             "company":"Unlimited Systems",
             "logo":""
@@ -153,11 +153,11 @@
       "thumbnail":"https://i.imgur.com/OSP4PO1.png",
       "fullRes":"https://i.imgur.com/OSP4PO1.png"
    },
-   {  
+   {
       "name":"Jessika Jones",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Marketing Manager",
             "company":"Kentucky Chamber of Commerce",
             "logo":"https://i.imgur.com/VBr6KcJ.jpg"
@@ -169,11 +169,11 @@
       "thumbnail":"https://i.imgur.com/5BhuamT.png",
       "fullRes":"https://i.imgur.com/5BhuamT.png"
    },
-   {  
+   {
       "name":"Carter Fifield",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"Lafayette High School",
             "logo":""
@@ -185,11 +185,11 @@
       "thumbnail":"https://i.imgur.com/gRwL5fE.png",
       "fullRes":"https://i.imgur.com/gRwL5fE.png"
    },
-   {  
+   {
       "name":"Sarah Detraz",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"University of Kentucky",
             "logo":"https://i.imgur.com/RKd9LLz.png"
@@ -201,11 +201,11 @@
       "thumbnail":"https://i.imgur.com/lwbFoEm.png",
       "fullRes":"https://i.imgur.com/lwbFoEm.png"
    },
-   {  
+   {
       "name":"Austin Magsig",
       "location":"Boston, Massachusetts",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"Boston University",
             "logo":""
@@ -217,11 +217,11 @@
       "thumbnail":"https://i.imgur.com/8JS8eEY.png",
       "fullRes":"https://i.imgur.com/8JS8eEY.png"
    },
-   {  
+   {
       "name":"Gus Logsdon",
       "location":"Charlottesville, Virginia",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"University of Virginia",
             "logo":""
@@ -233,11 +233,11 @@
       "thumbnail":"https://i.imgur.com/AIk5rMe.png",
       "fullRes":"https://i.imgur.com/AIk5rMe.png"
    },
-   {  
+   {
       "name":"Stacy Haynes",
       "location":"Jupiter, Florida",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Bakery Production Team Member",
             "company":"Whole Foods Market",
             "logo":"https://i.imgur.com/Quip6nR.png"
@@ -249,11 +249,11 @@
       "thumbnail":"https://i.imgur.com/riaT1M8.png",
       "fullRes":"https://i.imgur.com/riaT1M8.png"
    },
-   {  
+   {
       "name":"Jessica Powers",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Academic Advisor",
             "company":"University of Kentucky",
             "logo":"https://i.imgur.com/RKd9LLz.png"
@@ -265,16 +265,16 @@
       "thumbnail":"https://i.imgur.com/riaT1M8.png",
       "fullRes":"https://i.imgur.com/riaT1M8.png"
    },
-   {  
+   {
       "name":"Calah Ford",
       "location":"Columbus, Ohio",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"2nd Grade Teacher",
             "company":"Performance Academies",
             "logo":"https://i.imgur.com/JbXdEjA.png"
          },
-         {  
+         {
             "position":"Part-time Consultant",
             "company":"Alltech",
             "logo":"https://i.imgur.com/22CH9ro.jpg"
@@ -286,11 +286,11 @@
       "thumbnail":"https://i.imgur.com/578FjUz.png",
       "fullRes":"https://i.imgur.com/578FjUz.png"
    },
-   {  
+   {
       "name":"Ben Childress",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"University of Kentucky",
             "logo":"https://i.imgur.com/RKd9LLz.png"
@@ -302,16 +302,16 @@
       "thumbnail":"https://i.imgur.com/99GfW2b.png",
       "fullRes":"https://i.imgur.com/99GfW2b.png"
    },
-   {  
+   {
       "name":"Cody James",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"University of Kentucky",
             "logo":"https://i.imgur.com/RKd9LLz.png"
          },
-         {  
+         {
             "position":"Graphic Designer",
             "company":"University of Kentucky",
             "logo":"https://i.imgur.com/RKd9LLz.png"
@@ -323,11 +323,11 @@
       "thumbnail":"https://i.imgur.com/riaT1M8.png",
       "fullRes":"https://i.imgur.com/riaT1M8.png"
    },
-   {  
+   {
       "name":"Rebecca Fields",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Owner",
             "company":"Premiere Dance",
             "logo":""
@@ -339,11 +339,11 @@
       "thumbnail":"https://i.imgur.com/ysDv5AU.png",
       "fullRes":"https://i.imgur.com/ysDv5AU.png"
    },
-   {  
+   {
       "name":"Huu Nguyen",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Developer/Partner",
             "company":"ZenBanana",
             "logo":"https://i.imgur.com/5P7hcJw.png"
@@ -355,11 +355,11 @@
       "thumbnail":"https://i.imgur.com/WUcvM56.png",
       "fullRes":"https://i.imgur.com/WUcvM56.png"
    },
-   {  
+   {
       "name":"Shoba Dickinson",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Web Developer",
             "company":"Apax Software",
             "logo":"https://i.imgur.com/w4HywbM.png"
@@ -371,16 +371,16 @@
       "thumbnail":"https://i.imgur.com/XWSOUlI.png",
       "fullRes":"https://i.imgur.com/XWSOUlI.png"
    },
-   {  
+   {
       "name":"Steve Osowicz",
       "location":"Shelbyville, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Realtor",
             "company":"Coldwell Banker Rogers Realty",
             "logo":"https://i.imgur.com/Om1p7o1.png"
          },
-         {  
+         {
             "position":"Freelance Web Designer",
             "company":"RYJA Design",
             "logo":""
@@ -392,11 +392,11 @@
       "thumbnail":"https://i.imgur.com/rpxbZNt.png",
       "fullRes":"https://i.imgur.com/rpxbZNt.png"
    },
-   {  
+   {
       "name":"Ashley Edwards",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Program Director",
             "company":"The Little Gym",
             "logo":"https://i.imgur.com/txR0dSl.png"
@@ -408,11 +408,11 @@
       "thumbnail":"https://i.imgur.com/riaT1M8.png",
       "fullRes":"https://i.imgur.com/riaT1M8.png"
    },
-   {  
+   {
       "name":"Rusty Leskiv",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Accountant",
             "company":"Shram Brokers",
             "logo":""
@@ -424,16 +424,16 @@
       "thumbnail":"https://i.imgur.com/riaT1M8.png",
       "fullRes":"https://i.imgur.com/riaT1M8.png"
    },
-   {  
+   {
       "name":"Henry Yan",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Developer",
             "company":"Apax Software",
             "logo":"https://i.imgur.com/w4HywbM.png"
          },
-         {  
+         {
             "position":"Student",
             "company":"University of Kentucky",
             "logo":"https://i.imgur.com/RKd9LLz.png"
@@ -445,11 +445,11 @@
       "thumbnail":"https://i.imgur.com/9cXVvdK.png",
       "fullRes":"https://i.imgur.com/9cXVvdK.png"
    },
-   {  
+   {
       "name":"Adam Dahl",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Assistant Media Planner/Buyer",
             "company":"Right Place Media",
             "logo":"https://i.imgur.com/Ulv078i.png"
@@ -461,11 +461,11 @@
       "thumbnail":"https://i.imgur.com/DS0O3mW.png",
       "fullRes":"https://i.imgur.com/DS0O3mW.png"
    },
-   {  
+   {
       "name":"Stephanie Dawson",
       "location":"Lakeland, Florida",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Stay at home mother",
             "company":"",
             "logo":""
@@ -477,11 +477,11 @@
       "thumbnail":"https://i.imgur.com/lXiN3ay.png",
       "fullRes":"https://i.imgur.com/lXiN3ay.png"
    },
-   {  
+   {
       "name":"Aaron Fons",
       "location":"Birmingham, Alabama",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Associate Relationship Manager",
             "company":"PNC Bank",
             "logo":"https://i.imgur.com/Sv1yQcz.png"
@@ -493,21 +493,21 @@
       "thumbnail":"https://i.imgur.com/riaT1M8.png",
       "fullRes":"https://i.imgur.com/riaT1M8.png"
    },
-   {  
+   {
       "name":"Ethan Smith",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Web/Data Application Developer",
             "company":"University of Kentucky",
             "logo":"https://i.imgur.com/RKd9LLz.png"
          },
-         {  
+         {
             "position":"Developer",
             "company":"COM-RIT",
             "logo":""
          },
-         {  
+         {
             "position":"Developer",
             "company":"Apax Software",
             "logo":"https://i.imgur.com/w4HywbM.png"
@@ -519,11 +519,11 @@
       "thumbnail":"https://i.imgur.com/ElS4Gjh.png",
       "fullRes":"https://i.imgur.com/ElS4Gjh.png"
    },
-   {  
+   {
       "name":"Gordon Glenn",
       "location":"Chicago, Illinois",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Media Producer and Trainer",
             "company":"DePaul University",
             "logo":"https://i.imgur.com/7cnkBSN.png"
@@ -535,11 +535,11 @@
       "thumbnail":"https://i.imgur.com/2WtAkoP.png",
       "fullRes":"https://i.imgur.com/2WtAkoP.png"
    },
-   {  
+   {
       "name":"Thomas Elwood",
       "location":"Fort Collins, Colorado",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Sales Manager",
             "company":"Fish's Liquor",
             "logo":""
@@ -551,11 +551,11 @@
       "thumbnail":"https://i.imgur.com/riaT1M8.png",
       "fullRes":"https://i.imgur.com/riaT1M8.png"
    },
-   {  
+   {
       "name":"Andrew Shields",
       "location":"Houston, Texas",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Software Engineer",
             "company":"National Oilwell Varco",
             "logo":"https://i.imgur.com/QoS93Fo.png"
@@ -567,11 +567,11 @@
       "thumbnail":"https://i.imgur.com/G27pPOz.png",
       "fullRes":"https://i.imgur.com/G27pPOz.png"
    },
-   {  
+   {
       "name":"Garrett Bonistalli",
       "location":"Louisville, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Digital Marketing Content Strategist",
             "company":"Learning House",
             "logo":"https://i.imgur.com/Vqi2HVx.png"
@@ -583,16 +583,16 @@
       "thumbnail":"https://i.imgur.com/D4XB5oT.png",
       "fullRes":"https://i.imgur.com/D4XB5oT.png"
    },
-   {  
+   {
       "name":"Alexie Basil",
       "location":"New York, New York",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"New York University",
             "logo":""
          },
-         {  
+         {
             "position":"Production/Development Intern",
             "company":"The Weinstein Company",
             "logo":"https://i.imgur.com/cEmiiB4.png"
@@ -604,11 +604,11 @@
       "thumbnail":"https://i.imgur.com/s54q5RD.png",
       "fullRes":"https://i.imgur.com/s54q5RD.png"
    },
-   {  
+   {
       "name":"Roshnee Raithatha",
       "location":"Cambridge, Massachusetts",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"Harvard University",
             "logo":""
@@ -620,11 +620,11 @@
       "thumbnail":"https://i.imgur.com/MThC4J3.png",
       "fullRes":"https://i.imgur.com/MThC4J3.png"
    },
-   {  
+   {
       "name":"Owen Wirth",
       "location":"Jackson, Wyoming",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Raft Guide",
             "company":"Grand Teton Lodge Company",
             "logo":"https://i.imgur.com/XwjZb8v.jpg"
@@ -636,11 +636,11 @@
       "thumbnail":"https://i.imgur.com/zT4FLGd.png",
       "fullRes":"https://i.imgur.com/zT4FLGd.png"
    },
-   {  
+   {
       "name":"Sarah Hoffmann",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"",
             "logo":""
@@ -652,11 +652,11 @@
       "thumbnail":"https://i.imgur.com/Jfdgd2M.png",
       "fullRes":"https://i.imgur.com/Jfdgd2M.png"
    },
-   {  
+   {
       "name":"Will Oldham",
       "location":"Cleveland, Ohio",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"Case Western University",
             "logo":""
@@ -668,11 +668,11 @@
       "thumbnail":"https://i.imgur.com/riaT1M8.png",
       "fullRes":"https://i.imgur.com/riaT1M8.png"
    },
-   {  
+   {
       "name":"Julie Babbage",
       "location":"Washington, D.C.",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Human Capital Analyst",
             "company":"Deloitte",
             "logo":"https://i.imgur.com/unh2JJa.png"
@@ -684,11 +684,11 @@
       "thumbnail":"https://i.imgur.com/0mpyj5B.png",
       "fullRes":"https://i.imgur.com/0mpyj5B.png"
    },
-   {  
+   {
       "name":"Amy Wolterman",
       "location":"Bowling Green, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"Western Kentucky University",
             "logo":""
@@ -700,11 +700,11 @@
       "thumbnail":"https://i.imgur.com/F1cf9vJ.png",
       "fullRes":"https://i.imgur.com/F1cf9vJ.png"
    },
-   {  
+   {
       "name":"Allister Littrell",
       "location":"Qinhuangdao, China",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"English Teacher",
             "company":"English Language Institute China (ELIC)",
             "logo":"https://i.imgur.com/FPAQcuG.png"
@@ -716,11 +716,11 @@
       "thumbnail":"https://i.imgur.com/riaT1M8.png",
       "fullRes":"https://i.imgur.com/riaT1M8.png"
    },
-   {  
+   {
       "name":"Evan Blanford",
       "location":"Louisville, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Brewer",
             "company":"Cumberland Brews",
             "logo":"https://i.imgur.com/8N5Pzpc.jpg"
@@ -732,11 +732,11 @@
       "thumbnail":"https://i.imgur.com/SncmpGc.png",
       "fullRes":"https://i.imgur.com/SncmpGc.png"
    },
-   {  
+   {
       "name":"Kelsey Joseph",
       "location":"Columbus, Ohio",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Graphic Designer",
             "company":"Delta Gamma Executive Offices",
             "logo":"https://i.imgur.com/DfXDA3V.png"
@@ -748,11 +748,11 @@
       "thumbnail":"https://i.imgur.com/MCa8S70.png",
       "fullRes":"https://i.imgur.com/MCa8S70.png"
    },
-   {  
+   {
       "name":"Taylor Church",
       "location":"Atlanta, Georgia",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Associate Producer",
             "company":"School of Humans",
             "logo":""
@@ -764,11 +764,11 @@
       "thumbnail":"https://i.imgur.com/ZEUWgwF.png",
       "fullRes":"https://i.imgur.com/ZEUWgwF.png"
    },
-   {  
+   {
       "name":"Tommy Crush",
       "location":"Palo Alto, California",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Software Engineer",
             "company":"Facebook",
             "logo":"https://i.imgur.com/unIBrmo.png"
@@ -780,11 +780,11 @@
       "thumbnail":"https://i.imgur.com/riaT1M8.png",
       "fullRes":"https://i.imgur.com/riaT1M8.png"
    },
-   {  
+   {
       "name":"Krista Osmundson",
       "location":"Denver, Colorado",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Marketing Assistant",
             "company":"International Tourism Marketing",
             "logo":""
@@ -796,11 +796,11 @@
       "thumbnail":"https://i.imgur.com/YDPAumM.png",
       "fullRes":"https://i.imgur.com/YDPAumM.png"
    },
-   {  
+   {
       "name":"Will Crawford",
       "location":"Lexington, Kentucky",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"In Memoriam",
             "company":"",
             "logo":""
@@ -812,11 +812,11 @@
       "thumbnail":"https://i.imgur.com/o6n5tBP.png",
       "fullRes":"https://i.imgur.com/o6n5tBP.png"
    },
-   {  
+   {
       "name":"Melanie Stockle",
       "location":"Boulder, Colorado",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"UX Designer",
             "company":"Kapost",
             "logo":"https://i.imgur.com/TxiXSNW.png"
@@ -828,11 +828,11 @@
       "thumbnail":"https://i.imgur.com/CndOuOR.png",
       "fullRes":"https://i.imgur.com/CndOuOR.png"
    },
-   {  
+   {
       "name":"Alek Zieba",
       "location":"New York, New York",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"Columbia University",
             "logo":""
@@ -844,11 +844,11 @@
       "thumbnail":"https://i.imgur.com/1UEQ34H.png",
       "fullRes":"https://i.imgur.com/1UEQ34H.png"
    },
-   {  
+   {
       "name":"Elizabeth Cooper",
       "location":"Atlanta, Georgia",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"Georgia Tech",
             "logo":""
@@ -860,11 +860,11 @@
       "thumbnail":"https://i.imgur.com/9K3e285.png",
       "fullRes":"https://i.imgur.com/9K3e285.png"
    },
-   {  
+   {
       "name":"Michael Zhang",
       "location":"Champaign, Illinois",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"Student",
             "company":"University of Illinois",
             "logo":""
@@ -876,11 +876,11 @@
       "thumbnail":"https://i.imgur.com/Jr5CXnp.png",
       "fullRes":"https://i.imgur.com/Jr5CXnp.png"
    },
-   {  
+   {
       "name":"Evan Leach",
       "location":"San Francisco, California",
-      "work":[  
-         {  
+      "work":[
+         {
             "position":"User Experience Architect",
             "company":"Eventbrite",
             "logo":"https://i.imgur.com/4mUg1na.png"
@@ -892,23 +892,23 @@
       "thumbnail":"https://i.imgur.com/riaT1M8.png",
       "fullRes":"https://i.imgur.com/riaT1M8.png"
    },
-   {  
+   {
       "name":"Adam Chaffins",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2013,
       "team":"",
-      
+
       "experience":"",
       "thumbnail":"https://i.imgur.com/VeLexV8.png",
       "fullRes":"https://i.imgur.com/VeLexV8.png"
    },
-   {  
+   {
       "name":"Wayne Harden",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2013,
@@ -917,10 +917,10 @@
       "thumbnail":"https://i.imgur.com/sCovnRU.png",
       "fullRes":"https://i.imgur.com/sCovnRU.png"
    },
-   {  
+   {
       "name":"Hollis Gargala",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2013,
@@ -929,10 +929,10 @@
       "thumbnail":"https://i.imgur.com/9cvDioq.png",
       "fullRes":"https://i.imgur.com/9cvDioq.png"
    },
-   {  
+   {
       "name":"Tylar Culver",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2013,
@@ -941,10 +941,10 @@
       "thumbnail":"https://i.imgur.com/IGuhRPt.png",
       "fullRes":"https://i.imgur.com/IGuhRPt.png"
    },
-   {  
+   {
       "name":"Zack Johnson",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2013,
@@ -953,10 +953,10 @@
       "thumbnail":"https://i.imgur.com/sCovnRU.png",
       "fullRes":"https://i.imgur.com/sCovnRU.png"
    },
-   {  
+   {
       "name":"Trenton Shimizu",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2013,
@@ -965,10 +965,10 @@
       "thumbnail":"https://i.imgur.com/fa4pKBO.png",
       "fullRes":"https://i.imgur.com/fa4pKBO.png"
    },
-   {  
+   {
       "name":"Trevor Thompson",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2013,
@@ -977,10 +977,10 @@
       "thumbnail":"https://i.imgur.com/sCovnRU.png",
       "fullRes":"https://i.imgur.com/sCovnRU.png"
    },
-   {  
+   {
       "name":"Alex Johnson",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2013,
@@ -989,10 +989,10 @@
       "thumbnail":"https://i.imgur.com/sCovnRU.png",
       "fullRes":"https://i.imgur.com/sCovnRU.png"
    },
-   {  
+   {
       "name":"Tori Wolfe",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2013,
@@ -1001,10 +1001,10 @@
       "thumbnail":"https://i.imgur.com/sCovnRU.png",
       "fullRes":"https://i.imgur.com/sCovnRU.png"
    },
-   {  
+   {
       "name":"Chris Irving",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2013,
@@ -1013,10 +1013,10 @@
       "thumbnail":"https://i.imgur.com/sCovnRU.png",
       "fullRes":"https://i.imgur.com/sCovnRU.png"
    },
-   {  
+   {
       "name":"Sydney Toth",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2014,
@@ -1025,10 +1025,10 @@
       "thumbnail":"https://i.imgur.com/sCovnRU.png",
       "fullRes":"https://i.imgur.com/sCovnRU.png"
    },
-   {  
+   {
       "name":"Erica Clark",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2014,
@@ -1037,10 +1037,10 @@
       "thumbnail":"https://i.imgur.com/sCovnRU.png",
       "fullRes":"https://i.imgur.com/sCovnRU.png"
    },
-   {  
+   {
       "name":"August Dutille",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2014,
@@ -1049,10 +1049,10 @@
       "thumbnail":"https://i.imgur.com/sCovnRU.png",
       "fullRes":"https://i.imgur.com/sCovnRU.png"
    },
-   {  
+   {
       "name":"Petra Ronald",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2014,
@@ -1061,10 +1061,10 @@
       "thumbnail":"https://i.imgur.com/sCovnRU.png",
       "fullRes":"https://i.imgur.com/sCovnRU.png"
    },
-   {  
+   {
       "name":"Danny Thorne",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2014,
@@ -1073,10 +1073,10 @@
       "thumbnail":"https://i.imgur.com/bOmTGrn.png",
       "fullRes":"https://i.imgur.com/bOmTGrn.png"
    },
-   {  
+   {
       "name":"Dasha Kolyaskina",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2014,
@@ -1085,10 +1085,10 @@
       "thumbnail":"https://i.imgur.com/sCovnRU.png",
       "fullRes":"https://i.imgur.com/sCovnRU.png"
    },
-   {  
+   {
       "name":"Mac Glidewell",
       "location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2014,
@@ -1100,7 +1100,7 @@
     {
         "name": "Diante' Elcock",
 		"location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2015,
@@ -1119,7 +1119,7 @@
         "time": "2015-02-19T21:21:39.851Z",
         "name": "Kevin Joiner",
 		"location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2015,
@@ -1138,7 +1138,7 @@
         "time": "2015-01-14T06:01:23.000Z",
         "name": "TJ Barnett",
 		"location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2015,
@@ -1155,7 +1155,7 @@
     {
         "name": "Will Swinton-Ginsberg",
 		"location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2015,
@@ -1170,10 +1170,10 @@
 		"wallPhoto": "true"
     },
     {
-        "time": "2015-05-14T23:24:39.217Z",
-        "name": "Sarah Brookbank",
+      "time": "2015-05-14T23:24:39.217Z",
+      "name": "Sarah Brookbank",
 		"location":"",
-      "work":[  
+      "work":[
 
       ],
       "year":2015,
@@ -1186,5 +1186,301 @@
         "randomFact": "I want to be a New York Times Best Selling novelist.",
         "team": "Blog Team",
 		"wallPhoto":true,
-    }
+    },
+
+
+   {
+      "name": "Isaac Meisner",
+      "year":2016,
+      "favoriteRule": "#26 don't let stupid things keep you from doing awesome things",
+      "favoriteSong": "Anything by The Beatles!",
+      "favoriteAwesomePerson": "Jimmy Fallon",
+      "randomFact": "I played soccer at Georgetown College",
+      "team": "Development Team",
+      "wallPhoto":true,
+      "location": "",
+      "work":[
+         {
+            "position":"",
+            "company":"",
+            "logo":"",
+         }
+      ],
+      "memory":"",
+      "experience":""
+   },
+
+   {
+      "name": "Da-un Chung",
+      "year":2016,
+      "favoriteRule": "#26 don't let stupid things keep you from doing awesome things",
+      "favoriteSong": "Stop This Train - John Mayer",
+      "favoriteAwesomePerson": "Louis CK",
+      "randomFact": "I know how to play the violin.",
+      "team": "Development Team",
+      "wallPhoto":true,
+      "location": "",
+      "work":[
+         {
+            "position":"",
+            "company":"",
+            "logo":"",
+         }
+      ],
+      "memory":"",
+      "experience":""
+   },
+
+   {
+      "name": "Chase Smith",
+      "year":2016,
+      "favoriteRule": "#76  no excuses, play like a champion",
+      "favoriteSong": "One Big Holiday - My Morning Jacket",
+      "favoriteAwesomePerson": "James Doty, M.D.",
+      "randomFact": "I'm a live music enthusiast. ",
+      "team": "Development Team",
+      "wallPhoto":true,
+      "location": "",
+      "work":[
+         {
+            "position":"",
+            "company":"",
+            "logo":"",
+         }
+      ],
+      "memory":"",
+      "experience":""
+   },
+
+   {
+      "name": "Marvin Anderson",
+      "year":2016,
+      "favoriteRule": "#4   always do something awesome over something not awesome",
+      "favoriteSong": "The Incredible True Story - Logic",
+      "favoriteAwesomePerson": "Steve Jobs",
+      "randomFact": "I am an alumni of the Kentucky Governor's School for the Arts #heyGSA2012 #Trumpet",
+      "team": "Development Team",
+      "wallPhoto":true,
+      "location": "",
+      "work":[
+         {
+            "position":"",
+            "company":"",
+            "logo":"",
+         }
+      ],
+      "memory":"",
+      "experience":""
+   },
+
+   {
+      "name": "Liz Moore",
+      "year":2016,
+      "favoriteRule": "#36  Shoot for an S:S of 20:80 ratio or better in those you do close business with.  Tolerate nothing less than a 1:99 or better in yourself or intimate business partners/best friends.",
+      "favoriteSong": "Nakamarra - Hiatus Kaiyote",
+      "favoriteAwesomePerson": "Tim Keller",
+      "randomFact": "I love Asian culture, everything about it (food, TV, fashion, mannerisms, etc.) except their music... Chinese opera music is the most prominent mall feature and also the worst.",
+      "team": "Design Team",
+      "wallPhoto":true,
+      "location": "",
+      "work":[
+         {
+            "position":"",
+            "company":"",
+            "logo":"",
+         }
+      ],
+      "memory":"",
+      "experience":""
+   },
+
+   {
+      "name": "Stephanie Burton",
+      "year":2016,
+      "favoriteRule": "#22 go big or don't be my friend",
+      "favoriteSong": "Drumming Song- Florence & The Machine",
+      "favoriteAwesomePerson": "Walt Disney",
+      "randomFact": "I can slalom water ski",
+      "team": "Design Team",
+      "wallPhoto":true,
+      "location": "",
+      "work":[
+         {
+            "position":"",
+            "company":"",
+            "logo":"",
+         }
+      ],
+      "memory":"",
+      "experience":""
+   },
+
+   {
+      "name": "Alex Haas",
+      "year":2016,
+      "favoriteRule": "#4  always do something awesome over something not awesome",
+      "favoriteSong": "Slide - Calvin Harris",
+      "favoriteAwesomePerson": "Lady Gaga",
+      "randomFact": "I've played tennis for 15 years",
+      "team": "Marketing Team",
+      "wallPhoto":true,
+      "location": "",
+      "work":[
+         {
+            "position":"",
+            "company":"",
+            "logo":"",
+         }
+      ],
+      "memory":"",
+      "experience":""
+   },
+
+   {
+      "name": "Kaitlyn Carr",
+      "year":2016,
+      "favoriteRule": "#26 don't let stupid things keep you from doing awesome things",
+      "favoriteSong": "anything by Luke Bryan",
+      "favoriteAwesomePerson": "Michael Scott",
+      "randomFact": "I once turned down the opportunity to start modeling in New York so that I could go to soccer camp.",
+      "team": "Events",
+      "wallPhoto":true,
+      "location": "",
+      "work":[
+         {
+            "position":"",
+            "company":"",
+            "logo":"",
+         }
+      ],
+      "memory":"",
+      "experience":""
+   },
+
+   {
+      "name": "Julia Wilson",
+      "year":2016,
+      "favoriteRule": "#45 If you can't make it rain, stay out of the desert... And don't expect an invitation when I'm taking a trip across the sahara",
+      "favoriteSong": "Pride and Joy - Brandi Carlile",
+      "favoriteAwesomePerson": "Michelle Obama",
+      "randomFact": "I play the ukulele!",
+      "team": "Video Team",
+      "wallPhoto":true,
+      "location": "",
+      "work":[
+         {
+            "position":"",
+            "company":"",
+            "logo":"",
+         }
+      ],
+      "memory":"",
+      "experience":""
+   },
+
+   {
+      "name": "Kevin Moore",
+      "year":2016,
+      "favoriteRule": "#17 bring the fun!",
+      "favoriteSong": "i2i - Powerline",
+      "favoriteAwesomePerson": "Kanye West",
+      "randomFact": "I've been to the Dome of the Rock",
+      "team": "Design Team",
+      "wallPhoto":true,
+      "location": "",
+      "work":[
+         {
+            "position":"",
+            "company":"",
+            "logo":"",
+         }
+      ],
+      "memory":"",
+      "experience":""
+   },
+
+
+   {
+      "name": "Ethan Wooldridge",
+      "year":2016,
+      "favoriteRule": "#4  always do something awesome over something not awesome",
+      "favoriteSong": "The Cure- Disintegration",
+      "favoriteAwesomePerson": "Henry Rollins",
+      "randomFact": "Even though I don't believe in the afterlife, I'm overly invested in anything weird, spooky, or supernatural.",
+      "team": "Design Team",
+      "wallPhoto":true,
+      "location": "",
+      "work":[
+         {
+            "position":"",
+            "company":"",
+            "logo":"",
+         }
+      ],
+      "memory":"",
+      "experience":""
+   },
+
+   {
+      "name": "Tyler Smith",
+      "year":2016,
+      "favoriteRule": "#76 no excuses, play like a champion",
+      "favoriteSong": "Blue Boy - Mac Demarco",
+      "favoriteAwesomePerson": "Elon Musk",
+      "randomFact": "I lived in Bowling Green, KY for two years.",
+      "team": "Development Team",
+      "wallPhoto":true,
+      "location": "",
+      "work":[
+         {
+            "position":"",
+            "company":"",
+            "logo":"",
+         }
+      ],
+      "memory":"",
+      "experience":""
+   },
+
+   {
+      "name": "Michael Riemland",
+      "year":2016,
+      "favoriteRule": "#22 go big or don't be my friend",
+      "favoriteSong": "Baba O'Riley",
+      "favoriteAwesomePerson": "Bill Gates",
+      "randomFact": "At age 12 I went on a summer fishing trip in Manitoba, Canada and caught a record Northern Pike.",
+      "team": "Marketing Team",
+      "wallPhoto":true,
+      "location": "",
+      "work":[
+         {
+            "position":"",
+            "company":"",
+            "logo":"",
+         }
+      ],
+      "memory":"",
+      "experience":"",
+   },
+
+   {
+      "name": "Chris Saad",
+      "year":2016,
+      "favoriteRule": "#22 go big or don't be my friend",
+      "favoriteSong": "i",
+      "favoriteAwesomePerson": "Lionel Messi",
+      "randomFact": "I grew up in Dubai",
+      "team": "Development Team",
+      "wallPhoto":true,
+      "location": "",
+      "work":[
+         {
+            "position":"",
+            "company":"",
+            "logo":"",
+         }
+      ],
+      "memory":"",
+      "experience":"",
+   }
 ]
