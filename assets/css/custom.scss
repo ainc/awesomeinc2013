@@ -492,6 +492,7 @@ h5 {
 		input {
 			border-radius: 4px;
 			height: 46px;
+			margin: 20px 0;
 		}
 		input.button {
 			color: white;
@@ -501,6 +502,12 @@ h5 {
 			&:hover {
 				background-color: $color_cardinal_approx_shade;
 			}
+		}
+	}
+	.checkbox {
+		input {
+			height: auto;
+			margin: 5px 5px 0px 0px;	
 		}
 	}
 }
