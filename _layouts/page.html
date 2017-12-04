@@ -12,6 +12,7 @@
     <meta name="google-site-verification" content="ZHa3CqXpt-ieUEB4w2KPISG0VTXYEnoGFNtCsaY3yeo" />
    	<title>{% if page.title %}{{ page.title }} | {{ site.name }}{% else %}{{ site.name }} - {{ site.short_description }}{% endif %}</title>
     {% include importer.html %}
+
 	<link rel="icon" href="/assets/ico/favicon.ico"> 
   {% include pixels.html %}
   {% include hotjar.html %}
@@ -39,3 +40,5 @@
 	{% include social.html %}
 
  {% include footer.html %}
+ {% include ip_logger.html %}
+
