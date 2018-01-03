@@ -507,7 +507,7 @@ h5 {
 	.checkbox {
 		input {
 			height: auto;
-			margin: 5px 5px 0px 0px;	
+			margin: 5px 5px 0px 0px;
 		}
 	}
 }
@@ -971,7 +971,12 @@ h5 {
 	.custom-linebreak {
 		display: none;
 	}
-	@media (max-width: 1200px) and (min-width: 992px) {
+	@media (max-width: 1199px) and (min-width: 992px) {
+		.custom-linebreak {
+			display: block;
+		}
+	}
+	@media (min-width: 1806px) {
 		.custom-linebreak {
 			display: block;
 		}
