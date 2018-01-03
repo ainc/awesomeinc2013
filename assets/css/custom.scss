@@ -968,6 +968,14 @@ h5 {
 			margin-bottom: 40px;
 		}
 	}
+	.custom-linebreak {
+		display: none;
+	}
+	@media (max-width: 1200px) and (min-width: 992px) {
+		.custom-linebreak {
+			display: block;
+		}
+	}
 }
 
 /* =============================================
