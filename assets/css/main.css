@@ -1580,7 +1580,7 @@ div#mc_embed_signup {
 }
 
 #team-alpha span.team {
-		font-family: JournalRegular;
+		font-family: open sans;
 		font-size: 20px;
 		color: #CF353B;
 }
@@ -1758,7 +1758,7 @@ div#mc_embed_signup {
 
 /*TA Member Wall Caption Styling */
 .cs-style-1 figcaption {
-	font-family: JournalRegular;
+	font-family: open sans;
 	padding: 10%;
 	height: 100%;
 	width: 100%;
@@ -1788,7 +1788,7 @@ div#mc_embed_signup {
 
 /*TA Alumni Wall Caption Styling */
 .cs-style-2 figcaption {
-	font-family: JournalRegular;
+	font-family: open sans;
 	padding: 0 10% 20% 10%;
 	height: 110%;
 	width: 88%;

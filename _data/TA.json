@@ -6,17 +6,17 @@
         "favoriteAwesomePerson": "Truett Cathy",
         "randomFact": "I started a water gun selling business when I was in middle school",
         "team": "Co-Founder",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
     },
 
     {
@@ -27,17 +27,17 @@
         "favoriteAwesomePerson": "C.S. Lewis",
         "randomFact": "I have a twin sister that was born exactly 2 years and 4 days before me.",
         "team": "Director of Operations",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
     },
 
     {
@@ -47,191 +47,6 @@
         "favoriteSong": "Safe and Sound - Capital Cities",
         "favoriteAwesomePerson": "John Wall",
         "randomFact": "I sell beef jerky and healthy snacks for a living.",
-        "team": "Development Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""
-    },
-
-    {
-        "time": "2015-01-22T00:15:09.000Z",
-        "name": "Nick Such",
-        "favoriteRule": "Rule #10: 2-3 minutes late is okay, it shows that you are punctual but important enough to have other stuff going on.  5-6 minutes late is rude and shows that you don't respect people's time.",
-        "favoriteSong": "Billy Joel - We Didn't Start the Fire",
-        "favoriteAwesomePerson": "Elon Musk",
-        "randomFact": "In college, I was an international race car driver",
-        "team": "Co-Founder",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""
-    },
-
-    {
-        "time": "2014-11-12T02:34:16.000Z",
-        "name": "Peter Briggs",
-        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
-        "favoriteSong": "Who We Are by Imagine Dragons",
-        "favoriteAwesomePerson": "Neil Armstrong",
-        "randomFact": "I own and regularly drive a purple moped. ",
-        "team": "Video Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""
-    },
-
-    {
-        "name": "Keith McMunn",
-        "favoriteRule": "Rule # 17 Bring the fun!",
-        "favoriteSong": "Menswear - The 1975",
-        "favoriteAwesomePerson": "Jerry Seinfeld",
-        "randomFact": "I drive a Toyota Highlander...like a lot of other 45 year old women in Lexington.",
-        "team": "Fellowship Director",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""
-    },
-
-    {
-        "name": "Amanda Murray",
-        "favoriteRule": "#76	No excuses, play like a champion",
-        "favoriteSong": "ILYSB",
-        "favoriteAwesomePerson": "Sheryl Sandberg",
-        "randomFact": "I made a birthday cake for Britney Spears.",
-        "team": "Director of Marketing",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""
-	},
-
-	{
-        "name": "Zach Frey",
-        "favoriteRule": "#45	If you can't make it rain, stay out of the desert... And don't expect an invitation when I'm taking a trip across the sahara",
-        "favoriteSong": "Ima Just Do It",
-        "favoriteAwesomePerson": "Shawn Bolz",
-        "randomFact": "I can touch my tongue to my nose.",
-        "team": "Design Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""
-	},
-
-	{
-        "name": "Blake Sweet",
-        "favoriteRule": "#26	don't let stupid things keep you from doing awesome things",
-        "favoriteSong": "Seein Red - Dustin Lynch",
-        "favoriteAwesomePerson": "Super Man",
-        "randomFact": "I played baseball in highschool",
-        "team": "Development Team",
-		"wallPhoto":true,
-		"location": "",
-		"work":[
-			{
-				"position":"",
-				"company":"",
-				"logo":"",
-			}
-		],
-		"memory":"",
-		"experience":""
-    },
-
- 	{
-        "time": "2013-01-03T18:44:22.000Z",
-        "name": "Jake Tapia",
-        "favoriteRule": "Rule #22: Go big or don't be my friend.",
-        "favoriteSong": "Across the Universe - The Beatles",
-        "favoriteAwesomePerson": "Kanye West",
-        "randomFact": "I play the guitar",
-        "team": "Marketing Team",
- 		"wallPhoto":true,
- 		"location": "",
- 		"work":[
- 			{
- 				"position":"",
- 				"company":"",
- 				"logo":"",
- 			}
- 		],
- 		"memory":"",
- 		"experience":""
-    },
-
-    {
-        "time": "2013-01-03T18:44:22.000Z",
-        "name": "Parker Householder",
-        "favoriteRule": "#26	don't let stupid things keep you from doing awesome things",
-        "favoriteSong": "The Call -Backstreet Boys",
-        "favoriteAwesomePerson": "Mark Zuckerberg",
-        "randomFact": "I can solve an 11x11x11 rubik's cube. ",
-        "team": "Development Team",
- 		"wallPhoto":true,
- 		"location": "",
- 		"work":[
- 			{
- 				"position":"",
- 				"company":"",
- 				"logo":"",
- 			}
- 		],
- 		"memory":"",
- 		"experience":""
-    },
-
-    {
-        "name": "Brendan Thompson",
-        "year":2017,
-        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
-        "favoriteSong": "Innerbloom -RÜFÜS DU SOL",
-        "favoriteAwesomePerson": "Dave Grohl",
-        "randomFact": "I played in an NCAA DIII Lacrosse Tournament Game",
         "team": "Development Team",
         "wallPhoto":true,
         "location": "",
@@ -247,12 +62,94 @@
     },
 
     {
-        "name": "Nick Sladic",
-        "year":2017,
-        "favoriteRule": "Rule #34: A person's Shit:Substance ratio or their ss for short refers to the amount of bullshit someone is made up of relative to their ability to actually back up their claims and/or confidence.",
-        "favoriteSong": "Objects In The Mirror -Mac Miller",
+        "time": "2015-01-22T00:15:09.000Z",
+        "name": "Nick Such",
+        "favoriteRule": "Rule #10: 2-3 minutes late is okay, it shows that you are punctual but important enough to have other stuff going on.  5-6 minutes late is rude and shows that you don't respect people's time.",
+        "favoriteSong": "Billy Joel - We Didn't Start the Fire",
         "favoriteAwesomePerson": "Elon Musk",
-        "randomFact": "I can solve a second order implicit differential equation but I can't iron my own shirt",
+        "randomFact": "In college, I was an international race car driver",
+        "team": "Co-Founder",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "time": "2014-11-12T02:34:16.000Z",
+        "name": "Peter Briggs",
+        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
+        "favoriteSong": "Who We Are by Imagine Dragons",
+        "favoriteAwesomePerson": "Neil Armstrong",
+        "randomFact": "I own and regularly drive a purple moped. ",
+        "team": "Video Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Keith McMunn",
+        "favoriteRule": "Rule # 17 Bring the fun!",
+        "favoriteSong": "Menswear - The 1975",
+        "favoriteAwesomePerson": "Jerry Seinfeld",
+        "randomFact": "I drive a Toyota Highlander...like a lot of other 45 year old women in Lexington.",
+        "team": "Fellowship Director",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Amanda Murray",
+        "favoriteRule": "#76    No excuses, play like a champion",
+        "favoriteSong": "ILYSB",
+        "favoriteAwesomePerson": "Sheryl Sandberg",
+        "randomFact": "I made a birthday cake for Britney Spears.",
+        "team": "Director of Marketing",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Brendan Thompson",
+        "year":2017,
+        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
+        "favoriteSong": "Innerbloom -RÜFÜS DU SOL",
+        "favoriteAwesomePerson": "Dave Grohl",
+        "randomFact": "I played in an NCAA DIII Lacrosse Tournament Game",
         "team": "Development Team",
         "wallPhoto":true,
         "location": "",
@@ -289,48 +186,6 @@
     },
 
     {
-        "name": "Megan Rose",
-        "year":2017,
-        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
-        "favoriteSong": "Good Times -All Time Low",
-        "favoriteAwesomePerson": "Viola Davis",
-        "randomFact": "I love French Bulldogs and often run across streets to pet one",
-        "team": "Events/Marketing Team",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
-    },
-
-    {
-        "name": "Cassidy Stamper",
-        "year":2017,
-        "favoriteRule": "Rule #4: always do something awesome over something not awesome",
-        "favoriteSong": "Currently Anything by Frank Ocean",
-        "favoriteAwesomePerson": "Gordon Holbein",
-        "randomFact": "I'm a vegetarian",
-        "team": "Video Team",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
-    },
-
-    {
         "name": "Ross Ladenburger",
         "year":2017,
         "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
@@ -349,359 +204,86 @@
         ],
         "memory":"",
         "experience":""
+    },
+
+    {
+        "name": "Cailley Harris",
+        "favoriteRule": "Rule # 26: don't let stupid things keep you from doing awesome things",
+        "favoriteSong": "That may be impossible to answer",
+        "favoriteAwesomePerson": "My friend Jenny",
+        "randomFact": "I'm obsessed with the Olympics",
+        "team": "Design Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Lee Morrow",
+        "favoriteRule": "Rule # 76 No excuses, play like a champion",
+        "favoriteSong": "I don't really have one",
+        "favoriteAwesomePerson": "Andrew Skurka",
+        "randomFact": "I love mountains",
+        "team": "Development Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Hannah Lane",
+        "favoriteRule": "Rule # 4 Always do something awesome over something not awesome",
+        "favoriteSong": "1950 - King Princess ",
+        "favoriteAwesomePerson": "Theodore Roosevelt Jr",
+        "randomFact": "My name is a palindrome.",
+        "team": "Events/Marketing Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Sarah Griffioen",
+        "favoriteRule": "Rule # 17: Bring the fun",
+        "favoriteSong": "Glory Bound - The Wailin' Jennys",
+        "favoriteAwesomePerson": "Hilary Hahn",
+        "randomFact": "I play the violin (I'm a violin performance major). Also, Zac Efron and I have the same birthday (we are exactly 10 years apart).",
+        "team": "Co-Founder",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
     }
 
-
 ]
-
-
-
-// TEMPLATE
-
-// {
-//          "time": "2013-01-03T18:44:22.000Z",
-//          "name": "",
-//          "favoriteRule": "",
-//          "favoriteSong": "",
-//          "favoriteAwesomePerson": "",
-//          "randomFact": "",
-//          "team": "Events",
-//  		"wallPhoto":true,
-//  		"location": "",
-//  		"work":[
-//  			{
-//  				"position":"",
-//  				"company":"",
-//  				"logo":"",
-//  			}
-//  		],
-//  		"memory":"",
-//  		"experience":""
-//      },
-
-//======================
-//Names without pictures
-//======================
-
-
-// {
-//         "name": "Stephanie Burton",
-//         "favoriteRule": "#22 go big or don't be my friend",
-//         "favoriteSong": "Drumming Song- Florence & The Machine",
-//         "favoriteAwesomePerson": "Walt Disney",
-//         "randomFact": "I can slalom water ski",
-//         "team": "Design Team",
-// 		"wallPhoto":true,
-// 		"location": "",
-// 		"work":[
-// 			{
-// 				"position":"",
-// 				"company":"",
-// 				"logo":"",
-// 			}
-// 		],
-// 		"memory":"",
-// 		"experience":""
-// 	},
-
-
-// 	{
- //        "name": "Parker Householder",
- //        "favoriteRule": "#26	don't let stupid things keep you from doing awesome things",
- //        "favoriteSong": "The Call -Backstreet Boys",
- //        "favoriteAwesomePerson": "Mark Zuckerberg",
- //        "randomFact": "I can solve an 11x11x11 rubik's cube.",
- //        "team": "Development Team",
-	// 	"wallPhoto":true,
-	// 	"location": "",
-	// 	"work":[
-	// 		{
-	// 			"position":"",
-	// 			"company":"",
-	// 			"logo":"",
-	// 		}
-	// 	],
-	// 	"memory":"",
-	// 	"experience":""
-	// },
-
-
-// {
-//         "name": "Alex Haas",
-//         "favoriteRule": "#4	always do something awesome over something not awesome",
-//         "favoriteSong": "Slide - Calvin Harris",
-//         "favoriteAwesomePerson": "Lady Gaga",
-//         "randomFact": "I've played tennis for 15 years",
-//         "team": "Marketing Team",
-// 		"wallPhoto":true,
-// 		"location": "",
-// 		"work":[
-// 			{
-// 				"position":"",
-// 				"company":"",
-// 				"logo":"",
-// 			}
-// 		],
-// 		"memory":"",
-// 		"experience":""
-// 	},
-
-
-
-//============================================
-//People without new pictures. No longer here?
-//============================================
-// {
-//         "time": "2013-02-15T19:07:09.000Z",
-//         "name": "Adam Chaffins",
-//         "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
-//         "favoriteSong": "Dreams - Van Halen",
-//         "favoriteAwesomePerson": "Steven Levitt",
-//         "randomFact": "I am a photographer and I shoot underwater portraits. ",
-//         "team": "Marketing Team",
-// 		"wallPhoto":true,
-// 		"location": "",
-// 		"work":[
-// 			{
-// 				"position":"",
-// 				"company":"",
-// 				"logo":"",
-// 			}
-// 		],
-// 		"memory":"",
-// 		"experience":""
-//     },
-
-// {
-//         "time": "2015-11-04T21:54:01.951Z",
-//         "name": "Brittany Durham",
-//         "favoriteRule": "Rule # 4 Always do something awesome over something not awesome",
-//         "favoriteSong": "Brighter than Sunshine, Aqualung",
-//         "favoriteAwesomePerson": "Jane Austen",
-//         "randomFact": "90% of the time, I read the book before I saw the movie.",
-//         "team": "Design Team",
-// 		"wallPhoto":true,
-// 		"location": "",
-// 		"work":[
-// 			{
-// 				"position":"",
-// 				"company":"",
-// 				"logo":"",
-// 			}
-// 		],
-// 		"memory":"",
-// 		"experience":""
-//     },
-
-
-// {
-//         "name": "Garrett Ebel",
-//         "favoriteRule": "Rule #1: All rules are made to be bent or broken",
-//         "favoriteSong": "The Thing",
-//         "favoriteAwesomePerson": "Sam Walton",
-//         "randomFact": "I once earned a set of golden balls (yes, testicles) for linking 8,000 rounds of .50 Caliber ammunition in less than 7 hours.",
-//         "team": "Director",
-// 		"wallPhoto":true,
-// 		"location": "",
-// 		"work":[
-// 			{
-// 				"position":"",
-// 				"company":"",
-// 				"logo":"",
-// 			}
-// 		],
-// 		"memory":"",
-// 		"experience":""
-//     },
-
-
-// {
-//         "time": "2013-01-03T18:44:22.000Z",
-//         "name": "Jake Tapia",
-//         "favoriteRule": "Rule #22: Go big or don't be my friend.",
-//         "favoriteSong": "Across the Universe - The Beatles",
-//         "favoriteAwesomePerson": "Kanye West",
-//         "randomFact": "I play the guitar",
-//         "team": "Marketing Team",
-// 		"wallPhoto":true,
-// 		"location": "",
-// 		"work":[
-// 			{
-// 				"position":"",
-// 				"company":"",
-// 				"logo":"",
-// 			}
-// 		],
-// 		"memory":"",
-// 		"experience":""
-//     },
-
-// {
-//         "time": "2015-10-15T14:40:07.060Z",
-//         "name": "Drake Witt",
-//         "favoriteRule": "Rule # 4 Always do something awesome over something not awesome",
-//         "favoriteSong": "Madeon - Finale",
-//         "favoriteAwesomePerson": "Nikola Tesla",
-//         "randomFact": "I can play the piano.",
-//         "team": "Development Team",
-// 		"wallPhoto":true,
-// 		"location": "",
-// 		"work":[
-// 			{
-// 				"position":"",
-// 				"company":"",
-// 				"logo":"",
-// 			}
-// 		],
-// 		"memory":"",
-// 		"experience":""
-//     },
-
-
-// {
-//         "time": "2015-07-13T23:29:37.282Z",
-//         "name": "Lizzie Moore",
-//         "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
-//         "favoriteSong": "The Call- Regina Spektor",
-//         "favoriteAwesomePerson": "C.S. Lewis",
-//         "randomFact": "I play the ukulele!",
-//         "team": "Design Team",
-// 		"wallPhoto":true,
-// 		"location": "",
-// 		"work":[
-// 			{
-// 				"position":"",
-// 				"company":"",
-// 				"logo":"",
-// 			}
-// 		],
-// 		"memory":"",
-// 		"experience":""
-//     },
-
-
-// {
-//         "name": "Luke Murray",
-//         "favoriteRule": "Rule # 4 Always do something awesome over something not awesome",
-//         "favoriteSong": "The Thing",
-//         "favoriteAwesomePerson": "Abe Lincoln",
-//         "randomFact": "I rode my bike from Canada to Mexico",
-//         "team": "Co-Founder",
-// 		"wallPhoto":true,
-// 		"location": "",
-// 		"work":[
-// 			{
-// 				"position":"",
-// 				"company":"",
-// 				"logo":"",
-// 			}
-// 		],
-// 		"memory":"",
-// 		"experience":""
-//     },
-
-
-// {
-//         "time": "2014-12-04T04:16:07.000Z",
-//         "name": "Michael Lewis",
-//         "favoriteRule": "Rule #21: The universal principle and indeed the purpose of life, business, sports, and all competition: Dominate",
-//         "favoriteSong": "Soldier, Gavin DeGraw",
-//         "favoriteAwesomePerson": "Elon Musk",
-//         "randomFact": "I can play 5.5 instruments: Guitar, Piano, Bass, Drums, Mandolin, and a little Harmonica.",
-//         "team": "Recruitment Team",
-// 		"wallPhoto":true,
-// 		"location": "",
-// 		"work":[
-// 			{
-// 				"position":"",
-// 				"company":"",
-// 				"logo":"",
-// 			}
-// 		],
-// 		"memory":"",
-// 		"experience":""
-//     },
-
-
-// {
-//         "time": "2015-08-02T23:01:13.326Z",
-//         "name": "Monica Leslie",
-//         "favoriteRule": "Rule #76 \"No excuses, play like a champion\"",
-//         "favoriteSong": "Intergalactic - Beastie Boys 2009",
-//         "favoriteAwesomePerson": "Buckminster Fuller",
-//         "randomFact": "I'm definitely a wilderness enthusiast.",
-//         "team": "Tean Alpha Services",
-// 		"wallPhoto":true,
-// 		"location": "",
-// 		"work":[
-// 			{
-// 				"position":"",
-// 				"company":"",
-// 				"logo":"",
-// 			}
-// 		],
-// 		"memory":"",
-// 		"experience":""
-//     },
-
-
-// {
-//         "time": "2013-11-18T19:55:15.000Z",
-//         "name": "Theresa Simcic",
-//         "favoriteRule": "Rule #38: whatever you're saying - stop...you're about to embarass yourself",
-//         "favoriteSong": "\"Song for the Suburbs\" -- Ben Rector",
-//         "favoriteAwesomePerson": "Blake Mycoskie",
-//         "randomFact": "I was cast to play a murder victim during a re-enactment in an episode of the show Forensic Files.",
-//         "team": "Director",
-// 		"wallPhoto":true,
-// 		"location": "",
-// 		"work":[
-// 			{
-// 				"position":"",
-// 				"company":"",
-// 				"logo":"",
-// 			}
-// 		],
-// 		"memory":"",
-// 		"experience":""
-//     },
-
-// {
-//         "name": "Kristian Toole",
-//         "favoriteRule": "Rule # 4 Always do something awesome over something not awesome",
-//         "favoriteSong": "Ten Thousand Hours by Macklemore",
-//         "favoriteAwesomePerson": "Elon Musk",
-//         "randomFact": "I used to know over 50 yoyo tricks",
-//         "team": "Development Team",
-// 		"wallPhoto":true,
-// 		"location": "",
-// 		"work":[
-// 			{
-// 				"position":"",
-// 				"company":"",
-// 				"logo":"",
-// 			}
-// 		],
-// 		"memory":"",
-// 		"experience":""
-//     },
-
-// {
-//         "name": "Xuetao Hong",
-//         "favoriteRule": "Rule # 17 Bring the fun!",
-//         "favoriteSong": "It Will Rain",
-//         "favoriteAwesomePerson": "Brian Raney",
-//         "randomFact": "It is fun to build a versatile software.",
-//         "team": "Development Team",
-// 		"wallPhoto":true,
-// 		"location": "",
-// 		"work":[
-// 			{
-// 				"position":"",
-// 				"company":"",
-// 				"logo":"",
-// 			}
-// 		],
-// 		"memory":"",
-// 		"experience":""
-//     },
