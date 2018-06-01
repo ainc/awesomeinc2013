@@ -10,104 +10,20 @@ title: For Entrepreneurs
     </div>
 </div>
 
-<!-- Fellowship -->
-<span class="anchor" id="fellowship"></span>
-<section class="full-width white-bg">
+{% for member in site.data.for-entrepreneurs %}
+
+<span class="anchor" id="{{member.id}}"></span>
+<section class="{% cycle 'full-width white-bg', 'full-width grey-bg' %}">
 	<div class="container clearfluid ">
 		<div class="col-md-6 col-sm-6 col-xs-12 vertical-align">
-			<img alt="awesome inc fellowship, early stage startups" style="width: 40%; margin-left: 30%;" src="/assets/img/fellowship_logo.png">
+			<img alt="{{member.image_text}}" style="{{member.image_style}}" src="{{member.image_src}}">
 		</div><!-- this is for vertical alignment
 		--><div class="col-md-6 col-sm-6 col-xs-12 vertical-align">
-				<h2>Fellowship Program</h2>
-				<p> This is a mentor-driven program designed to accelerate your high tech startup.  The program is tailored to your startup's needs and runs on a flexible timeline unique to your team, supporting your startup for up to one year. </p>
-				<a href="http://fellowship.awesomeinc.org" class="btn btn-primary btn-action">Learn More</a>
+				<h2> {{member.title}} </h2>
+				<p> {{member.description}} </p>
+				<a href="{{member.button_link}}" class="btn btn-primary btn-action">{{member.button_text}}</a>
 		</div>
 	</div>
 </section>
 
-<!-- 5 Across -->
-<span class="anchor" id="5across"></span>
-<section class="full-width grey-bg">
-	<div class="container clearfluid ">
-		<div class="col-md-6 col-sm-6 col-xs-12 vertical-align">
-			<img alt="5across logo" src="/assets/img/5across.png">
-		</div><!-- this is for vertical alignment
-		--><div class="col-md-6 col-sm-6 col-xs-12 vertical-align">
-			<h2>5 Across</h2>
-			<ul class="no-bullet">
-				<li>5 pitches</li>
-				<li>5 minutes per pitch</li>
-				<li>$500 prize</li>
-				<li>5pm - 7pm</li>
-				<li>$5 admission (includes food)</li>
-			</ul>
-			<a class="btn btn-primary btn-action" href="http://www.5across.org/apply/">Apply</a>
-			<a class="btn btn-primary btn-action" href="http://5across.eventbrite.com/">Register</a>
-		</div>
-	</div>
-</section>
-
-<!-- Cherub Fund -->
-<span class="anchor" id="cherub"></span>
-<section class="full-width white-bg">
-	<div class="container clearfluid ">
-		<div class="col-md-6 col-sm-6 col-xs-12 vertical-align">
-			<img alt="cherub fund logo" src="/assets/img/cherublogo.png">
-		</div><!-- this is for vertical alignment
-		--><div class="col-md-6 col-sm-6 col-xs-12 vertical-align">
-				<h2>Cherub Fund</h2>
-				<p> The Cherub Fund was formed in 2013 in order to grow the startup community in Kentucky.  The fund is comprised of entrepreneurs, angel investors and supporters of entrepreneurs.</p>
-				<a href="http://cherubfund.org/" class="btn btn-primary btn-action">Learn More</a>
-		</div>
-	</div>
-</section>
-
-<!-- Startup Weekend -->
-<span class="anchor" id="swlex"></span>
-<section class="full-width grey-bg">
-	<div class="container clearfluid ">
-		<div class="col-md-6 col-sm-6 col-xs-12 vertical-align">
-			<img alt="startup weekend" src="/assets/img/logo_startupweekend.png">
-		</div><!-- this is for vertical alignment
-		--><div class="col-md-6 col-sm-6 col-xs-12 vertical-align">
-			<h2>Startup Weekend</h2>
-			<p>Anyone is welcome to pitch their startup idea at the beginning of the 3-day weekend event.  Teams organically form around the top ideas and then it's a 54 hour frenzy of business model creation, coding, designing, and market validation.</p>
-			<a class="btn btn-primary btn-action" href="http://www.up.co/communities/usa/lexington/startup-weekend/9955">Get Involved</a>
-		</div>
-	</div>
-</section>
-
-<!-- Entrepreneur HOF -->
-<span class="anchor" id="hof"></span>
-<section class="full-width white-bg">
-	<div class="container clearfluid ">
-		<div class="col-md-6 col-sm-6 col-xs-12 vertical-align">
-			<img alt="cherub fund logo" src="/assets/img/ehoflogo.png">
-		</div><!-- this is for vertical alignment
-		--><div class="col-md-6 col-sm-6 col-xs-12 vertical-align">
-				<h2>Entrepreneur HOF</h2>
-				<p>The Kentucky Entrepreneur Hall of Fame honors, shares and celebrates the stories of Kentucky's most successful entrepreneurs.  Our mission is to raise awareness of the impact that entrepreneurship has made in the Commonwealth and encourage others to pursue similar ambitious endeavors.</p>
-				<a href="http://www.entrepreneurhof.com/" class="btn btn-primary btn-action">Portfolio</a>
-		</div>
-	</div>
-</section>
-
-<!-- I have an idea -->
-<span class="anchor" id="idea"></span>
-<section class="full-width grey-bg">
-	<div class="container clearfluid ">
-		<div class="col-md-6 col-sm-6 col-xs-12 vertical-align">
-			<img alt="startup weekend" src="/assets/img/lightbulb_logo.png" style="width: 25%; margin-left: 37.5%;">
-		</div><!-- this is for vertical alignment
-		--><div class="col-md-6 col-sm-6 col-xs-12 vertical-align">
-				<h2>I have an idea...</h2>
-				<p>Do you have an idea? Tell us about it. Awesome Inc's goal is to promote entrepreneurship. We think the best way to spread entrepreneurship is to go out and do it so tell us about your idea and we can help you pursue this idea.</p>
-				<a class="btn btn-primary btn-action" href="#submit-idea-modal" type="button" data-toggle="modal">Submit your idea</a>
-				<!-- Idea Modal -->
-				{% include tenant-modal.html %}
-			</div> <!-- Tenant Modal -->
-	</div>
-</section>
-
-
-
+{% endfor %}
