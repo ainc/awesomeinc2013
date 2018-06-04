@@ -26,150 +26,55 @@ redirect_from:
 	<a class="btn btn-primary btn-action" data-toggle="modal" href="#tour-popup">Schedule a Tour <i class="fa fa-angle-double-right"></i></a>
 	{% include schedule_a_tour.html %}
 	<h2>Membership Options</h2>
+
+	{% for member in site.data.membership_options %}
+
 	<div class="col-md-4 no-pad-col">
-		<div class="panel panel-danger panel-custom">
-			<div class="panel-heading center">Virtual Member</div>
-			<img class="center" src="/assets/img/virtual_plan.png" alt="virtual member plan, $75 per month">
+		<div class="{% cycle 'panel panel-danger panel-custom', 'panel panel-danger panel-custom panel-feature' %}">
+			<div class="panel-heading center">{{member.title}}</div>
+			<img class="center" src="{{member.image_src}}" alt="{{member.image_text}}">
 			<ul>
-				<li>Main St mailing address</li>
-				<li>4 hours of professional conference room</li>
+				<li>{{member.list_1}}</li>
+				<li>{{member.list_2}}</li>
 			</ul>
 			<br class="custom-linebreak">
-			<a href="https://spreadsheets.google.com/spreadsheet/viewform?formkey=dGh0eWtpRkczSEZ0aXBhazV6S0JwV3c6MQ"><button class="center btn btn-primary btn-action" class="center btn btn-primary btn-action center">$75/mo</button></a>
+			<a href="{{member.button_link}}"><button class="center btn btn-primary btn-action" class="center btn btn-primary btn-action center">{{member.button_text}}</button></a>
 		</div>
 	</div>
-	<div class="col-md-4 no-pad-col">
-		<div class="panel panel-danger panel-custom panel-feature">
-			<div class="panel-heading center">Full Time Member</div>
-			<img class="center" src="/assets/img/full_time_plan.png" alt="full time member plan, $250 per month">
-			<ul>
-				<li>24/7 access to our space</li>
-				<li>10 hours of professional conference room</li>
-			</ul>
-			<br class="custom-linebreak">
-			<a href="https://spreadsheets.google.com/spreadsheet/viewform?formkey=dGh0eWtpRkczSEZ0aXBhazV6S0JwV3c6MQ"><button class="center btn btn-primary btn-action" class="center btn btn-primary btn-action center">$250/mo</button></a>
-		</div>
-	</div>
-	<div class="col-md-4 no-pad-col">
-		<div class="panel panel-danger panel-custom">
-			<div class="panel-heading center">Day Pass</div>
-			<img class="center" src="/assets/img/day_pass_plan.png" alt="Day pass, $20 per day">
-			<ul>
-				<li>9am - 6pm access</li>
-				<li>Professional conference room (depending on availability)</li>
-			</ul>
-			<a href="https://spreadsheets.google.com/spreadsheet/viewform?formkey=dGh0eWtpRkczSEZ0aXBhazV6S0JwV3c6MQ"><button class="center btn btn-primary btn-action" class="btn btn-primary btn-action center">$20/day</button></a>
-		</div>
-	</div>
+
+	{% endfor %}
+
 
 </div>
 
 <span class="anchor" id="features"></span>
 <div class="container custom-container custom-grid">
 	<h2>Membership Amenities</h2>
-	<!-- FIRST ROW OF AMENITIES -->
+
+	{% for row in site.data.membership_amenities %}
+
 	<div class="row">
-		<div class="col-md-4">
-			<div class="media">
-				<div class="media-left media-middle">
-					<img src="/assets/img/amenities/wifi.png" class="media-object" alt="High speed, secure Wi-Fi">
-				</div>
-				<div class="media-body media-middle">
-					High speed, secure Wi-Fi
-				</div>
-			</div>
-		</div>
+
+		{% for item in row.contents %}
 
 		<div class="col-md-4">
 			<div class="media">
 				<div class="media-left media-middle">
-					<img src="/assets/img/amenities/like-Minded-People.png" class="media-object" alt="Innovative environment">
+					<img src="{{item.image_src}}" class="media-object" alt="{{item.image_text}}">
 				</div>
 				<div class="media-body media-middle">
-					Innovative environment
+					{{item.title}}
 				</div>
 			</div>
 		</div>
 
-		<div class="col-md-4">
-			<div class="media">
-				<div class="media-left media-middle">
-					<img src="/assets/img/amenities/events.png" class="media-object" alt="Networking events ">
-				</div>
-				<div class="media-body media-middle">
-					Networking events
-				</div>
-			</div>
-		</div>
+		{% endfor %}
+
 	</div>
-		<!-- SECOND ROW OF AMENITIES -->
-	<div class="row">
-		<div class="col-md-4">
-			<div class="media">
-				<div class="media-left media-middle">
-					<img src="/assets/img/amenities/meetings.png" class="media-object" alt="Conference & meeting rooms">
-				</div>
-				<div class="media-body media-middle">
-					Conference & meeting rooms
-				</div>
-			</div>
-		</div>
 
-		<div class="col-md-4">
-			<div class="media">
-				<div class="media-left media-middle">
-					<img src="/assets/img/amenities/locker.png" class="media-object" alt="Storage lockers">
-				</div>
-				<div class="media-body media-middle">
-					Storage lockers
-				</div>
-			</div>
-		</div>
+	{% endfor %}
 
-		<div class="col-md-4">
-			<div class="media">
-				<div class="media-left media-middle">
-					<img src="/assets/img/amenities/breakroom.png" class="media-object" alt="Breakroom & kitchen">
-				</div>
-				<div class="media-body media-middle">
-					Breakroom & kitchen
-				</div>
-			</div>
-		</div>
-	</div>
-		<!-- THIRD ROW OF AMENITIES -->
-	<div class="row">
-		<div class="col-md-4">
-			<div class="media">
-				<div class="media-left media-middle">
-					<img src="/assets/img/amenities/printer.png" class="media-object" alt="print and copy">
-				</div>
-				<div class="media-body media-middle">
-					Print & copy
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="media">
-				<div class="media-left media-middle">
-					<img src="/assets/img/amenities/mail.png" class="media-object" alt="Networking events">
-				</div>
-				<div class="media-body media-middle">
-					Downtown mailing address
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="media">
-				<div class="media-left media-middle">
-					<img src="/assets/img/amenities/mentorship.png" class="media-object" alt="Mentorship">
-				</div>
-				<div class="media-body media-middle">
-					Mentorship
-				</div>
-			</div>
-		</div>
-	</div>
+		
 
 </div> <!-- CONTAINER -->
 

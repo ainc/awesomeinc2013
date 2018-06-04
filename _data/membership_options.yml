@@ -1,0 +1,25 @@
+
+
+- title: Virtual Member
+  list_1: Main St mailing address
+  list_2: 4 hours of professional conference room
+  image_src: /assets/img/virtual_plan.png
+  image_text: virtual member plan, $75 per month
+  button_text: $75/mo
+  button_link: https://spreadsheets.google.com/spreadsheet/viewform?formkey=dGh0eWtpRkczSEZ0aXBhazV6S0JwV3c6MQ
+
+- title: Full Time Member
+  list_1: 24/7 access to our space
+  list_2: 10 hours of professional conference room
+  image_src: /assets/img/full_time_plan.png
+  image_text: full time member plan, $250 per month
+  button_text: $250/mo
+  button_link: https://spreadsheets.google.com/spreadsheet/viewform?formkey=dGh0eWtpRkczSEZ0aXBhazV6S0JwV3c6MQ
+
+- title: Day Pass
+  list_1: 9am - 6pm access
+  list_2: Professional conference room (depending on availability)
+  image_src: /assets/img/day_pass_plan.png
+  image_text: Day pass, $20 per day
+  button_text: $20/day
+  button_link: https://spreadsheets.google.com/spreadsheet/viewform?formkey=dGh0eWtpRkczSEZ0aXBhazV6S0JwV3c6MQ

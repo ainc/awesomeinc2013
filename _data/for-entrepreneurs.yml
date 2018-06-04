@@ -43,6 +43,7 @@
   description: The Kentucky Entrepreneur Hall of Fame honors, shares and celebrates the stories of Kentucky's most successful entrepreneurs.  Our mission is to raise awareness of the impact that entrepreneurship has made in the Commonwealth and encourage others to pursue similar ambitious endeavors.
   id: hof
   image_text: cherub fund logo
+  # image_text should be changed?
   image_style: ""
   image_src: /assets/img/ehoflogo.png
   button_text: Portfolio
@@ -52,6 +53,7 @@
   description: Do you have an idea? Tell us about it. Awesome Inc's goal is to promote entrepreneurship. We think the best way to spread entrepreneurship is to go out and do it so tell us about your idea and we can help you pursue this idea.
   id: idea
   image_text: startup weekend
+  # image_text should be changed?
   image_style: "width: 25%; margin-left: 37.5%;"
   image_src: /assets/img/lightbulb_logo.png
   button_text: Submit your idea

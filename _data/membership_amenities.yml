@@ -1,0 +1,39 @@
+
+
+- row: one
+  contents:
+  - title: High speed, secure Wi-Fi
+    image_src: /assets/img/amenities/wifi.png
+    image_text: High speed, secure Wi-Fi
+  - title: Innovative environment
+    image_src: /assets/img/amenities/like-Minded-People.png
+    image_text: Innovative environment
+  - title: Networking events
+    image_src: /assets/img/amenities/events.png
+    image_text: Networking events
+
+- row: two
+  contents:
+  - title: Conference & meeting rooms
+    image_src: /assets/img/amenities/meetings.png
+    image_text: Conference & meeting rooms
+  - title: Storage lockers
+    image_src: /assets/img/amenities/locker.png
+    image_text: Storage lockers
+  - title: Breakroom & kitchen
+    image_src: /assets/img/amenities/breakroom.png
+    image_text: Breakroom & kitchen
+
+- row: three
+  contents:
+  - title: Print & copy
+    image_src: /assets/img/amenities/printer.png
+    image_text: print and copy
+  - title: Downtown mailing address
+    image_src: /assets/img/amenities/mail.png
+    image_text: Networking events
+    # image_text should be changed?
+  - title: Mentorship
+    image_src: /assets/img/amenities/mentorship.png
+    image_text: Mentorship
+
