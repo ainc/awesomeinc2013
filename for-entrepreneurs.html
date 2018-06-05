@@ -20,8 +20,23 @@ title: For Entrepreneurs
 		</div><!-- this is for vertical alignment
 		--><div class="col-md-6 col-sm-6 col-xs-12 vertical-align">
 				<h2> {{member.title}} </h2>
-				<p> {{member.description}} </p>
-				<a href="{{member.button_link}}" class="btn btn-primary btn-action">{{member.button_text}}</a>
+
+				{% if member.description %}
+					<p> {{member.description}} </p>
+				{% elsif member.list %}
+					{% for list_item in member.list %}
+						{% if forloop.first %}<ul class="no-bullet">{% endif %}
+						<li>{{ list_item.item }}</li>
+						{% if forloop.last %}</ul>{% endif %}
+					{% endfor %}
+				{% endif %}
+
+				{% for button_item in member.buttons %}
+					<a href="{{button_item.button_link}}" class="btn btn-primary btn-action" {{button_item.features}}>{{button_item.button_text}}</a>
+					{% if button_item.includes %}
+						{% include {{button_item.includes}} %}
+					{% endif %}
+				{% endfor %}
 		</div>
 	</div>
 </section>
