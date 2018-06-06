@@ -3,9 +3,9 @@
 - title: Fellowship Program
   description: This is a mentor-driven program designed to accelerate your high tech startup.  The program is tailored to your startup's needs and runs on a flexible timeline unique to your team, supporting your startup for up to one year.
   id: fellowship
+  image_src: /assets/img/fellowship_logo.png
   image_text: awesome inc fellowship, early stage startups
   image_style: "width: 40%; margin-left: 30%;"
-  image_src: /assets/img/fellowship_logo.png
   buttons:
     - button_text: Learn More
       button_link: http://fellowship.awesomeinc.org
@@ -19,9 +19,9 @@
   - item: $5 admission (includes food)
   # make the above a list
   id: 5across
+  image_src: /assets/img/5across.png
   image_text: 5across logo
   image_style: ""
-  image_src: /assets/img/5across.png
   buttons:
     - button_text: Apply
       button_link: http://www.5across.org/apply/
@@ -31,9 +31,9 @@
 - title: Cherub Fund
   description: The Cherub Fund was formed in 2013 in order to grow the startup community in Kentucky.  The fund is comprised of entrepreneurs, angel investors and supporters of entrepreneurs.
   id: cherub
+  image_src: /assets/img/cherublogo.png
   image_text: cherub fund logo
   image_style: ""
-  image_src: /assets/img/cherublogo.png
   buttons:
     - button_text: Learn More
       button_link: http://cherubfund.org/
@@ -41,9 +41,9 @@
 - title: Startup Weekend
   description: Anyone is welcome to pitch their startup idea at the beginning of the 3-day weekend event.  Teams organically form around the top ideas and then it's a 54 hour frenzy of business model creation, coding, designing, and market validation.
   id: swlex
+  image_src: /assets/img/logo_startupweekend.png
   image_text: startup weekend
   image_style: ""
-  image_src: /assets/img/logo_startupweekend.png
   buttons:
     - button_text: Get Involved
       button_link: http://www.up.co/communities/usa/lexington/startup-weekend/9955
@@ -51,10 +51,10 @@
 - title: Entrepreneur HOF
   description: The Kentucky Entrepreneur Hall of Fame honors, shares and celebrates the stories of Kentucky's most successful entrepreneurs.  Our mission is to raise awareness of the impact that entrepreneurship has made in the Commonwealth and encourage others to pursue similar ambitious endeavors.
   id: hof
+  image_src: /assets/img/ehoflogo.png
   image_text: Entrepreneur HOF logo
   # image_text should be changed
   image_style: ""
-  image_src: /assets/img/ehoflogo.png
   buttons:
     - button_text: Portfolio
       button_link: http://www.entrepreneurhof.com/
@@ -62,10 +62,10 @@
 - title: I have an idea...
   description: Do you have an idea? Tell us about it. Awesome Inc's goal is to promote entrepreneurship. We think the best way to spread entrepreneurship is to go out and do it so tell us about your idea and we can help you pursue this idea.
   id: idea
+  image_src: /assets/img/lightbulb_logo.png
   image_text: idea logo
   # image_text should be changed
   image_style: "width: 25%; margin-left: 37.5%;"
-  image_src: /assets/img/lightbulb_logo.png
   buttons:
     - button_text: Submit your idea
       button_link: "#submit-idea-modal"
