@@ -21,9 +21,10 @@ title: Internships
 	</div>
 </div>
 
+<!-- Blocks specific to this page -->
 {% for member in site.data.internships %}
 
-<span class="anchor" id="{{member.id}}"></span>
+<span class="anchor" id="teams"></span>
 <section class="{% cycle 'full-width white-bg', 'full-width grey-bg' %}">
 	<div class="container clearfluid ">
 		<div class="col-md-6 vertical-align">
@@ -46,31 +47,5 @@ title: Internships
 
 {% endfor %}
 
-
-<h5 class="ta-apply">
-	<a type="button" class="btn btn-primary btn-action" href="https://docs.google.com/spreadsheet/viewform?usp=sharing_eil&formkey=dDNLRTI0MmcyYWtDSDZNNGZOVERfNUE6MQ#gid=0">Apply!</a>
-</h5>
-
-<div id="members">
-	<div class="container">
-		<h2> Check Out Team Alpha </h2>
-
-		{% for member in site.data.team_alpha %}
-
-		<div class="col-lg-3">
-				<a href="/team-alpha/">
-
-					<img class="img-responsive" src="{{member.image_src}}" alt="{{member.image_text}}" style="border-radius:2%">
-					<p></p>
-				</a>
-			</div>
-
-		{% endfor %}
-				
-		</div>
-
-	</div>
-	<div class="container">
-		<h5><a href="/team-alpha" class="btn btn-primary btn-action">Meet the team</a></h5>
-	</div>
-</div>
+<!-- General TA blocks -->
+{% include ta_intern_info.html %}
