@@ -1,0 +1,12 @@
+
+
+- title: "Languages we program in:"
+  list:
+  - item: HTML5 / CSS3
+  - item: Javascript
+  - item: Python / Django
+  - item: Swift
+  - item: PHP
+  - item: Jekyll
+  image_src: /assets/img/dev-team/Coding-icon.png
+  image_text: coding icon
