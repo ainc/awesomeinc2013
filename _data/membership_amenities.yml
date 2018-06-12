@@ -31,8 +31,7 @@
     image_text: print and copy
   - title: Downtown mailing address
     image_src: /assets/img/amenities/mail.png
-    image_text: Networking events
-    # image_text should be changed?
+    image_text: Downtown mailing address
   - title: Mentorship
     image_src: /assets/img/amenities/mentorship.png
     image_text: Mentorship
