@@ -22,124 +22,31 @@ title: Event / Marketing Team
 	</div>
 </div>
 
+<!-- Blocks specific to this page -->
+{% for member in site.data.marketing_team %}
+
 <span class="anchor" id="teams"></span>
-<section class="full-width white-bg">
+<section class="{% cycle 'full-width white-bg', 'full-width grey-bg' %}">
 	<div class="container clearfluid ">
 		<div class="col-md-6 vertical-align">
-			<img alt="Team alpha working with teams" src="/assets/img/marketing-icon.png">
+			<img alt="{{member.image_text}}" src="{{member.image_src}}">
 		</div><!-- this is for vertical alignment
 		--><div class="col-md-6 vertical-align">
-				<h2>Events we work on: </h2>
-				<ul>
-					<li>Awesome Inc U</li>
-					<li>Fellowship Program</li>
-					<li>5 Across</li>
-					<li>Startup Weekend</li>
-				</ul>
+				<h2>{{member.title}}</h2>
+				{% if member.description %}
+					<p> {{member.description}} </p>
+				{% elsif member.list %}
+					{% for list_item in member.list %}
+						{% if forloop.first %}<ul>{% endif %}
+						<li>{{list_item.item}}</li>
+						{% if forloop.last %}</ul>{% endif %}
+					{% endfor %}
+				{% endif %}
 		</div>
 	</div>
 </section>
 
-<span class="anchor" id="who"></span>
-<section class="full-width grey-bg">
-	<div class="container clearfluid ">
-		<div class="col-md-6 vertical-align">
-			<img alt="Team Alpha at STLP" src="/assets/img/STLP.jpg">
-		</div><!-- this is for vertical alignment
-		--><div class="col-md-6 vertical-align">
-				<h2> Who We Are </h2>
-				<p>Team Alpha is a group of interns. They are part of the team, not just an intern. Team Alpha members have the opportunities and access to resources and mentors to help pursue their passions.
-				</p>
-		</div>
-	</div>
-</section>
+{% endfor %}
 
-<span class="anchor" id="why"></span>
-<section class="full-width white-bg">
-	<div class="container clearfluid ">
-		<div class="col-md-6 vertical-align">
-			<img alt="Awesome Inc Retreat 2015" src="/assets/img/retreat-2015.png">
-		</div><!-- this is for vertical alignment
-		--><div class="col-md-6 vertical-align">
-				<h2>Why You Should Join </h2>
-				<p>In addition to the free t-shirt, Team Alpha provides you with an opportunity to improve your skills, portfolio and network.  Our goal is to assure you the best experience by helping you achieve your goals whether that is getting into your dream school or working for your favorite company.  Also, if you're good enough, you can get a sweet nickname like Melo, Cool, Fresh, Rush, and Nerf did.</p>
-		</div>
-	</div>
-</section>
-
-<span class="anchor" id="what"></span>
-<section class="full-width grey-bg">
-	<div class="container clearfluid ">
-		<div class="col-md-6 vertical-align">
-			<img alt="Team Alpha at STLP" src="/assets/img/Judge.jpg">
-		</div><!-- this is for vertical alignment
-		--><div class="col-md-6 vertical-align">
-				<h2> What We Need </h2>
-				<p>We're looking for anyone who wants to have fun and follow Rule #4: "Always do something awesome over something not awesome." Our primary needs are for people interested in video, web development, and graphic design. We also need event coordinators, social media whizzes, marketing and PR people, as well writers for our blogs.
-				</p>
-		</div>
-	</div>
-</section>
-
-<span class="anchor" id="join"></span>
-<section class="full-width white-bg">
-	<div class="container clearfluid ">
-		<div class="col-md-6 vertical-align">
-			<img alt="Team Alpha hype team at 5across" src="/assets/img/team-alpha-hype-team.jpg">
-		</div><!-- this is for vertical alignment
-		--><div class="col-md-6 vertical-align">
-				<h2>Why We're Awesome</h2>
-				<p>Team Alpha currently has around twenty members. Team Alpha's leader, Emily, is way more fun than any other boss you'll have. Our video team gets to hang out with millionaires, like the Dippin' Dots inventor and the founder of Papa John's for their work on the Founders Series. And our programming team gets to work on sweet mobile apps and learn to code cool websites, such as <a href="http://www.entrepreneurhof.com/">entrepreneurhof.com</a>, <a href="https://www.awesomeincu.com">AwesomeIncU.com</a>, and our main site--<a href="http://awesomeinc.org">AwesomeInc.org</a>. </p>
-		</div>
-	</div>
-</section>
-
-<h5 class="ta-apply">
-	<a type="button" class="btn btn-primary btn-action" href="https://docs.google.com/spreadsheet/viewform?usp=sharing_eil&formkey=dDNLRTI0MmcyYWtDSDZNNGZOVERfNUE6MQ#gid=0">Apply!</a>
-</h5>
-
-
-
-
-<div id="members">
-	<div class="container">
-		<h2> Check Out Team Alpha </h2>
-
-		<div class="col-lg-3">
-				<a href="/team-alpha/">
-
-					<img class="img-responsive" src="\assets\img\teamalpha\TA_minified\kyleraney_wall.png" alt="Kyle Raney" style="border-radius:2%">
-					<p></p>
-				</a>
-			</div>
-		<div class="col-lg-3">
-				<a href="/team-alpha/">
-
-					<img class="img-responsive" src="\assets\img\teamalpha\TA_minified\brittanydurham_wall.png" alt="Brittany Durham" style="border-radius:2%">
-					<p></p>
-				</a>
-			</div>
-
-		<div class="col-lg-3">
-				<a href="/team-alpha/">
-
-					<img class="img-responsive" src="\assets\img\teamalpha\TA_minified\jaketapia_wall.png" alt="Jake Tapia" style="border-radius:2%">
-
-					<p></p>
-				</a>
-			</div>
-
-			<div class="col-lg-3">
-				<a href="/team-alpha/">
-					<img class="img-responsive" src="\assets\img\teamalpha\TA_minified\katharinesagan_wall.png" alt="Katharine Sagan" style="border-radius:2%">
-					<p></p>
-				</a>
-			</div>
-
-		</div>
-
-	</div>
-	<div class="container">
-		<h5><a href="/team-alpha" class="btn btn-primary btn-action">Meet the team</a></h5>
-	</div>
-</div>
+<!-- General TA blocks -->
+{% include ta_intern_info.html %}

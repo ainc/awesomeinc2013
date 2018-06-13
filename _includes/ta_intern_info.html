@@ -1,0 +1,54 @@
+
+<!-- General TA blocks -->
+{% for member in site.data.ta_intern_info %}
+
+<span class="anchor" id="{{member.id}}"></span>
+<section class="{% cycle 'full-width grey-bg', 'full-width white-bg' %}">
+	<div class="container clearfluid ">
+		<div class="col-md-6 vertical-align">
+			<img alt="{{member.image_text}}" src="{{member.image_src}}" style="width: 80%; margin-left: 10%;">
+		</div><!-- this is for vertical alignment
+		--><div class="col-md-6 vertical-align">
+				<h2>{{member.title}}</h2>
+				{% if member.description %}
+					<p> {{member.description}} </p>
+				{% elsif member.list %}
+					{% for list_item in member.list %}
+						{% if forloop.first %}<ul>{% endif %}
+						<li><a href="{{list_item.link}}">{{list_item.item}}</a></li>
+						{% if forloop.last %}</ul>{% endif %}
+					{% endfor %}
+				{% endif %}
+		</div>
+	</div>
+</section>
+
+{% endfor %}
+
+<h5 class="ta-apply">
+	<a type="button" class="btn btn-primary btn-action" href="https://docs.google.com/spreadsheet/viewform?usp=sharing_eil&formkey=dDNLRTI0MmcyYWtDSDZNNGZOVERfNUE6MQ#gid=0">Apply!</a>
+</h5>
+
+<div id="members">
+	<div class="container">
+		<h2> Check Out Team Alpha </h2>
+
+		{% for member in site.data.team_alpha %}
+
+		<div class="col-lg-3">
+				<a href="/team-alpha/">
+
+					<img class="img-responsive" src="{{member.image_src}}" alt="{{member.image_text}}" style="border-radius:2%">
+					<p></p>
+				</a>
+			</div>
+
+		{% endfor %}
+				
+		</div>
+
+	</div>
+	<div class="container">
+		<h5><a href="/team-alpha" class="btn btn-primary btn-action">Meet the team</a></h5>
+	</div>
+</div>

@@ -1,0 +1,14 @@
+
+
+- title: "Teams you can apply for:"
+  list:
+  - item: Web Development
+    link: /internships/dev-team
+  - item: Graphic Design
+    link: /internships/design-team
+  - item: Video Production & Photography
+    link: /internships/production-team
+  - item: Events & Marketing
+    link: /internships/marketing-team
+  image_src: /assets/img/Teams-Graphic.png
+  image_text: Team alpha working with teams
