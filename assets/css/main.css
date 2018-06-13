@@ -1699,7 +1699,8 @@ div#mc_embed_signup {
 	left: 0;
 	background: #d1d3d4;
 	color: #CF353B;
-	overflow: auto;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 .grid_TA_Wall figcaption h3 {
