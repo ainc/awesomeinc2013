@@ -34,7 +34,12 @@ redirect_from:
 
                                         <figcaption>
 
+                                            {% if member.name.size < 16 %}
                                             <h3>{{member.name}}<br><span class="team">{{member.team}}</span></h3>
+                                            {% else %}
+                                            <h4>{{member.name}}<br><span class="team">{{member.team}}</span></h4>
+                                            {% endif %}
+
 
 
                                                 <p>

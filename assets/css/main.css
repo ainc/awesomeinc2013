@@ -1709,6 +1709,13 @@ div#mc_embed_signup {
 	color: #333;
 }
 
+.grid_TA_Wall figcaption h4 {
+	font-size: 28px;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
 /*TA Alumni Wall Styling */
 .grid_TA_alumni {
 	padding: 2% 2% 0 2%;
