@@ -1,7 +1,7 @@
 [
     {
         "name": "Brian Raney",
-        "favoriteRule": "Rule # 4 Always do something awesome over something not awesome",
+        "favoriteRule": "Rule #4: Always do something awesome over something not awesome",
         "favoriteSong": "The Thing",
         "favoriteAwesomePerson": "Truett Cathy",
         "randomFact": "I started a water gun selling business when I was in middle school",
@@ -22,7 +22,7 @@
     {
         "time": "2015-10-21T18:52:45.810Z",
         "name": "Emily Wehrle",
-        "favoriteRule": "#38 whatever you're saying - stop...you're about to embarass yourself",
+        "favoriteRule": "Rule #38: whatever you're saying - stop...you're about to embarass yourself",
         "favoriteSong": "Farther Along - Josh Garrels",
         "favoriteAwesomePerson": "C.S. Lewis",
         "randomFact": "I have a twin sister that was born exactly 2 years and 4 days before me.",
@@ -43,7 +43,7 @@
     {
         "time": "2014-01-15T23:25:29.000Z",
         "name": "Kyle Raney",
-        "favoriteRule": "Rule #76 \"No excuses, play like a champion\"",
+        "favoriteRule": "Rule #76: \"No excuses, play like a champion\"",
         "favoriteSong": "Safe and Sound - Capital Cities",
         "favoriteAwesomePerson": "John Wall",
         "randomFact": "I sell beef jerky and healthy snacks for a living.",
@@ -105,7 +105,7 @@
 
     {
         "name": "Keith McMunn",
-        "favoriteRule": "Rule # 17 Bring the fun!",
+        "favoriteRule": "Rule #17: Bring the fun!",
         "favoriteSong": "Menswear - The 1975",
         "favoriteAwesomePerson": "Jerry Seinfeld",
         "randomFact": "I drive a Toyota Highlander...like a lot of other 45 year old women in Lexington.",
@@ -125,32 +125,11 @@
 
     {
         "name": "Amanda Murray",
-        "favoriteRule": "#76    No excuses, play like a champion",
+        "favoriteRule": "Rule #76: No excuses, play like a champion",
         "favoriteSong": "ILYSB",
         "favoriteAwesomePerson": "Sheryl Sandberg",
         "randomFact": "I made a birthday cake for Britney Spears.",
         "team": "Director of Marketing",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
-    },
-
-    {
-        "name": "Aayat Ali",
-        "year":2017,
-        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
-        "favoriteSong": "Wah-Wah -George Harrison",
-        "favoriteAwesomePerson": "Beyonce",
-        "randomFact": "I've played guitar for 8 years",
-        "team": "Blog/Marketing Team",
         "wallPhoto":true,
         "location": "",
         "work":[
@@ -186,6 +165,48 @@
     },
 
     {
+        "name": "Garret Fahrbach",
+        "year":2018,
+        "favoriteRule": "Rule #17: Bring the fun!",
+        "favoriteSong": "I Forget Where We Were -Ben Howard",
+        "favoriteAwesomePerson": "Nigel Hendroff is one of my musical role models. His hair is iconic and he is an incredible musician",
+        "randomFact": "I'm addicted to gum, but in a healthy manner",
+        "team": "Fellowship/HoF",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Aayat Ali",
+        "year":2017,
+        "favoriteRule": "Rule #26: don't let stupid things keep you from doing awesome things",
+        "favoriteSong": "Built to Last by Melee",
+        "favoriteAwesomePerson": "Beyonce",
+        "randomFact": "I've played guitar for 8 years",
+        "team": "Blog/Marketing Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
         "name": "Cailley Harris",
         "favoriteRule": "Rule # 26: don't let stupid things keep you from doing awesome things",
         "favoriteSong": "That may be impossible to answer",
@@ -207,7 +228,7 @@
 
     {
         "name": "Lee Morrow",
-        "favoriteRule": "Rule # 76 No excuses, play like a champion",
+        "favoriteRule": "Rule #76: No excuses, play like a champion",
         "favoriteSong": "I don't really have one",
         "favoriteAwesomePerson": "Andrew Skurka",
         "randomFact": "I love mountains",
@@ -227,7 +248,7 @@
 
     {
         "name": "Hannah Lane",
-        "favoriteRule": "Rule # 4 Always do something awesome over something not awesome",
+        "favoriteRule": "Rule #4: Always do something awesome over something not awesome",
         "favoriteSong": "1950 - King Princess ",
         "favoriteAwesomePerson": "Theodore Roosevelt Jr",
         "randomFact": "My name is a palindrome.",
@@ -247,7 +268,7 @@
 
     {
         "name": "Sarah Griffioen",
-        "favoriteRule": "Rule # 17: Bring the fun",
+        "favoriteRule": "Rule #17: Bring the fun",
         "favoriteSong": "Glory Bound - The Wailin' Jennys",
         "favoriteAwesomePerson": "Hilary Hahn",
         "randomFact": "I impromptu played \"Some Nights\" on the violin for Nate Reuss with a few friends, and he loved it",
