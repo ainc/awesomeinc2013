@@ -165,6 +165,27 @@
     },
 
     {
+        "name": "Jacqueline Benson",
+        "year":2017,
+        "favoriteRule": "Rule #17: bring the fun!",
+        "favoriteSong": "Stand By Me -Ben E. King",
+        "favoriteAwesomePerson": "Martha Stewart",
+        "randomFact": "I can wiggle my ears.",
+        "team": "Design Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
         "name": "Garret Fahrbach",
         "year":2018,
         "favoriteRule": "Rule #17: Bring the fun!",
