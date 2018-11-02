@@ -1,38 +1,11 @@
-# - title: Graphic Designer
-#   description: "<p>We are hiring a designer to join our team part time (up to 20 hours per week).  As a designer at Awesome Inc you will be involved in every aspect of our company and will help take our brand to the next level.  Come be a part of our team and use your talents to help people pursue their definition of awesome!</p>
-#   <b>Responsibilities:</b>
-#   <ul>
-#     <li>Take broad, conceptual ideas and turn them into something useful, valuable, and presentable for our audience</li>
-#     <li>Design flows and experiences that are incredibly simple and elegant</li>
-#     <li>Work with entrepreneurs to implement design needs for their startups (ie. logos, website design, product design, marketing materials)</li>
-#     <li>Contribute to high-level strategic decisions with the rest of the management team</li>
-#     <li>Work with our marketing team to execute marketing campaigns</li>
-#     <li>Manage a team of design interns - give and solicit feedback from other designers in order to continually raise our bar for quality</li>
-#   </ul>
-
-#   <b>Minimum Qualifications:</b>
-#   <ul>
-#     <li>Excellent communication skills</li>
-#     <li>Experience with web, print, and other digital design</li>
-#     <li>Proficient in Adobe Creative Cloud (Illustrator, Photoshop & InDesign)</li>
-#     <li>Understanding of fundamental typography rules and terms</li>
-#     <li>Demonstrated experience with end-to-end (UX and UI) product design</li>
-#     <li>Experience with Google Docs</li>
-#   </ul>
-
-#   <b>Additional (nice to have) Qualifications:</b>
-#   <ul>
-#     <li>Basic web programming skills (html, css)</li>
-#     <li>Fluent with CMS tools (Wordpress, Drupal)</li>
-#     <li>Experience with Mailchimp</li>
-#     <li>Photography skills</li>
-#     <li>Experience delivering a polished product including wireframing, designing, user testing, and iterative enhancements</li>
-#   </ul>"
-#   email: brian@awesomeinc.org
-#   team: Awesome Inc
-#   manager: Brian
-#   time-commitment: part-time
-#   active: true
+- title: Awesome Inc Director
+  description: Awesome Inc is growing and taking Lexington's Entrepreneurial community to the next level. Join our team and help us make Lexington a better place to live and work.
+  email: brian@awesomeinc.org
+  team: Awesome Inc
+  manager: Brian
+  time-commitment: full-time
+  active: true
+  apply_url: https://docs.google.com/forms/d/e/1FAIpQLSeo_C5kwAFAwtxY64qT03egpsnVrwjGc-5UNezZ4HLwQj5SGA/viewform?usp=sf_link
 
 - title: Bootcamp Lead Instructor
   description: Awesome Inc U is launching our next Developer Bootcamp in Fall of 2017. We are looking for a full time Lead Instructor to teach this 12-week, intensive, in-person program. Classes will be held M-F every day, with a few hours of instruction, and many hours of project work for the students.
