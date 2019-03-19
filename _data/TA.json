@@ -228,26 +228,6 @@
     },
 
     {
-        "name": "Cailley Harris",
-        "favoriteRule": "Rule # 26: don't let stupid things keep you from doing awesome things",
-        "favoriteSong": "That may be impossible to answer",
-        "favoriteAwesomePerson": "My friend Jenny",
-        "randomFact": "I'm obsessed with the Olympics",
-        "team": "Design Team",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
-    },
-
-    {
         "name": "Lee Morrow",
         "favoriteRule": "Rule #76: No excuses, play like a champion",
         "favoriteSong": "I don't really have one",
@@ -268,11 +248,51 @@
     },
 
     {
-        "name": "Hannah Lane",
-        "favoriteRule": "Rule #4: Always do something awesome over something not awesome",
-        "favoriteSong": "1950 - King Princess ",
-        "favoriteAwesomePerson": "Theodore Roosevelt Jr",
-        "randomFact": "My name is a palindrome.",
+        "name": "Taylor Todd",
+        "favoriteRule": "Rule #76: No excuses, play like a champion",
+        "favoriteSong": "Can't Help Falling In Love - Elvis Presley",
+        "favoriteAwesomePerson": "Ross Ladenburger",
+        "randomFact": "I really enjoy playing Sims? One time in high school I played Sims 3 for 10 hours straight. I don't know why. ",
+        "team": "Design Team, Events/Marketing Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Kate Renaud",
+        "favoriteRule": "#45 If you can't make it rain, stay out of the desert... And don't expect an invitation when I'm taking a trip across the Sahara",
+        "favoriteSong": "Good Old Fashioned Lover Boy // Queen",
+        "favoriteAwesomePerson": "Ellen Degeneres",
+        "randomFact": "My great, great grandfather is Jim Beam. ",
+        "team": "Video Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Savannah Stow",
+        "favoriteRule": "#17 bring the fun",
+        "favoriteSong": "Good Old Fashioned Lover Boy // Queen",
+        "favoriteAwesomePerson": "Selena Gomez",
+        "randomFact": "I recently started living a vegan lifestyle for ethical reasons and nutritional benefits. ",
         "team": "Events/Marketing Team",
         "wallPhoto":true,
         "location": "",
@@ -288,12 +308,52 @@
     },
 
     {
-        "name": "Sarah Griffioen",
-        "favoriteRule": "Rule #17: Bring the fun",
-        "favoriteSong": "Glory Bound - The Wailin' Jennys",
-        "favoriteAwesomePerson": "Hilary Hahn",
-        "randomFact": "I impromptu played \"Some Nights\" on the violin for Nate Reuss with a few friends, and he loved it",
-        "team": "Development Team, Video Team",
+        "name": "Audrey Ward",
+        "favoriteRule": "#76 no excuses, play like a champion",
+        "favoriteSong": "Island in the Sun - Weezer",
+        "favoriteAwesomePerson": "Emily Wehrle",
+        "randomFact": "I love to camp/hike. ",
+        "team": "Design Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Liz Brown",
+        "favoriteRule": "#36 Shoot for an S:S of 20:80 ratio or better in those you do close business with.  Tolerate nothing less than a 1:99 or better in yourself or intimate business partners/best friends.",
+        "favoriteSong": "Keep Your Eyes Open, by NTB orrrrrrr No Diggity or Time by John Lucas or Sunday Candy by Chance/Donnie Trumpet",
+        "favoriteAwesomePerson": "Susannah Sizemore - had to.",
+        "randomFact": "My eyes water all the time. Sometimes multiple times a day. It will worry you at first, it's ok. I'll tell you if I'm actually crying but you can almost safely assume I'm not emotional. It's clinically dry eyes... and it's my burden to bear. Thanks for being with me in this journey.",
+        "team": "Events/Marketing Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Maggie Collofello",
+        "favoriteRule": "#26 don't let stupid things keep you from doing awesome things. ",
+        "favoriteSong": "Right now, \"Who You Say I Am\" by Hillsong United",
+        "favoriteAwesomePerson": "My mother. She embodies grace and dignity while supporting others chase their dreams.",
+        "randomFact": "I love music on vinyl!",
+        "team": "Director of Co-working and Events",
         "wallPhoto":true,
         "location": "",
         "work":[
