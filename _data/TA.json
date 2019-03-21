@@ -365,6 +365,26 @@
         ],
         "memory":"",
         "experience":""
+    },
+
+    {
+        "name": "Thomas Dimeny",
+        "favoriteRule": "#22 go big or don't be my friend",
+        "favoriteSong": "Back on the Road Again - REO Speedwagon",
+        "favoriteAwesomePerson": "Tommy Caldwell",
+        "randomFact": "I'm a rock climber!",
+        "team": "Events/Marketing Team, Fellowship Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
     }
 
 ]
